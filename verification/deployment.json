@@ -1,9 +1,9 @@
 {
   "status": "pass",
-  "verified_at_utc": "2026-11-14T17:30:33.571254+00:00",
+  "verified_at_utc": "2026-11-14T17:39:45.422507+00:00",
   "url": "https://plevantem.github.io/visual-storytelling-by-graph/",
   "repository": "https://github.com/PlevanTem/visual-storytelling-by-graph",
-  "source_commit": "5094e0cbac893bd01088bb5cee119e6c95af1990",
+  "source_commit": "9e25b89e4c98b27170b7fca458eb5f11494c30e1",
   "hash_scheme": "SHA256, UTF-8 text CRLF normalized to LF",
   "http_assets_checked": 109,
   "checks": [
@@ -250,32 +250,32 @@
     {
       "file": "docs/assets/c15-all-mobile.svg",
       "status": 200,
-      "sha256": "b3dc559adc367fd57c9b9d93f1fae4aef6292e5c43d4123484e6d1b0f1beb7e0"
+      "sha256": "5e8ed4b76fe4afdbbd2216ba93233c09a818b8a3d96527a534b8ed90f48a87fb"
     },
     {
       "file": "docs/assets/c15-all.svg",
       "status": 200,
-      "sha256": "22a8c5afaee3ca5eb05aa6b638671c74495c989bfede3fbc6a10f8d7f9077526"
+      "sha256": "96c1acdbb802db7241bacc4f1743d274d4e8b07d67896de9dd7d2e26cbcefeeb"
     },
     {
       "file": "docs/assets/c15-preview.svg",
       "status": 200,
-      "sha256": "5903c68a94273c1b7d0f09be620d193001cbcc8174e5a053b9886daeec257024"
+      "sha256": "49cc6071c3da73fcd16341f1efeb00dcf1ea72a6003ba32e671a6e8c7f758fca"
     },
     {
       "file": "docs/assets/c16-all-mobile.svg",
       "status": 200,
-      "sha256": "0ac5dd07f175dada20070d886b18e83cc394139a9c51b1fbc69dff0a3b22f6cd"
+      "sha256": "b111384dce5b3bd0d6c9dca8bb865ad84b999dc97e3485153cee94ca93eada9e"
     },
     {
       "file": "docs/assets/c16-all.svg",
       "status": 200,
-      "sha256": "b052e1ffe96a8c43243189e227799e4b56453e8fb3cf3e2e7cdf8d075ec63d3b"
+      "sha256": "863730b8ea8e3d977b07a128f68fdc0eaa53964045af50bc8c5b436b50afb60e"
     },
     {
       "file": "docs/assets/c16-preview.svg",
       "status": 200,
-      "sha256": "505aa460e78652999ef84b74e587cabf778fbfb825d9f340340c8e550049b35f"
+      "sha256": "e31ceae85dabb149c3a9d2aba842a706a8544ba8892d26c1a9978204ca00ae72"
     },
     {
       "file": "docs/assets/c17-all-mobile.svg",
