@@ -16,7 +16,7 @@
       "check": "local_links",
       "status": "pass",
       "detail": {
-        "local_links": 72,
+        "local_links": 74,
         "remote_availability": "verified separately at publication"
       }
     },

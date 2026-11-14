@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "source": "PlevanTem/visual-storytelling-by-graph",
+  "discovery_command": "npx skills add PlevanTem/visual-storytelling-by-graph --skill visual-storytelling-by-graph --list",
+  "installation_command": "npx skills add PlevanTem/visual-storytelling-by-graph --skill visual-storytelling-by-graph -a codex -y",
+  "scope": "isolated project under work/installation-smoke; no -g and no personal global installation",
+  "installed_relative_path": ".agents/skills/visual-storytelling-by-graph",
+  "skill_sha256_lf": "655f1be735254fb857142c4f6f5ba2bbc03ba81f3d1b404cd201b9f3858b3c69",
+  "installed_reference_files": 7
+}

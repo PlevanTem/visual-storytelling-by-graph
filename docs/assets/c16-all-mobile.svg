@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="620" height="790" viewBox="0 0 620 790" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
 <title id="title">Correlation leaves agreement unanswered.</title>
-<desc id="desc">Bland–Altman / B minus A, dB. Synthetic demonstration data. C16.</desc>
+<desc id="desc">Bland–Altman / pair mean (x), B - A (y), dB. Synthetic demonstration data. C16.</desc>
 <rect width="620" height="790" fill="#101719"/>
 <text x="38.00" y="46.00" font-size="29" fill="#e9e9df" text-anchor="start" font-weight="650" >Correlation leaves agreement</text>
 <text x="38.00" y="83.70" font-size="29" fill="#e9e9df" text-anchor="start" font-weight="650" >unanswered.</text>
-<text x="38.00" y="133.40" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Bland–Altman / B minus A, dB</text>
+<text x="38.00" y="133.40" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Bland–Altman / pair mean (x), B - A (y), dB</text>
 <line x1="38.00" y1="171.40" x2="582.00" y2="171.40" stroke="#2a393a" stroke-width="1" />
 <rect x="93.00" y="375.71" width="469.00" height="171.97" fill="#1d2c2c" />
 <line x1="93.00" y1="576.34" x2="562.00" y2="576.34" stroke="#d9e0d9" stroke-width="1" />

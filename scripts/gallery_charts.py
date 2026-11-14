@@ -73,7 +73,7 @@ def wind(m=False,state='All'):
     s.metadata({'case':'C14','n':240,'radius_scale_per_sqrt_count':scale});return s
 
 def survival(m=False,state='All'):
-    d=load('survival');s=Canvas('C15','Still readable. Not observed forever.','Kaplan–Meier / readability after accelerated aging',m,860 if m else 790)
+    d=load('survival');s=Canvas('C15','Still readable. Not observed forever.','Readability / accelerated aging cycles',m,860 if m else 790)
     left=s.pad+48;right=s.w-s.pad-15;top=s.top+25;bottom=s.bottom-85;X=lambda t:left+t/100*(right-left);Y=lambda v:bottom-v*(bottom-top)
     for v in [0,.25,.5,.75,1]:s.line(left,Y(v),right,Y(v));s.text(left-12,Y(v)+6,f'{v:.0%}',s.font-2,MUTED,'end')
     for t in [0,20,40,60,80,100]:s.text(X(t),bottom+28,str(t),s.font-2,MUTED,'middle')
@@ -87,7 +87,7 @@ def survival(m=False,state='All'):
                 x,y=X(r['time']),Y(r['survival']);s.line(x-4,y,x+4,y,color,2);s.line(x,y-6,x,y+6,color,2,f'data-mark="censor" data-group="{g}" data-time="{r["time"]}" data-n="{r["censored"]}"')
         s.path(path,color,3,f'data-mark="km" data-group="{g}"');last=trace[-1];endpoints[g]=last['survival']
         risks[g]=[sum(r['time']>=t for r in rows) for t in [0,20,40,60,80,100]]
-        s.text(left-12,bottom+67+gi*27,g,s.font-2,color,'end')
+        s.text(left-27,bottom+67+gi*27,g,s.font-2,color,'end')
         for t,n in zip([0,20,40,60,80,100],risks[g]):s.text(X(t),bottom+67+gi*27,n,s.font-2,color,'middle',attrs=f'data-mark="risk" data-group="{g}" data-time="{t}" data-n="{n}"')
         s.line(right-200+gi*105,top-14,right-177+gi*105,top-14,color,3);s.text(right-170+gi*105,top-8,g,s.font-2,color)
     s.footer('Risk counts below. Crosses mark censoring.','Synthetic, n=12/group. Curves stop at last observation. Non-informative censoring assumed; no confidence bands.')
@@ -95,7 +95,7 @@ def survival(m=False,state='All'):
 
 def agreement(m=False,state='All'):
     d=load('agreement');diff=[r['method_b']-r['method_a'] for r in d['rows']];bias=statistics.mean(diff);sd=statistics.stdev(diff);lo,hi=bias-1.96*sd,bias+1.96*sd
-    s=Canvas('C16','Correlation leaves agreement unanswered.','Bland–Altman / B minus A, dB',m,790 if m else 730)
+    s=Canvas('C16','Correlation leaves agreement unanswered.','Bland–Altman / pair mean (x), B - A (y), dB',m,790 if m else 730)
     left=s.pad+55;right=s.w-s.pad-20;top=s.top+30;bottom=s.bottom;X=lambda v:left+(v-35)/70*(right-left);Y=lambda v:bottom-(v+5)/13*(bottom-top)
     s.rect(left,Y(3),right-left,Y(-3)-Y(3),'#1d2c2c')
     for v in [-4,-2,0,2,4,6,8]:s.line(left,Y(v),right,Y(v));s.text(left-12,Y(v)+6,str(v),s.font-2,MUTED,'end')

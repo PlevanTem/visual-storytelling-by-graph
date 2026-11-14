@@ -1,5 +1,5 @@
 """Write a scoped verification ledger from existing evidence, without fabricating results."""
-import json,platform
+import hashlib,json,platform
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 def read(name):
@@ -9,8 +9,9 @@ def status(value):return '通过' if value=='pass' else '失败' if value=='fail
 def main():
     s=read('verification/structural-checks.json');b=read('verification/gallery-browser.json');pub=read('verification/deployment.json');installer=read('verification/installer-check.json')
     sb=status(s.get('status') if s else None);bb=status(b.get('status') if b else None)
-    remote='已发布且HTTP核对通过' if pub and pub.get('status')=='pass' else '尚未执行'
-    install='发现检查通过；未写入个人目录' if installer and installer.get('status')=='pass' else '命令按官方文档提供，尚未实际运行'
+    pub_current=bool(pub and pub.get('status')=='pass' and all((ROOT/c['file']).exists() and hashlib.sha256((ROOT/c['file']).read_bytes().replace(b'\r\n',b'\n')).hexdigest()==c.get('sha256') for c in pub.get('checks',[])))
+    remote='已发布且HTTP核对通过' if pub_current else '上一版本已核验；当前改动待发布' if pub else '尚未执行'
+    install='隔离项目安装、读取和发现通过' if installer and installer.get('status')=='pass' else '命令按官方文档提供，尚未实际运行'
     text=f'''# 验证记录 / Verification ledger
 
 2026-11-15 · visual-storytelling-by-graph · 0.2.0
@@ -36,6 +37,7 @@ def main():
 ## 重要发现与修正
 
 - 新版风玫瑰手机视图的北向标签与速度图例相交，已调整图形中心与半径并重跑。保留[修正前记录](iterations/gallery-before-wind-spacing.json)。
+- 看图后拉开KM风险集行标签与首列数字，补齐老化周期与Bland–Altman两轴语义，并重跑受影响检查。
 - Hero仅裁切预览框，不改变三元坐标；移除了裁切中不完整的图例与标题线。完整图和数据仍在展览中。
 - STFT输入明确为频率随时间增加的合成扫频与38Hz固定分量，图中是全局参考的相对幅度，不是PSD或声源识别。
 - 新增独立前测从原始请求和数据执行，未提供作者图、评审答案或预期数值。独立执行者报告未读取禁止材料；这不是完整访问审计或真实读者研究。
@@ -52,7 +54,7 @@ def main():
 - 多模型、多次独立运行与未见数据上的泛化测试。
 - Firefox、Safari、实体手机触屏与完整屏幕阅读器会话。
 - 每种方法的真实行业适用性、因果识别、KM置信区间或其他未声明统计推断。
-- 个人Skill目录安装；此次安装器发现检查不修改个人配置。
+- 个人全局Skill目录安装；此次实际安装仅发生在隔离测试项目，未使用全局安装参数。
 
 ## 复验
 

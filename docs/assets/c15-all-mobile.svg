@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="620" height="860" viewBox="0 0 620 860" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
 <title id="title">Still readable. Not observed forever.</title>
-<desc id="desc">Kaplan–Meier / readability after accelerated aging. Synthetic demonstration data. C15.</desc>
+<desc id="desc">Readability / accelerated aging cycles. Synthetic demonstration data. C15.</desc>
 <rect width="620" height="860" fill="#101719"/>
 <text x="38.00" y="46.00" font-size="29" fill="#e9e9df" text-anchor="start" font-weight="650" >Still readable. Not observed</text>
 <text x="38.00" y="83.70" font-size="29" fill="#e9e9df" text-anchor="start" font-weight="650" >forever.</text>
-<text x="38.00" y="133.40" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Kaplan–Meier / readability after accelerated aging</text>
+<text x="38.00" y="133.40" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Readability / accelerated aging cycles</text>
 <line x1="38.00" y1="171.40" x2="582.00" y2="171.40" stroke="#2a393a" stroke-width="1" />
 <line x1="86.00" y1="590.00" x2="567.00" y2="590.00" stroke="#d9e0d9" stroke-width="1" />
 <text x="74.00" y="596.00" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >0%</text>
@@ -35,7 +35,7 @@
 <line x1="563.00" y1="380.60" x2="571.00" y2="380.60" stroke="#c3d8c7" stroke-width="2" />
 <line x1="567.00" y1="374.60" x2="567.00" y2="386.60" stroke="#c3d8c7" stroke-width="2" data-mark="censor" data-group="Dry" data-time="100" data-n="3"/>
 <path d="M 86.000 227.400 H 134.100 V 257.617 H 182.200 H 230.300 V 290.855 H 278.400 H 326.500 V 328.248 H 374.600 H 422.700 H 470.800 V 380.598 H 518.900 H 567.000" fill="none" stroke="#c3d8c7" stroke-width="3" stroke-linejoin="round" data-mark="km" data-group="Dry"/>
-<text x="74.00" y="657.00" font-size="20" fill="#c3d8c7" text-anchor="end" font-weight="400" >Dry</text>
+<text x="59.00" y="657.00" font-size="20" fill="#c3d8c7" text-anchor="end" font-weight="400" >Dry</text>
 <text x="86.00" y="657.00" font-size="20" fill="#c3d8c7" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Dry" data-time="0" data-n="12">12</text>
 <text x="182.20" y="657.00" font-size="20" fill="#c3d8c7" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Dry" data-time="20" data-n="11">11</text>
 <text x="278.40" y="657.00" font-size="20" fill="#c3d8c7" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Dry" data-time="40" data-n="9">9</text>
@@ -55,7 +55,7 @@
 <line x1="505.28" y1="481.22" x2="513.28" y2="481.22" stroke="#dda96f" stroke-width="2" />
 <line x1="509.28" y1="475.22" x2="509.28" y2="487.22" stroke="#dda96f" stroke-width="2" data-mark="censor" data-group="Humid" data-time="88" data-n="1"/>
 <path d="M 86.000 227.400 H 124.480 V 257.617 H 162.960 V 287.833 H 201.440 V 318.050 H 239.920 V 352.044 H 278.400 V 386.038 H 316.880 H 355.360 V 426.830 H 393.840 H 432.320 V 481.220 H 470.800 H 509.280" fill="none" stroke="#dda96f" stroke-width="3" stroke-linejoin="round" data-mark="km" data-group="Humid"/>
-<text x="74.00" y="684.00" font-size="20" fill="#dda96f" text-anchor="end" font-weight="400" >Humid</text>
+<text x="59.00" y="684.00" font-size="20" fill="#dda96f" text-anchor="end" font-weight="400" >Humid</text>
 <text x="86.00" y="684.00" font-size="20" fill="#dda96f" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Humid" data-time="0" data-n="12">12</text>
 <text x="182.20" y="684.00" font-size="20" fill="#dda96f" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Humid" data-time="20" data-n="10">10</text>
 <text x="278.40" y="684.00" font-size="20" fill="#dda96f" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Humid" data-time="40" data-n="7">7</text>
