@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="358" viewBox="0 132.70 1000 358.30" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Keep missing coverage visible</title>
+<desc id="desc">Temperature in °C / local time UTC+08:00. Synthetic demonstration data. C05.</desc>
+<rect width="1000" height="610" fill="#101719" />
+<text x="58.00" y="46.00" font-size="33" fill="#e9e9df" text-anchor="start" font-weight="650">Keep missing coverage visible</text>
+<text x="58.00" y="100.90" font-size="16" fill="#98a8a5" text-anchor="start" font-weight="400">Temperature in °C / local time UTC+08:00</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<rect x="98.00" y="164.70" width="844.00" height="97.61" fill="#302722" />
+<rect x="256.25" y="164.70" width="158.25" height="260.30" fill="#1b292a" />
+<rect x="625.50" y="164.70" width="158.25" height="260.30" fill="#1b292a" />
+<line x1="98.00" y1="392.46" x2="942.00" y2="392.46" stroke="#d9e0d9" stroke-width="1" />
+<text x="86.00" y="398.46" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400">50</text>
+<line x1="98.00" y1="327.39" x2="942.00" y2="327.39" stroke="#d9e0d9" stroke-width="1" />
+<text x="86.00" y="333.39" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400">60</text>
+<line x1="98.00" y1="262.31" x2="942.00" y2="262.31" stroke="#d9e0d9" stroke-width="1" />
+<text x="86.00" y="268.31" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400">70</text>
+<line x1="98.00" y1="197.24" x2="942.00" y2="197.24" stroke="#d9e0d9" stroke-width="1" />
+<text x="86.00" y="203.24" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400">80</text>
+<line x1="98.00" y1="262.31" x2="942.00" y2="262.31" stroke="#dda96f" stroke-width="1.5" stroke-dasharray="5 4" />
+<text x="939.00" y="252.31" font-size="15" fill="#dda96f" text-anchor="end" font-weight="400">70°C threshold</text>
+<path d="M 98.00 366.43 L 150.75 353.42 L 203.50 340.40 L 256.25 320.88" fill="none" stroke="#c3d8c7" stroke-width="3" stroke-linejoin="round" data-mark="observed-segment" />
+<path d="M 414.50 301.36 L 467.25 275.33 L 520.00 223.27 L 572.75 249.30 L 625.50 288.34" fill="none" stroke="#c3d8c7" stroke-width="3" stroke-linejoin="round" data-mark="observed-segment" />
+<path d="M 783.75 294.85 L 836.50 314.37 L 889.25 333.89 L 942.00 346.91" fill="none" stroke="#c3d8c7" stroke-width="3" stroke-linejoin="round" data-mark="observed-segment" />
+<circle cx="98.00" cy="366.43" r="4.5" fill="#c3d8c7" data-mark="sensor" data-time="2026-11-12T08:00:00+08:00" data-value="54" />
+<circle cx="150.75" cy="353.42" r="4.5" fill="#c3d8c7" data-mark="sensor" data-time="2026-11-12T08:30:00+08:00" data-value="56" />
+<circle cx="203.50" cy="340.40" r="4.5" fill="#c3d8c7" data-mark="sensor" data-time="2026-11-12T09:00:00+08:00" data-value="58" />
+<circle cx="256.25" cy="320.88" r="4.5" fill="#c3d8c7" data-mark="sensor" data-time="2026-11-12T09:30:00+08:00" data-value="61" />
+<circle cx="414.50" cy="301.36" r="4.5" fill="#c3d8c7" data-mark="sensor" data-time="2026-11-12T11:00:00+08:00" data-value="64" />
+<circle cx="467.25" cy="275.33" r="4.5" fill="#c3d8c7" data-mark="sensor" data-time="2026-11-12T11:30:00+08:00" data-value="68" />
+<circle cx="520.00" cy="223.27" r="4.5" fill="#dda96f" data-mark="sensor" data-time="2026-11-12T12:00:00+08:00" data-value="76" />
+<circle cx="572.75" cy="249.30" r="4.5" fill="#dda96f" data-mark="sensor" data-time="2026-11-12T12:30:00+08:00" data-value="72" />
+<circle cx="625.50" cy="288.34" r="4.5" fill="#c3d8c7" data-mark="sensor" data-time="2026-11-12T13:00:00+08:00" data-value="66" />
+<circle cx="783.75" cy="294.85" r="4.5" fill="#c3d8c7" data-mark="sensor" data-time="2026-11-12T14:30:00+08:00" data-value="65" />
+<circle cx="836.50" cy="314.37" r="4.5" fill="#c3d8c7" data-mark="sensor" data-time="2026-11-12T15:00:00+08:00" data-value="62" />
+<circle cx="889.25" cy="333.89" r="4.5" fill="#c3d8c7" data-mark="sensor" data-time="2026-11-12T15:30:00+08:00" data-value="59" />
+<circle cx="942.00" cy="346.91" r="4.5" fill="#c3d8c7" data-mark="sensor" data-time="2026-11-12T16:00:00+08:00" data-value="57" />
+<text x="98.00" y="455.00" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400">08:00</text>
+<text x="309.00" y="455.00" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400">10:00</text>
+<text x="520.00" y="455.00" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400">12:00</text>
+<text x="731.00" y="455.00" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400">14:00</text>
+<text x="942.00" y="455.00" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400">16:00</text>
+<text x="58.00" y="504.00" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="600">13 observations. 2 samples exceed 70°C.</text>
+<text x="58.00" y="537.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400">Synthetic. Gray bands mark gaps; 2 explicit missing readings. Continuous exceedance duration is unknown.</text>
+</svg>

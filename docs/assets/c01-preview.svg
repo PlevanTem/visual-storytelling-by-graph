@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="358" viewBox="0 132.70 1000 358.30" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">New business drives a $300k net increase</title>
+<desc id="desc">Q3 to Q4 revenue bridge / USD thousands. Synthetic demonstration data. C01.</desc>
+<rect width="1000" height="610" fill="#101719" />
+<text x="58.00" y="46.00" font-size="33" fill="#e9e9df" text-anchor="start" font-weight="650">New business drives a $300k net increase</text>
+<text x="58.00" y="100.90" font-size="16" fill="#98a8a5" text-anchor="start" font-weight="400">Q3 to Q4 revenue bridge / USD thousands</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<line x1="93.00" y1="425.00" x2="942.00" y2="425.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="81.00" y="431.00" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400">0</text>
+<line x1="93.00" y1="338.23" x2="942.00" y2="338.23" stroke="#d9e0d9" stroke-width="1" />
+<text x="81.00" y="344.23" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400">600</text>
+<line x1="93.00" y1="251.47" x2="942.00" y2="251.47" stroke="#d9e0d9" stroke-width="1" />
+<text x="81.00" y="257.47" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400">1200</text>
+<line x1="93.00" y1="164.70" x2="942.00" y2="164.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="81.00" y="170.70" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400">1800</text>
+<rect x="117.76" y="251.47" width="91.98" height="173.53" fill="#e9e9df" data-mark="bridge" data-index="0" data-start="0" data-end="1200" />
+<text x="163.75" y="239.47" font-size="16" fill="#e9e9df" text-anchor="middle" font-weight="600">1200</text>
+<line x1="209.74" y1="251.47" x2="259.26" y2="251.47" stroke="#98a8a5" stroke-width="1" stroke-dasharray="3 4" />
+<text x="163.75" y="455.00" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400">Opening</text>
+<rect x="259.26" y="205.19" width="91.98" height="46.28" fill="#c3d8c7" data-mark="bridge" data-index="1" data-start="1200" data-end="1520" />
+<text x="305.25" y="193.19" font-size="16" fill="#c3d8c7" text-anchor="middle" font-weight="600">+320</text>
+<line x1="351.24" y1="205.19" x2="400.76" y2="205.19" stroke="#98a8a5" stroke-width="1" stroke-dasharray="3 4" />
+<text x="305.25" y="455.00" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400">New</text>
+<rect x="400.76" y="179.16" width="91.98" height="26.03" fill="#c3d8c7" data-mark="bridge" data-index="2" data-start="1520" data-end="1700" />
+<text x="446.75" y="167.16" font-size="16" fill="#c3d8c7" text-anchor="middle" font-weight="600">+180</text>
+<line x1="492.74" y1="179.16" x2="542.26" y2="179.16" stroke="#98a8a5" stroke-width="1" stroke-dasharray="3 4" />
+<text x="446.75" y="455.00" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400">Expansion</text>
+<rect x="542.26" y="179.16" width="91.98" height="13.01" fill="#dda96f" data-mark="bridge" data-index="3" data-start="1700" data-end="1610" />
+<text x="588.25" y="167.16" font-size="16" fill="#dda96f" text-anchor="middle" font-weight="600">-90</text>
+<line x1="634.24" y1="192.18" x2="683.76" y2="192.18" stroke="#98a8a5" stroke-width="1" stroke-dasharray="3 4" />
+<text x="588.25" y="455.00" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400">Downsell</text>
+<rect x="683.76" y="192.18" width="91.98" height="15.91" fill="#dda96f" data-mark="bridge" data-index="4" data-start="1610" data-end="1500" />
+<text x="729.75" y="180.18" font-size="16" fill="#dda96f" text-anchor="middle" font-weight="600">-110</text>
+<line x1="775.74" y1="208.08" x2="825.26" y2="208.08" stroke="#98a8a5" stroke-width="1" stroke-dasharray="3 4" />
+<text x="729.75" y="455.00" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400">Churn</text>
+<rect x="825.26" y="208.08" width="91.98" height="216.92" fill="#e9e9df" data-mark="bridge" data-index="5" data-start="0" data-end="1500" />
+<text x="871.25" y="196.08" font-size="16" fill="#e9e9df" text-anchor="middle" font-weight="600">1500</text>
+<text x="871.25" y="455.00" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400">Closing</text>
+<text x="58.00" y="504.00" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="600">Net +$300k. Gross losses: $200k.</text>
+<text x="58.00" y="537.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400">Synthetic data. Opening 1,200 + 320 + 180 - 90 - 110 = closing 1,500.</text>
+</svg>

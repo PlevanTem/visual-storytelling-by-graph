@@ -1,0 +1,502 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="498" viewBox="0 132.70 1000 498.30" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">A rising tone crosses a fixed one.</title>
+<desc id="desc">Windowed DFT magnitude / relative dB, not power density. Synthetic demonstration data. C24.</desc>
+<rect width="1000" height="750" fill="#101719" />
+<text x="58.00" y="46.00" font-size="33" fill="#e9e9df" text-anchor="start" font-weight="650">A rising tone crosses a fixed one.</text>
+<text x="58.00" y="100.90" font-size="16" fill="#98a8a5" text-anchor="start" font-weight="400">Windowed DFT magnitude / relative dB, not power density</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<rect x="103.00" y="553.32" width="59.57" height="11.71" fill="#2b3639" data-mark="stft" data-frame="0" data-bin="0" data-db="-44.80449177849983" />
+<rect x="103.00" y="541.65" width="59.57" height="11.71" fill="#363e3e" data-mark="stft" data-frame="0" data-bin="1" data-db="-42.10160616808956" />
+<rect x="103.00" y="529.97" width="59.57" height="11.71" fill="#52534a" data-mark="stft" data-frame="0" data-bin="2" data-db="-35.335954479320236" />
+<rect x="103.00" y="518.30" width="59.57" height="11.71" fill="#766e5a" data-mark="stft" data-frame="0" data-bin="3" data-db="-26.543609093078583" />
+<rect x="103.00" y="506.62" width="59.57" height="11.71" fill="#9c8b6b" data-mark="stft" data-frame="0" data-bin="4" data-db="-17.21080111606795" />
+<rect x="103.00" y="494.95" width="59.57" height="11.71" fill="#bfa57a" data-mark="stft" data-frame="0" data-bin="5" data-db="-8.695406699568926" />
+<rect x="103.00" y="483.27" width="59.57" height="11.71" fill="#d8b886" data-mark="stft" data-frame="0" data-bin="6" data-db="-2.462040797555477" />
+<rect x="103.00" y="471.59" width="59.57" height="11.71" fill="#e2c08a" data-mark="stft" data-frame="0" data-bin="7" data-db="-0.001508982458437285" />
+<rect x="103.00" y="459.92" width="59.57" height="11.71" fill="#d6b785" data-mark="stft" data-frame="0" data-bin="8" data-db="-2.9245229127830896" />
+<rect x="103.00" y="448.24" width="59.57" height="11.71" fill="#bca379" data-mark="stft" data-frame="0" data-bin="9" data-db="-9.425378316817639" />
+<rect x="103.00" y="436.57" width="59.57" height="11.71" fill="#98886a" data-mark="stft" data-frame="0" data-bin="10" data-db="-18.023626798352122" />
+<rect x="103.00" y="424.89" width="59.57" height="11.71" fill="#726c59" data-mark="stft" data-frame="0" data-bin="11" data-db="-27.37162171898661" />
+<rect x="103.00" y="413.22" width="59.57" height="11.71" fill="#4e5049" data-mark="stft" data-frame="0" data-bin="12" data-db="-36.371290651459425" />
+<rect x="103.00" y="401.54" width="59.57" height="11.71" fill="#2d383a" data-mark="stft" data-frame="0" data-bin="13" data-db="-44.29446168290084" />
+<rect x="103.00" y="389.86" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="14" data-db="-50" />
+<rect x="103.00" y="378.19" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="15" data-db="-50" />
+<rect x="103.00" y="366.51" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="16" data-db="-50" />
+<rect x="103.00" y="354.84" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="17" data-db="-50" />
+<rect x="103.00" y="343.16" width="59.57" height="11.71" fill="#ad9873" data-mark="stft" data-frame="0" data-bin="18" data-db="-13.038095841691447" />
+<rect x="103.00" y="331.48" width="59.57" height="11.71" fill="#c5aa7d" data-mark="stft" data-frame="0" data-bin="19" data-db="-7.204539754859018" />
+<rect x="103.00" y="319.81" width="59.57" height="11.71" fill="#ad9873" data-mark="stft" data-frame="0" data-bin="20" data-db="-13.033846877230973" />
+<rect x="103.00" y="308.13" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="21" data-db="-50" />
+<rect x="103.00" y="296.46" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="22" data-db="-50" />
+<rect x="103.00" y="284.78" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="23" data-db="-50" />
+<rect x="103.00" y="273.11" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="24" data-db="-50" />
+<rect x="103.00" y="261.43" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="25" data-db="-50" />
+<rect x="103.00" y="249.75" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="26" data-db="-50" />
+<rect x="103.00" y="238.08" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="27" data-db="-50" />
+<rect x="103.00" y="226.40" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="28" data-db="-50" />
+<rect x="103.00" y="214.73" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="29" data-db="-50" />
+<rect x="103.00" y="203.05" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="30" data-db="-50" />
+<rect x="103.00" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="31" data-db="-50" />
+<rect x="103.00" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="0" data-bin="32" data-db="-50" />
+<rect x="162.54" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="0" data-db="-50" />
+<rect x="162.54" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="1" data-db="-50" />
+<rect x="162.54" y="529.97" width="59.57" height="11.71" fill="#253137" data-mark="stft" data-frame="1" data-bin="2" data-db="-46.385327585999995" />
+<rect x="162.54" y="518.30" width="59.57" height="11.71" fill="#424744" data-mark="stft" data-frame="1" data-bin="3" data-db="-39.14322486132097" />
+<rect x="162.54" y="506.62" width="59.57" height="11.71" fill="#646153" data-mark="stft" data-frame="1" data-bin="4" data-db="-30.81467538673334" />
+<rect x="162.54" y="494.95" width="59.57" height="11.71" fill="#897d63" data-mark="stft" data-frame="1" data-bin="5" data-db="-21.76580435271581" />
+<rect x="162.54" y="483.27" width="59.57" height="11.71" fill="#ae9873" data-mark="stft" data-frame="1" data-bin="6" data-db="-12.832394820136763" />
+<rect x="162.54" y="471.59" width="59.57" height="11.71" fill="#cdb081" data-mark="stft" data-frame="1" data-bin="7" data-db="-5.228140901212454" />
+<rect x="162.54" y="459.92" width="59.57" height="11.71" fill="#e0be89" data-mark="stft" data-frame="1" data-bin="8" data-db="-0.58848287550405" />
+<rect x="162.54" y="448.24" width="59.57" height="11.71" fill="#dfbd88" data-mark="stft" data-frame="1" data-bin="9" data-db="-0.8548946924187693" />
+<rect x="162.54" y="436.57" width="59.57" height="11.71" fill="#caae80" data-mark="stft" data-frame="1" data-bin="10" data-db="-5.81803355194917" />
+<rect x="162.54" y="424.89" width="59.57" height="11.71" fill="#aa9671" data-mark="stft" data-frame="1" data-bin="11" data-db="-13.64967793498428" />
+<rect x="162.54" y="413.22" width="59.57" height="11.71" fill="#857a61" data-mark="stft" data-frame="1" data-bin="12" data-db="-22.722773383565652" />
+<rect x="162.54" y="401.54" width="59.57" height="11.71" fill="#605e51" data-mark="stft" data-frame="1" data-bin="13" data-db="-31.817217352942983" />
+<rect x="162.54" y="389.86" width="59.57" height="11.71" fill="#3e4542" data-mark="stft" data-frame="1" data-bin="14" data-db="-40.09292029445704" />
+<rect x="162.54" y="378.19" width="59.57" height="11.71" fill="#222f35" data-mark="stft" data-frame="1" data-bin="15" data-db="-47.12166030232545" />
+<rect x="162.54" y="366.51" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="16" data-db="-50" />
+<rect x="162.54" y="354.84" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="17" data-db="-50" />
+<rect x="162.54" y="343.16" width="59.57" height="11.71" fill="#ad9873" data-mark="stft" data-frame="1" data-bin="18" data-db="-13.03107578250418" />
+<rect x="162.54" y="331.48" width="59.57" height="11.71" fill="#c5aa7d" data-mark="stft" data-frame="1" data-bin="19" data-db="-7.206801436590686" />
+<rect x="162.54" y="319.81" width="59.57" height="11.71" fill="#ad9873" data-mark="stft" data-frame="1" data-bin="20" data-db="-13.030750553698509" />
+<rect x="162.54" y="308.13" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="21" data-db="-50" />
+<rect x="162.54" y="296.46" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="22" data-db="-50" />
+<rect x="162.54" y="284.78" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="23" data-db="-50" />
+<rect x="162.54" y="273.11" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="24" data-db="-50" />
+<rect x="162.54" y="261.43" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="25" data-db="-50" />
+<rect x="162.54" y="249.75" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="26" data-db="-50" />
+<rect x="162.54" y="238.08" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="27" data-db="-50" />
+<rect x="162.54" y="226.40" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="28" data-db="-50" />
+<rect x="162.54" y="214.73" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="29" data-db="-50" />
+<rect x="162.54" y="203.05" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="30" data-db="-50" />
+<rect x="162.54" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="31" data-db="-50" />
+<rect x="162.54" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="1" data-bin="32" data-db="-50" />
+<rect x="222.08" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="0" data-db="-50" />
+<rect x="222.08" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="1" data-db="-50" />
+<rect x="222.08" y="529.97" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="2" data-db="-50" />
+<rect x="222.08" y="518.30" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="3" data-db="-50" />
+<rect x="222.08" y="506.62" width="59.57" height="11.71" fill="#2f393b" data-mark="stft" data-frame="2" data-bin="4" data-db="-43.83192602782671" />
+<rect x="222.08" y="494.95" width="59.57" height="11.71" fill="#51524a" data-mark="stft" data-frame="2" data-bin="5" data-db="-35.64229958275524" />
+<rect x="222.08" y="483.27" width="59.57" height="11.71" fill="#766e5a" data-mark="stft" data-frame="2" data-bin="6" data-db="-26.540550053425513" />
+<rect x="222.08" y="471.59" width="59.57" height="11.71" fill="#9c8b6b" data-mark="stft" data-frame="2" data-bin="7" data-db="-17.1853109143964" />
+<rect x="222.08" y="459.92" width="59.57" height="11.71" fill="#bfa57a" data-mark="stft" data-frame="2" data-bin="8" data-db="-8.691046156455561" />
+<rect x="222.08" y="448.24" width="59.57" height="11.71" fill="#d8b886" data-mark="stft" data-frame="2" data-bin="9" data-db="-2.4647844255961098" />
+<rect x="222.08" y="436.57" width="59.57" height="11.71" fill="#e2c08a" data-mark="stft" data-frame="2" data-bin="10" data-db="-0.00012033925093906247" />
+<rect x="222.08" y="424.89" width="59.57" height="11.71" fill="#d6b785" data-mark="stft" data-frame="2" data-bin="11" data-db="-2.9258247734058873" />
+<rect x="222.08" y="413.22" width="59.57" height="11.71" fill="#bca379" data-mark="stft" data-frame="2" data-bin="12" data-db="-9.426426093838726" />
+<rect x="222.08" y="401.54" width="59.57" height="11.71" fill="#98886a" data-mark="stft" data-frame="2" data-bin="13" data-db="-18.02120220730729" />
+<rect x="222.08" y="389.86" width="59.57" height="11.71" fill="#726c59" data-mark="stft" data-frame="2" data-bin="14" data-db="-27.3365637500323" />
+<rect x="222.08" y="378.19" width="59.57" height="11.71" fill="#4f5149" data-mark="stft" data-frame="2" data-bin="15" data-db="-36.14935753581016" />
+<rect x="222.08" y="366.51" width="59.57" height="11.71" fill="#323b3c" data-mark="stft" data-frame="2" data-bin="16" data-db="-43.21597481533963" />
+<rect x="222.08" y="354.84" width="59.57" height="11.71" fill="#273338" data-mark="stft" data-frame="2" data-bin="17" data-db="-45.804850976889746" />
+<rect x="222.08" y="343.16" width="59.57" height="11.71" fill="#ad9872" data-mark="stft" data-frame="2" data-bin="18" data-db="-13.079518188540682" />
+<rect x="222.08" y="331.48" width="59.57" height="11.71" fill="#c5aa7d" data-mark="stft" data-frame="2" data-bin="19" data-db="-7.194423192709797" />
+<rect x="222.08" y="319.81" width="59.57" height="11.71" fill="#ad9873" data-mark="stft" data-frame="2" data-bin="20" data-db="-13.04359356852386" />
+<rect x="222.08" y="308.13" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="21" data-db="-50" />
+<rect x="222.08" y="296.46" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="22" data-db="-50" />
+<rect x="222.08" y="284.78" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="23" data-db="-50" />
+<rect x="222.08" y="273.11" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="24" data-db="-50" />
+<rect x="222.08" y="261.43" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="25" data-db="-50" />
+<rect x="222.08" y="249.75" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="26" data-db="-50" />
+<rect x="222.08" y="238.08" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="27" data-db="-50" />
+<rect x="222.08" y="226.40" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="28" data-db="-50" />
+<rect x="222.08" y="214.73" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="29" data-db="-50" />
+<rect x="222.08" y="203.05" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="30" data-db="-50" />
+<rect x="222.08" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="31" data-db="-50" />
+<rect x="222.08" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="2" data-bin="32" data-db="-50" />
+<rect x="281.62" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="0" data-db="-50" />
+<rect x="281.62" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="1" data-db="-50" />
+<rect x="281.62" y="529.97" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="2" data-db="-50" />
+<rect x="281.62" y="518.30" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="3" data-db="-50" />
+<rect x="281.62" y="506.62" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="4" data-db="-50" />
+<rect x="281.62" y="494.95" width="59.57" height="11.71" fill="#253137" data-mark="stft" data-frame="3" data-bin="5" data-db="-46.37486898323197" />
+<rect x="281.62" y="483.27" width="59.57" height="11.71" fill="#424743" data-mark="stft" data-frame="3" data-bin="6" data-db="-39.188138585540806" />
+<rect x="281.62" y="471.59" width="59.57" height="11.71" fill="#646152" data-mark="stft" data-frame="3" data-bin="7" data-db="-30.850351913336624" />
+<rect x="281.62" y="459.92" width="59.57" height="11.71" fill="#897d63" data-mark="stft" data-frame="3" data-bin="8" data-db="-21.779208440076886" />
+<rect x="281.62" y="448.24" width="59.57" height="11.71" fill="#ae9873" data-mark="stft" data-frame="3" data-bin="9" data-db="-12.833807164270139" />
+<rect x="281.62" y="436.57" width="59.57" height="11.71" fill="#cdb081" data-mark="stft" data-frame="3" data-bin="10" data-db="-5.22746751776708" />
+<rect x="281.62" y="424.89" width="59.57" height="11.71" fill="#e0be89" data-mark="stft" data-frame="3" data-bin="11" data-db="-0.5883766385341195" />
+<rect x="281.62" y="413.22" width="59.57" height="11.71" fill="#dfbd88" data-mark="stft" data-frame="3" data-bin="12" data-db="-0.8553133569643381" />
+<rect x="281.62" y="401.54" width="59.57" height="11.71" fill="#caae80" data-mark="stft" data-frame="3" data-bin="13" data-db="-5.816897733581843" />
+<rect x="281.62" y="389.86" width="59.57" height="11.71" fill="#aa9671" data-mark="stft" data-frame="3" data-bin="14" data-db="-13.647105308057093" />
+<rect x="281.62" y="378.19" width="59.57" height="11.71" fill="#857a61" data-mark="stft" data-frame="3" data-bin="15" data-db="-22.753219410589537" />
+<rect x="281.62" y="366.51" width="59.57" height="11.71" fill="#5f5d50" data-mark="stft" data-frame="3" data-bin="16" data-db="-32.04200219573708" />
+<rect x="281.62" y="354.84" width="59.57" height="11.71" fill="#3a4140" data-mark="stft" data-frame="3" data-bin="17" data-db="-41.252803405012344" />
+<rect x="281.62" y="343.16" width="59.57" height="11.71" fill="#ad9873" data-mark="stft" data-frame="3" data-bin="18" data-db="-12.956106729931262" />
+<rect x="281.62" y="331.48" width="59.57" height="11.71" fill="#c5aa7d" data-mark="stft" data-frame="3" data-bin="19" data-db="-7.219057967333936" />
+<rect x="281.62" y="319.81" width="59.57" height="11.71" fill="#ad9873" data-mark="stft" data-frame="3" data-bin="20" data-db="-13.021440377302342" />
+<rect x="281.62" y="308.13" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="21" data-db="-50" />
+<rect x="281.62" y="296.46" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="22" data-db="-50" />
+<rect x="281.62" y="284.78" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="23" data-db="-50" />
+<rect x="281.62" y="273.11" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="24" data-db="-50" />
+<rect x="281.62" y="261.43" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="25" data-db="-50" />
+<rect x="281.62" y="249.75" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="26" data-db="-50" />
+<rect x="281.62" y="238.08" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="27" data-db="-50" />
+<rect x="281.62" y="226.40" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="28" data-db="-50" />
+<rect x="281.62" y="214.73" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="29" data-db="-50" />
+<rect x="281.62" y="203.05" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="30" data-db="-50" />
+<rect x="281.62" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="31" data-db="-50" />
+<rect x="281.62" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="3" data-bin="32" data-db="-50" />
+<rect x="341.15" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="0" data-db="-50" />
+<rect x="341.15" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="1" data-db="-50" />
+<rect x="341.15" y="529.97" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="2" data-db="-50" />
+<rect x="341.15" y="518.30" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="3" data-db="-50" />
+<rect x="341.15" y="506.62" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="4" data-db="-50" />
+<rect x="341.15" y="494.95" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="5" data-db="-50" />
+<rect x="341.15" y="483.27" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="6" data-db="-50" />
+<rect x="341.15" y="471.59" width="59.57" height="11.71" fill="#303a3c" data-mark="stft" data-frame="4" data-bin="7" data-db="-43.5899045813909" />
+<rect x="341.15" y="459.92" width="59.57" height="11.71" fill="#51524a" data-mark="stft" data-frame="4" data-bin="8" data-db="-35.60323970848333" />
+<rect x="341.15" y="448.24" width="59.57" height="11.71" fill="#766e5a" data-mark="stft" data-frame="4" data-bin="9" data-db="-26.55245434069212" />
+<rect x="341.15" y="436.57" width="59.57" height="11.71" fill="#9c8b6b" data-mark="stft" data-frame="4" data-bin="10" data-db="-17.194339594802642" />
+<rect x="341.15" y="424.89" width="59.57" height="11.71" fill="#bfa57a" data-mark="stft" data-frame="4" data-bin="11" data-db="-8.689970829295472" />
+<rect x="341.15" y="413.22" width="59.57" height="11.71" fill="#d8b886" data-mark="stft" data-frame="4" data-bin="12" data-db="-2.463792836391465" />
+<rect x="341.15" y="401.54" width="59.57" height="11.71" fill="#e2c08a" data-mark="stft" data-frame="4" data-bin="13" data-db="-0.0014149175760284128" />
+<rect x="341.15" y="389.86" width="59.57" height="11.71" fill="#d6b785" data-mark="stft" data-frame="4" data-bin="14" data-db="-2.9250183791185256" />
+<rect x="341.15" y="378.19" width="59.57" height="11.71" fill="#bca379" data-mark="stft" data-frame="4" data-bin="15" data-db="-9.416067140576088" />
+<rect x="341.15" y="366.51" width="59.57" height="11.71" fill="#988869" data-mark="stft" data-frame="4" data-bin="16" data-db="-18.057961643342438" />
+<rect x="341.15" y="354.84" width="59.57" height="11.71" fill="#706a58" data-mark="stft" data-frame="4" data-bin="17" data-db="-27.843055924937566" />
+<rect x="341.15" y="343.16" width="59.57" height="11.71" fill="#ae9973" data-mark="stft" data-frame="4" data-bin="18" data-db="-12.660578270434028" />
+<rect x="341.15" y="331.48" width="59.57" height="11.71" fill="#c4aa7d" data-mark="stft" data-frame="4" data-bin="19" data-db="-7.236908928174888" />
+<rect x="341.15" y="319.81" width="59.57" height="11.71" fill="#ad9873" data-mark="stft" data-frame="4" data-bin="20" data-db="-13.02931915122186" />
+<rect x="341.15" y="308.13" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="21" data-db="-50" />
+<rect x="341.15" y="296.46" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="22" data-db="-50" />
+<rect x="341.15" y="284.78" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="23" data-db="-50" />
+<rect x="341.15" y="273.11" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="24" data-db="-50" />
+<rect x="341.15" y="261.43" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="25" data-db="-50" />
+<rect x="341.15" y="249.75" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="26" data-db="-50" />
+<rect x="341.15" y="238.08" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="27" data-db="-50" />
+<rect x="341.15" y="226.40" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="28" data-db="-50" />
+<rect x="341.15" y="214.73" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="29" data-db="-50" />
+<rect x="341.15" y="203.05" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="30" data-db="-50" />
+<rect x="341.15" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="31" data-db="-50" />
+<rect x="341.15" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="4" data-bin="32" data-db="-50" />
+<rect x="400.69" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="0" data-db="-50" />
+<rect x="400.69" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="1" data-db="-50" />
+<rect x="400.69" y="529.97" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="2" data-db="-50" />
+<rect x="400.69" y="518.30" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="3" data-db="-50" />
+<rect x="400.69" y="506.62" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="4" data-db="-50" />
+<rect x="400.69" y="494.95" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="5" data-db="-50" />
+<rect x="400.69" y="483.27" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="6" data-db="-50" />
+<rect x="400.69" y="471.59" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="7" data-db="-50" />
+<rect x="400.69" y="459.92" width="59.57" height="11.71" fill="#253136" data-mark="stft" data-frame="5" data-bin="8" data-db="-46.44455787359708" />
+<rect x="400.69" y="448.24" width="59.57" height="11.71" fill="#424743" data-mark="stft" data-frame="5" data-bin="9" data-db="-39.252708298170155" />
+<rect x="400.69" y="436.57" width="59.57" height="11.71" fill="#646152" data-mark="stft" data-frame="5" data-bin="10" data-db="-30.895118423907636" />
+<rect x="400.69" y="424.89" width="59.57" height="11.71" fill="#897d63" data-mark="stft" data-frame="5" data-bin="11" data-db="-21.797796085344004" />
+<rect x="400.69" y="413.22" width="59.57" height="11.71" fill="#ae9873" data-mark="stft" data-frame="5" data-bin="12" data-db="-12.832368486972685" />
+<rect x="400.69" y="401.54" width="59.57" height="11.71" fill="#cdb081" data-mark="stft" data-frame="5" data-bin="13" data-db="-5.2231091847635" />
+<rect x="400.69" y="389.86" width="59.57" height="11.71" fill="#e0be89" data-mark="stft" data-frame="5" data-bin="14" data-db="-0.5920651728658709" />
+<rect x="400.69" y="378.19" width="59.57" height="11.71" fill="#dfbd88" data-mark="stft" data-frame="5" data-bin="15" data-db="-0.8495004243958747" />
+<rect x="400.69" y="366.51" width="59.57" height="11.71" fill="#caae80" data-mark="stft" data-frame="5" data-bin="16" data-db="-5.832892890133606" />
+<rect x="400.69" y="354.84" width="59.57" height="11.71" fill="#aa9671" data-mark="stft" data-frame="5" data-bin="17" data-db="-13.685739762442955" />
+<rect x="400.69" y="343.16" width="59.57" height="11.71" fill="#a4916e" data-mark="stft" data-frame="5" data-bin="18" data-db="-15.29211785514297" />
+<rect x="400.69" y="331.48" width="59.57" height="11.71" fill="#c7ab7e" data-mark="stft" data-frame="5" data-bin="19" data-db="-6.715740201402321" />
+<rect x="400.69" y="319.81" width="59.57" height="11.71" fill="#ac9772" data-mark="stft" data-frame="5" data-bin="20" data-db="-13.327765707882138" />
+<rect x="400.69" y="308.13" width="59.57" height="11.71" fill="#2d383a" data-mark="stft" data-frame="5" data-bin="21" data-db="-44.26492977925676" />
+<rect x="400.69" y="296.46" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="22" data-db="-50" />
+<rect x="400.69" y="284.78" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="23" data-db="-50" />
+<rect x="400.69" y="273.11" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="24" data-db="-50" />
+<rect x="400.69" y="261.43" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="25" data-db="-50" />
+<rect x="400.69" y="249.75" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="26" data-db="-50" />
+<rect x="400.69" y="238.08" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="27" data-db="-50" />
+<rect x="400.69" y="226.40" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="28" data-db="-50" />
+<rect x="400.69" y="214.73" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="29" data-db="-50" />
+<rect x="400.69" y="203.05" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="30" data-db="-50" />
+<rect x="400.69" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="31" data-db="-50" />
+<rect x="400.69" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="5" data-bin="32" data-db="-50" />
+<rect x="460.23" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="0" data-db="-50" />
+<rect x="460.23" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="1" data-db="-50" />
+<rect x="460.23" y="529.97" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="2" data-db="-50" />
+<rect x="460.23" y="518.30" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="3" data-db="-50" />
+<rect x="460.23" y="506.62" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="4" data-db="-50" />
+<rect x="460.23" y="494.95" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="5" data-db="-50" />
+<rect x="460.23" y="483.27" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="6" data-db="-50" />
+<rect x="460.23" y="471.59" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="7" data-db="-50" />
+<rect x="460.23" y="459.92" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="8" data-db="-50" />
+<rect x="460.23" y="448.24" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="9" data-db="-50" />
+<rect x="460.23" y="436.57" width="59.57" height="11.71" fill="#303a3c" data-mark="stft" data-frame="6" data-bin="10" data-db="-43.570379913284505" />
+<rect x="460.23" y="424.89" width="59.57" height="11.71" fill="#51524a" data-mark="stft" data-frame="6" data-bin="11" data-db="-35.564607877968314" />
+<rect x="460.23" y="413.22" width="59.57" height="11.71" fill="#766e5a" data-mark="stft" data-frame="6" data-bin="12" data-db="-26.533546371191843" />
+<rect x="460.23" y="401.54" width="59.57" height="11.71" fill="#9c8b6b" data-mark="stft" data-frame="6" data-bin="13" data-db="-17.196571799546824" />
+<rect x="460.23" y="389.86" width="59.57" height="11.71" fill="#bfa57a" data-mark="stft" data-frame="6" data-bin="14" data-db="-8.696061499566007" />
+<rect x="460.23" y="378.19" width="59.57" height="11.71" fill="#d8b886" data-mark="stft" data-frame="6" data-bin="15" data-db="-2.4595706905813675" />
+<rect x="460.23" y="366.51" width="59.57" height="11.71" fill="#e2c08a" data-mark="stft" data-frame="6" data-bin="16" data-db="-0.006222862377733212" />
+<rect x="460.23" y="354.84" width="59.57" height="11.71" fill="#d6b785" data-mark="stft" data-frame="6" data-bin="17" data-db="-2.8979987324485896" />
+<rect x="460.23" y="343.16" width="59.57" height="11.71" fill="#caae80" data-mark="stft" data-frame="6" data-bin="18" data-db="-5.821360136130474" />
+<rect x="460.23" y="331.48" width="59.57" height="11.71" fill="#bca379" data-mark="stft" data-frame="6" data-bin="19" data-db="-9.304143509807307" />
+<rect x="460.23" y="319.81" width="59.57" height="11.71" fill="#ad9873" data-mark="stft" data-frame="6" data-bin="20" data-db="-13.021203470648652" />
+<rect x="460.23" y="308.13" width="59.57" height="11.71" fill="#51534a" data-mark="stft" data-frame="6" data-bin="21" data-db="-35.427178777751934" />
+<rect x="460.23" y="296.46" width="59.57" height="11.71" fill="#323b3c" data-mark="stft" data-frame="6" data-bin="22" data-db="-43.255977395950694" />
+<rect x="460.23" y="284.78" width="59.57" height="11.71" fill="#172730" data-mark="stft" data-frame="6" data-bin="23" data-db="-49.79263821296776" />
+<rect x="460.23" y="273.11" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="24" data-db="-50" />
+<rect x="460.23" y="261.43" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="25" data-db="-50" />
+<rect x="460.23" y="249.75" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="26" data-db="-50" />
+<rect x="460.23" y="238.08" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="27" data-db="-50" />
+<rect x="460.23" y="226.40" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="28" data-db="-50" />
+<rect x="460.23" y="214.73" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="29" data-db="-50" />
+<rect x="460.23" y="203.05" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="30" data-db="-50" />
+<rect x="460.23" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="31" data-db="-50" />
+<rect x="460.23" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="6" data-bin="32" data-db="-50" />
+<rect x="519.77" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="0" data-db="-50" />
+<rect x="519.77" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="1" data-db="-50" />
+<rect x="519.77" y="529.97" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="2" data-db="-50" />
+<rect x="519.77" y="518.30" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="3" data-db="-50" />
+<rect x="519.77" y="506.62" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="4" data-db="-50" />
+<rect x="519.77" y="494.95" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="5" data-db="-50" />
+<rect x="519.77" y="483.27" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="6" data-db="-50" />
+<rect x="519.77" y="471.59" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="7" data-db="-50" />
+<rect x="519.77" y="459.92" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="8" data-db="-50" />
+<rect x="519.77" y="448.24" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="9" data-db="-50" />
+<rect x="519.77" y="436.57" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="10" data-db="-50" />
+<rect x="519.77" y="424.89" width="59.57" height="11.71" fill="#243136" data-mark="stft" data-frame="7" data-bin="11" data-db="-46.50121662354295" />
+<rect x="519.77" y="413.22" width="59.57" height="11.71" fill="#424743" data-mark="stft" data-frame="7" data-bin="12" data-db="-39.30331621247578" />
+<rect x="519.77" y="401.54" width="59.57" height="11.71" fill="#646152" data-mark="stft" data-frame="7" data-bin="13" data-db="-30.93165443188282" />
+<rect x="519.77" y="389.86" width="59.57" height="11.71" fill="#897d63" data-mark="stft" data-frame="7" data-bin="14" data-db="-21.813508012196323" />
+<rect x="519.77" y="378.19" width="59.57" height="11.71" fill="#ae9873" data-mark="stft" data-frame="7" data-bin="15" data-db="-12.827270770789678" />
+<rect x="519.77" y="366.51" width="59.57" height="11.71" fill="#cdb081" data-mark="stft" data-frame="7" data-bin="16" data-db="-5.214377517395246" />
+<rect x="519.77" y="354.84" width="59.57" height="11.71" fill="#e0be89" data-mark="stft" data-frame="7" data-bin="17" data-db="-0.6116349851196629" />
+<rect x="519.77" y="343.16" width="59.57" height="11.71" fill="#d5b684" data-mark="stft" data-frame="7" data-bin="18" data-db="-3.3006138983376694" />
+<rect x="519.77" y="331.48" width="59.57" height="11.71" fill="#bca379" data-mark="stft" data-frame="7" data-bin="19" data-db="-9.335369268957388" />
+<rect x="519.77" y="319.81" width="59.57" height="11.71" fill="#bfa67b" data-mark="stft" data-frame="7" data-bin="20" data-db="-8.570467896280686" />
+<rect x="519.77" y="308.13" width="59.57" height="11.71" fill="#867b61" data-mark="stft" data-frame="7" data-bin="21" data-db="-22.50863635982379" />
+<rect x="519.77" y="296.46" width="59.57" height="11.71" fill="#625f51" data-mark="stft" data-frame="7" data-bin="22" data-db="-31.461943097824076" />
+<rect x="519.77" y="284.78" width="59.57" height="11.71" fill="#404643" data-mark="stft" data-frame="7" data-bin="23" data-db="-39.63031300448231" />
+<rect x="519.77" y="273.11" width="59.57" height="11.71" fill="#243036" data-mark="stft" data-frame="7" data-bin="24" data-db="-46.61600789607037" />
+<rect x="519.77" y="261.43" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="25" data-db="-50" />
+<rect x="519.77" y="249.75" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="26" data-db="-50" />
+<rect x="519.77" y="238.08" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="27" data-db="-50" />
+<rect x="519.77" y="226.40" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="28" data-db="-50" />
+<rect x="519.77" y="214.73" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="29" data-db="-50" />
+<rect x="519.77" y="203.05" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="30" data-db="-50" />
+<rect x="519.77" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="31" data-db="-50" />
+<rect x="519.77" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="7" data-bin="32" data-db="-50" />
+<rect x="579.31" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="0" data-db="-50" />
+<rect x="579.31" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="1" data-db="-50" />
+<rect x="579.31" y="529.97" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="2" data-db="-50" />
+<rect x="579.31" y="518.30" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="3" data-db="-50" />
+<rect x="579.31" y="506.62" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="4" data-db="-50" />
+<rect x="579.31" y="494.95" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="5" data-db="-50" />
+<rect x="579.31" y="483.27" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="6" data-db="-50" />
+<rect x="579.31" y="471.59" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="7" data-db="-50" />
+<rect x="579.31" y="459.92" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="8" data-db="-50" />
+<rect x="579.31" y="448.24" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="9" data-db="-50" />
+<rect x="579.31" y="436.57" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="10" data-db="-50" />
+<rect x="579.31" y="424.89" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="11" data-db="-50" />
+<rect x="579.31" y="413.22" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="12" data-db="-50" />
+<rect x="579.31" y="401.54" width="59.57" height="11.71" fill="#30393b" data-mark="stft" data-frame="8" data-bin="13" data-db="-43.72477119155911" />
+<rect x="579.31" y="389.86" width="59.57" height="11.71" fill="#50524a" data-mark="stft" data-frame="8" data-bin="14" data-db="-35.70915780870741" />
+<rect x="579.31" y="378.19" width="59.57" height="11.71" fill="#756e5a" data-mark="stft" data-frame="8" data-bin="15" data-db="-26.62809908014101" />
+<rect x="579.31" y="366.51" width="59.57" height="11.71" fill="#9c8b6b" data-mark="stft" data-frame="8" data-bin="16" data-db="-17.221746694145736" />
+<rect x="579.31" y="354.84" width="59.57" height="11.71" fill="#bfa57a" data-mark="stft" data-frame="8" data-bin="17" data-db="-8.646988164472127" />
+<rect x="579.31" y="343.16" width="59.57" height="11.71" fill="#d8b886" data-mark="stft" data-frame="8" data-bin="18" data-db="-2.464222108412433" />
+<rect x="579.31" y="331.48" width="59.57" height="11.71" fill="#ddbd88" data-mark="stft" data-frame="8" data-bin="19" data-db="-1.1325580511890276" />
+<rect x="579.31" y="319.81" width="59.57" height="11.71" fill="#d7b885" data-mark="stft" data-frame="8" data-bin="20" data-db="-2.714874777008025" />
+<rect x="579.31" y="308.13" width="59.57" height="11.71" fill="#bca379" data-mark="stft" data-frame="8" data-bin="21" data-db="-9.371692189470938" />
+<rect x="579.31" y="296.46" width="59.57" height="11.71" fill="#98886a" data-mark="stft" data-frame="8" data-bin="22" data-db="-18.040434128440452" />
+<rect x="579.31" y="284.78" width="59.57" height="11.71" fill="#726b59" data-mark="stft" data-frame="8" data-bin="23" data-db="-27.448516488440482" />
+<rect x="579.31" y="273.11" width="59.57" height="11.71" fill="#4d5048" data-mark="stft" data-frame="8" data-bin="24" data-db="-36.509119330812545" />
+<rect x="579.31" y="261.43" width="59.57" height="11.71" fill="#2c373a" data-mark="stft" data-frame="8" data-bin="25" data-db="-44.55926439860788" />
+<rect x="579.31" y="249.75" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="26" data-db="-50" />
+<rect x="579.31" y="238.08" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="27" data-db="-50" />
+<rect x="579.31" y="226.40" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="28" data-db="-50" />
+<rect x="579.31" y="214.73" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="29" data-db="-50" />
+<rect x="579.31" y="203.05" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="30" data-db="-50" />
+<rect x="579.31" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="31" data-db="-50" />
+<rect x="579.31" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="8" data-bin="32" data-db="-50" />
+<rect x="638.85" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="0" data-db="-50" />
+<rect x="638.85" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="1" data-db="-50" />
+<rect x="638.85" y="529.97" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="2" data-db="-50" />
+<rect x="638.85" y="518.30" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="3" data-db="-50" />
+<rect x="638.85" y="506.62" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="4" data-db="-50" />
+<rect x="638.85" y="494.95" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="5" data-db="-50" />
+<rect x="638.85" y="483.27" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="6" data-db="-50" />
+<rect x="638.85" y="471.59" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="7" data-db="-50" />
+<rect x="638.85" y="459.92" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="8" data-db="-50" />
+<rect x="638.85" y="448.24" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="9" data-db="-50" />
+<rect x="638.85" y="436.57" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="10" data-db="-50" />
+<rect x="638.85" y="424.89" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="11" data-db="-50" />
+<rect x="638.85" y="413.22" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="12" data-db="-50" />
+<rect x="638.85" y="401.54" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="13" data-db="-50" />
+<rect x="638.85" y="389.86" width="59.57" height="11.71" fill="#263237" data-mark="stft" data-frame="9" data-bin="14" data-db="-46.08904672839504" />
+<rect x="638.85" y="378.19" width="59.57" height="11.71" fill="#434844" data-mark="stft" data-frame="9" data-bin="15" data-db="-38.919146594969874" />
+<rect x="638.85" y="366.51" width="59.57" height="11.71" fill="#656253" data-mark="stft" data-frame="9" data-bin="16" data-db="-30.604759667056154" />
+<rect x="638.85" y="354.84" width="59.57" height="11.71" fill="#8a7d63" data-mark="stft" data-frame="9" data-bin="17" data-db="-21.60374126988614" />
+<rect x="638.85" y="343.16" width="59.57" height="11.71" fill="#c1a77b" data-mark="stft" data-frame="9" data-bin="18" data-db="-8.186816668045509" />
+<rect x="638.85" y="331.48" width="59.57" height="11.71" fill="#c0a67b" data-mark="stft" data-frame="9" data-bin="19" data-db="-8.345652539082556" />
+<rect x="638.85" y="319.81" width="59.57" height="11.71" fill="#d6b785" data-mark="stft" data-frame="9" data-bin="20" data-db="-2.9561097427998204" />
+<rect x="638.85" y="308.13" width="59.57" height="11.71" fill="#debd88" data-mark="stft" data-frame="9" data-bin="21" data-db="-0.8771357204138153" />
+<rect x="638.85" y="296.46" width="59.57" height="11.71" fill="#caae80" data-mark="stft" data-frame="9" data-bin="22" data-db="-5.810115740356155" />
+<rect x="638.85" y="284.78" width="59.57" height="11.71" fill="#aa9671" data-mark="stft" data-frame="9" data-bin="23" data-db="-13.636200543091874" />
+<rect x="638.85" y="273.11" width="59.57" height="11.71" fill="#857a61" data-mark="stft" data-frame="9" data-bin="24" data-db="-22.725204318715555" />
+<rect x="638.85" y="261.43" width="59.57" height="11.71" fill="#605e51" data-mark="stft" data-frame="9" data-bin="25" data-db="-31.837854656982753" />
+<rect x="638.85" y="249.75" width="59.57" height="11.71" fill="#3e4442" data-mark="stft" data-frame="9" data-bin="26" data-db="-40.13581018067" />
+<rect x="638.85" y="238.08" width="59.57" height="11.71" fill="#212e35" data-mark="stft" data-frame="9" data-bin="27" data-db="-47.268182715531644" />
+<rect x="638.85" y="226.40" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="28" data-db="-50" />
+<rect x="638.85" y="214.73" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="29" data-db="-50" />
+<rect x="638.85" y="203.05" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="30" data-db="-50" />
+<rect x="638.85" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="31" data-db="-50" />
+<rect x="638.85" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="9" data-bin="32" data-db="-50" />
+<rect x="698.38" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="0" data-db="-50" />
+<rect x="698.38" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="1" data-db="-50" />
+<rect x="698.38" y="529.97" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="2" data-db="-50" />
+<rect x="698.38" y="518.30" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="3" data-db="-50" />
+<rect x="698.38" y="506.62" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="4" data-db="-50" />
+<rect x="698.38" y="494.95" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="5" data-db="-50" />
+<rect x="698.38" y="483.27" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="6" data-db="-50" />
+<rect x="698.38" y="471.59" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="7" data-db="-50" />
+<rect x="698.38" y="459.92" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="8" data-db="-50" />
+<rect x="698.38" y="448.24" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="9" data-db="-50" />
+<rect x="698.38" y="436.57" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="10" data-db="-50" />
+<rect x="698.38" y="424.89" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="11" data-db="-50" />
+<rect x="698.38" y="413.22" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="12" data-db="-50" />
+<rect x="698.38" y="401.54" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="13" data-db="-50" />
+<rect x="698.38" y="389.86" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="14" data-db="-50" />
+<rect x="698.38" y="378.19" width="59.57" height="11.71" fill="#192931" data-mark="stft" data-frame="10" data-bin="15" data-db="-49.17016021971959" />
+<rect x="698.38" y="366.51" width="59.57" height="11.71" fill="#343d3d" data-mark="stft" data-frame="10" data-bin="16" data-db="-42.62135400206872" />
+<rect x="698.38" y="354.84" width="59.57" height="11.71" fill="#54554b" data-mark="stft" data-frame="10" data-bin="17" data-db="-34.77172999333746" />
+<rect x="698.38" y="343.16" width="59.57" height="11.71" fill="#ae9873" data-mark="stft" data-frame="10" data-bin="18" data-db="-12.867105064595085" />
+<rect x="698.38" y="331.48" width="59.57" height="11.71" fill="#baa278" data-mark="stft" data-frame="10" data-bin="19" data-db="-9.831235171830079" />
+<rect x="698.38" y="319.81" width="59.57" height="11.71" fill="#cbae80" data-mark="stft" data-frame="10" data-bin="20" data-db="-5.70691832469528" />
+<rect x="698.38" y="308.13" width="59.57" height="11.71" fill="#d8b886" data-mark="stft" data-frame="10" data-bin="21" data-db="-2.436875581725185" />
+<rect x="698.38" y="296.46" width="59.57" height="11.71" fill="#e2c08a" data-mark="stft" data-frame="10" data-bin="22" data-db="-0.00761528783577111" />
+<rect x="698.38" y="284.78" width="59.57" height="11.71" fill="#d6b785" data-mark="stft" data-frame="10" data-bin="23" data-db="-2.9205101864750893" />
+<rect x="698.38" y="273.11" width="59.57" height="11.71" fill="#bca379" data-mark="stft" data-frame="10" data-bin="24" data-db="-9.425651735095535" />
+<rect x="698.38" y="261.43" width="59.57" height="11.71" fill="#98886a" data-mark="stft" data-frame="10" data-bin="25" data-db="-18.03091605062731" />
+<rect x="698.38" y="249.75" width="59.57" height="11.71" fill="#726c59" data-mark="stft" data-frame="10" data-bin="26" data-db="-27.384101065528455" />
+<rect x="698.38" y="238.08" width="59.57" height="11.71" fill="#4d5048" data-mark="stft" data-frame="10" data-bin="27" data-db="-36.40055401242569" />
+<rect x="698.38" y="226.40" width="59.57" height="11.71" fill="#2d373a" data-mark="stft" data-frame="10" data-bin="28" data-db="-44.408981488721444" />
+<rect x="698.38" y="214.73" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="29" data-db="-50" />
+<rect x="698.38" y="203.05" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="30" data-db="-50" />
+<rect x="698.38" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="31" data-db="-50" />
+<rect x="698.38" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="10" data-bin="32" data-db="-50" />
+<rect x="757.92" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="0" data-db="-50" />
+<rect x="757.92" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="1" data-db="-50" />
+<rect x="757.92" y="529.97" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="2" data-db="-50" />
+<rect x="757.92" y="518.30" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="3" data-db="-50" />
+<rect x="757.92" y="506.62" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="4" data-db="-50" />
+<rect x="757.92" y="494.95" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="5" data-db="-50" />
+<rect x="757.92" y="483.27" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="6" data-db="-50" />
+<rect x="757.92" y="471.59" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="7" data-db="-50" />
+<rect x="757.92" y="459.92" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="8" data-db="-50" />
+<rect x="757.92" y="448.24" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="9" data-db="-50" />
+<rect x="757.92" y="436.57" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="10" data-db="-50" />
+<rect x="757.92" y="424.89" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="11" data-db="-50" />
+<rect x="757.92" y="413.22" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="12" data-db="-50" />
+<rect x="757.92" y="401.54" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="13" data-db="-50" />
+<rect x="757.92" y="389.86" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="14" data-db="-50" />
+<rect x="757.92" y="378.19" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="15" data-db="-50" />
+<rect x="757.92" y="366.51" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="16" data-db="-50" />
+<rect x="757.92" y="354.84" width="59.57" height="11.71" fill="#313a3c" data-mark="stft" data-frame="11" data-bin="17" data-db="-43.49042285925002" />
+<rect x="757.92" y="343.16" width="59.57" height="11.71" fill="#ab9772" data-mark="stft" data-frame="11" data-bin="18" data-db="-13.408586762321772" />
+<rect x="757.92" y="331.48" width="59.57" height="11.71" fill="#c7ab7e" data-mark="stft" data-frame="11" data-bin="19" data-db="-6.656787234227753" />
+<rect x="757.92" y="319.81" width="59.57" height="11.71" fill="#a69370" data-mark="stft" data-frame="11" data-bin="20" data-db="-14.639444652054841" />
+<rect x="757.92" y="308.13" width="59.57" height="11.71" fill="#ad9873" data-mark="stft" data-frame="11" data-bin="21" data-db="-12.891229840573907" />
+<rect x="757.92" y="296.46" width="59.57" height="11.71" fill="#cdb081" data-mark="stft" data-frame="11" data-bin="22" data-db="-5.234600483526445" />
+<rect x="757.92" y="284.78" width="59.57" height="11.71" fill="#e0be89" data-mark="stft" data-frame="11" data-bin="23" data-db="-0.5846279008730495" />
+<rect x="757.92" y="273.11" width="59.57" height="11.71" fill="#dfbd88" data-mark="stft" data-frame="11" data-bin="24" data-db="-0.8572557826456566" />
+<rect x="757.92" y="261.43" width="59.57" height="11.71" fill="#caae80" data-mark="stft" data-frame="11" data-bin="25" data-db="-5.818527166585719" />
+<rect x="757.92" y="249.75" width="59.57" height="11.71" fill="#aa9671" data-mark="stft" data-frame="11" data-bin="26" data-db="-13.639036883918333" />
+<rect x="757.92" y="238.08" width="59.57" height="11.71" fill="#857a61" data-mark="stft" data-frame="11" data-bin="27" data-db="-22.703553180952678" />
+<rect x="757.92" y="226.40" width="59.57" height="11.71" fill="#605e51" data-mark="stft" data-frame="11" data-bin="28" data-db="-31.82856019609522" />
+<rect x="757.92" y="214.73" width="59.57" height="11.71" fill="#3e4441" data-mark="stft" data-frame="11" data-bin="29" data-db="-40.29654140067238" />
+<rect x="757.92" y="203.05" width="59.57" height="11.71" fill="#1e2c33" data-mark="stft" data-frame="11" data-bin="30" data-db="-48.095127208285994" />
+<rect x="757.92" y="191.38" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="31" data-db="-50" />
+<rect x="757.92" y="179.70" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="11" data-bin="32" data-db="-50" />
+<rect x="817.46" y="553.32" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="0" data-db="-50" />
+<rect x="817.46" y="541.65" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="1" data-db="-50" />
+<rect x="817.46" y="529.97" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="2" data-db="-50" />
+<rect x="817.46" y="518.30" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="3" data-db="-50" />
+<rect x="817.46" y="506.62" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="4" data-db="-50" />
+<rect x="817.46" y="494.95" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="5" data-db="-50" />
+<rect x="817.46" y="483.27" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="6" data-db="-50" />
+<rect x="817.46" y="471.59" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="7" data-db="-50" />
+<rect x="817.46" y="459.92" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="8" data-db="-50" />
+<rect x="817.46" y="448.24" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="9" data-db="-50" />
+<rect x="817.46" y="436.57" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="10" data-db="-50" />
+<rect x="817.46" y="424.89" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="11" data-db="-50" />
+<rect x="817.46" y="413.22" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="12" data-db="-50" />
+<rect x="817.46" y="401.54" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="13" data-db="-50" />
+<rect x="817.46" y="389.86" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="14" data-db="-50" />
+<rect x="817.46" y="378.19" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="15" data-db="-50" />
+<rect x="817.46" y="366.51" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="16" data-db="-50" />
+<rect x="817.46" y="354.84" width="59.57" height="11.71" fill="#162630" data-mark="stft" data-frame="12" data-bin="17" data-db="-50" />
+<rect x="817.46" y="343.16" width="59.57" height="11.71" fill="#ad9873" data-mark="stft" data-frame="12" data-bin="18" data-db="-12.996282259654961" />
+<rect x="817.46" y="331.48" width="59.57" height="11.71" fill="#c4aa7d" data-mark="stft" data-frame="12" data-bin="19" data-db="-7.276513373378702" />
+<rect x="817.46" y="319.81" width="59.57" height="11.71" fill="#af9a74" data-mark="stft" data-frame="12" data-bin="20" data-db="-12.495471782709405" />
+<rect x="817.46" y="308.13" width="59.57" height="11.71" fill="#746d59" data-mark="stft" data-frame="12" data-bin="21" data-db="-26.980556734026724" />
+<rect x="817.46" y="296.46" width="59.57" height="11.71" fill="#9c8b6b" data-mark="stft" data-frame="12" data-bin="22" data-db="-17.204753024012057" />
+<rect x="817.46" y="284.78" width="59.57" height="11.71" fill="#bfa57a" data-mark="stft" data-frame="12" data-bin="23" data-db="-8.682362730712986" />
+<rect x="817.46" y="273.11" width="59.57" height="11.71" fill="#d8b886" data-mark="stft" data-frame="12" data-bin="24" data-db="-2.4653456455814746" />
+<rect x="817.46" y="261.43" width="59.57" height="11.71" fill="#e2c08a" data-mark="stft" data-frame="12" data-bin="25" data-db="0.0" />
+<rect x="817.46" y="249.75" width="59.57" height="11.71" fill="#d6b785" data-mark="stft" data-frame="12" data-bin="26" data-db="-2.9264177635576405" />
+<rect x="817.46" y="238.08" width="59.57" height="11.71" fill="#bca379" data-mark="stft" data-frame="12" data-bin="27" data-db="-9.427417542049307" />
+<rect x="817.46" y="226.40" width="59.57" height="11.71" fill="#98896a" data-mark="stft" data-frame="12" data-bin="28" data-db="-18.01625100927876" />
+<rect x="817.46" y="214.73" width="59.57" height="11.71" fill="#736c59" data-mark="stft" data-frame="12" data-bin="29" data-db="-27.291669443237826" />
+<rect x="817.46" y="203.05" width="59.57" height="11.71" fill="#4f5149" data-mark="stft" data-frame="12" data-bin="30" data-db="-35.95324107203009" />
+<rect x="817.46" y="191.38" width="59.57" height="11.71" fill="#343d3d" data-mark="stft" data-frame="12" data-bin="31" data-db="-42.60035913379287" />
+<rect x="817.46" y="179.70" width="59.57" height="11.71" fill="#293539" data-mark="stft" data-frame="12" data-bin="32" data-db="-45.26873569203239" />
+<text x="91.00" y="565.16" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">0</text>
+<text x="91.00" y="471.76" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">16</text>
+<text x="91.00" y="378.35" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">32</text>
+<text x="91.00" y="284.94" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">48</text>
+<text x="91.00" y="191.54" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">64</text>
+<text x="132.77" y="594.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">0.25s</text>
+<text x="370.92" y="594.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">0.75s</text>
+<text x="609.08" y="594.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">1.25s</text>
+<text x="847.23" y="594.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">1.75s</text>
+<rect x="898.00" y="179.70" width="12.00" height="7.81" fill="#e2c08a" />
+<rect x="898.00" y="187.41" width="12.00" height="7.81" fill="#debd88" />
+<rect x="898.00" y="195.11" width="12.00" height="7.81" fill="#daba86" />
+<rect x="898.00" y="202.82" width="12.00" height="7.81" fill="#d6b785" />
+<rect x="898.00" y="210.52" width="12.00" height="7.81" fill="#d2b483" />
+<rect x="898.00" y="218.23" width="12.00" height="7.81" fill="#ceb181" />
+<rect x="898.00" y="225.94" width="12.00" height="7.81" fill="#caae7f" />
+<rect x="898.00" y="233.64" width="12.00" height="7.81" fill="#c5aa7d" />
+<rect x="898.00" y="241.35" width="12.00" height="7.81" fill="#c1a77c" />
+<rect x="898.00" y="249.05" width="12.00" height="7.81" fill="#bda47a" />
+<rect x="898.00" y="256.76" width="12.00" height="7.81" fill="#b9a178" />
+<rect x="898.00" y="264.47" width="12.00" height="7.81" fill="#b59e76" />
+<rect x="898.00" y="272.17" width="12.00" height="7.81" fill="#b19b74" />
+<rect x="898.00" y="279.88" width="12.00" height="7.81" fill="#ad9873" />
+<rect x="898.00" y="287.58" width="12.00" height="7.81" fill="#a99571" />
+<rect x="898.00" y="295.29" width="12.00" height="7.81" fill="#a5926f" />
+<rect x="898.00" y="303.00" width="12.00" height="7.81" fill="#a18f6d" />
+<rect x="898.00" y="310.70" width="12.00" height="7.81" fill="#9d8c6b" />
+<rect x="898.00" y="318.41" width="12.00" height="7.81" fill="#99896a" />
+<rect x="898.00" y="326.11" width="12.00" height="7.81" fill="#948568" />
+<rect x="898.00" y="333.82" width="12.00" height="7.81" fill="#908266" />
+<rect x="898.00" y="341.53" width="12.00" height="7.81" fill="#8c7f64" />
+<rect x="898.00" y="349.23" width="12.00" height="7.81" fill="#887c62" />
+<rect x="898.00" y="356.94" width="12.00" height="7.81" fill="#847961" />
+<rect x="898.00" y="364.64" width="12.00" height="7.81" fill="#80765f" />
+<rect x="898.00" y="372.35" width="12.00" height="7.81" fill="#7c735d" />
+<rect x="898.00" y="380.06" width="12.00" height="7.81" fill="#78705b" />
+<rect x="898.00" y="387.76" width="12.00" height="7.81" fill="#746d59" />
+<rect x="898.00" y="395.47" width="12.00" height="7.81" fill="#706a58" />
+<rect x="898.00" y="403.17" width="12.00" height="7.81" fill="#6c6756" />
+<rect x="898.00" y="410.88" width="12.00" height="7.81" fill="#686454" />
+<rect x="898.00" y="418.59" width="12.00" height="7.81" fill="#646152" />
+<rect x="898.00" y="426.29" width="12.00" height="7.81" fill="#5f5d50" />
+<rect x="898.00" y="434.00" width="12.00" height="7.81" fill="#5b5a4f" />
+<rect x="898.00" y="441.70" width="12.00" height="7.81" fill="#57574d" />
+<rect x="898.00" y="449.41" width="12.00" height="7.81" fill="#53544b" />
+<rect x="898.00" y="457.12" width="12.00" height="7.81" fill="#4f5149" />
+<rect x="898.00" y="464.82" width="12.00" height="7.81" fill="#4b4e47" />
+<rect x="898.00" y="472.53" width="12.00" height="7.81" fill="#474b46" />
+<rect x="898.00" y="480.23" width="12.00" height="7.81" fill="#434844" />
+<rect x="898.00" y="487.94" width="12.00" height="7.81" fill="#3f4542" />
+<rect x="898.00" y="495.65" width="12.00" height="7.81" fill="#3b4240" />
+<rect x="898.00" y="503.35" width="12.00" height="7.81" fill="#373f3e" />
+<rect x="898.00" y="511.06" width="12.00" height="7.81" fill="#333c3d" />
+<rect x="898.00" y="518.76" width="12.00" height="7.81" fill="#2e383b" />
+<rect x="898.00" y="526.47" width="12.00" height="7.81" fill="#2a3539" />
+<rect x="898.00" y="534.18" width="12.00" height="7.81" fill="#263237" />
+<rect x="898.00" y="541.88" width="12.00" height="7.81" fill="#222f35" />
+<rect x="898.00" y="549.59" width="12.00" height="7.81" fill="#1e2c34" />
+<rect x="898.00" y="557.29" width="12.00" height="7.81" fill="#1a2932" />
+<text x="917.00" y="186.70" font-size="13" fill="#98a8a5" text-anchor="start" font-weight="400">0</text>
+<text x="917.00" y="565.00" font-size="13" fill="#98a8a5" text-anchor="start" font-weight="400">-50</text>
+<text x="103.00" y="166.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400">Hz</text>
+<text x="58.00" y="644.00" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="600">64-point Hann / hop 16 / sample rate 128 Hz.</text>
+<text x="58.00" y="677.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400">Synthetic. 20 log10 magnitude relative to the global peak; floor -50 dB. Window centres shown; no source identification.</text>
+<metadata>{"case": "C24", "frames": 13, "bins": 33, "reference_peak": 12.640864064634384, "plot": [103, 877, 179.7, 565]}</metadata>
+</svg>

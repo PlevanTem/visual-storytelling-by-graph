@@ -1,0 +1,58 @@
+{
+  "synthetic": true,
+  "unit": "wait time, minutes",
+  "swarm": "x encodes exact value; y displacement only avoids collisions",
+  "rows": [
+    {
+      "cohort": "Compact",
+      "values": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        13,
+        14,
+        15,
+        16,
+        17,
+        15,
+        15
+      ]
+    },
+    {
+      "cohort": "Split",
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    {
+      "cohort": "Tail",
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        92
+      ]
+    }
+  ]
+}

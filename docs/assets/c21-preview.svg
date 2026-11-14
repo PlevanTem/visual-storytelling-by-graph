@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="498" viewBox="0 132.70 1000 498.30" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">One input. Two histories.</title>
+<desc id="desc">Ordered input / response trajectory, normalized units. Synthetic demonstration data. C21.</desc>
+<rect width="1000" height="750" fill="#101719" />
+<text x="58.00" y="46.00" font-size="33" fill="#e9e9df" text-anchor="start" font-weight="650">One input. Two histories.</text>
+<text x="58.00" y="100.90" font-size="16" fill="#98a8a5" text-anchor="start" font-weight="400">Ordered input / response trajectory, normalized units</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<line x1="113.00" y1="540.52" x2="922.00" y2="540.52" stroke="#2a393a" stroke-width="1" />
+<text x="103.00" y="546.52" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">-1</text>
+<line x1="165.76" y1="189.70" x2="165.76" y2="565.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="165.76" y="594.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">-1</text>
+<line x1="113.00" y1="377.35" x2="922.00" y2="377.35" stroke="#2a393a" stroke-width="1" />
+<text x="103.00" y="383.35" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">0</text>
+<line x1="517.50" y1="189.70" x2="517.50" y2="565.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="517.50" y="594.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">0</text>
+<line x1="113.00" y1="214.18" x2="922.00" y2="214.18" stroke="#2a393a" stroke-width="1" />
+<text x="103.00" y="220.18" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">1</text>
+<line x1="869.24" y1="189.70" x2="869.24" y2="565.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="869.24" y="594.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">1</text>
+<path d="M 869.239 214.983 L 868.486 214.912 L 866.230 214.866 L 862.480 214.839 L 857.254 214.831 L 850.572 214.840 L 842.465 214.867 L 832.965 214.915 L 822.115 214.986 L 809.961 215.088 L 796.553 215.228 L 781.952 215.420 L 766.217 215.682 L 749.418 216.041 L 731.625 216.536 L 712.916 217.225 L 693.370 218.191 L 673.070 219.556 L 652.105 221.499 L 630.563 224.279 L 608.537 228.266 L 586.121 233.974 L 563.411 242.089 L 540.505 253.456 L 517.500 268.996 L 494.495 289.477 L 471.589 315.132 L 448.879 345.244 L 426.463 377.956 L 404.437 410.617 L 382.895 440.593 L 361.930 466.065 L 341.630 486.355 L 322.084 501.727 L 303.375 512.960 L 285.582 520.972 L 268.783 526.607 L 253.048 530.542 L 238.447 533.285 L 225.039 535.203 L 212.885 536.551 L 202.035 537.504 L 192.535 538.185 L 184.428 538.674 L 177.746 539.029 L 172.520 539.288 L 168.770 539.478 L 166.514 539.617 L 165.761 539.717" fill="none" stroke="#c3d8c7" stroke-width="3" stroke-linejoin="round" data-mark="phase" data-start="0" data-end="48" />
+<path d="M 165.761 539.717 L 166.514 539.788 L 168.770 539.834 L 172.520 539.861 L 177.746 539.869 L 184.428 539.860 L 192.535 539.833 L 202.035 539.785 L 212.885 539.714 L 225.039 539.612 L 238.447 539.472 L 253.048 539.280 L 268.783 539.018 L 285.582 538.659 L 303.375 538.164 L 322.084 537.475 L 341.630 536.509 L 361.930 535.144 L 382.895 533.201 L 404.437 530.421 L 426.463 526.434 L 448.879 520.726 L 471.589 512.611 L 494.495 501.244 L 517.500 485.704 L 540.505 465.223 L 563.411 439.568 L 586.121 409.456 L 608.537 376.744 L 630.563 344.083 L 652.105 314.107 L 673.070 288.635 L 693.370 268.345 L 712.916 252.973 L 731.625 241.740 L 749.418 233.728 L 766.217 228.093 L 781.952 224.158 L 796.553 221.415 L 809.961 219.497 L 822.115 218.149 L 832.965 217.196 L 842.465 216.515 L 850.572 216.026 L 857.254 215.671 L 862.480 215.412 L 866.230 215.222 L 868.486 215.083 L 869.239 214.983" fill="none" stroke="#dda96f" stroke-width="3" stroke-linejoin="round" data-mark="phase" data-start="48" data-end="96" />
+<polygon points="685.395,218.830 697.954,212.807 698.753,222.775" fill="#c3d8c7" />
+<polygon points="349.605,535.870 337.046,541.893 336.247,531.925" fill="#dda96f" />
+<text x="121.00" y="204.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400">Response ↑</text>
+<text x="922.00" y="622.00" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">Input →</text>
+<text x="58.00" y="644.00" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="600">Direction is part of the data.</text>
+<text x="58.00" y="677.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400">Synthetic lagged nonlinear response. Colours separate the two half-cycles; no physical mechanism is identified.</text>
+<metadata>{"case": "C21", "rows": 97, "plot": [113, 922, 189.7, 565], "domain": [-1.15, 1.15]}</metadata>
+</svg>

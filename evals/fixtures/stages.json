@@ -1,0 +1,30 @@
+{
+  "synthetic": true,
+  "unit": "monthly events, not unique people",
+  "window": "2026-10",
+  "same_cohort": false,
+  "rows": [
+    {
+      "stage": "Page views",
+      "events": 12000
+    },
+    {
+      "stage": "Sign-ups",
+      "events": 600
+    },
+    {
+      "stage": "Trials",
+      "events": 420
+    },
+    {
+      "stage": "Payments",
+      "events": 180
+    }
+  ],
+  "missing": [
+    "person identifiers",
+    "transition records",
+    "channel attribution",
+    "cohort membership"
+  ]
+}

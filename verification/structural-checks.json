@@ -1,0 +1,47 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "check": "structure",
+      "status": "pass",
+      "detail": {
+        "cases": 24,
+        "json_fixtures": 23,
+        "works": 20,
+        "states": 31,
+        "full_svg_assets": 62
+      }
+    },
+    {
+      "check": "local_links",
+      "status": "pass",
+      "detail": {
+        "local_links": 72,
+        "remote_availability": "verified separately at publication"
+      }
+    },
+    {
+      "check": "facts_and_classic_checks",
+      "status": "pass",
+      "detail": "24 supplied cases; exact KM fractions, counts, semantics, means and classic encodings. Not population or causal inference."
+    },
+    {
+      "check": "gallery_encoding_geometry",
+      "status": "pass",
+      "detail": {
+        "full_svgs_checked": 62,
+        "methods": "Raw fixture recomputation and actual coordinate/path/area checks; not label matching alone."
+      }
+    },
+    {
+      "check": "recorded_browser_inputs",
+      "status": "pass",
+      "detail": {
+        "browser": "pass",
+        "hashes_current": 88,
+        "limits": "Chromium emulation and author inspection, not physical-device, screen-reader, human-comprehension or aesthetic study."
+      }
+    }
+  ],
+  "limits": "Fixed synthetic cases, author-written deterministic checks. Not no-Skill/Skill A/B or human readers."
+}

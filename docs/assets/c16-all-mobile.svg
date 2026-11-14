@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="790" viewBox="0 0 620 790" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Correlation leaves agreement unanswered.</title>
+<desc id="desc">Bland–Altman / B minus A, dB. Synthetic demonstration data. C16.</desc>
+<rect width="620" height="790" fill="#101719"/>
+<text x="38.00" y="46.00" font-size="29" fill="#e9e9df" text-anchor="start" font-weight="650" >Correlation leaves agreement</text>
+<text x="38.00" y="83.70" font-size="29" fill="#e9e9df" text-anchor="start" font-weight="650" >unanswered.</text>
+<text x="38.00" y="133.40" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Bland–Altman / B minus A, dB</text>
+<line x1="38.00" y1="171.40" x2="582.00" y2="171.40" stroke="#2a393a" stroke-width="1" />
+<rect x="93.00" y="375.71" width="469.00" height="171.97" fill="#1d2c2c" />
+<line x1="93.00" y1="576.34" x2="562.00" y2="576.34" stroke="#d9e0d9" stroke-width="1" />
+<text x="81.00" y="582.34" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >-4</text>
+<line x1="93.00" y1="519.02" x2="562.00" y2="519.02" stroke="#d9e0d9" stroke-width="1" />
+<text x="81.00" y="525.02" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >-2</text>
+<line x1="93.00" y1="461.69" x2="562.00" y2="461.69" stroke="#d9e0d9" stroke-width="1" />
+<text x="81.00" y="467.69" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >0</text>
+<line x1="93.00" y1="404.37" x2="562.00" y2="404.37" stroke="#d9e0d9" stroke-width="1" />
+<text x="81.00" y="410.37" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >2</text>
+<line x1="93.00" y1="347.05" x2="562.00" y2="347.05" stroke="#d9e0d9" stroke-width="1" />
+<text x="81.00" y="353.05" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >4</text>
+<line x1="93.00" y1="289.72" x2="562.00" y2="289.72" stroke="#d9e0d9" stroke-width="1" />
+<text x="81.00" y="295.72" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >6</text>
+<line x1="93.00" y1="232.40" x2="562.00" y2="232.40" stroke="#d9e0d9" stroke-width="1" />
+<text x="81.00" y="238.40" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >8</text>
+<text x="126.50" y="635.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >40</text>
+<text x="260.50" y="635.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >60</text>
+<text x="394.50" y="635.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >80</text>
+<text x="528.50" y="635.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >100</text>
+<line x1="93.00" y1="404.37" x2="562.00" y2="404.37" stroke="#c3d8c7" stroke-width="1.4" stroke-dasharray="5 5"/>
+<text x="101.00" y="396.37" font-size="19" fill="#c3d8c7" text-anchor="start" font-weight="400" >Bias +2.00</text>
+<line x1="93.00" y1="521.51" x2="562.00" y2="521.51" stroke="#dda96f" stroke-width="1.4" stroke-dasharray="5 5"/>
+<text x="101.00" y="513.51" font-size="19" fill="#dda96f" text-anchor="start" font-weight="400" >Lower LoA -2.09</text>
+<line x1="93.00" y1="287.23" x2="562.00" y2="287.23" stroke="#dda96f" stroke-width="1.4" stroke-dasharray="5 5"/>
+<text x="101.00" y="279.23" font-size="19" fill="#dda96f" text-anchor="start" font-weight="400" >Upper LoA +6.09</text>
+<circle cx="126.50" cy="461.69" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S01" data-mean="40.0" data-difference="0.0"/>
+<circle cx="146.60" cy="433.03" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S02" data-mean="43.0" data-difference="1.0"/>
+<circle cx="166.70" cy="404.37" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S03" data-mean="46.0" data-difference="2.0"/>
+<circle cx="186.80" cy="375.71" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S04" data-mean="49.0" data-difference="3.0"/>
+<circle cx="206.90" cy="347.05" r="5" fill="#dda96f" data-mark="agreement" data-id="S05" data-mean="52.0" data-difference="4.0"/>
+<circle cx="206.90" cy="490.35" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S06" data-mean="52.0" data-difference="-1.0"/>
+<circle cx="243.75" cy="318.38" r="5" fill="#dda96f" data-mark="agreement" data-id="S07" data-mean="57.5" data-difference="5.0"/>
+<circle cx="250.45" cy="404.37" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S08" data-mean="58.5" data-difference="2.0"/>
+<circle cx="263.85" cy="433.03" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S09" data-mean="60.5" data-difference="1.0"/>
+<circle cx="287.30" cy="375.71" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S10" data-mean="64.0" data-difference="3.0"/>
+<circle cx="287.30" cy="519.02" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S11" data-mean="64.0" data-difference="-2.0"/>
+<circle cx="330.85" cy="289.72" r="5" fill="#dda96f" data-mark="agreement" data-id="S12" data-mean="70.5" data-difference="6.0"/>
+<circle cx="327.50" cy="461.69" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S13" data-mean="70.0" data-difference="0.0"/>
+<circle cx="357.65" cy="347.05" r="5" fill="#dda96f" data-mark="agreement" data-id="S14" data-mean="74.5" data-difference="4.0"/>
+<circle cx="367.70" cy="404.37" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S15" data-mean="76.0" data-difference="2.0"/>
+<circle cx="381.10" cy="433.03" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S16" data-mean="78.0" data-difference="1.0"/>
+<circle cx="404.55" cy="375.71" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S17" data-mean="81.5" data-difference="3.0"/>
+<circle cx="407.90" cy="490.35" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S18" data-mean="82.0" data-difference="-1.0"/>
+<circle cx="444.75" cy="318.38" r="5" fill="#dda96f" data-mark="agreement" data-id="S19" data-mean="87.5" data-difference="5.0"/>
+<circle cx="451.45" cy="404.37" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S20" data-mean="88.5" data-difference="2.0"/>
+<circle cx="461.50" cy="461.69" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S21" data-mean="90.0" data-difference="0.0"/>
+<circle cx="491.65" cy="347.05" r="5" fill="#dda96f" data-mark="agreement" data-id="S22" data-mean="94.5" data-difference="4.0"/>
+<circle cx="498.35" cy="433.03" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S23" data-mean="95.5" data-difference="1.0"/>
+<circle cx="521.80" cy="375.71" r="5" fill="#c3d8c7" data-mark="agreement" data-id="S24" data-mean="99.0" data-difference="3.0"/>
+<text x="38.00" y="684.00" font-size="20" fill="#e9e9df" text-anchor="start" font-weight="600" >Mean bias +2.00 dB. Tolerance band: ±3 dB.</text>
+<text x="38.00" y="719.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Synthetic pairs. LoA = mean ±1.96 sample SD, not a</text>
+<text x="38.00" y="745.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >mean CI. Distributional assumptions are not</text>
+<text x="38.00" y="771.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >established.</text>
+<metadata>{&quot;case&quot;: &quot;C16&quot;, &quot;bias&quot;: 2.0, &quot;sd&quot;: 2.0851441405707476, &quot;loa&quot;: [-2.086882515518665, 6.086882515518665], &quot;domain_x&quot;: [35, 105], &quot;domain_y&quot;: [-5, 8], &quot;plot&quot;: [93, 562, 232.4, 605]}</metadata>
+</svg>

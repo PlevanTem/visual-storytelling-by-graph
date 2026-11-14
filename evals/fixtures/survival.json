@@ -1,0 +1,153 @@
+{
+  "synthetic": true,
+  "unit": "accelerated aging cycles until unreadable or last observation",
+  "event": "1=unreadable; 0=right censored",
+  "method": "Kaplan-Meier, risk includes censoring at tied event time; events processed before censoring",
+  "assumptions": "illustrative independent, non-informative right censoring; not a real preservation trial",
+  "rows": [
+    {
+      "id": "D1",
+      "group": "Dry",
+      "time": 10,
+      "event": 1
+    },
+    {
+      "id": "D2",
+      "group": "Dry",
+      "time": 20,
+      "event": 0
+    },
+    {
+      "id": "D3",
+      "group": "Dry",
+      "time": 30,
+      "event": 1
+    },
+    {
+      "id": "D4",
+      "group": "Dry",
+      "time": 40,
+      "event": 0
+    },
+    {
+      "id": "D5",
+      "group": "Dry",
+      "time": 50,
+      "event": 1
+    },
+    {
+      "id": "D6",
+      "group": "Dry",
+      "time": 60,
+      "event": 0
+    },
+    {
+      "id": "D7",
+      "group": "Dry",
+      "time": 70,
+      "event": 0
+    },
+    {
+      "id": "D8",
+      "group": "Dry",
+      "time": 80,
+      "event": 1
+    },
+    {
+      "id": "D9",
+      "group": "Dry",
+      "time": 90,
+      "event": 0
+    },
+    {
+      "id": "D10",
+      "group": "Dry",
+      "time": 100,
+      "event": 0
+    },
+    {
+      "id": "D11",
+      "group": "Dry",
+      "time": 100,
+      "event": 0
+    },
+    {
+      "id": "D12",
+      "group": "Dry",
+      "time": 100,
+      "event": 0
+    },
+    {
+      "id": "H1",
+      "group": "Humid",
+      "time": 8,
+      "event": 1
+    },
+    {
+      "id": "H2",
+      "group": "Humid",
+      "time": 16,
+      "event": 1
+    },
+    {
+      "id": "H3",
+      "group": "Humid",
+      "time": 24,
+      "event": 1
+    },
+    {
+      "id": "H4",
+      "group": "Humid",
+      "time": 24,
+      "event": 0
+    },
+    {
+      "id": "H5",
+      "group": "Humid",
+      "time": 32,
+      "event": 1
+    },
+    {
+      "id": "H6",
+      "group": "Humid",
+      "time": 40,
+      "event": 1
+    },
+    {
+      "id": "H7",
+      "group": "Humid",
+      "time": 48,
+      "event": 0
+    },
+    {
+      "id": "H8",
+      "group": "Humid",
+      "time": 56,
+      "event": 1
+    },
+    {
+      "id": "H9",
+      "group": "Humid",
+      "time": 64,
+      "event": 0
+    },
+    {
+      "id": "H10",
+      "group": "Humid",
+      "time": 72,
+      "event": 1
+    },
+    {
+      "id": "H11",
+      "group": "Humid",
+      "time": 80,
+      "event": 0
+    },
+    {
+      "id": "H12",
+      "group": "Humid",
+      "time": 88,
+      "event": 0
+    }
+  ]
+}

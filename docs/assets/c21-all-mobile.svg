@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="800" viewBox="0 0 620 800" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">One input. Two histories.</title>
+<desc id="desc">Ordered input / response trajectory, normalized units. Synthetic demonstration data. C21.</desc>
+<rect width="620" height="800" fill="#101719"/>
+<text x="38.00" y="46.00" font-size="29" fill="#e9e9df" text-anchor="start" font-weight="650" >One input. Two histories.</text>
+<text x="38.00" y="95.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Ordered input / response trajectory, normalized units</text>
+<line x1="38.00" y1="133.70" x2="582.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<line x1="93.00" y1="587.26" x2="562.00" y2="587.26" stroke="#2a393a" stroke-width="1" />
+<text x="83.00" y="593.26" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >-1</text>
+<line x1="123.59" y1="189.70" x2="123.59" y2="615.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="123.59" y="644.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >-1</text>
+<line x1="93.00" y1="402.35" x2="562.00" y2="402.35" stroke="#2a393a" stroke-width="1" />
+<text x="83.00" y="408.35" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >0</text>
+<line x1="327.50" y1="189.70" x2="327.50" y2="615.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="327.50" y="644.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >0</text>
+<line x1="93.00" y1="217.44" x2="562.00" y2="217.44" stroke="#2a393a" stroke-width="1" />
+<text x="83.00" y="223.44" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >1</text>
+<line x1="531.41" y1="189.70" x2="531.41" y2="615.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="531.41" y="644.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >1</text>
+<path d="M 531.413 218.351 L 530.976 218.271 L 529.669 218.218 L 527.495 218.188 L 524.465 218.179 L 520.591 218.189 L 515.891 218.220 L 510.384 218.274 L 504.094 218.355 L 497.048 218.470 L 489.275 218.629 L 480.810 218.846 L 471.688 219.143 L 461.949 219.550 L 451.634 220.112 L 440.788 220.892 L 429.457 221.986 L 417.688 223.533 L 405.534 225.735 L 393.046 228.885 L 380.277 233.404 L 367.281 239.873 L 354.116 249.068 L 340.837 261.951 L 327.500 279.561 L 314.163 302.770 L 300.884 331.843 L 287.719 365.967 L 274.723 403.037 L 261.954 440.050 L 249.466 474.018 L 237.312 502.884 L 225.543 525.878 L 214.212 543.298 L 203.366 556.027 L 193.051 565.107 L 183.312 571.492 L 174.190 575.951 L 165.725 579.060 L 157.952 581.233 L 150.906 582.761 L 144.616 583.841 L 139.109 584.612 L 134.409 585.167 L 130.535 585.569 L 127.505 585.863 L 125.331 586.078 L 124.024 586.235 L 123.587 586.349" fill="none" stroke="#c3d8c7" stroke-width="3" stroke-linejoin="round" data-mark="phase" data-start="0" data-end="48"/>
+<path d="M 123.587 586.349 L 124.024 586.429 L 125.331 586.482 L 127.505 586.512 L 130.535 586.521 L 134.409 586.511 L 139.109 586.480 L 144.616 586.426 L 150.906 586.345 L 157.952 586.230 L 165.725 586.071 L 174.190 585.854 L 183.312 585.557 L 193.051 585.150 L 203.366 584.588 L 214.212 583.808 L 225.543 582.714 L 237.312 581.167 L 249.466 578.965 L 261.954 575.815 L 274.723 571.296 L 287.719 564.827 L 300.884 555.632 L 314.163 542.749 L 327.500 525.139 L 340.837 501.930 L 354.116 472.857 L 367.281 438.733 L 380.277 401.663 L 393.046 364.650 L 405.534 330.682 L 417.688 301.816 L 429.457 278.822 L 440.788 261.402 L 451.634 248.673 L 461.949 239.593 L 471.688 233.208 L 480.810 228.749 L 489.275 225.640 L 497.048 223.467 L 504.094 221.939 L 510.384 220.859 L 515.891 220.088 L 520.591 219.533 L 524.465 219.131 L 527.495 218.837 L 529.669 218.622 L 530.976 218.465 L 531.413 218.351" fill="none" stroke="#dda96f" stroke-width="3" stroke-linejoin="round" data-mark="phase" data-start="48" data-end="96"/>
+<polygon points="421.553,223.225 433.622,216.273 435.170,226.152" fill="#c3d8c7" />
+<polygon points="233.447,581.475 221.378,588.427 219.830,578.548" fill="#dda96f" />
+<text x="101.00" y="204.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Response ↑</text>
+<text x="562.00" y="672.00" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >Input →</text>
+<text x="38.00" y="694.00" font-size="20" fill="#e9e9df" text-anchor="start" font-weight="600" >Direction is part of the data.</text>
+<text x="38.00" y="729.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Synthetic lagged nonlinear response. Colours separate</text>
+<text x="38.00" y="755.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >the two half-cycles; no physical mechanism is</text>
+<text x="38.00" y="781.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >identified.</text>
+<metadata>{&quot;case&quot;: &quot;C21&quot;, &quot;rows&quot;: 97, &quot;plot&quot;: [93, 562, 189.7, 615], &quot;domain&quot;: [-1.15, 1.15]}</metadata>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Partner / conversion rate</title>
+<desc id="desc">Same source, explicit counts and denominators. Synthetic demonstration data. C04.</desc>
+<rect width="1000" height="650" fill="#101719"/>
+<text x="58.00" y="46.00" font-size="33" fill="#e9e9df" text-anchor="start" font-weight="650" >Partner / conversion rate</text>
+<text x="58.00" y="100.90" font-size="16" fill="#98a8a5" text-anchor="start" font-weight="400" >Same source, explicit counts and denominators</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<text x="500.00" y="314.85" font-size="21" fill="#98a8a5" text-anchor="middle" font-weight="400" >No observations</text>
+<text x="58.00" y="544.00" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="600" >A conversion rate cannot be computed.</text>
+<text x="58.00" y="577.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400" >Synthetic. Missing observations are not a 0% rate. Return to All to restore the comparison.</text>
+<metadata>{&quot;case&quot;: &quot;C04&quot;, &quot;state&quot;: &quot;Partner&quot;, &quot;available&quot;: false}</metadata>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="538" viewBox="0 132.70 1000 538.30" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Still readable. Not observed forever.</title>
+<desc id="desc">Kaplan–Meier / readability after accelerated aging. Synthetic demonstration data. C15.</desc>
+<rect width="1000" height="790" fill="#101719" />
+<text x="58.00" y="46.00" font-size="33" fill="#e9e9df" text-anchor="start" font-weight="650">Still readable. Not observed forever.</text>
+<text x="58.00" y="100.90" font-size="16" fill="#98a8a5" text-anchor="start" font-weight="400">Kaplan–Meier / readability after accelerated aging</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<line x1="106.00" y1="520.00" x2="927.00" y2="520.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="94.00" y="526.00" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">0%</text>
+<line x1="106.00" y1="437.43" x2="927.00" y2="437.43" stroke="#d9e0d9" stroke-width="1" />
+<text x="94.00" y="443.43" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">25%</text>
+<line x1="106.00" y1="354.85" x2="927.00" y2="354.85" stroke="#d9e0d9" stroke-width="1" />
+<text x="94.00" y="360.85" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">50%</text>
+<line x1="106.00" y1="272.27" x2="927.00" y2="272.27" stroke="#d9e0d9" stroke-width="1" />
+<text x="94.00" y="278.27" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">75%</text>
+<line x1="106.00" y1="189.70" x2="927.00" y2="189.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="94.00" y="195.70" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">100%</text>
+<text x="106.00" y="548.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">0</text>
+<text x="270.20" y="548.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">20</text>
+<text x="434.40" y="548.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">40</text>
+<text x="598.60" y="548.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">60</text>
+<text x="762.80" y="548.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">80</text>
+<text x="927.00" y="548.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">100</text>
+<line x1="266.20" y1="217.23" x2="274.20" y2="217.23" stroke="#c3d8c7" stroke-width="2" />
+<line x1="270.20" y1="211.23" x2="270.20" y2="223.23" stroke="#c3d8c7" stroke-width="2" data-mark="censor" data-group="Dry" data-time="20" data-n="1" />
+<line x1="430.40" y1="247.50" x2="438.40" y2="247.50" stroke="#c3d8c7" stroke-width="2" />
+<line x1="434.40" y1="241.50" x2="434.40" y2="253.50" stroke="#c3d8c7" stroke-width="2" data-mark="censor" data-group="Dry" data-time="40" data-n="1" />
+<line x1="594.60" y1="281.56" x2="602.60" y2="281.56" stroke="#c3d8c7" stroke-width="2" />
+<line x1="598.60" y1="275.56" x2="598.60" y2="287.56" stroke="#c3d8c7" stroke-width="2" data-mark="censor" data-group="Dry" data-time="60" data-n="1" />
+<line x1="676.70" y1="281.56" x2="684.70" y2="281.56" stroke="#c3d8c7" stroke-width="2" />
+<line x1="680.70" y1="275.56" x2="680.70" y2="287.56" stroke="#c3d8c7" stroke-width="2" data-mark="censor" data-group="Dry" data-time="70" data-n="1" />
+<line x1="840.90" y1="329.25" x2="848.90" y2="329.25" stroke="#c3d8c7" stroke-width="2" />
+<line x1="844.90" y1="323.25" x2="844.90" y2="335.25" stroke="#c3d8c7" stroke-width="2" data-mark="censor" data-group="Dry" data-time="90" data-n="1" />
+<line x1="923.00" y1="329.25" x2="931.00" y2="329.25" stroke="#c3d8c7" stroke-width="2" />
+<line x1="927.00" y1="323.25" x2="927.00" y2="335.25" stroke="#c3d8c7" stroke-width="2" data-mark="censor" data-group="Dry" data-time="100" data-n="3" />
+<path d="M 106.000 189.700 H 188.100 V 217.225 H 270.200 H 352.300 V 247.502 H 434.400 H 516.500 V 281.565 H 598.600 H 680.700 H 762.800 V 329.252 H 844.900 H 927.000" fill="none" stroke="#c3d8c7" stroke-width="3" stroke-linejoin="round" data-mark="km" data-group="Dry" />
+<text x="94.00" y="587.00" font-size="14" fill="#c3d8c7" text-anchor="end" font-weight="400">Dry</text>
+<text x="106.00" y="587.00" font-size="14" fill="#c3d8c7" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Dry" data-time="0" data-n="12">12</text>
+<text x="270.20" y="587.00" font-size="14" fill="#c3d8c7" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Dry" data-time="20" data-n="11">11</text>
+<text x="434.40" y="587.00" font-size="14" fill="#c3d8c7" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Dry" data-time="40" data-n="9">9</text>
+<text x="598.60" y="587.00" font-size="14" fill="#c3d8c7" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Dry" data-time="60" data-n="7">7</text>
+<text x="762.80" y="587.00" font-size="14" fill="#c3d8c7" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Dry" data-time="80" data-n="5">5</text>
+<text x="927.00" y="587.00" font-size="14" fill="#c3d8c7" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Dry" data-time="100" data-n="3">3</text>
+<line x1="727.00" y1="175.70" x2="750.00" y2="175.70" stroke="#c3d8c7" stroke-width="3" />
+<text x="757.00" y="181.70" font-size="14" fill="#c3d8c7" text-anchor="start" font-weight="400">Dry</text>
+<line x1="299.04" y1="272.27" x2="307.04" y2="272.27" stroke="#dda96f" stroke-width="2" />
+<line x1="303.04" y1="266.27" x2="303.04" y2="278.27" stroke="#dda96f" stroke-width="2" data-mark="censor" data-group="Humid" data-time="24" data-n="1" />
+<line x1="496.08" y1="334.21" x2="504.08" y2="334.21" stroke="#dda96f" stroke-width="2" />
+<line x1="500.08" y1="328.21" x2="500.08" y2="340.21" stroke="#dda96f" stroke-width="2" data-mark="censor" data-group="Humid" data-time="48" data-n="1" />
+<line x1="627.44" y1="371.37" x2="635.44" y2="371.37" stroke="#dda96f" stroke-width="2" />
+<line x1="631.44" y1="365.37" x2="631.44" y2="377.37" stroke="#dda96f" stroke-width="2" data-mark="censor" data-group="Humid" data-time="64" data-n="1" />
+<line x1="758.80" y1="420.91" x2="766.80" y2="420.91" stroke="#dda96f" stroke-width="2" />
+<line x1="762.80" y1="414.91" x2="762.80" y2="426.91" stroke="#dda96f" stroke-width="2" data-mark="censor" data-group="Humid" data-time="80" data-n="1" />
+<line x1="824.48" y1="420.91" x2="832.48" y2="420.91" stroke="#dda96f" stroke-width="2" />
+<line x1="828.48" y1="414.91" x2="828.48" y2="426.91" stroke="#dda96f" stroke-width="2" data-mark="censor" data-group="Humid" data-time="88" data-n="1" />
+<path d="M 106.000 189.700 H 171.680 V 217.225 H 237.360 V 244.750 H 303.040 V 272.275 H 368.720 V 303.241 H 434.400 V 334.206 H 500.080 H 565.760 V 371.365 H 631.440 H 697.120 V 420.910 H 762.800 H 828.480" fill="none" stroke="#dda96f" stroke-width="3" stroke-linejoin="round" data-mark="km" data-group="Humid" />
+<text x="94.00" y="614.00" font-size="14" fill="#dda96f" text-anchor="end" font-weight="400">Humid</text>
+<text x="106.00" y="614.00" font-size="14" fill="#dda96f" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Humid" data-time="0" data-n="12">12</text>
+<text x="270.20" y="614.00" font-size="14" fill="#dda96f" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Humid" data-time="20" data-n="10">10</text>
+<text x="434.40" y="614.00" font-size="14" fill="#dda96f" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Humid" data-time="40" data-n="7">7</text>
+<text x="598.60" y="614.00" font-size="14" fill="#dda96f" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Humid" data-time="60" data-n="4">4</text>
+<text x="762.80" y="614.00" font-size="14" fill="#dda96f" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Humid" data-time="80" data-n="2">2</text>
+<text x="927.00" y="614.00" font-size="14" fill="#dda96f" text-anchor="middle" font-weight="400" data-mark="risk" data-group="Humid" data-time="100" data-n="0">0</text>
+<line x1="832.00" y1="175.70" x2="855.00" y2="175.70" stroke="#dda96f" stroke-width="3" />
+<text x="862.00" y="181.70" font-size="14" fill="#dda96f" text-anchor="start" font-weight="400">Humid</text>
+<text x="58.00" y="684.00" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="600">Risk counts below. Crosses mark censoring.</text>
+<text x="58.00" y="717.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400">Synthetic, n=12/group. Curves stop at last observation. Non-informative censoring assumed; no confidence bands.</text>
+<metadata>{"case": "C15", "risks": {"Dry": [12, 11, 9, 7, 5, 3], "Humid": [12, 10, 7, 4, 2, 0]}, "end_survival": {"Dry": 0.5775, "Humid": 0.30000000000000004}, "plot": [106, 927, 189.7, 520]}</metadata>
+</svg>

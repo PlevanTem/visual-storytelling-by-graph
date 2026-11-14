@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="538" viewBox="0 132.70 1000 538.30" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">The same mean can hide different waits.</title>
+<desc id="desc">Individual waiting times / minutes / n=12 per cohort. Synthetic demonstration data. C23.</desc>
+<rect width="1000" height="790" fill="#101719" />
+<text x="58.00" y="46.00" font-size="33" fill="#e9e9df" text-anchor="start" font-weight="650">The same mean can hide different waits.</text>
+<text x="58.00" y="100.90" font-size="16" fill="#98a8a5" text-anchor="start" font-weight="400">Individual waiting times / minutes / n=12 per cohort</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<line x1="155.00" y1="171.70" x2="155.00" y2="598.00" stroke="#2a393a" stroke-width="1" />
+<text x="155.00" y="628.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">0</text>
+<line x1="271.25" y1="171.70" x2="271.25" y2="598.00" stroke="#c3d8c7" stroke-width="1" stroke-dasharray="4 4" />
+<text x="271.25" y="628.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">15</text>
+<line x1="387.50" y1="171.70" x2="387.50" y2="598.00" stroke="#2a393a" stroke-width="1" />
+<text x="387.50" y="628.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">30</text>
+<line x1="620.00" y1="171.70" x2="620.00" y2="598.00" stroke="#2a393a" stroke-width="1" />
+<text x="620.00" y="628.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">60</text>
+<line x1="852.50" y1="171.70" x2="852.50" y2="598.00" stroke="#2a393a" stroke-width="1" />
+<text x="852.50" y="628.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400">90</text>
+<text x="140.00" y="232.70" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">Compact</text>
+<circle cx="255.75" cy="226.70" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="0" data-value="13" />
+<circle cx="255.75" cy="236.20" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="5" data-value="13" />
+<circle cx="263.50" cy="217.20" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="1" data-value="14" />
+<circle cx="263.50" cy="245.70" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="6" data-value="14" />
+<circle cx="271.25" cy="226.70" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="2" data-value="15" />
+<circle cx="271.25" cy="236.20" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="7" data-value="15" />
+<circle cx="271.25" cy="207.70" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="10" data-value="15" />
+<circle cx="271.25" cy="255.20" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="11" data-value="15" />
+<circle cx="279.00" cy="217.20" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="3" data-value="16" />
+<circle cx="279.00" cy="245.70" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="8" data-value="16" />
+<circle cx="286.75" cy="226.70" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="4" data-value="17" />
+<circle cx="286.75" cy="236.20" r="4.5" fill="#c3d8c7" data-mark="swarm" data-cohort="Compact" data-index="9" data-value="17" />
+<text x="140.00" y="394.35" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">Split</text>
+<circle cx="155.00" cy="388.35" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="0" data-value="0" />
+<circle cx="155.00" cy="397.85" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="1" data-value="0" />
+<circle cx="155.00" cy="378.85" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="2" data-value="0" />
+<circle cx="155.00" cy="407.35" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="3" data-value="0" />
+<circle cx="155.00" cy="369.35" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="4" data-value="0" />
+<circle cx="155.00" cy="416.85" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="5" data-value="0" />
+<circle cx="387.50" cy="388.35" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="6" data-value="30" />
+<circle cx="387.50" cy="397.85" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="7" data-value="30" />
+<circle cx="387.50" cy="378.85" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="8" data-value="30" />
+<circle cx="387.50" cy="407.35" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="9" data-value="30" />
+<circle cx="387.50" cy="369.35" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="10" data-value="30" />
+<circle cx="387.50" cy="416.85" r="4.5" fill="#dda96f" data-mark="swarm" data-cohort="Split" data-index="11" data-value="30" />
+<text x="140.00" y="556.00" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400">Tail</text>
+<circle cx="217.00" cy="550.00" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="0" data-value="8" />
+<circle cx="217.00" cy="559.50" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="1" data-value="8" />
+<circle cx="217.00" cy="540.50" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="2" data-value="8" />
+<circle cx="217.00" cy="569.00" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="3" data-value="8" />
+<circle cx="217.00" cy="531.00" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="4" data-value="8" />
+<circle cx="217.00" cy="578.50" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="5" data-value="8" />
+<circle cx="217.00" cy="521.50" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="6" data-value="8" />
+<circle cx="217.00" cy="588.00" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="7" data-value="8" />
+<circle cx="217.00" cy="512.00" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="8" data-value="8" />
+<circle cx="217.00" cy="597.50" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="9" data-value="8" />
+<circle cx="217.00" cy="502.50" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="10" data-value="8" />
+<circle cx="868.00" cy="550.00" r="4.5" fill="#8fb8ce" data-mark="swarm" data-cohort="Tail" data-index="11" data-value="92" />
+<text x="58.00" y="684.00" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="600">Every cohort averages 15 min. Tail reaches 92 min.</text>
+<text x="58.00" y="717.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400">Synthetic. Exact values set x; vertical displacement only separates points. All 36 observations are retained.</text>
+<metadata>{"case": "C23", "plot_x": [155, 930], "domain_x": [0, 100], "placed": [{"index": 0, "value": 13, "x": 255.75, "offset": 0, "cohort": "Compact", "y": 226.7}, {"index": 5, "value": 13, "x": 255.75, "offset": 9.5, "cohort": "Compact", "y": 236.2}, {"index": 1, "value": 14, "x": 263.5, "offset": -9.5, "cohort": "Compact", "y": 217.2}, {"index": 6, "value": 14, "x": 263.5, "offset": 19.0, "cohort": "Compact", "y": 245.7}, {"index": 2, "value": 15, "x": 271.25, "offset": 0, "cohort": "Compact", "y": 226.7}, {"index": 7, "value": 15, "x": 271.25, "offset": 9.5, "cohort": "Compact", "y": 236.2}, {"index": 10, "value": 15, "x": 271.25, "offset": -19.0, "cohort": "Compact", "y": 207.7}, {"index": 11, "value": 15, "x": 271.25, "offset": 28.5, "cohort": "Compact", "y": 255.2}, {"index": 3, "value": 16, "x": 279.0, "offset": -9.5, "cohort": "Compact", "y": 217.2}, {"index": 8, "value": 16, "x": 279.0, "offset": 19.0, "cohort": "Compact", "y": 245.7}, {"index": 4, "value": 17, "x": 286.75, "offset": 0, "cohort": "Compact", "y": 226.7}, {"index": 9, "value": 17, "x": 286.75, "offset": 9.5, "cohort": "Compact", "y": 236.2}, {"index": 0, "value": 0, "x": 155.0, "offset": 0, "cohort": "Split", "y": 388.35}, {"index": 1, "value": 0, "x": 155.0, "offset": 9.5, "cohort": "Split", "y": 397.85}, {"index": 2, "value": 0, "x": 155.0, "offset": -9.5, "cohort": "Split", "y": 378.85}, {"index": 3, "value": 0, "x": 155.0, "offset": 19.0, "cohort": "Split", "y": 407.35}, {"index": 4, "value": 0, "x": 155.0, "offset": -19.0, "cohort": "Split", "y": 369.35}, {"index": 5, "value": 0, "x": 155.0, "offset": 28.5, "cohort": "Split", "y": 416.85}, {"index": 6, "value": 30, "x": 387.5, "offset": 0, "cohort": "Split", "y": 388.35}, {"index": 7, "value": 30, "x": 387.5, "offset": 9.5, "cohort": "Split", "y": 397.85}, {"index": 8, "value": 30, "x": 387.5, "offset": -9.5, "cohort": "Split", "y": 378.85}, {"index": 9, "value": 30, "x": 387.5, "offset": 19.0, "cohort": "Split", "y": 407.35}, {"index": 10, "value": 30, "x": 387.5, "offset": -19.0, "cohort": "Split", "y": 369.35}, {"index": 11, "value": 30, "x": 387.5, "offset": 28.5, "cohort": "Split", "y": 416.85}, {"index": 0, "value": 8, "x": 217.0, "offset": 0, "cohort": "Tail", "y": 550}, {"index": 1, "value": 8, "x": 217.0, "offset": 9.5, "cohort": "Tail", "y": 559.5}, {"index": 2, "value": 8, "x": 217.0, "offset": -9.5, "cohort": "Tail", "y": 540.5}, {"index": 3, "value": 8, "x": 217.0, "offset": 19.0, "cohort": "Tail", "y": 569.0}, {"index": 4, "value": 8, "x": 217.0, "offset": -19.0, "cohort": "Tail", "y": 531.0}, {"index": 5, "value": 8, "x": 217.0, "offset": 28.5, "cohort": "Tail", "y": 578.5}, {"index": 6, "value": 8, "x": 217.0, "offset": -28.5, "cohort": "Tail", "y": 521.5}, {"index": 7, "value": 8, "x": 217.0, "offset": 38.0, "cohort": "Tail", "y": 588.0}, {"index": 8, "value": 8, "x": 217.0, "offset": -38.0, "cohort": "Tail", "y": 512.0}, {"index": 9, "value": 8, "x": 217.0, "offset": 47.5, "cohort": "Tail", "y": 597.5}, {"index": 10, "value": 8, "x": 217.0, "offset": -47.5, "cohort": "Tail", "y": 502.5}, {"index": 11, "value": 92, "x": 868.0, "offset": 0, "cohort": "Tail", "y": 550}]}</metadata>
+</svg>

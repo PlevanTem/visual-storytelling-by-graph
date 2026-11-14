@@ -1,0 +1,33 @@
+{
+  "synthetic": true,
+  "unit": "conversion rate",
+  "period": "same observation window",
+  "rows": [
+    {
+      "version": "Old",
+      "segment": "Organic",
+      "success": 80,
+      "n": 100
+    },
+    {
+      "version": "Old",
+      "segment": "Paid",
+      "success": 20,
+      "n": 100
+    },
+    {
+      "version": "New",
+      "segment": "Organic",
+      "success": 27,
+      "n": 30
+    },
+    {
+      "version": "New",
+      "segment": "Paid",
+      "success": 42,
+      "n": 170
+    }
+  ],
+  "available_empty_segment": "Partner",
+  "design": "observational groups; no causal attribution"
+}

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="850" viewBox="0 0 620 850" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Capacity and intensity answer different questions</title>
+<desc id="desc">Monthly service requests / totals and requests per 1,000 residents. Synthetic demonstration data. C06.</desc>
+<rect width="620" height="850" fill="#fffdf8"/>
+<text x="38.00" y="46.00" font-size="29" fill="#18312f" text-anchor="start" font-weight="650" >Capacity and intensity answer</text>
+<text x="38.00" y="83.70" font-size="29" fill="#18312f" text-anchor="start" font-weight="650" >different questions</text>
+<text x="38.00" y="133.40" font-size="20" fill="#576b68" text-anchor="start" font-weight="400" >Monthly service requests / totals and requests per</text>
+<text x="38.00" y="159.40" font-size="20" fill="#576b68" text-anchor="start" font-weight="400" >1,000 residents</text>
+<line x1="38.00" y1="197.40" x2="582.00" y2="197.40" stroke="#d9e0d9" stroke-width="1" />
+<text x="143.00" y="245.40" font-size="22" fill="#18312f" text-anchor="start" font-weight="600" >Requests</text>
+<line x1="143.00" y1="265.40" x2="143.00" y2="421.40" stroke="#d9e0d9" stroke-width="1" />
+<text x="143.00" y="452.40" font-size="21" fill="#576b68" text-anchor="middle" font-weight="400" >0</text>
+<line x1="350.00" y1="265.40" x2="350.00" y2="421.40" stroke="#d9e0d9" stroke-width="1" />
+<text x="350.00" y="452.40" font-size="21" fill="#576b68" text-anchor="middle" font-weight="400" >500</text>
+<line x1="557.00" y1="265.40" x2="557.00" y2="421.40" stroke="#d9e0d9" stroke-width="1" />
+<text x="557.00" y="452.40" font-size="21" fill="#576b68" text-anchor="middle" font-weight="400" >1000</text>
+<text x="130.00" y="286.40" font-size="21" fill="#576b68" text-anchor="end" font-weight="400" >North</text>
+<line x1="143.00" y1="280.40" x2="540.44" y2="280.40" stroke="#bfcfc8" stroke-width="3" />
+<circle cx="540.44" cy="280.40" r="6" fill="#087f74" data-mark="geo" data-region="North" data-metric="requests" data-value="960"/>
+<text x="552.44" y="286.40" font-size="21" fill="#087f74" text-anchor="start" font-weight="600" >960</text>
+<text x="130.00" y="329.40" font-size="21" fill="#576b68" text-anchor="end" font-weight="400" >East</text>
+<line x1="143.00" y1="323.40" x2="441.08" y2="323.40" stroke="#bfcfc8" stroke-width="3" />
+<circle cx="441.08" cy="323.40" r="6" fill="#71838f" data-mark="geo" data-region="East" data-metric="requests" data-value="720"/>
+<text x="453.08" y="329.40" font-size="21" fill="#71838f" text-anchor="start" font-weight="600" >720</text>
+<text x="130.00" y="372.40" font-size="21" fill="#576b68" text-anchor="end" font-weight="400" >South</text>
+<line x1="143.00" y1="366.40" x2="391.40" y2="366.40" stroke="#bfcfc8" stroke-width="3" />
+<circle cx="391.40" cy="366.40" r="6" fill="#71838f" data-mark="geo" data-region="South" data-metric="requests" data-value="600"/>
+<text x="403.40" y="372.40" font-size="21" fill="#71838f" text-anchor="start" font-weight="600" >600</text>
+<text x="130.00" y="415.40" font-size="21" fill="#576b68" text-anchor="end" font-weight="400" >West</text>
+<line x1="143.00" y1="409.40" x2="267.20" y2="409.40" stroke="#bfcfc8" stroke-width="3" />
+<circle cx="267.20" cy="409.40" r="6" fill="#71838f" data-mark="geo" data-region="West" data-metric="requests" data-value="300"/>
+<text x="279.20" y="415.40" font-size="21" fill="#71838f" text-anchor="start" font-weight="600" >300</text>
+<text x="143.00" y="505.40" font-size="22" fill="#18312f" text-anchor="start" font-weight="600" >Per 1,000 residents</text>
+<line x1="143.00" y1="525.40" x2="143.00" y2="681.40" stroke="#d9e0d9" stroke-width="1" />
+<text x="143.00" y="712.40" font-size="21" fill="#576b68" text-anchor="middle" font-weight="400" >0</text>
+<line x1="350.00" y1="525.40" x2="350.00" y2="681.40" stroke="#d9e0d9" stroke-width="1" />
+<text x="350.00" y="712.40" font-size="21" fill="#576b68" text-anchor="middle" font-weight="400" >5</text>
+<line x1="557.00" y1="525.40" x2="557.00" y2="681.40" stroke="#d9e0d9" stroke-width="1" />
+<text x="557.00" y="712.40" font-size="21" fill="#576b68" text-anchor="middle" font-weight="400" >10</text>
+<text x="130.00" y="546.40" font-size="21" fill="#576b68" text-anchor="end" font-weight="400" >North</text>
+<line x1="143.00" y1="540.40" x2="308.60" y2="540.40" stroke="#bfcfc8" stroke-width="3" />
+<circle cx="308.60" cy="540.40" r="6" fill="#71838f" data-mark="geo" data-region="North" data-metric="rate" data-value="4.0"/>
+<text x="320.60" y="546.40" font-size="21" fill="#71838f" text-anchor="start" font-weight="600" >4</text>
+<text x="130.00" y="589.40" font-size="21" fill="#576b68" text-anchor="end" font-weight="400" >East</text>
+<line x1="143.00" y1="583.40" x2="474.20" y2="583.40" stroke="#bfcfc8" stroke-width="3" />
+<circle cx="474.20" cy="583.40" r="6" fill="#71838f" data-mark="geo" data-region="East" data-metric="rate" data-value="8.0"/>
+<text x="486.20" y="589.40" font-size="21" fill="#71838f" text-anchor="start" font-weight="600" >8</text>
+<text x="130.00" y="632.40" font-size="21" fill="#576b68" text-anchor="end" font-weight="400" >South</text>
+<line x1="143.00" y1="626.40" x2="557.00" y2="626.40" stroke="#bfcfc8" stroke-width="3" />
+<circle cx="557.00" cy="626.40" r="6" fill="#b34f2e" data-mark="geo" data-region="South" data-metric="rate" data-value="10.0"/>
+<text x="569.00" y="632.40" font-size="21" fill="#b34f2e" text-anchor="start" font-weight="600" >10</text>
+<text x="130.00" y="675.40" font-size="21" fill="#576b68" text-anchor="end" font-weight="400" >West</text>
+<line x1="143.00" y1="669.40" x2="225.80" y2="669.40" stroke="#bfcfc8" stroke-width="3" />
+<circle cx="225.80" cy="669.40" r="6" fill="#71838f" data-mark="geo" data-region="West" data-metric="rate" data-value="2.0"/>
+<text x="237.80" y="675.40" font-size="21" fill="#71838f" text-anchor="start" font-weight="600" >2</text>
+<text x="38.00" y="744.00" font-size="20" fill="#18312f" text-anchor="start" font-weight="600" >North: highest volume. South: highest intensity.</text>
+<text x="38.00" y="779.00" font-size="20" fill="#576b68" text-anchor="start" font-weight="400" >Synthetic. Population-normalized rates do not replace</text>
+<text x="38.00" y="805.00" font-size="20" fill="#576b68" text-anchor="start" font-weight="400" >total demand when planning capacity.</text>
+</svg>

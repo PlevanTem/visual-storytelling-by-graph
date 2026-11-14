@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="830" viewBox="0 0 620 830" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Three parts. One closed whole.</title>
+<desc id="desc">Clay / silt / sand, mass % · All · n=36. Synthetic demonstration data. C13.</desc>
+<rect width="620" height="830" fill="#101719"/>
+<text x="38.00" y="46.00" font-size="29" fill="#e9e9df" text-anchor="start" font-weight="650" >Three parts. One closed whole.</text>
+<text x="38.00" y="95.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Clay / silt / sand, mass % · All · n=36</text>
+<line x1="38.00" y1="133.70" x2="582.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<line x1="130.00" y1="557.06" x2="490.00" y2="557.06" stroke="#2a393a" stroke-width="1" />
+<line x1="265.00" y1="323.23" x2="445.00" y2="635.00" stroke="#2a393a" stroke-width="1" />
+<line x1="355.00" y1="323.23" x2="175.00" y2="635.00" stroke="#2a393a" stroke-width="1" />
+<text x="118.00" y="562.06" font-size="17" fill="#98a8a5" text-anchor="end" font-weight="400" >20</text>
+<text x="445.00" y="660.00" font-size="17" fill="#98a8a5" text-anchor="middle" font-weight="400" >20</text>
+<text x="367.00" y="328.23" font-size="17" fill="#98a8a5" text-anchor="start" font-weight="400" >20</text>
+<line x1="175.00" y1="479.12" x2="445.00" y2="479.12" stroke="#2a393a" stroke-width="1" />
+<line x1="220.00" y1="401.17" x2="355.00" y2="635.00" stroke="#2a393a" stroke-width="1" />
+<line x1="400.00" y1="401.17" x2="265.00" y2="635.00" stroke="#2a393a" stroke-width="1" />
+<text x="163.00" y="484.12" font-size="17" fill="#98a8a5" text-anchor="end" font-weight="400" >40</text>
+<text x="355.00" y="660.00" font-size="17" fill="#98a8a5" text-anchor="middle" font-weight="400" >40</text>
+<text x="412.00" y="406.17" font-size="17" fill="#98a8a5" text-anchor="start" font-weight="400" >40</text>
+<line x1="220.00" y1="401.17" x2="400.00" y2="401.17" stroke="#2a393a" stroke-width="1" />
+<line x1="175.00" y1="479.12" x2="265.00" y2="635.00" stroke="#2a393a" stroke-width="1" />
+<line x1="445.00" y1="479.12" x2="355.00" y2="635.00" stroke="#2a393a" stroke-width="1" />
+<text x="208.00" y="406.17" font-size="17" fill="#98a8a5" text-anchor="end" font-weight="400" >60</text>
+<text x="265.00" y="660.00" font-size="17" fill="#98a8a5" text-anchor="middle" font-weight="400" >60</text>
+<text x="457.00" y="484.12" font-size="17" fill="#98a8a5" text-anchor="start" font-weight="400" >60</text>
+<line x1="265.00" y1="323.23" x2="355.00" y2="323.23" stroke="#2a393a" stroke-width="1" />
+<line x1="130.00" y1="557.06" x2="175.00" y2="635.00" stroke="#2a393a" stroke-width="1" />
+<line x1="490.00" y1="557.06" x2="445.00" y2="635.00" stroke="#2a393a" stroke-width="1" />
+<text x="253.00" y="328.23" font-size="17" fill="#98a8a5" text-anchor="end" font-weight="400" >80</text>
+<text x="175.00" y="660.00" font-size="17" fill="#98a8a5" text-anchor="middle" font-weight="400" >80</text>
+<text x="502.00" y="562.06" font-size="17" fill="#98a8a5" text-anchor="start" font-weight="400" >80</text>
+<polygon points="310.000,245.289 85.000,635.000 535.000,635.000" fill="none" stroke="#98a8a5" stroke-width="1.2"/>
+<text x="310.00" y="226.29" font-size="22" fill="#e9e9df" text-anchor="middle" font-weight="400" >Clay 100%</text>
+<text x="77.00" y="675.00" font-size="22" fill="#e9e9df" text-anchor="middle" font-weight="400" >Silt 100%</text>
+<text x="543.00" y="675.00" font-size="22" fill="#e9e9df" text-anchor="middle" font-weight="400" >Sand 100%</text>
+<circle cx="301.00" cy="463.53" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E01" data-clay="44.0" data-silt="30" data-sand="26.0" fill-opacity=".8"/>
+<circle cx="292.00" cy="447.94" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E02" data-clay="48.0" data-silt="30" data-sand="22.0" fill-opacity=".8"/>
+<circle cx="283.00" cy="432.35" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E03" data-clay="52.0" data-silt="30" data-sand="18.0" fill-opacity=".8"/>
+<circle cx="274.00" cy="416.76" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E04" data-clay="56.0" data-silt="30" data-sand="14.0" fill-opacity=".8"/>
+<circle cx="278.50" cy="463.53" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E05" data-clay="44.0" data-silt="35" data-sand="21.0" fill-opacity=".8"/>
+<circle cx="269.50" cy="447.94" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E06" data-clay="48.0" data-silt="35" data-sand="17.0" fill-opacity=".8"/>
+<circle cx="260.50" cy="432.35" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E07" data-clay="52.0" data-silt="35" data-sand="13.0" fill-opacity=".8"/>
+<circle cx="251.50" cy="416.76" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E08" data-clay="56.0" data-silt="35" data-sand="9.0" fill-opacity=".8"/>
+<circle cx="256.00" cy="463.53" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E09" data-clay="44.0" data-silt="40" data-sand="16.0" fill-opacity=".8"/>
+<circle cx="247.00" cy="447.94" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E10" data-clay="48.0" data-silt="40" data-sand="12.0" fill-opacity=".8"/>
+<circle cx="238.00" cy="432.35" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E11" data-clay="52.0" data-silt="40" data-sand="8.0" fill-opacity=".8"/>
+<circle cx="229.00" cy="416.76" r="5.5" fill="#c3d8c7" data-mark="ternary" data-id="E12" data-clay="56.0" data-silt="40" data-sand="4.0" fill-opacity=".8"/>
+<circle cx="485.50" cy="611.62" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D01" data-clay="6.0" data-silt="8" data-sand="86.0" fill-opacity=".8"/>
+<circle cx="476.50" cy="596.03" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D02" data-clay="10.0" data-silt="8" data-sand="82.0" fill-opacity=".8"/>
+<circle cx="467.50" cy="580.44" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D03" data-clay="14.0" data-silt="8" data-sand="78.0" fill-opacity=".8"/>
+<circle cx="458.50" cy="564.85" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D04" data-clay="18.0" data-silt="8" data-sand="74.0" fill-opacity=".8"/>
+<circle cx="463.00" cy="611.62" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D05" data-clay="6.0" data-silt="13" data-sand="81.0" fill-opacity=".8"/>
+<circle cx="454.00" cy="596.03" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D06" data-clay="10.0" data-silt="13" data-sand="77.0" fill-opacity=".8"/>
+<circle cx="445.00" cy="580.44" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D07" data-clay="14.0" data-silt="13" data-sand="73.0" fill-opacity=".8"/>
+<circle cx="436.00" cy="564.85" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D08" data-clay="18.0" data-silt="13" data-sand="69.0" fill-opacity=".8"/>
+<circle cx="440.50" cy="611.62" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D09" data-clay="6.0" data-silt="18" data-sand="76.0" fill-opacity=".8"/>
+<circle cx="431.50" cy="596.03" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D10" data-clay="10.0" data-silt="18" data-sand="72.0" fill-opacity=".8"/>
+<circle cx="422.50" cy="580.44" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D11" data-clay="14.0" data-silt="18" data-sand="68.0" fill-opacity=".8"/>
+<circle cx="413.50" cy="564.85" r="5.5" fill="#dda96f" data-mark="ternary" data-id="D12" data-clay="18.0" data-silt="18" data-sand="64.0" fill-opacity=".8"/>
+<circle cx="233.50" cy="580.44" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L01" data-clay="14.0" data-silt="60" data-sand="26.0" fill-opacity=".8"/>
+<circle cx="224.50" cy="564.85" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L02" data-clay="18.0" data-silt="60" data-sand="22.0" fill-opacity=".8"/>
+<circle cx="215.50" cy="549.26" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L03" data-clay="22.0" data-silt="60" data-sand="18.0" fill-opacity=".8"/>
+<circle cx="206.50" cy="533.68" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L04" data-clay="26.0" data-silt="60" data-sand="14.0" fill-opacity=".8"/>
+<circle cx="211.00" cy="580.44" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L05" data-clay="14.0" data-silt="65" data-sand="21.0" fill-opacity=".8"/>
+<circle cx="202.00" cy="564.85" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L06" data-clay="18.0" data-silt="65" data-sand="17.0" fill-opacity=".8"/>
+<circle cx="193.00" cy="549.26" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L07" data-clay="22.0" data-silt="65" data-sand="13.0" fill-opacity=".8"/>
+<circle cx="184.00" cy="533.68" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L08" data-clay="26.0" data-silt="65" data-sand="9.0" fill-opacity=".8"/>
+<circle cx="188.50" cy="580.44" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L09" data-clay="14.0" data-silt="70" data-sand="16.0" fill-opacity=".8"/>
+<circle cx="179.50" cy="564.85" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L10" data-clay="18.0" data-silt="70" data-sand="12.0" fill-opacity=".8"/>
+<circle cx="170.50" cy="549.26" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L11" data-clay="22.0" data-silt="70" data-sand="8.0" fill-opacity=".8"/>
+<circle cx="161.50" cy="533.68" r="5.5" fill="#8fb8ce" data-mark="ternary" data-id="L12" data-clay="26.0" data-silt="70" data-sand="4.0" fill-opacity=".8"/>
+<circle cx="43.00" cy="155.70" r="4" fill="#c3d8c7" />
+<text x="56.00" y="160.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Estuary</text>
+<circle cx="224.33" cy="155.70" r="4" fill="#dda96f" />
+<text x="237.33" y="160.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Dune</text>
+<circle cx="405.67" cy="155.70" r="4" fill="#8fb8ce" />
+<text x="418.67" y="160.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Loess</text>
+<text x="38.00" y="724.00" font-size="20" fill="#e9e9df" text-anchor="start" font-weight="600" >Composition closes to 100% for every sample.</text>
+<text x="38.00" y="759.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Synthetic. Grid steps: 20 percentage points. No</text>
+<text x="38.00" y="785.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >geological classification boundaries inferred.</text>
+<metadata>{&quot;case&quot;: &quot;C13&quot;, &quot;state&quot;: &quot;All&quot;, &quot;n&quot;: 36, &quot;vertices&quot;: [[310.0, 245.28856829700266], [85.0, 635], [535.0, 635]]}</metadata>
+</svg>

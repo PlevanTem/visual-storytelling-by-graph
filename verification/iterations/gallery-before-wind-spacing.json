@@ -1,0 +1,666 @@
+{
+  "status": "fail",
+  "url": "http://127.0.0.1:8037/",
+  "checks": [
+    {
+      "check": "desktop_gallery_and_all_states",
+      "status": "pass",
+      "viewport": [
+        1440,
+        1000
+      ],
+      "states": [
+        {
+          "case": "C13",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C13",
+          "state": "Estuary",
+          "status": "pass"
+        },
+        {
+          "case": "C13",
+          "state": "Dune",
+          "status": "pass"
+        },
+        {
+          "case": "C13",
+          "state": "Loess",
+          "status": "pass"
+        },
+        {
+          "case": "C14",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C19",
+          "state": "0.1",
+          "status": "pass"
+        },
+        {
+          "case": "C19",
+          "state": "0.25",
+          "status": "pass"
+        },
+        {
+          "case": "C19",
+          "state": "0.45",
+          "status": "pass"
+        },
+        {
+          "case": "C18",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C17",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C17",
+          "state": "Overlaps",
+          "status": "pass"
+        },
+        {
+          "case": "C15",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C21",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C20",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C24",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C22",
+          "state": "2",
+          "status": "pass"
+        },
+        {
+          "case": "C22",
+          "state": "5",
+          "status": "pass"
+        },
+        {
+          "case": "C22",
+          "state": "10",
+          "status": "pass"
+        },
+        {
+          "case": "C16",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C23",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C01",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C02",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C03",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C04",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C04",
+          "state": "Organic",
+          "status": "pass"
+        },
+        {
+          "case": "C04",
+          "state": "Paid",
+          "status": "pass"
+        },
+        {
+          "case": "C04",
+          "state": "Partner",
+          "status": "pass"
+        },
+        {
+          "case": "C05",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C06",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C07",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C08",
+          "state": "All",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "check": "keyboard_language_copy_export_download",
+      "status": "pass",
+      "skill_download": "not_run"
+    },
+    {
+      "check": "mobile_all_works_bilingual",
+      "status": "pass",
+      "viewport": [
+        390,
+        844
+      ],
+      "works": 20
+    },
+    {
+      "check": "full_svg_text_layout",
+      "status": "fail",
+      "files": [
+        {
+          "file": "c01-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 22
+        },
+        {
+          "file": "c01-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 20
+        },
+        {
+          "file": "c02-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 17
+        },
+        {
+          "file": "c02-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 15
+        },
+        {
+          "file": "c03-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 14
+        },
+        {
+          "file": "c03-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 12
+        },
+        {
+          "file": "c04-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 20
+        },
+        {
+          "file": "c04-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 18
+        },
+        {
+          "file": "c04-organic-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 14
+        },
+        {
+          "file": "c04-organic.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 13
+        },
+        {
+          "file": "c04-paid-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 14
+        },
+        {
+          "file": "c04-paid.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 13
+        },
+        {
+          "file": "c04-partner-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 6
+        },
+        {
+          "file": "c04-partner.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 5
+        },
+        {
+          "file": "c05-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 15
+        },
+        {
+          "file": "c05-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 14
+        },
+        {
+          "file": "c06-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 31
+        },
+        {
+          "file": "c06-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 28
+        },
+        {
+          "file": "c07-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 21
+        },
+        {
+          "file": "c07-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 17
+        },
+        {
+          "file": "c08-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 27
+        },
+        {
+          "file": "c08-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 26
+        },
+        {
+          "file": "c13-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 23
+        },
+        {
+          "file": "c13-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 22
+        },
+        {
+          "file": "c13-dune-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 23
+        },
+        {
+          "file": "c13-dune.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 22
+        },
+        {
+          "file": "c13-estuary-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 23
+        },
+        {
+          "file": "c13-estuary.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 22
+        },
+        {
+          "file": "c13-loess-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 23
+        },
+        {
+          "file": "c13-loess.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 22
+        },
+        {
+          "file": "c14-all-mobile.svg",
+          "outside": [],
+          "overlaps": [
+            [
+              "N",
+              "4–8 m/s",
+              8.11126708984375,
+              14.849990844726562
+            ]
+          ],
+          "text_count": 20
+        },
+        {
+          "file": "c14-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 18
+        },
+        {
+          "file": "c15-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 34
+        },
+        {
+          "file": "c15-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 31
+        },
+        {
+          "file": "c16-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 21
+        },
+        {
+          "file": "c16-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 18
+        },
+        {
+          "file": "c17-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 28
+        },
+        {
+          "file": "c17-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 26
+        },
+        {
+          "file": "c17-overlaps-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 25
+        },
+        {
+          "file": "c17-overlaps.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 22
+        },
+        {
+          "file": "c18-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 19
+        },
+        {
+          "file": "c18-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 16
+        },
+        {
+          "file": "c19-0-1-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 17
+        },
+        {
+          "file": "c19-0-1.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 15
+        },
+        {
+          "file": "c19-0-25-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 17
+        },
+        {
+          "file": "c19-0-25.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 15
+        },
+        {
+          "file": "c19-0-45-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 17
+        },
+        {
+          "file": "c19-0-45.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 15
+        },
+        {
+          "file": "c20-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 19
+        },
+        {
+          "file": "c20-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 17
+        },
+        {
+          "file": "c21-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 14
+        },
+        {
+          "file": "c21-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 12
+        },
+        {
+          "file": "c22-10-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 18
+        },
+        {
+          "file": "c22-10.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 15
+        },
+        {
+          "file": "c22-2-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 18
+        },
+        {
+          "file": "c22-2.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 15
+        },
+        {
+          "file": "c22-5-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 18
+        },
+        {
+          "file": "c22-5.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 15
+        },
+        {
+          "file": "c23-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 15
+        },
+        {
+          "file": "c23-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 12
+        },
+        {
+          "file": "c24-all-mobile.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 19
+        },
+        {
+          "file": "c24-all.svg",
+          "outside": [],
+          "overlaps": [],
+          "text_count": 16
+        }
+      ]
+    },
+    {
+      "check": "no_js_and_no_runtime_errors",
+      "status": "pass",
+      "page_errors": [],
+      "http_errors": []
+    }
+  ],
+  "limits": "Chromium emulation and author inspection, not physical-device, screen-reader, human-comprehension or aesthetic study.",
+  "browser": "145.0.7632.6",
+  "inputs_sha256": {
+    "docs/index.html": "365b50f7ec96ea33ef6fc0b956a7deccc5640bfd27616427900b197b211b900a",
+    "docs/style.css": "03bb4aab40c6613941e57581f94d70c3383ac8a92ec74c8e3528bae728e942d5",
+    "docs/app.js": "5a46b424003b6f5bae58eb5feee34529681443ecf11269e074be0b36fc7fd9e5",
+    "docs/collection.js": "1a7d81d0606a2632cb4d07f6a85486e4dde54623e50e605bc62ae6faaf4f4267",
+    "docs/assets/c01-all-mobile.svg": "db4daf03d276d4e5ae84cf664ed7e509616dfab93ffaf4da6aff74404333f471",
+    "docs/assets/c01-all.svg": "63a2ae20589730e24e6c02e0990aa4a90f8c45feac9b0b1b136b5a74629b0d6a",
+    "docs/assets/c01-preview.svg": "fef3f67155fd40143d3f563b29e0379610fe6a9040678d31890815ed4a52e0a2",
+    "docs/assets/c02-all-mobile.svg": "1edd77ac8738f37f8225fe3c6542fe5d6c2ebdd5e9dd3287c1943765220d7aab",
+    "docs/assets/c02-all.svg": "2e38387df85ce8e77d93d90d4545d6677bf61b3d2a7081cf530145e2c10ac21a",
+    "docs/assets/c02-preview.svg": "76c9aadfcfa78ccd16af07da7b6bec5a6082443772d77ecec7362ef3690ccf23",
+    "docs/assets/c03-all-mobile.svg": "11a6e2ec6ff9ed44487b1fae0a0ffc5782b01a0603c8895bff2f83799a182512",
+    "docs/assets/c03-all.svg": "fcc3f6f8ce6eebfa9805aa4b79066dba7a75501ee42d7cd3cd696c57b1bee31e",
+    "docs/assets/c03-preview.svg": "b5ea5f4f14e9594addbcfc7d238f0aa2147788bdb5c719e353381cf50a1fbb4a",
+    "docs/assets/c04-all-mobile.svg": "39fcd63a080862f93b7acce1b4387b854a695196e964c4ed2e1ec1198a0dda92",
+    "docs/assets/c04-all.svg": "b89dd2c67663a71a7357e2d5d22111bdba3ed9f297ce6752738500f5b02e1ef4",
+    "docs/assets/c04-organic-mobile.svg": "1a099dad180f134c3c1797c12c26eed0db018fd5e5689e3d5d8abcd77df993bb",
+    "docs/assets/c04-organic.svg": "1655f7bc164737538067301744a0d00694d3d15fd879e586260e9a7027e9439f",
+    "docs/assets/c04-paid-mobile.svg": "f37385b9317cdbb05d33149be50ec64c6b60bc0986c7f0dd300debd99a8d479f",
+    "docs/assets/c04-paid.svg": "7700e85aa4e0126120e00dc8842c38cab04ed26046f9a655b58022f224b09c46",
+    "docs/assets/c04-partner-mobile.svg": "9d714e9ce73d7c52913cca5249cbe875aa39e74b3140be78074821d24bc913b6",
+    "docs/assets/c04-partner.svg": "4ee1f28ad4bfd6b32c52401f05df0d30a4b0979d3e46cd2d00b6919adf908b62",
+    "docs/assets/c04-preview.svg": "f3af31b275ee35acdaa0dfceb1258dc0ee2955f84a29c6b24c516ba5a9257743",
+    "docs/assets/c05-all-mobile.svg": "03c4283d9736be7bcd1fc2e326b419429047425ca5d26d542af5cce76702eb96",
+    "docs/assets/c05-all.svg": "80f428ce2be213a2c19dfeb8adf714eb2865f21916743e583c59afce59b7582d",
+    "docs/assets/c05-preview.svg": "336d499dff5b54576a6d93968d75bf3793ad7b59d520eed0598613cda5692a7c",
+    "docs/assets/c06-all-mobile.svg": "4759e344805da3d8a5d3001a767363b6449510be0b0638579c2d5f6e26b9ebb3",
+    "docs/assets/c06-all.svg": "297739bf1d550faec50c821d42f563ec4292d6aab5c13b47980d59d64d012369",
+    "docs/assets/c06-preview.svg": "189d75c3fe5d5635d61fa799a2301ae7afb37834d48137d5dbbc708fd19150fa",
+    "docs/assets/c07-all-mobile.svg": "a6f370f68d851fbc5a6db5450c5d0b0f82888910627b3b72c4ed81285232c2e1",
+    "docs/assets/c07-all.svg": "2a8b5d9238d5606c39a14c2d878cb47fd4d15b34da778955d4fe56ee4a8aa229",
+    "docs/assets/c07-preview.svg": "bf8aae0f8bc40169375ea08293704a215463732040c9613eb94fd3b616286830",
+    "docs/assets/c08-all-mobile.svg": "18e02a61035bfb495421e3ffe73ee9bc4226b0cfe03186a56578ff39a08f0f01",
+    "docs/assets/c08-all.svg": "fbd81ffec715688e81ae5328be7de43c43f39378e4e40af32aaa09ca375fe690",
+    "docs/assets/c08-preview.svg": "be246989da3b8aa91853e4de46f4fc23d4cfe5546d157260d0007e09dd6fb252",
+    "docs/assets/c13-all-mobile.svg": "18ac85d2e6c24d28749ac8ade05ffefe730d2191d199673c7728ace08b6d705a",
+    "docs/assets/c13-all.svg": "a3b270b8e89ed6d150583b868ddeb6196d39e3c26be5d46051f6eb2d14c87d15",
+    "docs/assets/c13-dune-mobile.svg": "91d45e1e477f12d7e8d9b3f23c5e985de41b403f16bc5376c9e6a344c5689140",
+    "docs/assets/c13-dune.svg": "3949cf9001ba88c1d1b01c985a4a5745cf3916b8e140580380cdb7cb172f0caf",
+    "docs/assets/c13-estuary-mobile.svg": "526c1ea26e566e8677d9e530e4c67378fb397714c62bd204f40c7c9f1127fadf",
+    "docs/assets/c13-estuary.svg": "13ed1b43e4244c65d6a3f148a63ad11b8686a3961f4a52ec96df731d63245ce6",
+    "docs/assets/c13-loess-mobile.svg": "36453f6b3ccd712b19db50591df2ba020f9edf5cdf346f55c920e1dcacbd3775",
+    "docs/assets/c13-loess.svg": "f382f4faf5d2e2fd7e0e5726b0badc633c97681d35a9ad088b55804ec17b8b1f",
+    "docs/assets/c13-preview.svg": "8248ebc639aa39b7f9914e6b1e15555dd6aa6a2a2ed10c5868332d9f80ab0d38",
+    "docs/assets/c14-all-mobile.svg": "bb16b36d8e756f2025f73173710cf06ff983646f4205e5ab758c555729f2e6c8",
+    "docs/assets/c14-all.svg": "d675eaae3fdfab978a02ed88a074d6aeb604052a117de7ed9ede603658a0e5e5",
+    "docs/assets/c14-preview.svg": "dfbafff986b1db0f45e29067ed9e96bd4ddd4e3f44845e50a603a04f4bb9c8fd",
+    "docs/assets/c15-all-mobile.svg": "0783a111314a58f4c45fa5a366070b6d601c11fe8c457cdbd8c856801a1950ae",
+    "docs/assets/c15-all.svg": "5562fcc0fc19451abc5fb3098ea41e510001db3e6bf169f471cee9d6772a771d",
+    "docs/assets/c15-preview.svg": "2c58fec093883e344423689c3ae9bc306f0b443488b7e3ebd6d74a35e687266b",
+    "docs/assets/c16-all-mobile.svg": "99958e378a3f4226e5382a2471c54484e4c13af33131e7d1c2a67a4d195d80ae",
+    "docs/assets/c16-all.svg": "14adffbfaa8d9becfa527fb05c0d3487f043cf570999ec03a1d5fc0565b31af5",
+    "docs/assets/c16-preview.svg": "c4e6c9b465f345c27f401ae1be5dd944d0e7438ca45475f798a499e5f6a34799",
+    "docs/assets/c17-all-mobile.svg": "64063023f58cd7f9740ffe39287a20ebcd4cb47b8112ab1bb8acadc334a34fe8",
+    "docs/assets/c17-all.svg": "5f011418244e8114f661df8c2f1ae40b013442814286d9e7246629efd888bf75",
+    "docs/assets/c17-overlaps-mobile.svg": "8eacb19b0127378f460db435a8724661e02f8ac91593f1674e0a3a35e5fc70f4",
+    "docs/assets/c17-overlaps.svg": "4c485895404f15c55aece00e8b134fe8d8b3a44caebca7da1bc28ff76f5ae68e",
+    "docs/assets/c17-preview.svg": "0a427ef4d380b370300b219e9826c82f659f479922664c890918896df6966944",
+    "docs/assets/c18-all-mobile.svg": "8d624736dc08bb4e9be543ba745d67acc230c65b9dacacedf47008665f968e60",
+    "docs/assets/c18-all.svg": "ab5a0a833835ee3bd4f283dd32e24d6697673f8c1c4d5bc660a7d78e1d22af2e",
+    "docs/assets/c18-preview.svg": "c607a305a0639797cbbddde16ccf97130fa126b30265269d0b71a96c21ac4f24",
+    "docs/assets/c19-0-1-mobile.svg": "ce9fa4d2451ed124b034d74b096fce11451cd3b7074d36ab9479f7e1e733bf94",
+    "docs/assets/c19-0-1.svg": "13583d87dd3577fbde150636468953cc6194ae24cac490ee2eca86e1067afc94",
+    "docs/assets/c19-0-25-mobile.svg": "5c2cbeccd6d7137209ff4f69d50e37965874108caf552a0162352197c85dd9da",
+    "docs/assets/c19-0-25.svg": "b00688e992e5a1001096678f1d718cf7fc501067c35e58132adcec832d974004",
+    "docs/assets/c19-0-45-mobile.svg": "8b65e7dd3b669357b94fcceb2318c5be737e5ce81119c45d63b63eb5f94bc1bb",
+    "docs/assets/c19-0-45.svg": "107155b3d1ca96f2d3d2db1f5ee454eccf05596f7fea5931369a23d41c5017ae",
+    "docs/assets/c19-preview.svg": "d2de2316bb548bfb28dea82fe33dfb3de77ce8ff12370b5bb88eb69dbd4881eb",
+    "docs/assets/c20-all-mobile.svg": "b908f70c4caad7c29ce20af8c417be964f408ee830f271cc8df2cae30846487b",
+    "docs/assets/c20-all.svg": "d5854592fdabc6e7ccbe4c07cfd35f59525d47adf76750f1385260cb3ef0de23",
+    "docs/assets/c20-preview.svg": "b7fadd2671016eccdf9e45cb70c97e736c2f21354c7a8c0dacf5b1ec1c40f78e",
+    "docs/assets/c21-all-mobile.svg": "089969a7790ffbbee463b801397e613cdb42995c66f2b92c6fe491ee2c8ce226",
+    "docs/assets/c21-all.svg": "bf9faa87c8f49157a5a745799f4d2644081f1c13fbde52dd9fa7c4003373fb45",
+    "docs/assets/c21-preview.svg": "30757bf651403c1f6748631cdfda2b12acb58d794ab698c8e474f6c8c59e6686",
+    "docs/assets/c22-10-mobile.svg": "f187c4ac4eb7fbb874dad0516812edad5fc6c15f32193cfeff7d641a0eba6102",
+    "docs/assets/c22-10.svg": "913a0f1371dc93133e01a87452abee1f195179a3a9137ec553206a514baa95b8",
+    "docs/assets/c22-2-mobile.svg": "ce2590cfa45d8e23f92527e31ba8a6b454d4c9d3ef759cc496c0a9457c3c0abe",
+    "docs/assets/c22-2.svg": "f491bd2610f2a7e0ac65ac93476958a0e76ffd67fe8e51cab16746b7f5f50bc3",
+    "docs/assets/c22-5-mobile.svg": "4ad41b135d4d0160ead3add69b7fb6fa5b8d9a7edac05c36370a71ede58561e6",
+    "docs/assets/c22-5.svg": "064c740177900fa6d87cdcb10e4d6fa181ac7ffa3481c9a1fd0705234404b8b1",
+    "docs/assets/c22-preview.svg": "443dfebd0cf6c67a2ae527d2c7aaded797833532a1bd1bf81127872693b970b5",
+    "docs/assets/c23-all-mobile.svg": "d25951c1d8db63ed808deadfae761f08209f35a8e8e1105e35d53d965bfa00d8",
+    "docs/assets/c23-all.svg": "246b1c1969932e834ddb66790372dc9f3d1660c743b3476bd77b108922279d15",
+    "docs/assets/c23-preview.svg": "01b32c4869777cdf86c33c169a9577632856777fd68db88b7e3515fafbf79b55",
+    "docs/assets/c24-all-mobile.svg": "e9ead0cced79a20fb25d935d11d010a85d921f59b541409fd20f72ee2eaa76b0",
+    "docs/assets/c24-all.svg": "a480f10ca9c48e16846fce90b2a88f60e042b222f2819d2551f4dc4fa565e5bb",
+    "docs/assets/c24-preview.svg": "98f0a11af73ace71cd8a74ce6fc8874b866b0153f25f48a7367858253f67cb63"
+  }
+}

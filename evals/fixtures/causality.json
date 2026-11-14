@@ -1,0 +1,33 @@
+{
+  "synthetic": true,
+  "unit": "USD thousands per week",
+  "rows": [
+    {
+      "week": "W1",
+      "revenue": 220,
+      "redesign": false
+    },
+    {
+      "week": "W2",
+      "revenue": 240,
+      "redesign": false
+    },
+    {
+      "week": "W3",
+      "revenue": 260,
+      "redesign": true
+    },
+    {
+      "week": "W4",
+      "revenue": 275,
+      "redesign": true
+    }
+  ],
+  "missing": [
+    "traffic",
+    "ad spend",
+    "seasonality",
+    "control group",
+    "random assignment"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "synthetic": true,
+  "unit": "service requests in one month",
+  "population_unit": "residents",
+  "rows": [
+    {
+      "region": "North",
+      "requests": 960,
+      "population": 240000
+    },
+    {
+      "region": "East",
+      "requests": 720,
+      "population": 90000
+    },
+    {
+      "region": "South",
+      "requests": 600,
+      "population": 60000
+    },
+    {
+      "region": "West",
+      "requests": 300,
+      "population": 150000
+    }
+  ]
+}

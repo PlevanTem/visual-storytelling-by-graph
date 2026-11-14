@@ -1,0 +1,25 @@
+{
+  "synthetic": true,
+  "unit": "USD thousands",
+  "period": "2026 Q3 to Q4",
+  "opening": 1200,
+  "contributions": [
+    {
+      "label": "New business",
+      "value": 320
+    },
+    {
+      "label": "Expansion",
+      "value": 180
+    },
+    {
+      "label": "Contraction",
+      "value": -90
+    },
+    {
+      "label": "Churn",
+      "value": -110
+    }
+  ],
+  "closing": 1500
+}

@@ -1,0 +1,264 @@
+{
+  "synthetic": true,
+  "unit": "mass percent; clay+silt+sand=100",
+  "rows": [
+    {
+      "id": "E01",
+      "group": "Estuary",
+      "clay": 44.0,
+      "silt": 30,
+      "sand": 26.0
+    },
+    {
+      "id": "E02",
+      "group": "Estuary",
+      "clay": 48.0,
+      "silt": 30,
+      "sand": 22.0
+    },
+    {
+      "id": "E03",
+      "group": "Estuary",
+      "clay": 52.0,
+      "silt": 30,
+      "sand": 18.0
+    },
+    {
+      "id": "E04",
+      "group": "Estuary",
+      "clay": 56.0,
+      "silt": 30,
+      "sand": 14.0
+    },
+    {
+      "id": "E05",
+      "group": "Estuary",
+      "clay": 44.0,
+      "silt": 35,
+      "sand": 21.0
+    },
+    {
+      "id": "E06",
+      "group": "Estuary",
+      "clay": 48.0,
+      "silt": 35,
+      "sand": 17.0
+    },
+    {
+      "id": "E07",
+      "group": "Estuary",
+      "clay": 52.0,
+      "silt": 35,
+      "sand": 13.0
+    },
+    {
+      "id": "E08",
+      "group": "Estuary",
+      "clay": 56.0,
+      "silt": 35,
+      "sand": 9.0
+    },
+    {
+      "id": "E09",
+      "group": "Estuary",
+      "clay": 44.0,
+      "silt": 40,
+      "sand": 16.0
+    },
+    {
+      "id": "E10",
+      "group": "Estuary",
+      "clay": 48.0,
+      "silt": 40,
+      "sand": 12.0
+    },
+    {
+      "id": "E11",
+      "group": "Estuary",
+      "clay": 52.0,
+      "silt": 40,
+      "sand": 8.0
+    },
+    {
+      "id": "E12",
+      "group": "Estuary",
+      "clay": 56.0,
+      "silt": 40,
+      "sand": 4.0
+    },
+    {
+      "id": "D01",
+      "group": "Dune",
+      "clay": 6.0,
+      "silt": 8,
+      "sand": 86.0
+    },
+    {
+      "id": "D02",
+      "group": "Dune",
+      "clay": 10.0,
+      "silt": 8,
+      "sand": 82.0
+    },
+    {
+      "id": "D03",
+      "group": "Dune",
+      "clay": 14.0,
+      "silt": 8,
+      "sand": 78.0
+    },
+    {
+      "id": "D04",
+      "group": "Dune",
+      "clay": 18.0,
+      "silt": 8,
+      "sand": 74.0
+    },
+    {
+      "id": "D05",
+      "group": "Dune",
+      "clay": 6.0,
+      "silt": 13,
+      "sand": 81.0
+    },
+    {
+      "id": "D06",
+      "group": "Dune",
+      "clay": 10.0,
+      "silt": 13,
+      "sand": 77.0
+    },
+    {
+      "id": "D07",
+      "group": "Dune",
+      "clay": 14.0,
+      "silt": 13,
+      "sand": 73.0
+    },
+    {
+      "id": "D08",
+      "group": "Dune",
+      "clay": 18.0,
+      "silt": 13,
+      "sand": 69.0
+    },
+    {
+      "id": "D09",
+      "group": "Dune",
+      "clay": 6.0,
+      "silt": 18,
+      "sand": 76.0
+    },
+    {
+      "id": "D10",
+      "group": "Dune",
+      "clay": 10.0,
+      "silt": 18,
+      "sand": 72.0
+    },
+    {
+      "id": "D11",
+      "group": "Dune",
+      "clay": 14.0,
+      "silt": 18,
+      "sand": 68.0
+    },
+    {
+      "id": "D12",
+      "group": "Dune",
+      "clay": 18.0,
+      "silt": 18,
+      "sand": 64.0
+    },
+    {
+      "id": "L01",
+      "group": "Loess",
+      "clay": 14.0,
+      "silt": 60,
+      "sand": 26.0
+    },
+    {
+      "id": "L02",
+      "group": "Loess",
+      "clay": 18.0,
+      "silt": 60,
+      "sand": 22.0
+    },
+    {
+      "id": "L03",
+      "group": "Loess",
+      "clay": 22.0,
+      "silt": 60,
+      "sand": 18.0
+    },
+    {
+      "id": "L04",
+      "group": "Loess",
+      "clay": 26.0,
+      "silt": 60,
+      "sand": 14.0
+    },
+    {
+      "id": "L05",
+      "group": "Loess",
+      "clay": 14.0,
+      "silt": 65,
+      "sand": 21.0
+    },
+    {
+      "id": "L06",
+      "group": "Loess",
+      "clay": 18.0,
+      "silt": 65,
+      "sand": 17.0
+    },
+    {
+      "id": "L07",
+      "group": "Loess",
+      "clay": 22.0,
+      "silt": 65,
+      "sand": 13.0
+    },
+    {
+      "id": "L08",
+      "group": "Loess",
+      "clay": 26.0,
+      "silt": 65,
+      "sand": 9.0
+    },
+    {
+      "id": "L09",
+      "group": "Loess",
+      "clay": 14.0,
+      "silt": 70,
+      "sand": 16.0
+    },
+    {
+      "id": "L10",
+      "group": "Loess",
+      "clay": 18.0,
+      "silt": 70,
+      "sand": 12.0
+    },
+    {
+      "id": "L11",
+      "group": "Loess",
+      "clay": 22.0,
+      "silt": 70,
+      "sand": 8.0
+    },
+    {
+      "id": "L12",
+      "group": "Loess",
+      "clay": 26.0,
+      "silt": 70,
+      "sand": 4.0
+    }
+  ],
+  "parts": [
+    "clay",
+    "silt",
+    "sand"
+  ],
+  "method": "closed three-part composition; no geological classification inferred"
+}

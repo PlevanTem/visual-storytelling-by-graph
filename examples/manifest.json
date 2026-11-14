@@ -1,0 +1,26 @@
+{
+  "hash_scheme": "SHA256 UTF-8 text, CRLF normalized to LF",
+  "sha256": {
+    "examples/app.js": "e132f236a7af5ae6f66cea00cf4daee94c3b177401c57017588e2626a66b02ee",
+    "examples/calculations.json": "0c16f25fb37994853085b58e11d025b1e6cbd82941f669e8cc257e4233da87e8",
+    "examples/charts/01-revenue-mobile.svg": "af10badf98ec9e8947d2130080c9d6497760ab7d36bf790c0a3835ec707cc81f",
+    "examples/charts/01-revenue.svg": "8fb040f7d77f0edbd420430aaf6b5cd82f6640d29bb8caf56d9f5a5d9fc0a04e",
+    "examples/charts/02-latency-mobile.svg": "a0108ec0d800309d563fe36675e2b7eee697a8f1a7db454e233fa255a8da3e2b",
+    "examples/charts/02-latency.svg": "7e365ce30023c1fba06b6f897486399483ce614e84f8d6f956989a483b5be7c5",
+    "examples/charts/03-paired-mobile.svg": "daf64f608ee794c7e9037614cb16c79fbc91e545ea08a5b74ff7c0c585a291c4",
+    "examples/charts/03-paired.svg": "64d0e0404474aa42ce77143f1b39563cdf817a5ddca50a5ba939a38a85139add",
+    "examples/charts/04-conversion-mobile.svg": "105a4175582f1c28dd5f87445cedac6d0b09424548f65f56cf12e96ab077fa83",
+    "examples/charts/04-conversion.svg": "eb6aa40860856a512220bb8e58ca9a112e85fe7c0792e4085f3b4943c36c08ca",
+    "examples/charts/05-sensor-mobile.svg": "1b444b506b09a163db6d6534c0d8748bac9ff3bfc00806c4679b2a5f17eace2c",
+    "examples/charts/05-sensor.svg": "098aa01de523edef60b49352eeb872283d0c4b80d7919a50acc7e3f132d4ca68",
+    "examples/charts/06-geography-mobile.svg": "2c350f63a51cdad143fea2c45cbf03a7a931f8726f0a8afc563287678fa24447",
+    "examples/charts/06-geography.svg": "886b2858012e87558ed73ff959b13a15881d9d43d3d7d4a938e0945efb5cf605",
+    "examples/charts/07-uncertainty-mobile.svg": "db9532afedd5f90fb071b318fd4cf039f1eb930c4fe938ce5e1f7cfe7db5188e",
+    "examples/charts/07-uncertainty.svg": "6d467affbb3642e18f6ac981cdf273a68bce74bc48e2758099e3fda77c4e1734",
+    "examples/charts/08-ledger-mobile.svg": "63a3f6320d7e26628ee9c55bf0976623f5965c1a77ee006527b34414cd692a36",
+    "examples/charts/08-ledger.svg": "8cb465593fe7175beea13288bb348fe7dbd002e410e597203d7429cfbfba9101",
+    "examples/index.html": "dd0e8823cc960a0a59ede6c5d35e53108779d95d5dd96f9f22e2b79898117259",
+    "examples/plans.json": "bf35168b46e9a3ee5c8b022f475015c2baae723cd1748f7357cd83945fdd4f5d",
+    "examples/style.css": "92d0c84b14ed38970145e608992e652e88fdb3f20fe4fa3a0617b4b3d255d1b2"
+  }
+}

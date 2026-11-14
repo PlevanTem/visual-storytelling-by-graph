@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Storytelling by Graph"
+  short_description: "Choose, design, and verify charts from user intent"
+  default_prompt: "Use $visual-storytelling-by-graph to turn my question and data into a clear, accurate visualization and verify the result."

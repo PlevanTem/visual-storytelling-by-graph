@@ -1,0 +1,371 @@
+{
+  "synthetic": true,
+  "unit": "unique repaired devices; one record per device",
+  "stages": [
+    "Intake",
+    "Diagnosis",
+    "Outcome"
+  ],
+  "rows": [
+    {
+      "id": "R00-00",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R00-01",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R00-02",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R00-03",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R00-04",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R00-05",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R00-06",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R00-07",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R00-08",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R00-09",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R00-10",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R00-11",
+      "Intake": "Audio",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R01-00",
+      "Intake": "Audio",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R01-01",
+      "Intake": "Audio",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R01-02",
+      "Intake": "Audio",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R01-03",
+      "Intake": "Audio",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R02-00",
+      "Intake": "Audio",
+      "Diagnosis": "Failed",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R02-01",
+      "Intake": "Audio",
+      "Diagnosis": "Failed",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R02-02",
+      "Intake": "Audio",
+      "Diagnosis": "Failed",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R02-03",
+      "Intake": "Audio",
+      "Diagnosis": "Failed",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R02-04",
+      "Intake": "Audio",
+      "Diagnosis": "Failed",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R03-00",
+      "Intake": "Optical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R03-01",
+      "Intake": "Optical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R03-02",
+      "Intake": "Optical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R03-03",
+      "Intake": "Optical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R03-04",
+      "Intake": "Optical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R03-05",
+      "Intake": "Optical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R03-06",
+      "Intake": "Optical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R03-07",
+      "Intake": "Optical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R04-00",
+      "Intake": "Optical",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R04-01",
+      "Intake": "Optical",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R04-02",
+      "Intake": "Optical",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R04-03",
+      "Intake": "Optical",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R04-04",
+      "Intake": "Optical",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R05-00",
+      "Intake": "Optical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    },
+    {
+      "id": "R05-01",
+      "Intake": "Optical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    },
+    {
+      "id": "R05-02",
+      "Intake": "Optical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    },
+    {
+      "id": "R05-03",
+      "Intake": "Optical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    },
+    {
+      "id": "R05-04",
+      "Intake": "Optical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    },
+    {
+      "id": "R05-05",
+      "Intake": "Optical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    },
+    {
+      "id": "R06-00",
+      "Intake": "Mechanical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R06-01",
+      "Intake": "Mechanical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R06-02",
+      "Intake": "Mechanical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R06-03",
+      "Intake": "Mechanical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R06-04",
+      "Intake": "Mechanical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R06-05",
+      "Intake": "Mechanical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R06-06",
+      "Intake": "Mechanical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R06-07",
+      "Intake": "Mechanical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R06-08",
+      "Intake": "Mechanical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R06-09",
+      "Intake": "Mechanical",
+      "Diagnosis": "Repairable",
+      "Outcome": "Reuse"
+    },
+    {
+      "id": "R07-00",
+      "Intake": "Mechanical",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R07-01",
+      "Intake": "Mechanical",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R07-02",
+      "Intake": "Mechanical",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R07-03",
+      "Intake": "Mechanical",
+      "Diagnosis": "Intermittent",
+      "Outcome": "Parts"
+    },
+    {
+      "id": "R08-00",
+      "Intake": "Mechanical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    },
+    {
+      "id": "R08-01",
+      "Intake": "Mechanical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    },
+    {
+      "id": "R08-02",
+      "Intake": "Mechanical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    },
+    {
+      "id": "R08-03",
+      "Intake": "Mechanical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    },
+    {
+      "id": "R08-04",
+      "Intake": "Mechanical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    },
+    {
+      "id": "R08-05",
+      "Intake": "Mechanical",
+      "Diagnosis": "Failed",
+      "Outcome": "Recycle"
+    }
+  ]
+}

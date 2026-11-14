@@ -1,0 +1,492 @@
+{
+  "synthetic": true,
+  "unit": "normalized input and response, dimensionless",
+  "construction": "illustrative periodic input with lagged nonlinear response; not a fitted physical law",
+  "rows": [
+    {
+      "step": 0,
+      "input": 1.0,
+      "response": 0.995055
+    },
+    {
+      "step": 1,
+      "input": 0.997859,
+      "response": 0.995488
+    },
+    {
+      "step": 2,
+      "input": 0.991445,
+      "response": 0.995774
+    },
+    {
+      "step": 3,
+      "input": 0.980785,
+      "response": 0.995937
+    },
+    {
+      "step": 4,
+      "input": 0.965926,
+      "response": 0.995988
+    },
+    {
+      "step": 5,
+      "input": 0.94693,
+      "response": 0.995933
+    },
+    {
+      "step": 6,
+      "input": 0.92388,
+      "response": 0.995766
+    },
+    {
+      "step": 7,
+      "input": 0.896873,
+      "response": 0.995474
+    },
+    {
+      "step": 8,
+      "input": 0.866025,
+      "response": 0.995036
+    },
+    {
+      "step": 9,
+      "input": 0.83147,
+      "response": 0.994413
+    },
+    {
+      "step": 10,
+      "input": 0.793353,
+      "response": 0.993554
+    },
+    {
+      "step": 11,
+      "input": 0.75184,
+      "response": 0.992378
+    },
+    {
+      "step": 12,
+      "input": 0.707107,
+      "response": 0.990772
+    },
+    {
+      "step": 13,
+      "input": 0.659346,
+      "response": 0.988571
+    },
+    {
+      "step": 14,
+      "input": 0.608761,
+      "response": 0.985535
+    },
+    {
+      "step": 15,
+      "input": 0.55557,
+      "response": 0.981315
+    },
+    {
+      "step": 16,
+      "input": 0.5,
+      "response": 0.975397
+    },
+    {
+      "step": 17,
+      "input": 0.442289,
+      "response": 0.967032
+    },
+    {
+      "step": 18,
+      "input": 0.382683,
+      "response": 0.955124
+    },
+    {
+      "step": 19,
+      "input": 0.321439,
+      "response": 0.938087
+    },
+    {
+      "step": 20,
+      "input": 0.258819,
+      "response": 0.913653
+    },
+    {
+      "step": 21,
+      "input": 0.19509,
+      "response": 0.878669
+    },
+    {
+      "step": 22,
+      "input": 0.130526,
+      "response": 0.828939
+    },
+    {
+      "step": 23,
+      "input": 0.065403,
+      "response": 0.759273
+    },
+    {
+      "step": 24,
+      "input": 0.0,
+      "response": 0.664037
+    },
+    {
+      "step": 25,
+      "input": -0.065403,
+      "response": 0.538526
+    },
+    {
+      "step": 26,
+      "input": -0.130526,
+      "response": 0.381298
+    },
+    {
+      "step": 27,
+      "input": -0.19509,
+      "response": 0.196758
+    },
+    {
+      "step": 28,
+      "input": -0.258819,
+      "response": -0.003716
+    },
+    {
+      "step": 29,
+      "input": -0.321439,
+      "response": -0.203877
+    },
+    {
+      "step": 30,
+      "input": -0.382683,
+      "response": -0.387578
+    },
+    {
+      "step": 31,
+      "input": -0.442289,
+      "response": -0.543682
+    },
+    {
+      "step": 32,
+      "input": -0.5,
+      "response": -0.668031
+    },
+    {
+      "step": 33,
+      "input": -0.55557,
+      "response": -0.762238
+    },
+    {
+      "step": 34,
+      "input": -0.608761,
+      "response": -0.831075
+    },
+    {
+      "step": 35,
+      "input": -0.659346,
+      "response": -0.88018
+    },
+    {
+      "step": 36,
+      "input": -0.707107,
+      "response": -0.91471
+    },
+    {
+      "step": 37,
+      "input": -0.75184,
+      "response": -0.938824
+    },
+    {
+      "step": 38,
+      "input": -0.793353,
+      "response": -0.955639
+    },
+    {
+      "step": 39,
+      "input": -0.83147,
+      "response": -0.967392
+    },
+    {
+      "step": 40,
+      "input": -0.866025,
+      "response": -0.975651
+    },
+    {
+      "step": 41,
+      "input": -0.896873,
+      "response": -0.981495
+    },
+    {
+      "step": 42,
+      "input": -0.92388,
+      "response": -0.985665
+    },
+    {
+      "step": 43,
+      "input": -0.94693,
+      "response": -0.988664
+    },
+    {
+      "step": 44,
+      "input": -0.965926,
+      "response": -0.99084
+    },
+    {
+      "step": 45,
+      "input": -0.980785,
+      "response": -0.992427
+    },
+    {
+      "step": 46,
+      "input": -0.991445,
+      "response": -0.99359
+    },
+    {
+      "step": 47,
+      "input": -0.997859,
+      "response": -0.99444
+    },
+    {
+      "step": 48,
+      "input": -1.0,
+      "response": -0.995055
+    },
+    {
+      "step": 49,
+      "input": -0.997859,
+      "response": -0.995488
+    },
+    {
+      "step": 50,
+      "input": -0.991445,
+      "response": -0.995774
+    },
+    {
+      "step": 51,
+      "input": -0.980785,
+      "response": -0.995937
+    },
+    {
+      "step": 52,
+      "input": -0.965926,
+      "response": -0.995988
+    },
+    {
+      "step": 53,
+      "input": -0.94693,
+      "response": -0.995933
+    },
+    {
+      "step": 54,
+      "input": -0.92388,
+      "response": -0.995766
+    },
+    {
+      "step": 55,
+      "input": -0.896873,
+      "response": -0.995474
+    },
+    {
+      "step": 56,
+      "input": -0.866025,
+      "response": -0.995036
+    },
+    {
+      "step": 57,
+      "input": -0.83147,
+      "response": -0.994413
+    },
+    {
+      "step": 58,
+      "input": -0.793353,
+      "response": -0.993554
+    },
+    {
+      "step": 59,
+      "input": -0.75184,
+      "response": -0.992378
+    },
+    {
+      "step": 60,
+      "input": -0.707107,
+      "response": -0.990772
+    },
+    {
+      "step": 61,
+      "input": -0.659346,
+      "response": -0.988571
+    },
+    {
+      "step": 62,
+      "input": -0.608761,
+      "response": -0.985535
+    },
+    {
+      "step": 63,
+      "input": -0.55557,
+      "response": -0.981315
+    },
+    {
+      "step": 64,
+      "input": -0.5,
+      "response": -0.975397
+    },
+    {
+      "step": 65,
+      "input": -0.442289,
+      "response": -0.967032
+    },
+    {
+      "step": 66,
+      "input": -0.382683,
+      "response": -0.955124
+    },
+    {
+      "step": 67,
+      "input": -0.321439,
+      "response": -0.938087
+    },
+    {
+      "step": 68,
+      "input": -0.258819,
+      "response": -0.913653
+    },
+    {
+      "step": 69,
+      "input": -0.19509,
+      "response": -0.878669
+    },
+    {
+      "step": 70,
+      "input": -0.130526,
+      "response": -0.828939
+    },
+    {
+      "step": 71,
+      "input": -0.065403,
+      "response": -0.759273
+    },
+    {
+      "step": 72,
+      "input": -0.0,
+      "response": -0.664037
+    },
+    {
+      "step": 73,
+      "input": 0.065403,
+      "response": -0.538526
+    },
+    {
+      "step": 74,
+      "input": 0.130526,
+      "response": -0.381298
+    },
+    {
+      "step": 75,
+      "input": 0.19509,
+      "response": -0.196758
+    },
+    {
+      "step": 76,
+      "input": 0.258819,
+      "response": 0.003716
+    },
+    {
+      "step": 77,
+      "input": 0.321439,
+      "response": 0.203877
+    },
+    {
+      "step": 78,
+      "input": 0.382683,
+      "response": 0.387578
+    },
+    {
+      "step": 79,
+      "input": 0.442289,
+      "response": 0.543682
+    },
+    {
+      "step": 80,
+      "input": 0.5,
+      "response": 0.668031
+    },
+    {
+      "step": 81,
+      "input": 0.55557,
+      "response": 0.762238
+    },
+    {
+      "step": 82,
+      "input": 0.608761,
+      "response": 0.831075
+    },
+    {
+      "step": 83,
+      "input": 0.659346,
+      "response": 0.88018
+    },
+    {
+      "step": 84,
+      "input": 0.707107,
+      "response": 0.91471
+    },
+    {
+      "step": 85,
+      "input": 0.75184,
+      "response": 0.938824
+    },
+    {
+      "step": 86,
+      "input": 0.793353,
+      "response": 0.955639
+    },
+    {
+      "step": 87,
+      "input": 0.83147,
+      "response": 0.967392
+    },
+    {
+      "step": 88,
+      "input": 0.866025,
+      "response": 0.975651
+    },
+    {
+      "step": 89,
+      "input": 0.896873,
+      "response": 0.981495
+    },
+    {
+      "step": 90,
+      "input": 0.92388,
+      "response": 0.985665
+    },
+    {
+      "step": 91,
+      "input": 0.94693,
+      "response": 0.988664
+    },
+    {
+      "step": 92,
+      "input": 0.965926,
+      "response": 0.99084
+    },
+    {
+      "step": 93,
+      "input": 0.980785,
+      "response": 0.992427
+    },
+    {
+      "step": 94,
+      "input": 0.991445,
+      "response": 0.99359
+    },
+    {
+      "step": 95,
+      "input": 0.997859,
+      "response": 0.99444
+    },
+    {
+      "step": 96,
+      "input": 1.0,
+      "response": 0.995055
+    }
+  ]
+}

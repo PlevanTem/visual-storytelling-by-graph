@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="610" viewBox="0 0 1000 610" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Capacity and intensity answer different questions</title>
+<desc id="desc">Monthly service requests / totals and requests per 1,000 residents. Synthetic demonstration data. C06.</desc>
+<rect width="1000" height="610" fill="#101719"/>
+<text x="58.00" y="46.00" font-size="33" fill="#e9e9df" text-anchor="start" font-weight="650" >Capacity and intensity answer different questions</text>
+<text x="58.00" y="100.90" font-size="16" fill="#98a8a5" text-anchor="start" font-weight="400" >Monthly service requests / totals and requests per 1,000 residents</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<text x="168.00" y="183.70" font-size="16" fill="#e9e9df" text-anchor="start" font-weight="600" >Requests</text>
+<line x1="168.00" y1="203.70" x2="168.00" y2="359.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="168.00" y="390.70" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400" >0</text>
+<line x1="309.00" y1="203.70" x2="309.00" y2="359.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="309.00" y="390.70" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400" >500</text>
+<line x1="450.00" y1="203.70" x2="450.00" y2="359.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="450.00" y="390.70" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400" >1000</text>
+<text x="155.00" y="224.70" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400" >North</text>
+<line x1="168.00" y1="218.70" x2="438.72" y2="218.70" stroke="#476563" stroke-width="3" />
+<circle cx="438.72" cy="218.70" r="6" fill="#c3d8c7" data-mark="geo" data-region="North" data-metric="requests" data-value="960"/>
+<text x="450.72" y="224.70" font-size="15" fill="#c3d8c7" text-anchor="start" font-weight="600" >960</text>
+<text x="155.00" y="267.70" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400" >East</text>
+<line x1="168.00" y1="261.70" x2="371.04" y2="261.70" stroke="#476563" stroke-width="3" />
+<circle cx="371.04" cy="261.70" r="6" fill="#8fb8ce" data-mark="geo" data-region="East" data-metric="requests" data-value="720"/>
+<text x="383.04" y="267.70" font-size="15" fill="#8fb8ce" text-anchor="start" font-weight="600" >720</text>
+<text x="155.00" y="310.70" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400" >South</text>
+<line x1="168.00" y1="304.70" x2="337.20" y2="304.70" stroke="#476563" stroke-width="3" />
+<circle cx="337.20" cy="304.70" r="6" fill="#8fb8ce" data-mark="geo" data-region="South" data-metric="requests" data-value="600"/>
+<text x="349.20" y="310.70" font-size="15" fill="#8fb8ce" text-anchor="start" font-weight="600" >600</text>
+<text x="155.00" y="353.70" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400" >West</text>
+<line x1="168.00" y1="347.70" x2="252.60" y2="347.70" stroke="#476563" stroke-width="3" />
+<circle cx="252.60" cy="347.70" r="6" fill="#8fb8ce" data-mark="geo" data-region="West" data-metric="requests" data-value="300"/>
+<text x="264.60" y="353.70" font-size="15" fill="#8fb8ce" text-anchor="start" font-weight="600" >300</text>
+<text x="650.00" y="183.70" font-size="16" fill="#e9e9df" text-anchor="start" font-weight="600" >Per 1,000 residents</text>
+<line x1="650.00" y1="203.70" x2="650.00" y2="359.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="650.00" y="390.70" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400" >0</text>
+<line x1="795.00" y1="203.70" x2="795.00" y2="359.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="795.00" y="390.70" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400" >5</text>
+<line x1="940.00" y1="203.70" x2="940.00" y2="359.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="940.00" y="390.70" font-size="15" fill="#98a8a5" text-anchor="middle" font-weight="400" >10</text>
+<text x="637.00" y="224.70" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400" >North</text>
+<line x1="650.00" y1="218.70" x2="766.00" y2="218.70" stroke="#476563" stroke-width="3" />
+<circle cx="766.00" cy="218.70" r="6" fill="#8fb8ce" data-mark="geo" data-region="North" data-metric="rate" data-value="4.0"/>
+<text x="778.00" y="224.70" font-size="15" fill="#8fb8ce" text-anchor="start" font-weight="600" >4</text>
+<text x="637.00" y="267.70" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400" >East</text>
+<line x1="650.00" y1="261.70" x2="882.00" y2="261.70" stroke="#476563" stroke-width="3" />
+<circle cx="882.00" cy="261.70" r="6" fill="#8fb8ce" data-mark="geo" data-region="East" data-metric="rate" data-value="8.0"/>
+<text x="894.00" y="267.70" font-size="15" fill="#8fb8ce" text-anchor="start" font-weight="600" >8</text>
+<text x="637.00" y="310.70" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400" >South</text>
+<line x1="650.00" y1="304.70" x2="940.00" y2="304.70" stroke="#476563" stroke-width="3" />
+<circle cx="940.00" cy="304.70" r="6" fill="#dda96f" data-mark="geo" data-region="South" data-metric="rate" data-value="10.0"/>
+<text x="952.00" y="310.70" font-size="15" fill="#dda96f" text-anchor="start" font-weight="600" >10</text>
+<text x="637.00" y="353.70" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="400" >West</text>
+<line x1="650.00" y1="347.70" x2="708.00" y2="347.70" stroke="#476563" stroke-width="3" />
+<circle cx="708.00" cy="347.70" r="6" fill="#8fb8ce" data-mark="geo" data-region="West" data-metric="rate" data-value="2.0"/>
+<text x="720.00" y="353.70" font-size="15" fill="#8fb8ce" text-anchor="start" font-weight="600" >2</text>
+<text x="58.00" y="504.00" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="600" >North: highest volume. South: highest intensity.</text>
+<text x="58.00" y="537.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400" >Synthetic. Population-normalized rates do not replace total demand when planning capacity.</text>
+</svg>

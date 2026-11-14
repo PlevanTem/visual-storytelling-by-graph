@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="780" viewBox="0 0 1000 780" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Three parts. One closed whole.</title>
+<desc id="desc">Clay / silt / sand, mass % · Dune · n=12. Synthetic demonstration data. C13.</desc>
+<rect width="1000" height="780" fill="#101719"/>
+<text x="58.00" y="46.00" font-size="33" fill="#e9e9df" text-anchor="start" font-weight="650" >Three parts. One closed whole.</text>
+<text x="58.00" y="100.90" font-size="16" fill="#98a8a5" text-anchor="start" font-weight="400" >Clay / silt / sand, mass % · Dune · n=12</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<line x1="317.42" y1="505.94" x2="682.58" y2="505.94" stroke="#2a393a" stroke-width="1" />
+<line x1="454.35" y1="268.76" x2="636.94" y2="585.00" stroke="#2a393a" stroke-width="1" />
+<line x1="545.65" y1="268.76" x2="363.06" y2="585.00" stroke="#2a393a" stroke-width="1" />
+<text x="305.42" y="510.94" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400" >20</text>
+<text x="636.94" y="610.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400" >20</text>
+<text x="557.65" y="273.76" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400" >20</text>
+<line x1="363.06" y1="426.88" x2="636.94" y2="426.88" stroke="#2a393a" stroke-width="1" />
+<line x1="408.71" y1="347.82" x2="545.65" y2="585.00" stroke="#2a393a" stroke-width="1" />
+<line x1="591.29" y1="347.82" x2="454.35" y2="585.00" stroke="#2a393a" stroke-width="1" />
+<text x="351.06" y="431.88" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400" >40</text>
+<text x="545.65" y="610.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400" >40</text>
+<text x="603.29" y="352.82" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400" >40</text>
+<line x1="408.71" y1="347.82" x2="591.29" y2="347.82" stroke="#2a393a" stroke-width="1" />
+<line x1="363.06" y1="426.88" x2="454.35" y2="585.00" stroke="#2a393a" stroke-width="1" />
+<line x1="636.94" y1="426.88" x2="545.65" y2="585.00" stroke="#2a393a" stroke-width="1" />
+<text x="396.71" y="352.82" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400" >60</text>
+<text x="454.35" y="610.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400" >60</text>
+<text x="648.94" y="431.88" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400" >60</text>
+<line x1="454.35" y1="268.76" x2="545.65" y2="268.76" stroke="#2a393a" stroke-width="1" />
+<line x1="317.42" y1="505.94" x2="363.06" y2="585.00" stroke="#2a393a" stroke-width="1" />
+<line x1="682.58" y1="505.94" x2="636.94" y2="585.00" stroke="#2a393a" stroke-width="1" />
+<text x="442.35" y="273.76" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400" >80</text>
+<text x="363.06" y="610.00" font-size="14" fill="#98a8a5" text-anchor="middle" font-weight="400" >80</text>
+<text x="694.58" y="510.94" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400" >80</text>
+<polygon points="500.000,189.700 271.773,585.000 728.227,585.000" fill="none" stroke="#98a8a5" stroke-width="1.2"/>
+<text x="500.00" y="170.70" font-size="16" fill="#e9e9df" text-anchor="middle" font-weight="400" >Clay 100%</text>
+<text x="263.77" y="625.00" font-size="16" fill="#e9e9df" text-anchor="middle" font-weight="400" >Silt 100%</text>
+<text x="736.23" y="625.00" font-size="16" fill="#e9e9df" text-anchor="middle" font-weight="400" >Sand 100%</text>
+<circle cx="678.02" cy="561.28" r="6" fill="#dda96f" data-mark="ternary" data-id="D01" data-clay="6.0" data-silt="8" data-sand="86.0" fill-opacity=".8"/>
+<circle cx="668.89" cy="545.47" r="6" fill="#dda96f" data-mark="ternary" data-id="D02" data-clay="10.0" data-silt="8" data-sand="82.0" fill-opacity=".8"/>
+<circle cx="659.76" cy="529.66" r="6" fill="#dda96f" data-mark="ternary" data-id="D03" data-clay="14.0" data-silt="8" data-sand="78.0" fill-opacity=".8"/>
+<circle cx="650.63" cy="513.85" r="6" fill="#dda96f" data-mark="ternary" data-id="D04" data-clay="18.0" data-silt="8" data-sand="74.0" fill-opacity=".8"/>
+<circle cx="655.19" cy="561.28" r="6" fill="#dda96f" data-mark="ternary" data-id="D05" data-clay="6.0" data-silt="13" data-sand="81.0" fill-opacity=".8"/>
+<circle cx="646.06" cy="545.47" r="6" fill="#dda96f" data-mark="ternary" data-id="D06" data-clay="10.0" data-silt="13" data-sand="77.0" fill-opacity=".8"/>
+<circle cx="636.94" cy="529.66" r="6" fill="#dda96f" data-mark="ternary" data-id="D07" data-clay="14.0" data-silt="13" data-sand="73.0" fill-opacity=".8"/>
+<circle cx="627.81" cy="513.85" r="6" fill="#dda96f" data-mark="ternary" data-id="D08" data-clay="18.0" data-silt="13" data-sand="69.0" fill-opacity=".8"/>
+<circle cx="632.37" cy="561.28" r="6" fill="#dda96f" data-mark="ternary" data-id="D09" data-clay="6.0" data-silt="18" data-sand="76.0" fill-opacity=".8"/>
+<circle cx="623.24" cy="545.47" r="6" fill="#dda96f" data-mark="ternary" data-id="D10" data-clay="10.0" data-silt="18" data-sand="72.0" fill-opacity=".8"/>
+<circle cx="614.11" cy="529.66" r="6" fill="#dda96f" data-mark="ternary" data-id="D11" data-clay="14.0" data-silt="18" data-sand="68.0" fill-opacity=".8"/>
+<circle cx="604.98" cy="513.85" r="6" fill="#dda96f" data-mark="ternary" data-id="D12" data-clay="18.0" data-silt="18" data-sand="64.0" fill-opacity=".8"/>
+<circle cx="63.00" cy="155.70" r="4" fill="#c3d8c7" />
+<text x="76.00" y="160.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400" >Estuary</text>
+<circle cx="357.67" cy="155.70" r="4" fill="#dda96f" />
+<text x="370.67" y="160.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400" >Dune</text>
+<circle cx="652.33" cy="155.70" r="4" fill="#8fb8ce" />
+<text x="665.33" y="160.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400" >Loess</text>
+<text x="58.00" y="674.00" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="600" >Composition closes to 100% for every sample.</text>
+<text x="58.00" y="707.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400" >Synthetic. Grid steps: 20 percentage points. No geological classification boundaries inferred.</text>
+<metadata>{&quot;case&quot;: &quot;C13&quot;, &quot;state&quot;: &quot;Dune&quot;, &quot;n&quot;: 12, &quot;vertices&quot;: [[500.0, 189.7], [271.7734385893409, 585], [728.2265614106591, 585]]}</metadata>
+</svg>

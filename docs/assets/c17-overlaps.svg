@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="770" viewBox="0 0 1000 770" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Every overlap has a precise meaning.</title>
+<desc id="desc">Exact membership intersections / Overlaps / n=42 objects. Synthetic demonstration data. C17.</desc>
+<rect width="1000" height="770" fill="#101719"/>
+<text x="58.00" y="46.00" font-size="33" fill="#e9e9df" text-anchor="start" font-weight="650" >Every overlap has a precise meaning.</text>
+<text x="58.00" y="100.90" font-size="16" fill="#98a8a5" text-anchor="start" font-weight="400" >Exact membership intersections / Overlaps / n=42 objects</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<line x1="165.00" y1="339.70" x2="927.00" y2="339.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="153.00" y="345.70" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400" >0</text>
+<line x1="165.00" y1="264.70" x2="927.00" y2="264.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="153.00" y="270.70" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400" >5</text>
+<line x1="165.00" y1="189.70" x2="927.00" y2="189.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="153.00" y="195.70" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400" >10</text>
+<rect x="179.55" y="219.70" width="40.18" height="120.00" fill="#dda96f" data-mark="intersection" data-pattern="1100" data-count="8"/>
+<text x="199.64" y="210.70" font-size="15" fill="#dda96f" text-anchor="middle" font-weight="400" >8</text>
+<line x1="199.64" y1="389.70" x2="199.64" y2="424.70" stroke="#dda96f" stroke-width="2" />
+<circle cx="199.64" cy="389.70" r="5.5" fill="#dda96f" />
+<circle cx="199.64" cy="424.70" r="5.5" fill="#dda96f" />
+<circle cx="199.64" cy="459.70" r="5.5" fill="#2a393a" />
+<circle cx="199.64" cy="494.70" r="5.5" fill="#2a393a" />
+<rect x="248.82" y="234.70" width="40.18" height="105.00" fill="#8fb8ce" data-mark="intersection" data-pattern="1110" data-count="7"/>
+<text x="268.91" y="225.70" font-size="15" fill="#8fb8ce" text-anchor="middle" font-weight="400" >7</text>
+<line x1="268.91" y1="389.70" x2="268.91" y2="459.70" stroke="#8fb8ce" stroke-width="2" />
+<circle cx="268.91" cy="389.70" r="5.5" fill="#8fb8ce" />
+<circle cx="268.91" cy="424.70" r="5.5" fill="#8fb8ce" />
+<circle cx="268.91" cy="459.70" r="5.5" fill="#8fb8ce" />
+<circle cx="268.91" cy="494.70" r="5.5" fill="#2a393a" />
+<rect x="318.09" y="264.70" width="40.18" height="75.00" fill="#dda96f" data-mark="intersection" data-pattern="1001" data-count="5"/>
+<text x="338.18" y="255.70" font-size="15" fill="#dda96f" text-anchor="middle" font-weight="400" >5</text>
+<line x1="338.18" y1="389.70" x2="338.18" y2="494.70" stroke="#dda96f" stroke-width="2" />
+<circle cx="338.18" cy="389.70" r="5.5" fill="#dda96f" />
+<circle cx="338.18" cy="424.70" r="5.5" fill="#2a393a" />
+<circle cx="338.18" cy="459.70" r="5.5" fill="#2a393a" />
+<circle cx="338.18" cy="494.70" r="5.5" fill="#dda96f" />
+<rect x="387.37" y="279.70" width="40.18" height="60.00" fill="#dda96f" data-mark="intersection" data-pattern="0011" data-count="4"/>
+<text x="407.45" y="270.70" font-size="15" fill="#dda96f" text-anchor="middle" font-weight="400" >4</text>
+<line x1="407.45" y1="459.70" x2="407.45" y2="494.70" stroke="#dda96f" stroke-width="2" />
+<circle cx="407.45" cy="389.70" r="5.5" fill="#2a393a" />
+<circle cx="407.45" cy="424.70" r="5.5" fill="#2a393a" />
+<circle cx="407.45" cy="459.70" r="5.5" fill="#dda96f" />
+<circle cx="407.45" cy="494.70" r="5.5" fill="#dda96f" />
+<rect x="456.64" y="279.70" width="40.18" height="60.00" fill="#dda96f" data-mark="intersection" data-pattern="1010" data-count="4"/>
+<text x="476.73" y="270.70" font-size="15" fill="#dda96f" text-anchor="middle" font-weight="400" >4</text>
+<line x1="476.73" y1="389.70" x2="476.73" y2="459.70" stroke="#dda96f" stroke-width="2" />
+<circle cx="476.73" cy="389.70" r="5.5" fill="#dda96f" />
+<circle cx="476.73" cy="424.70" r="5.5" fill="#2a393a" />
+<circle cx="476.73" cy="459.70" r="5.5" fill="#dda96f" />
+<circle cx="476.73" cy="494.70" r="5.5" fill="#2a393a" />
+<rect x="525.91" y="294.70" width="40.18" height="45.00" fill="#dda96f" data-mark="intersection" data-pattern="0101" data-count="3"/>
+<text x="546.00" y="285.70" font-size="15" fill="#dda96f" text-anchor="middle" font-weight="400" >3</text>
+<line x1="546.00" y1="424.70" x2="546.00" y2="494.70" stroke="#dda96f" stroke-width="2" />
+<circle cx="546.00" cy="389.70" r="5.5" fill="#2a393a" />
+<circle cx="546.00" cy="424.70" r="5.5" fill="#dda96f" />
+<circle cx="546.00" cy="459.70" r="5.5" fill="#2a393a" />
+<circle cx="546.00" cy="494.70" r="5.5" fill="#dda96f" />
+<rect x="595.18" y="294.70" width="40.18" height="45.00" fill="#dda96f" data-mark="intersection" data-pattern="0110" data-count="3"/>
+<text x="615.27" y="285.70" font-size="15" fill="#dda96f" text-anchor="middle" font-weight="400" >3</text>
+<line x1="615.27" y1="424.70" x2="615.27" y2="459.70" stroke="#dda96f" stroke-width="2" />
+<circle cx="615.27" cy="389.70" r="5.5" fill="#2a393a" />
+<circle cx="615.27" cy="424.70" r="5.5" fill="#dda96f" />
+<circle cx="615.27" cy="459.70" r="5.5" fill="#dda96f" />
+<circle cx="615.27" cy="494.70" r="5.5" fill="#2a393a" />
+<rect x="664.46" y="294.70" width="40.18" height="45.00" fill="#c77d63" data-mark="intersection" data-pattern="1111" data-count="3"/>
+<text x="684.55" y="285.70" font-size="15" fill="#c77d63" text-anchor="middle" font-weight="400" >3</text>
+<line x1="684.55" y1="389.70" x2="684.55" y2="494.70" stroke="#c77d63" stroke-width="2" />
+<circle cx="684.55" cy="389.70" r="5.5" fill="#c77d63" />
+<circle cx="684.55" cy="424.70" r="5.5" fill="#c77d63" />
+<circle cx="684.55" cy="459.70" r="5.5" fill="#c77d63" />
+<circle cx="684.55" cy="494.70" r="5.5" fill="#c77d63" />
+<rect x="733.73" y="309.70" width="40.18" height="30.00" fill="#8fb8ce" data-mark="intersection" data-pattern="0111" data-count="2"/>
+<text x="753.82" y="300.70" font-size="15" fill="#8fb8ce" text-anchor="middle" font-weight="400" >2</text>
+<line x1="753.82" y1="424.70" x2="753.82" y2="494.70" stroke="#8fb8ce" stroke-width="2" />
+<circle cx="753.82" cy="389.70" r="5.5" fill="#2a393a" />
+<circle cx="753.82" cy="424.70" r="5.5" fill="#8fb8ce" />
+<circle cx="753.82" cy="459.70" r="5.5" fill="#8fb8ce" />
+<circle cx="753.82" cy="494.70" r="5.5" fill="#8fb8ce" />
+<rect x="803.00" y="309.70" width="40.18" height="30.00" fill="#8fb8ce" data-mark="intersection" data-pattern="1101" data-count="2"/>
+<text x="823.09" y="300.70" font-size="15" fill="#8fb8ce" text-anchor="middle" font-weight="400" >2</text>
+<line x1="823.09" y1="389.70" x2="823.09" y2="494.70" stroke="#8fb8ce" stroke-width="2" />
+<circle cx="823.09" cy="389.70" r="5.5" fill="#8fb8ce" />
+<circle cx="823.09" cy="424.70" r="5.5" fill="#8fb8ce" />
+<circle cx="823.09" cy="459.70" r="5.5" fill="#2a393a" />
+<circle cx="823.09" cy="494.70" r="5.5" fill="#8fb8ce" />
+<rect x="872.27" y="324.70" width="40.18" height="15.00" fill="#8fb8ce" data-mark="intersection" data-pattern="1011" data-count="1"/>
+<text x="892.36" y="315.70" font-size="15" fill="#8fb8ce" text-anchor="middle" font-weight="400" >1</text>
+<line x1="892.36" y1="389.70" x2="892.36" y2="494.70" stroke="#8fb8ce" stroke-width="2" />
+<circle cx="892.36" cy="389.70" r="5.5" fill="#8fb8ce" />
+<circle cx="892.36" cy="424.70" r="5.5" fill="#2a393a" />
+<circle cx="892.36" cy="459.70" r="5.5" fill="#8fb8ce" />
+<circle cx="892.36" cy="494.70" r="5.5" fill="#8fb8ce" />
+<text x="147.00" y="395.70" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400" >Text</text>
+<text x="147.00" y="430.70" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400" >Image</text>
+<text x="147.00" y="465.70" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400" >Audio</text>
+<text x="147.00" y="500.70" font-size="14" fill="#98a8a5" text-anchor="end" font-weight="400" >Spatial</text>
+<text x="58.00" y="664.00" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="600" >11 exclusive patterns. 42 unique objects.</text>
+<text x="58.00" y="697.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400" >Synthetic. Filled dots are included; unfilled tags are excluded. Universe: objects with at least one tag.</text>
+<metadata>{&quot;case&quot;: &quot;C17&quot;, &quot;state&quot;: &quot;Overlaps&quot;, &quot;n&quot;: 42, &quot;patterns&quot;: 11, &quot;left&quot;: 165, &quot;right&quot;: 927, &quot;bar_bottom&quot;: 339.7, &quot;bar_scale&quot;: 15}</metadata>
+</svg>

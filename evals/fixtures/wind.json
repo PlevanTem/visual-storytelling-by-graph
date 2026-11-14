@@ -1,0 +1,87 @@
+{
+  "synthetic": true,
+  "unit": "counts of non-calm observations",
+  "direction_convention": "degrees clockwise from north, direction FROM which wind arrives",
+  "speed_unit": "m/s",
+  "speed_bins": [
+    "2–4",
+    "4–8",
+    "8+"
+  ],
+  "rows": [
+    {
+      "direction": "N",
+      "bearing": 0,
+      "counts": [
+        8,
+        9,
+        3
+      ]
+    },
+    {
+      "direction": "NE",
+      "bearing": 45,
+      "counts": [
+        8,
+        14,
+        8
+      ]
+    },
+    {
+      "direction": "E",
+      "bearing": 90,
+      "counts": [
+        10,
+        20,
+        15
+      ]
+    },
+    {
+      "direction": "SE",
+      "bearing": 135,
+      "counts": [
+        10,
+        25,
+        25
+      ]
+    },
+    {
+      "direction": "S",
+      "bearing": 180,
+      "counts": [
+        12,
+        15,
+        8
+      ]
+    },
+    {
+      "direction": "SW",
+      "bearing": 225,
+      "counts": [
+        10,
+        7,
+        3
+      ]
+    },
+    {
+      "direction": "W",
+      "bearing": 270,
+      "counts": [
+        8,
+        5,
+        2
+      ]
+    },
+    {
+      "direction": "NW",
+      "bearing": 315,
+      "counts": [
+        8,
+        6,
+        1
+      ]
+    }
+  ],
+  "area_encoding": "sector area proportional to count, radius proportional to square root of cumulative count",
+  "denominator": 240
+}

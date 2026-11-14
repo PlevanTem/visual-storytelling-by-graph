@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="840" viewBox="0 0 620 840" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">The wind has an address.</title>
+<desc id="desc">Direction FROM / area encodes observation frequency. Synthetic demonstration data. C14.</desc>
+<rect width="620" height="840" fill="#101719"/>
+<text x="38.00" y="46.00" font-size="29" fill="#e9e9df" text-anchor="start" font-weight="650" >The wind has an address.</text>
+<text x="38.00" y="95.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Direction FROM / area encodes observation frequency</text>
+<line x1="38.00" y1="133.70" x2="582.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<path d="M 310.000 431.850 L 285.629 361.073 A 74.855 74.855 0 0 1 334.371 361.073 Z" fill="#36555d" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="N" data-bin="0" data-count="8" data-r0="0.0" data-r1="74.8554161923727"/>
+<path d="M 274.474 328.675 A 109.120 109.120 0 0 1 345.526 328.675 L 334.371 361.073 A 74.855 74.855 0 0 0 285.629 361.073 Z" fill="#8fb8ce" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="N" data-bin="1" data-count="9" data-r0="74.8554161923727" data-r1="109.1195827215873"/>
+<path d="M 271.467 319.941 A 118.357 118.357 0 0 1 348.533 319.941 L 345.526 328.675 A 109.120 109.120 0 0 0 274.474 328.675 Z" fill="#dda96f" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="N" data-bin="2" data-count="3" data-r0="109.1195827215873" data-r1="118.35680518387329"/>
+<text x="310.00" y="203.85" font-size="22" fill="#98a8a5" text-anchor="middle" font-weight="400" >N</text>
+<path d="M 310.000 431.850 L 342.814 364.570 A 74.855 74.855 0 0 1 377.280 399.036 Z" fill="#36555d" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="NE" data-bin="0" data-count="8" data-r0="0.0" data-r1="74.8554161923727"/>
+<path d="M 364.417 320.279 A 124.134 124.134 0 0 1 421.571 377.433 L 377.280 399.036 A 74.855 74.855 0 0 0 342.814 364.570 Z" fill="#8fb8ce" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="NE" data-bin="1" data-count="14" data-r0="74.8554161923727" data-r1="124.13366451799716"/>
+<path d="M 373.545 301.564 A 144.957 144.957 0 0 1 440.286 368.305 L 421.571 377.433 A 124.134 124.134 0 0 0 364.417 320.279 Z" fill="#dda96f" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="NE" data-bin="2" data-count="8" data-r0="124.13366451799716" data-r1="144.95689014324225"/>
+<text x="475.46" y="272.39" font-size="22" fill="#98a8a5" text-anchor="middle" font-weight="400" >NE</text>
+<path d="M 310.000 431.850 L 389.131 404.603 A 83.691 83.691 0 0 1 389.131 459.097 Z" fill="#36555d" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="E" data-bin="0" data-count="10" data-r0="0.0" data-r1="83.69089954509192"/>
+<path d="M 447.059 384.657 A 144.957 144.957 0 0 1 447.059 479.043 L 389.131 459.097 A 83.691 83.691 0 0 0 389.131 404.603 Z" fill="#8fb8ce" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="E" data-bin="1" data-count="20" data-r0="83.69089954509192" data-r1="144.95689014324225"/>
+<path d="M 477.863 374.050 A 177.535 177.535 0 0 1 477.863 489.650 L 447.059 479.043 A 144.957 144.957 0 0 0 447.059 384.657 Z" fill="#dda96f" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="E" data-bin="2" data-count="15" data-r0="144.95689014324225" data-r1="177.53520777580994"/>
+<text x="544.00" y="437.85" font-size="22" fill="#98a8a5" text-anchor="middle" font-weight="400" >E</text>
+<path d="M 310.000 431.850 L 385.221 468.538 A 83.691 83.691 0 0 1 346.688 507.071 Z" fill="#36555d" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="SE" data-bin="0" data-count="10" data-r0="0.0" data-r1="83.69089954509192"/>
+<path d="M 450.725 500.486 A 156.571 156.571 0 0 1 378.636 572.575 L 346.688 507.071 A 83.691 83.691 0 0 0 385.221 468.538 Z" fill="#8fb8ce" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="SE" data-bin="1" data-count="25" data-r0="83.69089954509192" data-r1="156.57133624432453"/>
+<path d="M 494.253 521.716 A 205.000 205.000 0 0 1 399.866 616.103 L 378.636 572.575 A 156.571 156.571 0 0 0 450.725 500.486 Z" fill="#dda96f" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="SE" data-bin="2" data-count="25" data-r0="156.57133624432453" data-r1="205.0"/>
+<text x="475.46" y="603.31" font-size="22" fill="#98a8a5" text-anchor="middle" font-weight="400" >SE</text>
+<path d="M 310.000 431.850 L 339.848 518.534 A 91.679 91.679 0 0 1 280.152 518.534 Z" fill="#36555d" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="S" data-bin="0" data-count="12" data-r0="0.0" data-r1="91.67878707749138"/>
+<path d="M 354.772 561.876 A 137.518 137.518 0 0 1 265.228 561.876 L 280.152 518.534 A 91.679 91.679 0 0 0 339.848 518.534 Z" fill="#8fb8ce" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="S" data-bin="1" data-count="15" data-r0="91.67878707749138" data-r1="137.51818061623706"/>
+<path d="M 360.975 579.891 A 156.571 156.571 0 0 1 259.025 579.891 L 265.228 561.876 A 137.518 137.518 0 0 0 354.772 561.876 Z" fill="#dda96f" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="S" data-bin="2" data-count="8" data-r0="137.51818061623706" data-r1="156.57133624432453"/>
+<text x="310.00" y="671.85" font-size="22" fill="#98a8a5" text-anchor="middle" font-weight="400" >S</text>
+<path d="M 310.000 431.850 L 273.312 507.071 A 83.691 83.691 0 0 1 234.779 468.538 Z" fill="#36555d" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="SW" data-bin="0" data-count="10" data-r0="0.0" data-r1="83.69089954509192"/>
+<path d="M 262.165 529.926 A 109.120 109.120 0 0 1 211.924 479.685 L 234.779 468.538 A 83.691 83.691 0 0 0 273.312 507.071 Z" fill="#8fb8ce" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="SW" data-bin="1" data-count="7" data-r0="83.69089954509192" data-r1="109.1195827215873"/>
+<path d="M 258.116 538.228 A 118.357 118.357 0 0 1 203.622 483.734 L 211.924 479.685 A 109.120 109.120 0 0 0 262.165 529.926 Z" fill="#dda96f" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="SW" data-bin="2" data-count="3" data-r0="109.1195827215873" data-r1="118.35680518387329"/>
+<text x="144.54" y="603.31" font-size="22" fill="#98a8a5" text-anchor="middle" font-weight="400" >SW</text>
+<path d="M 310.000 431.850 L 239.223 456.221 A 74.855 74.855 0 0 1 239.223 407.479 Z" fill="#36555d" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="W" data-bin="0" data-count="8" data-r0="0.0" data-r1="74.8554161923727"/>
+<path d="M 219.776 462.916 A 95.422 95.422 0 0 1 219.776 400.784 L 239.223 407.479 A 74.855 74.855 0 0 0 239.223 456.221 Z" fill="#8fb8ce" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="W" data-bin="1" data-count="5" data-r0="74.8554161923727" data-r1="95.42230696575443"/>
+<path d="M 213.084 465.221 A 102.500 102.500 0 0 1 213.084 398.479 L 219.776 400.784 A 95.422 95.422 0 0 0 219.776 462.916 Z" fill="#dda96f" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="W" data-bin="2" data-count="2" data-r0="95.42230696575443" data-r1="102.5"/>
+<text x="76.00" y="437.85" font-size="22" fill="#98a8a5" text-anchor="middle" font-weight="400" >W</text>
+<path d="M 310.000 431.850 L 242.720 399.036 A 74.855 74.855 0 0 1 277.186 364.570 Z" fill="#36555d" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="NW" data-bin="0" data-count="8" data-r0="0.0" data-r1="74.8554161923727"/>
+<path d="M 220.997 388.441 A 99.024 99.024 0 0 1 266.591 342.847 L 277.186 364.570 A 74.855 74.855 0 0 0 242.720 399.036 Z" fill="#8fb8ce" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="NW" data-bin="1" data-count="6" data-r0="74.8554161923727" data-r1="99.02440776562783"/>
+<path d="M 217.874 386.917 A 102.500 102.500 0 0 1 265.067 339.724 L 266.591 342.847 A 99.024 99.024 0 0 0 220.997 388.441 Z" fill="#dda96f" stroke="#101719" stroke-width="1" data-mark="wind-sector" data-direction="NW" data-bin="2" data-count="1" data-r0="99.02440776562783" data-r1="102.5"/>
+<text x="144.54" y="272.39" font-size="22" fill="#98a8a5" text-anchor="middle" font-weight="400" >NW</text>
+<circle cx="310.00" cy="431.85" r="102.5" fill="none" stroke="#98a8a5" stroke-opacity=".35" stroke-width="1"/>
+<text x="319.00" y="347.35" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="400" paint-order="stroke" stroke="#101719" stroke-width="4">6.25%</text>
+<circle cx="310.00" cy="431.85" r="144.95689014324225" fill="none" stroke="#98a8a5" stroke-opacity=".35" stroke-width="1"/>
+<text x="319.00" y="304.89" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="400" paint-order="stroke" stroke="#101719" stroke-width="4">12.50%</text>
+<circle cx="310.00" cy="431.85" r="205.0" fill="none" stroke="#98a8a5" stroke-opacity=".35" stroke-width="1"/>
+<text x="319.00" y="244.85" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="400" paint-order="stroke" stroke="#101719" stroke-width="4">25.00%</text>
+<rect x="38.00" y="149.70" width="13.00" height="13.00" fill="#36555d" />
+<text x="58.00" y="161.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >2–4 m/s</text>
+<rect x="219.33" y="149.70" width="13.00" height="13.00" fill="#8fb8ce" />
+<text x="239.33" y="161.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >4–8 m/s</text>
+<rect x="400.67" y="149.70" width="13.00" height="13.00" fill="#dda96f" />
+<text x="420.67" y="161.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >8+ m/s</text>
+<text x="38.00" y="734.00" font-size="20" fill="#e9e9df" text-anchor="start" font-weight="600" >SE contributes 25% of all 240 observations.</text>
+<text x="38.00" y="769.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Synthetic non-calm observations. Radius follows</text>
+<text x="38.00" y="795.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >sqrt(count); clockwise from north. Ring labels are</text>
+<text x="38.00" y="821.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >frequencies.</text>
+<metadata>{&quot;case&quot;: &quot;C14&quot;, &quot;n&quot;: 240, &quot;radius_scale_per_sqrt_count&quot;: 26.465386199084016}</metadata>
+</svg>

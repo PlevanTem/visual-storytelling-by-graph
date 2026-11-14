@@ -1,0 +1,51 @@
+{
+  "scope": "Chromium, local HTML; desktop 1200x900 and narrow 390x844; no human-reader study",
+  "checks": [
+    {
+      "name": "Default C17 counts visible",
+      "status": "pass"
+    },
+    {
+      "name": "C17 filtered counts and mode visible",
+      "status": "pass"
+    },
+    {
+      "name": "C19 threshold 0 data/summary visible",
+      "status": "pass"
+    },
+    {
+      "name": "C19 threshold 1 data/summary visible",
+      "status": "pass"
+    },
+    {
+      "name": "C19 threshold 2 data/summary visible",
+      "status": "pass"
+    },
+    {
+      "name": "Keyboard reset returns C19 default",
+      "status": "pass"
+    },
+    {
+      "name": "C17 reset restores counts",
+      "status": "pass"
+    },
+    {
+      "name": "All state SVG text stays inside native viewBox",
+      "status": "pass"
+    },
+    {
+      "name": "390px layout has no document horizontal overflow",
+      "status": "pass"
+    },
+    {
+      "name": "390px filter operates",
+      "status": "pass"
+    },
+    {
+      "name": "No browser JS errors",
+      "status": "pass"
+    }
+  ],
+  "errors": [],
+  "text_outliers": []
+}

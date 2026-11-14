@@ -1,0 +1,129 @@
+{
+  "synthetic": true,
+  "unit": "dB; paired acoustic measurements of the same specimen",
+  "difference": "method_b minus method_a",
+  "limits": "descriptive mean difference ±1.96 sample SD; assumptions not established",
+  "tolerance": 3,
+  "rows": [
+    {
+      "id": "S01",
+      "method_a": 40.0,
+      "method_b": 40.0
+    },
+    {
+      "id": "S02",
+      "method_a": 42.5,
+      "method_b": 43.5
+    },
+    {
+      "id": "S03",
+      "method_a": 45.0,
+      "method_b": 47.0
+    },
+    {
+      "id": "S04",
+      "method_a": 47.5,
+      "method_b": 50.5
+    },
+    {
+      "id": "S05",
+      "method_a": 50.0,
+      "method_b": 54.0
+    },
+    {
+      "id": "S06",
+      "method_a": 52.5,
+      "method_b": 51.5
+    },
+    {
+      "id": "S07",
+      "method_a": 55.0,
+      "method_b": 60.0
+    },
+    {
+      "id": "S08",
+      "method_a": 57.5,
+      "method_b": 59.5
+    },
+    {
+      "id": "S09",
+      "method_a": 60.0,
+      "method_b": 61.0
+    },
+    {
+      "id": "S10",
+      "method_a": 62.5,
+      "method_b": 65.5
+    },
+    {
+      "id": "S11",
+      "method_a": 65.0,
+      "method_b": 63.0
+    },
+    {
+      "id": "S12",
+      "method_a": 67.5,
+      "method_b": 73.5
+    },
+    {
+      "id": "S13",
+      "method_a": 70.0,
+      "method_b": 70.0
+    },
+    {
+      "id": "S14",
+      "method_a": 72.5,
+      "method_b": 76.5
+    },
+    {
+      "id": "S15",
+      "method_a": 75.0,
+      "method_b": 77.0
+    },
+    {
+      "id": "S16",
+      "method_a": 77.5,
+      "method_b": 78.5
+    },
+    {
+      "id": "S17",
+      "method_a": 80.0,
+      "method_b": 83.0
+    },
+    {
+      "id": "S18",
+      "method_a": 82.5,
+      "method_b": 81.5
+    },
+    {
+      "id": "S19",
+      "method_a": 85.0,
+      "method_b": 90.0
+    },
+    {
+      "id": "S20",
+      "method_a": 87.5,
+      "method_b": 89.5
+    },
+    {
+      "id": "S21",
+      "method_a": 90.0,
+      "method_b": 90.0
+    },
+    {
+      "id": "S22",
+      "method_a": 92.5,
+      "method_b": 96.5
+    },
+    {
+      "id": "S23",
+      "method_a": 95.0,
+      "method_b": 96.0
+    },
+    {
+      "id": "S24",
+      "method_a": 97.5,
+      "method_b": 100.5
+    }
+  ]
+}

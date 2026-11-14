@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="610" viewBox="0 0 1000 610" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">A&#x27;s interval is above zero. B is imprecise.</title>
+<desc id="desc">Conversion-rate difference / percentage points vs control. Synthetic demonstration data. C07.</desc>
+<rect width="1000" height="610" fill="#fffdf8"/>
+<text x="58.00" y="46.00" font-size="33" fill="#18312f" text-anchor="start" font-weight="650" >A&#x27;s interval is above zero. B is imprecise.</text>
+<text x="58.00" y="100.90" font-size="16" fill="#576b68" text-anchor="start" font-weight="400" >Conversion-rate difference / percentage points vs control</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#d9e0d9" stroke-width="1" />
+<line x1="123.00" y1="179.70" x2="123.00" y2="433.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="123.00" y="460.00" font-size="15" fill="#576b68" text-anchor="middle" font-weight="400" >-2</text>
+<line x1="254.50" y1="179.70" x2="254.50" y2="433.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="254.50" y="460.00" font-size="15" fill="#576b68" text-anchor="middle" font-weight="400" >-1</text>
+<line x1="386.00" y1="179.70" x2="386.00" y2="433.00" stroke="#18312f" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="386.00" y="460.00" font-size="15" fill="#576b68" text-anchor="middle" font-weight="400" >0</text>
+<line x1="517.50" y1="179.70" x2="517.50" y2="433.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="517.50" y="460.00" font-size="15" fill="#576b68" text-anchor="middle" font-weight="400" >1</text>
+<line x1="649.00" y1="179.70" x2="649.00" y2="433.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="649.00" y="460.00" font-size="15" fill="#576b68" text-anchor="middle" font-weight="400" >2</text>
+<line x1="780.50" y1="179.70" x2="780.50" y2="433.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="780.50" y="460.00" font-size="15" fill="#576b68" text-anchor="middle" font-weight="400" >3</text>
+<line x1="912.00" y1="179.70" x2="912.00" y2="433.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="912.00" y="460.00" font-size="15" fill="#576b68" text-anchor="middle" font-weight="400" >4</text>
+<text x="101.00" y="220.70" font-size="16" fill="#18312f" text-anchor="end" font-weight="600" >A</text>
+<line x1="464.90" y1="214.70" x2="780.50" y2="214.70" stroke="#087f74" stroke-width="4" data-mark="interval" data-variant="A"/>
+<line x1="464.90" y1="206.70" x2="464.90" y2="222.70" stroke="#087f74" stroke-width="2" />
+<line x1="780.50" y1="206.70" x2="780.50" y2="222.70" stroke="#087f74" stroke-width="2" />
+<circle cx="622.70" cy="214.70" r="7" fill="#087f74" data-mark="estimate" data-variant="A" data-value="1.8"/>
+<text x="622.70" y="191.70" font-size="15" fill="#087f74" text-anchor="middle" font-weight="400" >+1.8 [+0.6, +3.0]</text>
+<text x="101.00" y="315.85" font-size="16" fill="#18312f" text-anchor="end" font-weight="600" >B</text>
+<line x1="280.80" y1="309.85" x2="806.80" y2="309.85" stroke="#b34f2e" stroke-width="4" data-mark="interval" data-variant="B"/>
+<line x1="280.80" y1="301.85" x2="280.80" y2="317.85" stroke="#b34f2e" stroke-width="2" />
+<line x1="806.80" y1="301.85" x2="806.80" y2="317.85" stroke="#b34f2e" stroke-width="2" />
+<circle cx="543.80" cy="309.85" r="7" fill="#b34f2e" data-mark="estimate" data-variant="B" data-value="1.2"/>
+<text x="543.80" y="286.85" font-size="15" fill="#b34f2e" text-anchor="middle" font-weight="400" >+1.2 [-0.8, +3.2]</text>
+<text x="101.00" y="411.00" font-size="16" fill="#18312f" text-anchor="end" font-weight="600" >C</text>
+<line x1="215.05" y1="405.00" x2="451.75" y2="405.00" stroke="#71838f" stroke-width="4" data-mark="interval" data-variant="C"/>
+<line x1="215.05" y1="397.00" x2="215.05" y2="413.00" stroke="#71838f" stroke-width="2" />
+<line x1="451.75" y1="397.00" x2="451.75" y2="413.00" stroke="#71838f" stroke-width="2" />
+<circle cx="333.40" cy="405.00" r="7" fill="#71838f" data-mark="estimate" data-variant="C" data-value="-0.4"/>
+<text x="333.40" y="382.00" font-size="15" fill="#71838f" text-anchor="middle" font-weight="400" >-0.4 [-1.3, +0.5]</text>
+<text x="58.00" y="504.00" font-size="19" fill="#18312f" text-anchor="start" font-weight="600" >Intervals are supplied 95% confidence intervals.</text>
+<text x="58.00" y="537.70" font-size="14" fill="#576b68" text-anchor="start" font-weight="400" >Synthetic. Sample sizes A=400, B=100, C=380. Intervals were not re-estimated; containing zero does not prove no effect.</text>
+</svg>

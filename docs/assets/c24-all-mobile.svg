@@ -1,0 +1,505 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="800" viewBox="0 0 620 800" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">A rising tone crosses a fixed one.</title>
+<desc id="desc">Windowed DFT magnitude / relative dB, not power density. Synthetic demonstration data. C24.</desc>
+<rect width="620" height="800" fill="#101719"/>
+<text x="38.00" y="46.00" font-size="29" fill="#e9e9df" text-anchor="start" font-weight="650" >A rising tone crosses a fixed one.</text>
+<text x="38.00" y="95.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Windowed DFT magnitude / relative dB, not power</text>
+<text x="38.00" y="121.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >density</text>
+<line x1="38.00" y1="159.70" x2="582.00" y2="159.70" stroke="#2a393a" stroke-width="1" />
+<rect x="83.00" y="602.60" width="33.41" height="12.43" fill="#2b3639" data-mark="stft" data-frame="0" data-bin="0" data-db="-44.80449177849983"/>
+<rect x="83.00" y="590.19" width="33.41" height="12.43" fill="#363e3e" data-mark="stft" data-frame="0" data-bin="1" data-db="-42.10160616808956"/>
+<rect x="83.00" y="577.79" width="33.41" height="12.43" fill="#52534a" data-mark="stft" data-frame="0" data-bin="2" data-db="-35.335954479320236"/>
+<rect x="83.00" y="565.39" width="33.41" height="12.43" fill="#766e5a" data-mark="stft" data-frame="0" data-bin="3" data-db="-26.543609093078583"/>
+<rect x="83.00" y="552.98" width="33.41" height="12.43" fill="#9c8b6b" data-mark="stft" data-frame="0" data-bin="4" data-db="-17.21080111606795"/>
+<rect x="83.00" y="540.58" width="33.41" height="12.43" fill="#bfa57a" data-mark="stft" data-frame="0" data-bin="5" data-db="-8.695406699568926"/>
+<rect x="83.00" y="528.18" width="33.41" height="12.43" fill="#d8b886" data-mark="stft" data-frame="0" data-bin="6" data-db="-2.462040797555477"/>
+<rect x="83.00" y="515.78" width="33.41" height="12.43" fill="#e2c08a" data-mark="stft" data-frame="0" data-bin="7" data-db="-0.001508982458437285"/>
+<rect x="83.00" y="503.37" width="33.41" height="12.43" fill="#d6b785" data-mark="stft" data-frame="0" data-bin="8" data-db="-2.9245229127830896"/>
+<rect x="83.00" y="490.97" width="33.41" height="12.43" fill="#bca379" data-mark="stft" data-frame="0" data-bin="9" data-db="-9.425378316817639"/>
+<rect x="83.00" y="478.57" width="33.41" height="12.43" fill="#98886a" data-mark="stft" data-frame="0" data-bin="10" data-db="-18.023626798352122"/>
+<rect x="83.00" y="466.16" width="33.41" height="12.43" fill="#726c59" data-mark="stft" data-frame="0" data-bin="11" data-db="-27.37162171898661"/>
+<rect x="83.00" y="453.76" width="33.41" height="12.43" fill="#4e5049" data-mark="stft" data-frame="0" data-bin="12" data-db="-36.371290651459425"/>
+<rect x="83.00" y="441.36" width="33.41" height="12.43" fill="#2d383a" data-mark="stft" data-frame="0" data-bin="13" data-db="-44.29446168290084"/>
+<rect x="83.00" y="428.95" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="14" data-db="-50"/>
+<rect x="83.00" y="416.55" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="15" data-db="-50"/>
+<rect x="83.00" y="404.15" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="16" data-db="-50"/>
+<rect x="83.00" y="391.75" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="17" data-db="-50"/>
+<rect x="83.00" y="379.34" width="33.41" height="12.43" fill="#ad9873" data-mark="stft" data-frame="0" data-bin="18" data-db="-13.038095841691447"/>
+<rect x="83.00" y="366.94" width="33.41" height="12.43" fill="#c5aa7d" data-mark="stft" data-frame="0" data-bin="19" data-db="-7.204539754859018"/>
+<rect x="83.00" y="354.54" width="33.41" height="12.43" fill="#ad9873" data-mark="stft" data-frame="0" data-bin="20" data-db="-13.033846877230973"/>
+<rect x="83.00" y="342.13" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="21" data-db="-50"/>
+<rect x="83.00" y="329.73" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="22" data-db="-50"/>
+<rect x="83.00" y="317.33" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="23" data-db="-50"/>
+<rect x="83.00" y="304.92" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="24" data-db="-50"/>
+<rect x="83.00" y="292.52" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="25" data-db="-50"/>
+<rect x="83.00" y="280.12" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="26" data-db="-50"/>
+<rect x="83.00" y="267.72" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="27" data-db="-50"/>
+<rect x="83.00" y="255.31" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="28" data-db="-50"/>
+<rect x="83.00" y="242.91" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="29" data-db="-50"/>
+<rect x="83.00" y="230.51" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="30" data-db="-50"/>
+<rect x="83.00" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="31" data-db="-50"/>
+<rect x="83.00" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="0" data-bin="32" data-db="-50"/>
+<rect x="116.38" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="0" data-db="-50"/>
+<rect x="116.38" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="1" data-db="-50"/>
+<rect x="116.38" y="577.79" width="33.41" height="12.43" fill="#253137" data-mark="stft" data-frame="1" data-bin="2" data-db="-46.385327585999995"/>
+<rect x="116.38" y="565.39" width="33.41" height="12.43" fill="#424744" data-mark="stft" data-frame="1" data-bin="3" data-db="-39.14322486132097"/>
+<rect x="116.38" y="552.98" width="33.41" height="12.43" fill="#646153" data-mark="stft" data-frame="1" data-bin="4" data-db="-30.81467538673334"/>
+<rect x="116.38" y="540.58" width="33.41" height="12.43" fill="#897d63" data-mark="stft" data-frame="1" data-bin="5" data-db="-21.76580435271581"/>
+<rect x="116.38" y="528.18" width="33.41" height="12.43" fill="#ae9873" data-mark="stft" data-frame="1" data-bin="6" data-db="-12.832394820136763"/>
+<rect x="116.38" y="515.78" width="33.41" height="12.43" fill="#cdb081" data-mark="stft" data-frame="1" data-bin="7" data-db="-5.228140901212454"/>
+<rect x="116.38" y="503.37" width="33.41" height="12.43" fill="#e0be89" data-mark="stft" data-frame="1" data-bin="8" data-db="-0.58848287550405"/>
+<rect x="116.38" y="490.97" width="33.41" height="12.43" fill="#dfbd88" data-mark="stft" data-frame="1" data-bin="9" data-db="-0.8548946924187693"/>
+<rect x="116.38" y="478.57" width="33.41" height="12.43" fill="#caae80" data-mark="stft" data-frame="1" data-bin="10" data-db="-5.81803355194917"/>
+<rect x="116.38" y="466.16" width="33.41" height="12.43" fill="#aa9671" data-mark="stft" data-frame="1" data-bin="11" data-db="-13.64967793498428"/>
+<rect x="116.38" y="453.76" width="33.41" height="12.43" fill="#857a61" data-mark="stft" data-frame="1" data-bin="12" data-db="-22.722773383565652"/>
+<rect x="116.38" y="441.36" width="33.41" height="12.43" fill="#605e51" data-mark="stft" data-frame="1" data-bin="13" data-db="-31.817217352942983"/>
+<rect x="116.38" y="428.95" width="33.41" height="12.43" fill="#3e4542" data-mark="stft" data-frame="1" data-bin="14" data-db="-40.09292029445704"/>
+<rect x="116.38" y="416.55" width="33.41" height="12.43" fill="#222f35" data-mark="stft" data-frame="1" data-bin="15" data-db="-47.12166030232545"/>
+<rect x="116.38" y="404.15" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="16" data-db="-50"/>
+<rect x="116.38" y="391.75" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="17" data-db="-50"/>
+<rect x="116.38" y="379.34" width="33.41" height="12.43" fill="#ad9873" data-mark="stft" data-frame="1" data-bin="18" data-db="-13.03107578250418"/>
+<rect x="116.38" y="366.94" width="33.41" height="12.43" fill="#c5aa7d" data-mark="stft" data-frame="1" data-bin="19" data-db="-7.206801436590686"/>
+<rect x="116.38" y="354.54" width="33.41" height="12.43" fill="#ad9873" data-mark="stft" data-frame="1" data-bin="20" data-db="-13.030750553698509"/>
+<rect x="116.38" y="342.13" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="21" data-db="-50"/>
+<rect x="116.38" y="329.73" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="22" data-db="-50"/>
+<rect x="116.38" y="317.33" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="23" data-db="-50"/>
+<rect x="116.38" y="304.92" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="24" data-db="-50"/>
+<rect x="116.38" y="292.52" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="25" data-db="-50"/>
+<rect x="116.38" y="280.12" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="26" data-db="-50"/>
+<rect x="116.38" y="267.72" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="27" data-db="-50"/>
+<rect x="116.38" y="255.31" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="28" data-db="-50"/>
+<rect x="116.38" y="242.91" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="29" data-db="-50"/>
+<rect x="116.38" y="230.51" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="30" data-db="-50"/>
+<rect x="116.38" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="31" data-db="-50"/>
+<rect x="116.38" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="1" data-bin="32" data-db="-50"/>
+<rect x="149.77" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="0" data-db="-50"/>
+<rect x="149.77" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="1" data-db="-50"/>
+<rect x="149.77" y="577.79" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="2" data-db="-50"/>
+<rect x="149.77" y="565.39" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="3" data-db="-50"/>
+<rect x="149.77" y="552.98" width="33.41" height="12.43" fill="#2f393b" data-mark="stft" data-frame="2" data-bin="4" data-db="-43.83192602782671"/>
+<rect x="149.77" y="540.58" width="33.41" height="12.43" fill="#51524a" data-mark="stft" data-frame="2" data-bin="5" data-db="-35.64229958275524"/>
+<rect x="149.77" y="528.18" width="33.41" height="12.43" fill="#766e5a" data-mark="stft" data-frame="2" data-bin="6" data-db="-26.540550053425513"/>
+<rect x="149.77" y="515.78" width="33.41" height="12.43" fill="#9c8b6b" data-mark="stft" data-frame="2" data-bin="7" data-db="-17.1853109143964"/>
+<rect x="149.77" y="503.37" width="33.41" height="12.43" fill="#bfa57a" data-mark="stft" data-frame="2" data-bin="8" data-db="-8.691046156455561"/>
+<rect x="149.77" y="490.97" width="33.41" height="12.43" fill="#d8b886" data-mark="stft" data-frame="2" data-bin="9" data-db="-2.4647844255961098"/>
+<rect x="149.77" y="478.57" width="33.41" height="12.43" fill="#e2c08a" data-mark="stft" data-frame="2" data-bin="10" data-db="-0.00012033925093906247"/>
+<rect x="149.77" y="466.16" width="33.41" height="12.43" fill="#d6b785" data-mark="stft" data-frame="2" data-bin="11" data-db="-2.9258247734058873"/>
+<rect x="149.77" y="453.76" width="33.41" height="12.43" fill="#bca379" data-mark="stft" data-frame="2" data-bin="12" data-db="-9.426426093838726"/>
+<rect x="149.77" y="441.36" width="33.41" height="12.43" fill="#98886a" data-mark="stft" data-frame="2" data-bin="13" data-db="-18.02120220730729"/>
+<rect x="149.77" y="428.95" width="33.41" height="12.43" fill="#726c59" data-mark="stft" data-frame="2" data-bin="14" data-db="-27.3365637500323"/>
+<rect x="149.77" y="416.55" width="33.41" height="12.43" fill="#4f5149" data-mark="stft" data-frame="2" data-bin="15" data-db="-36.14935753581016"/>
+<rect x="149.77" y="404.15" width="33.41" height="12.43" fill="#323b3c" data-mark="stft" data-frame="2" data-bin="16" data-db="-43.21597481533963"/>
+<rect x="149.77" y="391.75" width="33.41" height="12.43" fill="#273338" data-mark="stft" data-frame="2" data-bin="17" data-db="-45.804850976889746"/>
+<rect x="149.77" y="379.34" width="33.41" height="12.43" fill="#ad9872" data-mark="stft" data-frame="2" data-bin="18" data-db="-13.079518188540682"/>
+<rect x="149.77" y="366.94" width="33.41" height="12.43" fill="#c5aa7d" data-mark="stft" data-frame="2" data-bin="19" data-db="-7.194423192709797"/>
+<rect x="149.77" y="354.54" width="33.41" height="12.43" fill="#ad9873" data-mark="stft" data-frame="2" data-bin="20" data-db="-13.04359356852386"/>
+<rect x="149.77" y="342.13" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="21" data-db="-50"/>
+<rect x="149.77" y="329.73" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="22" data-db="-50"/>
+<rect x="149.77" y="317.33" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="23" data-db="-50"/>
+<rect x="149.77" y="304.92" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="24" data-db="-50"/>
+<rect x="149.77" y="292.52" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="25" data-db="-50"/>
+<rect x="149.77" y="280.12" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="26" data-db="-50"/>
+<rect x="149.77" y="267.72" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="27" data-db="-50"/>
+<rect x="149.77" y="255.31" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="28" data-db="-50"/>
+<rect x="149.77" y="242.91" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="29" data-db="-50"/>
+<rect x="149.77" y="230.51" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="30" data-db="-50"/>
+<rect x="149.77" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="31" data-db="-50"/>
+<rect x="149.77" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="2" data-bin="32" data-db="-50"/>
+<rect x="183.15" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="0" data-db="-50"/>
+<rect x="183.15" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="1" data-db="-50"/>
+<rect x="183.15" y="577.79" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="2" data-db="-50"/>
+<rect x="183.15" y="565.39" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="3" data-db="-50"/>
+<rect x="183.15" y="552.98" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="4" data-db="-50"/>
+<rect x="183.15" y="540.58" width="33.41" height="12.43" fill="#253137" data-mark="stft" data-frame="3" data-bin="5" data-db="-46.37486898323197"/>
+<rect x="183.15" y="528.18" width="33.41" height="12.43" fill="#424743" data-mark="stft" data-frame="3" data-bin="6" data-db="-39.188138585540806"/>
+<rect x="183.15" y="515.78" width="33.41" height="12.43" fill="#646152" data-mark="stft" data-frame="3" data-bin="7" data-db="-30.850351913336624"/>
+<rect x="183.15" y="503.37" width="33.41" height="12.43" fill="#897d63" data-mark="stft" data-frame="3" data-bin="8" data-db="-21.779208440076886"/>
+<rect x="183.15" y="490.97" width="33.41" height="12.43" fill="#ae9873" data-mark="stft" data-frame="3" data-bin="9" data-db="-12.833807164270139"/>
+<rect x="183.15" y="478.57" width="33.41" height="12.43" fill="#cdb081" data-mark="stft" data-frame="3" data-bin="10" data-db="-5.22746751776708"/>
+<rect x="183.15" y="466.16" width="33.41" height="12.43" fill="#e0be89" data-mark="stft" data-frame="3" data-bin="11" data-db="-0.5883766385341195"/>
+<rect x="183.15" y="453.76" width="33.41" height="12.43" fill="#dfbd88" data-mark="stft" data-frame="3" data-bin="12" data-db="-0.8553133569643381"/>
+<rect x="183.15" y="441.36" width="33.41" height="12.43" fill="#caae80" data-mark="stft" data-frame="3" data-bin="13" data-db="-5.816897733581843"/>
+<rect x="183.15" y="428.95" width="33.41" height="12.43" fill="#aa9671" data-mark="stft" data-frame="3" data-bin="14" data-db="-13.647105308057093"/>
+<rect x="183.15" y="416.55" width="33.41" height="12.43" fill="#857a61" data-mark="stft" data-frame="3" data-bin="15" data-db="-22.753219410589537"/>
+<rect x="183.15" y="404.15" width="33.41" height="12.43" fill="#5f5d50" data-mark="stft" data-frame="3" data-bin="16" data-db="-32.04200219573708"/>
+<rect x="183.15" y="391.75" width="33.41" height="12.43" fill="#3a4140" data-mark="stft" data-frame="3" data-bin="17" data-db="-41.252803405012344"/>
+<rect x="183.15" y="379.34" width="33.41" height="12.43" fill="#ad9873" data-mark="stft" data-frame="3" data-bin="18" data-db="-12.956106729931262"/>
+<rect x="183.15" y="366.94" width="33.41" height="12.43" fill="#c5aa7d" data-mark="stft" data-frame="3" data-bin="19" data-db="-7.219057967333936"/>
+<rect x="183.15" y="354.54" width="33.41" height="12.43" fill="#ad9873" data-mark="stft" data-frame="3" data-bin="20" data-db="-13.021440377302342"/>
+<rect x="183.15" y="342.13" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="21" data-db="-50"/>
+<rect x="183.15" y="329.73" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="22" data-db="-50"/>
+<rect x="183.15" y="317.33" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="23" data-db="-50"/>
+<rect x="183.15" y="304.92" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="24" data-db="-50"/>
+<rect x="183.15" y="292.52" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="25" data-db="-50"/>
+<rect x="183.15" y="280.12" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="26" data-db="-50"/>
+<rect x="183.15" y="267.72" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="27" data-db="-50"/>
+<rect x="183.15" y="255.31" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="28" data-db="-50"/>
+<rect x="183.15" y="242.91" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="29" data-db="-50"/>
+<rect x="183.15" y="230.51" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="30" data-db="-50"/>
+<rect x="183.15" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="31" data-db="-50"/>
+<rect x="183.15" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="3" data-bin="32" data-db="-50"/>
+<rect x="216.54" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="0" data-db="-50"/>
+<rect x="216.54" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="1" data-db="-50"/>
+<rect x="216.54" y="577.79" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="2" data-db="-50"/>
+<rect x="216.54" y="565.39" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="3" data-db="-50"/>
+<rect x="216.54" y="552.98" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="4" data-db="-50"/>
+<rect x="216.54" y="540.58" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="5" data-db="-50"/>
+<rect x="216.54" y="528.18" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="6" data-db="-50"/>
+<rect x="216.54" y="515.78" width="33.41" height="12.43" fill="#303a3c" data-mark="stft" data-frame="4" data-bin="7" data-db="-43.5899045813909"/>
+<rect x="216.54" y="503.37" width="33.41" height="12.43" fill="#51524a" data-mark="stft" data-frame="4" data-bin="8" data-db="-35.60323970848333"/>
+<rect x="216.54" y="490.97" width="33.41" height="12.43" fill="#766e5a" data-mark="stft" data-frame="4" data-bin="9" data-db="-26.55245434069212"/>
+<rect x="216.54" y="478.57" width="33.41" height="12.43" fill="#9c8b6b" data-mark="stft" data-frame="4" data-bin="10" data-db="-17.194339594802642"/>
+<rect x="216.54" y="466.16" width="33.41" height="12.43" fill="#bfa57a" data-mark="stft" data-frame="4" data-bin="11" data-db="-8.689970829295472"/>
+<rect x="216.54" y="453.76" width="33.41" height="12.43" fill="#d8b886" data-mark="stft" data-frame="4" data-bin="12" data-db="-2.463792836391465"/>
+<rect x="216.54" y="441.36" width="33.41" height="12.43" fill="#e2c08a" data-mark="stft" data-frame="4" data-bin="13" data-db="-0.0014149175760284128"/>
+<rect x="216.54" y="428.95" width="33.41" height="12.43" fill="#d6b785" data-mark="stft" data-frame="4" data-bin="14" data-db="-2.9250183791185256"/>
+<rect x="216.54" y="416.55" width="33.41" height="12.43" fill="#bca379" data-mark="stft" data-frame="4" data-bin="15" data-db="-9.416067140576088"/>
+<rect x="216.54" y="404.15" width="33.41" height="12.43" fill="#988869" data-mark="stft" data-frame="4" data-bin="16" data-db="-18.057961643342438"/>
+<rect x="216.54" y="391.75" width="33.41" height="12.43" fill="#706a58" data-mark="stft" data-frame="4" data-bin="17" data-db="-27.843055924937566"/>
+<rect x="216.54" y="379.34" width="33.41" height="12.43" fill="#ae9973" data-mark="stft" data-frame="4" data-bin="18" data-db="-12.660578270434028"/>
+<rect x="216.54" y="366.94" width="33.41" height="12.43" fill="#c4aa7d" data-mark="stft" data-frame="4" data-bin="19" data-db="-7.236908928174888"/>
+<rect x="216.54" y="354.54" width="33.41" height="12.43" fill="#ad9873" data-mark="stft" data-frame="4" data-bin="20" data-db="-13.02931915122186"/>
+<rect x="216.54" y="342.13" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="21" data-db="-50"/>
+<rect x="216.54" y="329.73" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="22" data-db="-50"/>
+<rect x="216.54" y="317.33" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="23" data-db="-50"/>
+<rect x="216.54" y="304.92" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="24" data-db="-50"/>
+<rect x="216.54" y="292.52" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="25" data-db="-50"/>
+<rect x="216.54" y="280.12" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="26" data-db="-50"/>
+<rect x="216.54" y="267.72" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="27" data-db="-50"/>
+<rect x="216.54" y="255.31" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="28" data-db="-50"/>
+<rect x="216.54" y="242.91" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="29" data-db="-50"/>
+<rect x="216.54" y="230.51" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="30" data-db="-50"/>
+<rect x="216.54" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="31" data-db="-50"/>
+<rect x="216.54" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="4" data-bin="32" data-db="-50"/>
+<rect x="249.92" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="0" data-db="-50"/>
+<rect x="249.92" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="1" data-db="-50"/>
+<rect x="249.92" y="577.79" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="2" data-db="-50"/>
+<rect x="249.92" y="565.39" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="3" data-db="-50"/>
+<rect x="249.92" y="552.98" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="4" data-db="-50"/>
+<rect x="249.92" y="540.58" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="5" data-db="-50"/>
+<rect x="249.92" y="528.18" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="6" data-db="-50"/>
+<rect x="249.92" y="515.78" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="7" data-db="-50"/>
+<rect x="249.92" y="503.37" width="33.41" height="12.43" fill="#253136" data-mark="stft" data-frame="5" data-bin="8" data-db="-46.44455787359708"/>
+<rect x="249.92" y="490.97" width="33.41" height="12.43" fill="#424743" data-mark="stft" data-frame="5" data-bin="9" data-db="-39.252708298170155"/>
+<rect x="249.92" y="478.57" width="33.41" height="12.43" fill="#646152" data-mark="stft" data-frame="5" data-bin="10" data-db="-30.895118423907636"/>
+<rect x="249.92" y="466.16" width="33.41" height="12.43" fill="#897d63" data-mark="stft" data-frame="5" data-bin="11" data-db="-21.797796085344004"/>
+<rect x="249.92" y="453.76" width="33.41" height="12.43" fill="#ae9873" data-mark="stft" data-frame="5" data-bin="12" data-db="-12.832368486972685"/>
+<rect x="249.92" y="441.36" width="33.41" height="12.43" fill="#cdb081" data-mark="stft" data-frame="5" data-bin="13" data-db="-5.2231091847635"/>
+<rect x="249.92" y="428.95" width="33.41" height="12.43" fill="#e0be89" data-mark="stft" data-frame="5" data-bin="14" data-db="-0.5920651728658709"/>
+<rect x="249.92" y="416.55" width="33.41" height="12.43" fill="#dfbd88" data-mark="stft" data-frame="5" data-bin="15" data-db="-0.8495004243958747"/>
+<rect x="249.92" y="404.15" width="33.41" height="12.43" fill="#caae80" data-mark="stft" data-frame="5" data-bin="16" data-db="-5.832892890133606"/>
+<rect x="249.92" y="391.75" width="33.41" height="12.43" fill="#aa9671" data-mark="stft" data-frame="5" data-bin="17" data-db="-13.685739762442955"/>
+<rect x="249.92" y="379.34" width="33.41" height="12.43" fill="#a4916e" data-mark="stft" data-frame="5" data-bin="18" data-db="-15.29211785514297"/>
+<rect x="249.92" y="366.94" width="33.41" height="12.43" fill="#c7ab7e" data-mark="stft" data-frame="5" data-bin="19" data-db="-6.715740201402321"/>
+<rect x="249.92" y="354.54" width="33.41" height="12.43" fill="#ac9772" data-mark="stft" data-frame="5" data-bin="20" data-db="-13.327765707882138"/>
+<rect x="249.92" y="342.13" width="33.41" height="12.43" fill="#2d383a" data-mark="stft" data-frame="5" data-bin="21" data-db="-44.26492977925676"/>
+<rect x="249.92" y="329.73" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="22" data-db="-50"/>
+<rect x="249.92" y="317.33" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="23" data-db="-50"/>
+<rect x="249.92" y="304.92" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="24" data-db="-50"/>
+<rect x="249.92" y="292.52" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="25" data-db="-50"/>
+<rect x="249.92" y="280.12" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="26" data-db="-50"/>
+<rect x="249.92" y="267.72" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="27" data-db="-50"/>
+<rect x="249.92" y="255.31" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="28" data-db="-50"/>
+<rect x="249.92" y="242.91" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="29" data-db="-50"/>
+<rect x="249.92" y="230.51" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="30" data-db="-50"/>
+<rect x="249.92" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="31" data-db="-50"/>
+<rect x="249.92" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="5" data-bin="32" data-db="-50"/>
+<rect x="283.31" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="0" data-db="-50"/>
+<rect x="283.31" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="1" data-db="-50"/>
+<rect x="283.31" y="577.79" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="2" data-db="-50"/>
+<rect x="283.31" y="565.39" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="3" data-db="-50"/>
+<rect x="283.31" y="552.98" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="4" data-db="-50"/>
+<rect x="283.31" y="540.58" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="5" data-db="-50"/>
+<rect x="283.31" y="528.18" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="6" data-db="-50"/>
+<rect x="283.31" y="515.78" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="7" data-db="-50"/>
+<rect x="283.31" y="503.37" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="8" data-db="-50"/>
+<rect x="283.31" y="490.97" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="9" data-db="-50"/>
+<rect x="283.31" y="478.57" width="33.41" height="12.43" fill="#303a3c" data-mark="stft" data-frame="6" data-bin="10" data-db="-43.570379913284505"/>
+<rect x="283.31" y="466.16" width="33.41" height="12.43" fill="#51524a" data-mark="stft" data-frame="6" data-bin="11" data-db="-35.564607877968314"/>
+<rect x="283.31" y="453.76" width="33.41" height="12.43" fill="#766e5a" data-mark="stft" data-frame="6" data-bin="12" data-db="-26.533546371191843"/>
+<rect x="283.31" y="441.36" width="33.41" height="12.43" fill="#9c8b6b" data-mark="stft" data-frame="6" data-bin="13" data-db="-17.196571799546824"/>
+<rect x="283.31" y="428.95" width="33.41" height="12.43" fill="#bfa57a" data-mark="stft" data-frame="6" data-bin="14" data-db="-8.696061499566007"/>
+<rect x="283.31" y="416.55" width="33.41" height="12.43" fill="#d8b886" data-mark="stft" data-frame="6" data-bin="15" data-db="-2.4595706905813675"/>
+<rect x="283.31" y="404.15" width="33.41" height="12.43" fill="#e2c08a" data-mark="stft" data-frame="6" data-bin="16" data-db="-0.006222862377733212"/>
+<rect x="283.31" y="391.75" width="33.41" height="12.43" fill="#d6b785" data-mark="stft" data-frame="6" data-bin="17" data-db="-2.8979987324485896"/>
+<rect x="283.31" y="379.34" width="33.41" height="12.43" fill="#caae80" data-mark="stft" data-frame="6" data-bin="18" data-db="-5.821360136130474"/>
+<rect x="283.31" y="366.94" width="33.41" height="12.43" fill="#bca379" data-mark="stft" data-frame="6" data-bin="19" data-db="-9.304143509807307"/>
+<rect x="283.31" y="354.54" width="33.41" height="12.43" fill="#ad9873" data-mark="stft" data-frame="6" data-bin="20" data-db="-13.021203470648652"/>
+<rect x="283.31" y="342.13" width="33.41" height="12.43" fill="#51534a" data-mark="stft" data-frame="6" data-bin="21" data-db="-35.427178777751934"/>
+<rect x="283.31" y="329.73" width="33.41" height="12.43" fill="#323b3c" data-mark="stft" data-frame="6" data-bin="22" data-db="-43.255977395950694"/>
+<rect x="283.31" y="317.33" width="33.41" height="12.43" fill="#172730" data-mark="stft" data-frame="6" data-bin="23" data-db="-49.79263821296776"/>
+<rect x="283.31" y="304.92" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="24" data-db="-50"/>
+<rect x="283.31" y="292.52" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="25" data-db="-50"/>
+<rect x="283.31" y="280.12" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="26" data-db="-50"/>
+<rect x="283.31" y="267.72" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="27" data-db="-50"/>
+<rect x="283.31" y="255.31" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="28" data-db="-50"/>
+<rect x="283.31" y="242.91" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="29" data-db="-50"/>
+<rect x="283.31" y="230.51" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="30" data-db="-50"/>
+<rect x="283.31" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="31" data-db="-50"/>
+<rect x="283.31" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="6" data-bin="32" data-db="-50"/>
+<rect x="316.69" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="0" data-db="-50"/>
+<rect x="316.69" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="1" data-db="-50"/>
+<rect x="316.69" y="577.79" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="2" data-db="-50"/>
+<rect x="316.69" y="565.39" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="3" data-db="-50"/>
+<rect x="316.69" y="552.98" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="4" data-db="-50"/>
+<rect x="316.69" y="540.58" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="5" data-db="-50"/>
+<rect x="316.69" y="528.18" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="6" data-db="-50"/>
+<rect x="316.69" y="515.78" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="7" data-db="-50"/>
+<rect x="316.69" y="503.37" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="8" data-db="-50"/>
+<rect x="316.69" y="490.97" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="9" data-db="-50"/>
+<rect x="316.69" y="478.57" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="10" data-db="-50"/>
+<rect x="316.69" y="466.16" width="33.41" height="12.43" fill="#243136" data-mark="stft" data-frame="7" data-bin="11" data-db="-46.50121662354295"/>
+<rect x="316.69" y="453.76" width="33.41" height="12.43" fill="#424743" data-mark="stft" data-frame="7" data-bin="12" data-db="-39.30331621247578"/>
+<rect x="316.69" y="441.36" width="33.41" height="12.43" fill="#646152" data-mark="stft" data-frame="7" data-bin="13" data-db="-30.93165443188282"/>
+<rect x="316.69" y="428.95" width="33.41" height="12.43" fill="#897d63" data-mark="stft" data-frame="7" data-bin="14" data-db="-21.813508012196323"/>
+<rect x="316.69" y="416.55" width="33.41" height="12.43" fill="#ae9873" data-mark="stft" data-frame="7" data-bin="15" data-db="-12.827270770789678"/>
+<rect x="316.69" y="404.15" width="33.41" height="12.43" fill="#cdb081" data-mark="stft" data-frame="7" data-bin="16" data-db="-5.214377517395246"/>
+<rect x="316.69" y="391.75" width="33.41" height="12.43" fill="#e0be89" data-mark="stft" data-frame="7" data-bin="17" data-db="-0.6116349851196629"/>
+<rect x="316.69" y="379.34" width="33.41" height="12.43" fill="#d5b684" data-mark="stft" data-frame="7" data-bin="18" data-db="-3.3006138983376694"/>
+<rect x="316.69" y="366.94" width="33.41" height="12.43" fill="#bca379" data-mark="stft" data-frame="7" data-bin="19" data-db="-9.335369268957388"/>
+<rect x="316.69" y="354.54" width="33.41" height="12.43" fill="#bfa67b" data-mark="stft" data-frame="7" data-bin="20" data-db="-8.570467896280686"/>
+<rect x="316.69" y="342.13" width="33.41" height="12.43" fill="#867b61" data-mark="stft" data-frame="7" data-bin="21" data-db="-22.50863635982379"/>
+<rect x="316.69" y="329.73" width="33.41" height="12.43" fill="#625f51" data-mark="stft" data-frame="7" data-bin="22" data-db="-31.461943097824076"/>
+<rect x="316.69" y="317.33" width="33.41" height="12.43" fill="#404643" data-mark="stft" data-frame="7" data-bin="23" data-db="-39.63031300448231"/>
+<rect x="316.69" y="304.92" width="33.41" height="12.43" fill="#243036" data-mark="stft" data-frame="7" data-bin="24" data-db="-46.61600789607037"/>
+<rect x="316.69" y="292.52" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="25" data-db="-50"/>
+<rect x="316.69" y="280.12" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="26" data-db="-50"/>
+<rect x="316.69" y="267.72" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="27" data-db="-50"/>
+<rect x="316.69" y="255.31" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="28" data-db="-50"/>
+<rect x="316.69" y="242.91" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="29" data-db="-50"/>
+<rect x="316.69" y="230.51" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="30" data-db="-50"/>
+<rect x="316.69" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="31" data-db="-50"/>
+<rect x="316.69" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="7" data-bin="32" data-db="-50"/>
+<rect x="350.08" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="0" data-db="-50"/>
+<rect x="350.08" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="1" data-db="-50"/>
+<rect x="350.08" y="577.79" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="2" data-db="-50"/>
+<rect x="350.08" y="565.39" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="3" data-db="-50"/>
+<rect x="350.08" y="552.98" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="4" data-db="-50"/>
+<rect x="350.08" y="540.58" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="5" data-db="-50"/>
+<rect x="350.08" y="528.18" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="6" data-db="-50"/>
+<rect x="350.08" y="515.78" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="7" data-db="-50"/>
+<rect x="350.08" y="503.37" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="8" data-db="-50"/>
+<rect x="350.08" y="490.97" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="9" data-db="-50"/>
+<rect x="350.08" y="478.57" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="10" data-db="-50"/>
+<rect x="350.08" y="466.16" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="11" data-db="-50"/>
+<rect x="350.08" y="453.76" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="12" data-db="-50"/>
+<rect x="350.08" y="441.36" width="33.41" height="12.43" fill="#30393b" data-mark="stft" data-frame="8" data-bin="13" data-db="-43.72477119155911"/>
+<rect x="350.08" y="428.95" width="33.41" height="12.43" fill="#50524a" data-mark="stft" data-frame="8" data-bin="14" data-db="-35.70915780870741"/>
+<rect x="350.08" y="416.55" width="33.41" height="12.43" fill="#756e5a" data-mark="stft" data-frame="8" data-bin="15" data-db="-26.62809908014101"/>
+<rect x="350.08" y="404.15" width="33.41" height="12.43" fill="#9c8b6b" data-mark="stft" data-frame="8" data-bin="16" data-db="-17.221746694145736"/>
+<rect x="350.08" y="391.75" width="33.41" height="12.43" fill="#bfa57a" data-mark="stft" data-frame="8" data-bin="17" data-db="-8.646988164472127"/>
+<rect x="350.08" y="379.34" width="33.41" height="12.43" fill="#d8b886" data-mark="stft" data-frame="8" data-bin="18" data-db="-2.464222108412433"/>
+<rect x="350.08" y="366.94" width="33.41" height="12.43" fill="#ddbd88" data-mark="stft" data-frame="8" data-bin="19" data-db="-1.1325580511890276"/>
+<rect x="350.08" y="354.54" width="33.41" height="12.43" fill="#d7b885" data-mark="stft" data-frame="8" data-bin="20" data-db="-2.714874777008025"/>
+<rect x="350.08" y="342.13" width="33.41" height="12.43" fill="#bca379" data-mark="stft" data-frame="8" data-bin="21" data-db="-9.371692189470938"/>
+<rect x="350.08" y="329.73" width="33.41" height="12.43" fill="#98886a" data-mark="stft" data-frame="8" data-bin="22" data-db="-18.040434128440452"/>
+<rect x="350.08" y="317.33" width="33.41" height="12.43" fill="#726b59" data-mark="stft" data-frame="8" data-bin="23" data-db="-27.448516488440482"/>
+<rect x="350.08" y="304.92" width="33.41" height="12.43" fill="#4d5048" data-mark="stft" data-frame="8" data-bin="24" data-db="-36.509119330812545"/>
+<rect x="350.08" y="292.52" width="33.41" height="12.43" fill="#2c373a" data-mark="stft" data-frame="8" data-bin="25" data-db="-44.55926439860788"/>
+<rect x="350.08" y="280.12" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="26" data-db="-50"/>
+<rect x="350.08" y="267.72" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="27" data-db="-50"/>
+<rect x="350.08" y="255.31" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="28" data-db="-50"/>
+<rect x="350.08" y="242.91" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="29" data-db="-50"/>
+<rect x="350.08" y="230.51" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="30" data-db="-50"/>
+<rect x="350.08" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="31" data-db="-50"/>
+<rect x="350.08" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="8" data-bin="32" data-db="-50"/>
+<rect x="383.46" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="0" data-db="-50"/>
+<rect x="383.46" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="1" data-db="-50"/>
+<rect x="383.46" y="577.79" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="2" data-db="-50"/>
+<rect x="383.46" y="565.39" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="3" data-db="-50"/>
+<rect x="383.46" y="552.98" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="4" data-db="-50"/>
+<rect x="383.46" y="540.58" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="5" data-db="-50"/>
+<rect x="383.46" y="528.18" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="6" data-db="-50"/>
+<rect x="383.46" y="515.78" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="7" data-db="-50"/>
+<rect x="383.46" y="503.37" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="8" data-db="-50"/>
+<rect x="383.46" y="490.97" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="9" data-db="-50"/>
+<rect x="383.46" y="478.57" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="10" data-db="-50"/>
+<rect x="383.46" y="466.16" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="11" data-db="-50"/>
+<rect x="383.46" y="453.76" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="12" data-db="-50"/>
+<rect x="383.46" y="441.36" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="13" data-db="-50"/>
+<rect x="383.46" y="428.95" width="33.41" height="12.43" fill="#263237" data-mark="stft" data-frame="9" data-bin="14" data-db="-46.08904672839504"/>
+<rect x="383.46" y="416.55" width="33.41" height="12.43" fill="#434844" data-mark="stft" data-frame="9" data-bin="15" data-db="-38.919146594969874"/>
+<rect x="383.46" y="404.15" width="33.41" height="12.43" fill="#656253" data-mark="stft" data-frame="9" data-bin="16" data-db="-30.604759667056154"/>
+<rect x="383.46" y="391.75" width="33.41" height="12.43" fill="#8a7d63" data-mark="stft" data-frame="9" data-bin="17" data-db="-21.60374126988614"/>
+<rect x="383.46" y="379.34" width="33.41" height="12.43" fill="#c1a77b" data-mark="stft" data-frame="9" data-bin="18" data-db="-8.186816668045509"/>
+<rect x="383.46" y="366.94" width="33.41" height="12.43" fill="#c0a67b" data-mark="stft" data-frame="9" data-bin="19" data-db="-8.345652539082556"/>
+<rect x="383.46" y="354.54" width="33.41" height="12.43" fill="#d6b785" data-mark="stft" data-frame="9" data-bin="20" data-db="-2.9561097427998204"/>
+<rect x="383.46" y="342.13" width="33.41" height="12.43" fill="#debd88" data-mark="stft" data-frame="9" data-bin="21" data-db="-0.8771357204138153"/>
+<rect x="383.46" y="329.73" width="33.41" height="12.43" fill="#caae80" data-mark="stft" data-frame="9" data-bin="22" data-db="-5.810115740356155"/>
+<rect x="383.46" y="317.33" width="33.41" height="12.43" fill="#aa9671" data-mark="stft" data-frame="9" data-bin="23" data-db="-13.636200543091874"/>
+<rect x="383.46" y="304.92" width="33.41" height="12.43" fill="#857a61" data-mark="stft" data-frame="9" data-bin="24" data-db="-22.725204318715555"/>
+<rect x="383.46" y="292.52" width="33.41" height="12.43" fill="#605e51" data-mark="stft" data-frame="9" data-bin="25" data-db="-31.837854656982753"/>
+<rect x="383.46" y="280.12" width="33.41" height="12.43" fill="#3e4442" data-mark="stft" data-frame="9" data-bin="26" data-db="-40.13581018067"/>
+<rect x="383.46" y="267.72" width="33.41" height="12.43" fill="#212e35" data-mark="stft" data-frame="9" data-bin="27" data-db="-47.268182715531644"/>
+<rect x="383.46" y="255.31" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="28" data-db="-50"/>
+<rect x="383.46" y="242.91" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="29" data-db="-50"/>
+<rect x="383.46" y="230.51" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="30" data-db="-50"/>
+<rect x="383.46" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="31" data-db="-50"/>
+<rect x="383.46" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="9" data-bin="32" data-db="-50"/>
+<rect x="416.85" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="0" data-db="-50"/>
+<rect x="416.85" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="1" data-db="-50"/>
+<rect x="416.85" y="577.79" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="2" data-db="-50"/>
+<rect x="416.85" y="565.39" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="3" data-db="-50"/>
+<rect x="416.85" y="552.98" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="4" data-db="-50"/>
+<rect x="416.85" y="540.58" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="5" data-db="-50"/>
+<rect x="416.85" y="528.18" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="6" data-db="-50"/>
+<rect x="416.85" y="515.78" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="7" data-db="-50"/>
+<rect x="416.85" y="503.37" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="8" data-db="-50"/>
+<rect x="416.85" y="490.97" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="9" data-db="-50"/>
+<rect x="416.85" y="478.57" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="10" data-db="-50"/>
+<rect x="416.85" y="466.16" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="11" data-db="-50"/>
+<rect x="416.85" y="453.76" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="12" data-db="-50"/>
+<rect x="416.85" y="441.36" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="13" data-db="-50"/>
+<rect x="416.85" y="428.95" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="14" data-db="-50"/>
+<rect x="416.85" y="416.55" width="33.41" height="12.43" fill="#192931" data-mark="stft" data-frame="10" data-bin="15" data-db="-49.17016021971959"/>
+<rect x="416.85" y="404.15" width="33.41" height="12.43" fill="#343d3d" data-mark="stft" data-frame="10" data-bin="16" data-db="-42.62135400206872"/>
+<rect x="416.85" y="391.75" width="33.41" height="12.43" fill="#54554b" data-mark="stft" data-frame="10" data-bin="17" data-db="-34.77172999333746"/>
+<rect x="416.85" y="379.34" width="33.41" height="12.43" fill="#ae9873" data-mark="stft" data-frame="10" data-bin="18" data-db="-12.867105064595085"/>
+<rect x="416.85" y="366.94" width="33.41" height="12.43" fill="#baa278" data-mark="stft" data-frame="10" data-bin="19" data-db="-9.831235171830079"/>
+<rect x="416.85" y="354.54" width="33.41" height="12.43" fill="#cbae80" data-mark="stft" data-frame="10" data-bin="20" data-db="-5.70691832469528"/>
+<rect x="416.85" y="342.13" width="33.41" height="12.43" fill="#d8b886" data-mark="stft" data-frame="10" data-bin="21" data-db="-2.436875581725185"/>
+<rect x="416.85" y="329.73" width="33.41" height="12.43" fill="#e2c08a" data-mark="stft" data-frame="10" data-bin="22" data-db="-0.00761528783577111"/>
+<rect x="416.85" y="317.33" width="33.41" height="12.43" fill="#d6b785" data-mark="stft" data-frame="10" data-bin="23" data-db="-2.9205101864750893"/>
+<rect x="416.85" y="304.92" width="33.41" height="12.43" fill="#bca379" data-mark="stft" data-frame="10" data-bin="24" data-db="-9.425651735095535"/>
+<rect x="416.85" y="292.52" width="33.41" height="12.43" fill="#98886a" data-mark="stft" data-frame="10" data-bin="25" data-db="-18.03091605062731"/>
+<rect x="416.85" y="280.12" width="33.41" height="12.43" fill="#726c59" data-mark="stft" data-frame="10" data-bin="26" data-db="-27.384101065528455"/>
+<rect x="416.85" y="267.72" width="33.41" height="12.43" fill="#4d5048" data-mark="stft" data-frame="10" data-bin="27" data-db="-36.40055401242569"/>
+<rect x="416.85" y="255.31" width="33.41" height="12.43" fill="#2d373a" data-mark="stft" data-frame="10" data-bin="28" data-db="-44.408981488721444"/>
+<rect x="416.85" y="242.91" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="29" data-db="-50"/>
+<rect x="416.85" y="230.51" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="30" data-db="-50"/>
+<rect x="416.85" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="31" data-db="-50"/>
+<rect x="416.85" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="10" data-bin="32" data-db="-50"/>
+<rect x="450.23" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="0" data-db="-50"/>
+<rect x="450.23" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="1" data-db="-50"/>
+<rect x="450.23" y="577.79" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="2" data-db="-50"/>
+<rect x="450.23" y="565.39" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="3" data-db="-50"/>
+<rect x="450.23" y="552.98" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="4" data-db="-50"/>
+<rect x="450.23" y="540.58" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="5" data-db="-50"/>
+<rect x="450.23" y="528.18" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="6" data-db="-50"/>
+<rect x="450.23" y="515.78" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="7" data-db="-50"/>
+<rect x="450.23" y="503.37" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="8" data-db="-50"/>
+<rect x="450.23" y="490.97" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="9" data-db="-50"/>
+<rect x="450.23" y="478.57" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="10" data-db="-50"/>
+<rect x="450.23" y="466.16" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="11" data-db="-50"/>
+<rect x="450.23" y="453.76" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="12" data-db="-50"/>
+<rect x="450.23" y="441.36" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="13" data-db="-50"/>
+<rect x="450.23" y="428.95" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="14" data-db="-50"/>
+<rect x="450.23" y="416.55" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="15" data-db="-50"/>
+<rect x="450.23" y="404.15" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="16" data-db="-50"/>
+<rect x="450.23" y="391.75" width="33.41" height="12.43" fill="#313a3c" data-mark="stft" data-frame="11" data-bin="17" data-db="-43.49042285925002"/>
+<rect x="450.23" y="379.34" width="33.41" height="12.43" fill="#ab9772" data-mark="stft" data-frame="11" data-bin="18" data-db="-13.408586762321772"/>
+<rect x="450.23" y="366.94" width="33.41" height="12.43" fill="#c7ab7e" data-mark="stft" data-frame="11" data-bin="19" data-db="-6.656787234227753"/>
+<rect x="450.23" y="354.54" width="33.41" height="12.43" fill="#a69370" data-mark="stft" data-frame="11" data-bin="20" data-db="-14.639444652054841"/>
+<rect x="450.23" y="342.13" width="33.41" height="12.43" fill="#ad9873" data-mark="stft" data-frame="11" data-bin="21" data-db="-12.891229840573907"/>
+<rect x="450.23" y="329.73" width="33.41" height="12.43" fill="#cdb081" data-mark="stft" data-frame="11" data-bin="22" data-db="-5.234600483526445"/>
+<rect x="450.23" y="317.33" width="33.41" height="12.43" fill="#e0be89" data-mark="stft" data-frame="11" data-bin="23" data-db="-0.5846279008730495"/>
+<rect x="450.23" y="304.92" width="33.41" height="12.43" fill="#dfbd88" data-mark="stft" data-frame="11" data-bin="24" data-db="-0.8572557826456566"/>
+<rect x="450.23" y="292.52" width="33.41" height="12.43" fill="#caae80" data-mark="stft" data-frame="11" data-bin="25" data-db="-5.818527166585719"/>
+<rect x="450.23" y="280.12" width="33.41" height="12.43" fill="#aa9671" data-mark="stft" data-frame="11" data-bin="26" data-db="-13.639036883918333"/>
+<rect x="450.23" y="267.72" width="33.41" height="12.43" fill="#857a61" data-mark="stft" data-frame="11" data-bin="27" data-db="-22.703553180952678"/>
+<rect x="450.23" y="255.31" width="33.41" height="12.43" fill="#605e51" data-mark="stft" data-frame="11" data-bin="28" data-db="-31.82856019609522"/>
+<rect x="450.23" y="242.91" width="33.41" height="12.43" fill="#3e4441" data-mark="stft" data-frame="11" data-bin="29" data-db="-40.29654140067238"/>
+<rect x="450.23" y="230.51" width="33.41" height="12.43" fill="#1e2c33" data-mark="stft" data-frame="11" data-bin="30" data-db="-48.095127208285994"/>
+<rect x="450.23" y="218.10" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="31" data-db="-50"/>
+<rect x="450.23" y="205.70" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="11" data-bin="32" data-db="-50"/>
+<rect x="483.62" y="602.60" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="0" data-db="-50"/>
+<rect x="483.62" y="590.19" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="1" data-db="-50"/>
+<rect x="483.62" y="577.79" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="2" data-db="-50"/>
+<rect x="483.62" y="565.39" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="3" data-db="-50"/>
+<rect x="483.62" y="552.98" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="4" data-db="-50"/>
+<rect x="483.62" y="540.58" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="5" data-db="-50"/>
+<rect x="483.62" y="528.18" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="6" data-db="-50"/>
+<rect x="483.62" y="515.78" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="7" data-db="-50"/>
+<rect x="483.62" y="503.37" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="8" data-db="-50"/>
+<rect x="483.62" y="490.97" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="9" data-db="-50"/>
+<rect x="483.62" y="478.57" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="10" data-db="-50"/>
+<rect x="483.62" y="466.16" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="11" data-db="-50"/>
+<rect x="483.62" y="453.76" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="12" data-db="-50"/>
+<rect x="483.62" y="441.36" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="13" data-db="-50"/>
+<rect x="483.62" y="428.95" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="14" data-db="-50"/>
+<rect x="483.62" y="416.55" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="15" data-db="-50"/>
+<rect x="483.62" y="404.15" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="16" data-db="-50"/>
+<rect x="483.62" y="391.75" width="33.41" height="12.43" fill="#162630" data-mark="stft" data-frame="12" data-bin="17" data-db="-50"/>
+<rect x="483.62" y="379.34" width="33.41" height="12.43" fill="#ad9873" data-mark="stft" data-frame="12" data-bin="18" data-db="-12.996282259654961"/>
+<rect x="483.62" y="366.94" width="33.41" height="12.43" fill="#c4aa7d" data-mark="stft" data-frame="12" data-bin="19" data-db="-7.276513373378702"/>
+<rect x="483.62" y="354.54" width="33.41" height="12.43" fill="#af9a74" data-mark="stft" data-frame="12" data-bin="20" data-db="-12.495471782709405"/>
+<rect x="483.62" y="342.13" width="33.41" height="12.43" fill="#746d59" data-mark="stft" data-frame="12" data-bin="21" data-db="-26.980556734026724"/>
+<rect x="483.62" y="329.73" width="33.41" height="12.43" fill="#9c8b6b" data-mark="stft" data-frame="12" data-bin="22" data-db="-17.204753024012057"/>
+<rect x="483.62" y="317.33" width="33.41" height="12.43" fill="#bfa57a" data-mark="stft" data-frame="12" data-bin="23" data-db="-8.682362730712986"/>
+<rect x="483.62" y="304.92" width="33.41" height="12.43" fill="#d8b886" data-mark="stft" data-frame="12" data-bin="24" data-db="-2.4653456455814746"/>
+<rect x="483.62" y="292.52" width="33.41" height="12.43" fill="#e2c08a" data-mark="stft" data-frame="12" data-bin="25" data-db="0.0"/>
+<rect x="483.62" y="280.12" width="33.41" height="12.43" fill="#d6b785" data-mark="stft" data-frame="12" data-bin="26" data-db="-2.9264177635576405"/>
+<rect x="483.62" y="267.72" width="33.41" height="12.43" fill="#bca379" data-mark="stft" data-frame="12" data-bin="27" data-db="-9.427417542049307"/>
+<rect x="483.62" y="255.31" width="33.41" height="12.43" fill="#98896a" data-mark="stft" data-frame="12" data-bin="28" data-db="-18.01625100927876"/>
+<rect x="483.62" y="242.91" width="33.41" height="12.43" fill="#736c59" data-mark="stft" data-frame="12" data-bin="29" data-db="-27.291669443237826"/>
+<rect x="483.62" y="230.51" width="33.41" height="12.43" fill="#4f5149" data-mark="stft" data-frame="12" data-bin="30" data-db="-35.95324107203009"/>
+<rect x="483.62" y="218.10" width="33.41" height="12.43" fill="#343d3d" data-mark="stft" data-frame="12" data-bin="31" data-db="-42.60035913379287"/>
+<rect x="483.62" y="205.70" width="33.41" height="12.43" fill="#293539" data-mark="stft" data-frame="12" data-bin="32" data-db="-45.26873569203239"/>
+<text x="71.00" y="614.80" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >0</text>
+<text x="71.00" y="515.57" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >16</text>
+<text x="71.00" y="416.35" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >32</text>
+<text x="71.00" y="317.13" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >48</text>
+<text x="71.00" y="217.90" font-size="20" fill="#98a8a5" text-anchor="end" font-weight="400" >64</text>
+<text x="99.69" y="644.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >0.25s</text>
+<text x="233.23" y="644.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >0.75s</text>
+<text x="366.77" y="644.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >1.25s</text>
+<text x="500.31" y="644.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >1.75s</text>
+<rect x="538.00" y="205.70" width="12.00" height="8.29" fill="#e2c08a" />
+<rect x="538.00" y="213.89" width="12.00" height="8.29" fill="#debd88" />
+<rect x="538.00" y="222.07" width="12.00" height="8.29" fill="#daba86" />
+<rect x="538.00" y="230.26" width="12.00" height="8.29" fill="#d6b785" />
+<rect x="538.00" y="238.44" width="12.00" height="8.29" fill="#d2b483" />
+<rect x="538.00" y="246.63" width="12.00" height="8.29" fill="#ceb181" />
+<rect x="538.00" y="254.82" width="12.00" height="8.29" fill="#caae7f" />
+<rect x="538.00" y="263.00" width="12.00" height="8.29" fill="#c5aa7d" />
+<rect x="538.00" y="271.19" width="12.00" height="8.29" fill="#c1a77c" />
+<rect x="538.00" y="279.37" width="12.00" height="8.29" fill="#bda47a" />
+<rect x="538.00" y="287.56" width="12.00" height="8.29" fill="#b9a178" />
+<rect x="538.00" y="295.75" width="12.00" height="8.29" fill="#b59e76" />
+<rect x="538.00" y="303.93" width="12.00" height="8.29" fill="#b19b74" />
+<rect x="538.00" y="312.12" width="12.00" height="8.29" fill="#ad9873" />
+<rect x="538.00" y="320.30" width="12.00" height="8.29" fill="#a99571" />
+<rect x="538.00" y="328.49" width="12.00" height="8.29" fill="#a5926f" />
+<rect x="538.00" y="336.68" width="12.00" height="8.29" fill="#a18f6d" />
+<rect x="538.00" y="344.86" width="12.00" height="8.29" fill="#9d8c6b" />
+<rect x="538.00" y="353.05" width="12.00" height="8.29" fill="#99896a" />
+<rect x="538.00" y="361.23" width="12.00" height="8.29" fill="#948568" />
+<rect x="538.00" y="369.42" width="12.00" height="8.29" fill="#908266" />
+<rect x="538.00" y="377.61" width="12.00" height="8.29" fill="#8c7f64" />
+<rect x="538.00" y="385.79" width="12.00" height="8.29" fill="#887c62" />
+<rect x="538.00" y="393.98" width="12.00" height="8.29" fill="#847961" />
+<rect x="538.00" y="402.16" width="12.00" height="8.29" fill="#80765f" />
+<rect x="538.00" y="410.35" width="12.00" height="8.29" fill="#7c735d" />
+<rect x="538.00" y="418.54" width="12.00" height="8.29" fill="#78705b" />
+<rect x="538.00" y="426.72" width="12.00" height="8.29" fill="#746d59" />
+<rect x="538.00" y="434.91" width="12.00" height="8.29" fill="#706a58" />
+<rect x="538.00" y="443.09" width="12.00" height="8.29" fill="#6c6756" />
+<rect x="538.00" y="451.28" width="12.00" height="8.29" fill="#686454" />
+<rect x="538.00" y="459.47" width="12.00" height="8.29" fill="#646152" />
+<rect x="538.00" y="467.65" width="12.00" height="8.29" fill="#5f5d50" />
+<rect x="538.00" y="475.84" width="12.00" height="8.29" fill="#5b5a4f" />
+<rect x="538.00" y="484.02" width="12.00" height="8.29" fill="#57574d" />
+<rect x="538.00" y="492.21" width="12.00" height="8.29" fill="#53544b" />
+<rect x="538.00" y="500.40" width="12.00" height="8.29" fill="#4f5149" />
+<rect x="538.00" y="508.58" width="12.00" height="8.29" fill="#4b4e47" />
+<rect x="538.00" y="516.77" width="12.00" height="8.29" fill="#474b46" />
+<rect x="538.00" y="524.95" width="12.00" height="8.29" fill="#434844" />
+<rect x="538.00" y="533.14" width="12.00" height="8.29" fill="#3f4542" />
+<rect x="538.00" y="541.33" width="12.00" height="8.29" fill="#3b4240" />
+<rect x="538.00" y="549.51" width="12.00" height="8.29" fill="#373f3e" />
+<rect x="538.00" y="557.70" width="12.00" height="8.29" fill="#333c3d" />
+<rect x="538.00" y="565.88" width="12.00" height="8.29" fill="#2e383b" />
+<rect x="538.00" y="574.07" width="12.00" height="8.29" fill="#2a3539" />
+<rect x="538.00" y="582.26" width="12.00" height="8.29" fill="#263237" />
+<rect x="538.00" y="590.44" width="12.00" height="8.29" fill="#222f35" />
+<rect x="538.00" y="598.63" width="12.00" height="8.29" fill="#1e2c34" />
+<rect x="538.00" y="606.81" width="12.00" height="8.29" fill="#1a2932" />
+<text x="557.00" y="212.70" font-size="19" fill="#98a8a5" text-anchor="start" font-weight="400" >0</text>
+<text x="557.00" y="615.00" font-size="19" fill="#98a8a5" text-anchor="start" font-weight="400" >-50</text>
+<text x="83.00" y="192.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Hz</text>
+<text x="38.00" y="694.00" font-size="20" fill="#e9e9df" text-anchor="start" font-weight="600" >64-point Hann / hop 16 / sample rate 128 Hz.</text>
+<text x="38.00" y="729.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Synthetic. 20 log10 magnitude relative to the global</text>
+<text x="38.00" y="755.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >peak; floor -50 dB. Window centres shown; no source</text>
+<text x="38.00" y="781.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >identification.</text>
+<metadata>{&quot;case&quot;: &quot;C24&quot;, &quot;frames&quot;: 13, &quot;bins&quot;: 33, &quot;reference_peak&quot;: 12.640864064634384, &quot;plot&quot;: [83, 517, 205.7, 615]}</metadata>
+</svg>

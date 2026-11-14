@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="358" viewBox="0 132.70 1000 358.30" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">A table keeps every cent traceable</title>
+<desc id="desc">Accounts payable / USD, credits retained. Synthetic demonstration data. C08.</desc>
+<rect width="1000" height="610" fill="#101719" />
+<text x="58.00" y="46.00" font-size="33" fill="#e9e9df" text-anchor="start" font-weight="650">A table keeps every cent traceable</text>
+<text x="58.00" y="100.90" font-size="16" fill="#98a8a5" text-anchor="start" font-weight="400">Accounts payable / USD, credits retained</text>
+<line x1="58.00" y1="133.70" x2="942.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<text x="58.00" y="179.70" font-size="15" fill="#98a8a5" text-anchor="start" font-weight="600">Vendor</text>
+<text x="340.00" y="179.70" font-size="15" fill="#98a8a5" text-anchor="start" font-weight="600">Invoice</text>
+<text x="570.00" y="179.70" font-size="15" fill="#98a8a5" text-anchor="start" font-weight="600">Due</text>
+<text x="942.00" y="179.70" font-size="15" fill="#98a8a5" text-anchor="end" font-weight="600">USD</text>
+<line x1="58.00" y1="194.70" x2="942.00" y2="194.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="58.00" y="237.70" font-size="15" fill="#18312f" text-anchor="start" font-weight="400">Atlas</text>
+<text x="340.00" y="237.70" font-size="15" fill="#18312f" text-anchor="start" font-weight="400">INV-101</text>
+<text x="570.00" y="237.70" font-size="15" fill="#98a8a5" text-anchor="start" font-weight="400">2026-11-20</text>
+<text x="942.00" y="237.70" font-size="15" fill="#e9e9df" text-anchor="end" font-weight="400" data-mark="amount" data-cents="128450">$1,284.50</text>
+<line x1="58.00" y1="253.70" x2="942.00" y2="253.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="58.00" y="285.70" font-size="15" fill="#18312f" text-anchor="start" font-weight="400">Atlas</text>
+<text x="340.00" y="285.70" font-size="15" fill="#18312f" text-anchor="start" font-weight="400">INV-102</text>
+<text x="570.00" y="285.70" font-size="15" fill="#98a8a5" text-anchor="start" font-weight="400">2026-11-21</text>
+<text x="942.00" y="285.70" font-size="15" fill="#e9e9df" text-anchor="end" font-weight="400" data-mark="amount" data-cents="75625">$756.25</text>
+<line x1="58.00" y1="301.70" x2="942.00" y2="301.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="58.00" y="333.70" font-size="15" fill="#18312f" text-anchor="start" font-weight="400">Northline</text>
+<text x="340.00" y="333.70" font-size="15" fill="#18312f" text-anchor="start" font-weight="400">INV-201</text>
+<text x="570.00" y="333.70" font-size="15" fill="#98a8a5" text-anchor="start" font-weight="400">2026-11-22</text>
+<text x="942.00" y="333.70" font-size="15" fill="#e9e9df" text-anchor="end" font-weight="400" data-mark="amount" data-cents="230000">$2,300.00</text>
+<line x1="58.00" y1="349.70" x2="942.00" y2="349.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="58.00" y="381.70" font-size="15" fill="#18312f" text-anchor="start" font-weight="400">Cedar</text>
+<text x="340.00" y="381.70" font-size="15" fill="#18312f" text-anchor="start" font-weight="400">CR-301</text>
+<text x="570.00" y="381.70" font-size="15" fill="#98a8a5" text-anchor="start" font-weight="400">2026-11-20</text>
+<text x="942.00" y="381.70" font-size="15" fill="#dda96f" text-anchor="end" font-weight="400" data-mark="amount" data-cents="-12500">-$125.00</text>
+<line x1="58.00" y1="397.70" x2="942.00" y2="397.70" stroke="#d9e0d9" stroke-width="1" />
+<text x="58.00" y="429.70" font-size="16" fill="#e9e9df" text-anchor="start" font-weight="650">Net payable</text>
+<text x="942.00" y="429.70" font-size="16" fill="#e9e9df" text-anchor="end" font-weight="650" data-mark="total">$4,215.75</text>
+<text x="58.00" y="504.00" font-size="19" fill="#e9e9df" text-anchor="start" font-weight="600">Net payable: $4,215.75.</text>
+<text x="58.00" y="537.70" font-size="14" fill="#98a8a5" text-anchor="start" font-weight="400">Synthetic. All due dates in November 2026. Exact lookup is the task; a chart is optional.</text>
+</svg>

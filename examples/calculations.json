@@ -1,0 +1,25 @@
+{
+  "revenue": {
+    "net": 300
+  },
+  "latency": {
+    "before": {
+      "n": 20,
+      "p50": 200,
+      "p95": 480,
+      "over_500": 0.05
+    },
+    "after": {
+      "n": 20,
+      "p50": 150,
+      "p95": 900,
+      "over_500": 0.2
+    }
+  },
+  "sensor": {
+    "segments": 3
+  },
+  "ledger": {
+    "total_cents": 421575
+  }
+}

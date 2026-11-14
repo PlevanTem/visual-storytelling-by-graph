@@ -1,0 +1,589 @@
+{
+  "synthetic": true,
+  "unit": "unique archive objects; universe includes at least one tag",
+  "sets": [
+    "Text",
+    "Image",
+    "Audio",
+    "Spatial"
+  ],
+  "intersection_mode": "exact/exclusive membership pattern",
+  "rows": [
+    {
+      "id": "D01-00",
+      "membership": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D01-01",
+      "membership": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D01-02",
+      "membership": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D01-03",
+      "membership": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D01-04",
+      "membership": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D01-05",
+      "membership": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D01-06",
+      "membership": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D01-07",
+      "membership": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D01-08",
+      "membership": [
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D02-00",
+      "membership": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D02-01",
+      "membership": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D02-02",
+      "membership": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D02-03",
+      "membership": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D02-04",
+      "membership": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D02-05",
+      "membership": [
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D03-00",
+      "membership": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D03-01",
+      "membership": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D03-02",
+      "membership": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D03-03",
+      "membership": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D03-04",
+      "membership": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D03-05",
+      "membership": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D03-06",
+      "membership": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D03-07",
+      "membership": [
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "D04-00",
+      "membership": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D04-01",
+      "membership": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D04-02",
+      "membership": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D04-03",
+      "membership": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D04-04",
+      "membership": [
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D05-00",
+      "membership": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D05-01",
+      "membership": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D05-02",
+      "membership": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D05-03",
+      "membership": [
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D06-00",
+      "membership": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D06-01",
+      "membership": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D06-02",
+      "membership": [
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D07-00",
+      "membership": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D07-01",
+      "membership": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D07-02",
+      "membership": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D07-03",
+      "membership": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D07-04",
+      "membership": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D07-05",
+      "membership": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D07-06",
+      "membership": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "D08-00",
+      "membership": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D08-01",
+      "membership": [
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D09-00",
+      "membership": [
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D09-01",
+      "membership": [
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D09-02",
+      "membership": [
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D09-03",
+      "membership": [
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D09-04",
+      "membership": [
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D10-00",
+      "membership": [
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D10-01",
+      "membership": [
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D10-02",
+      "membership": [
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D11-00",
+      "membership": [
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D11-01",
+      "membership": [
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "D12-00",
+      "membership": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "D12-01",
+      "membership": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "D12-02",
+      "membership": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "D12-03",
+      "membership": [
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "D13-00",
+      "membership": [
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "D14-00",
+      "membership": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "D14-01",
+      "membership": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "D15-00",
+      "membership": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "D15-01",
+      "membership": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "D15-02",
+      "membership": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ]
+}

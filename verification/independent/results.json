@@ -1,0 +1,773 @@
+{
+  "C15": {
+    "method": "Kaplan-Meier; time>=t risk set; events at ties processed before censor removal",
+    "groups": {
+      "Dry": {
+        "n": 12,
+        "events": 4,
+        "censored": 8,
+        "last_observation": 100,
+        "median_cycles": null,
+        "steps": [
+          {
+            "time": 10,
+            "risk": 12,
+            "events": 1,
+            "censored": 0,
+            "survival": 0.9166666666666666,
+            "fraction": "11/12"
+          },
+          {
+            "time": 20,
+            "risk": 11,
+            "events": 0,
+            "censored": 1,
+            "survival": 0.9166666666666666,
+            "fraction": "11/12"
+          },
+          {
+            "time": 30,
+            "risk": 10,
+            "events": 1,
+            "censored": 0,
+            "survival": 0.825,
+            "fraction": "33/40"
+          },
+          {
+            "time": 40,
+            "risk": 9,
+            "events": 0,
+            "censored": 1,
+            "survival": 0.825,
+            "fraction": "33/40"
+          },
+          {
+            "time": 50,
+            "risk": 8,
+            "events": 1,
+            "censored": 0,
+            "survival": 0.721875,
+            "fraction": "231/320"
+          },
+          {
+            "time": 60,
+            "risk": 7,
+            "events": 0,
+            "censored": 1,
+            "survival": 0.721875,
+            "fraction": "231/320"
+          },
+          {
+            "time": 70,
+            "risk": 6,
+            "events": 0,
+            "censored": 1,
+            "survival": 0.721875,
+            "fraction": "231/320"
+          },
+          {
+            "time": 80,
+            "risk": 5,
+            "events": 1,
+            "censored": 0,
+            "survival": 0.5775,
+            "fraction": "231/400"
+          },
+          {
+            "time": 90,
+            "risk": 4,
+            "events": 0,
+            "censored": 1,
+            "survival": 0.5775,
+            "fraction": "231/400"
+          },
+          {
+            "time": 100,
+            "risk": 3,
+            "events": 0,
+            "censored": 3,
+            "survival": 0.5775,
+            "fraction": "231/400"
+          }
+        ]
+      },
+      "Humid": {
+        "n": 12,
+        "events": 7,
+        "censored": 5,
+        "last_observation": 88,
+        "median_cycles": 56,
+        "steps": [
+          {
+            "time": 8,
+            "risk": 12,
+            "events": 1,
+            "censored": 0,
+            "survival": 0.9166666666666666,
+            "fraction": "11/12"
+          },
+          {
+            "time": 16,
+            "risk": 11,
+            "events": 1,
+            "censored": 0,
+            "survival": 0.8333333333333334,
+            "fraction": "5/6"
+          },
+          {
+            "time": 24,
+            "risk": 10,
+            "events": 1,
+            "censored": 1,
+            "survival": 0.75,
+            "fraction": "3/4"
+          },
+          {
+            "time": 32,
+            "risk": 8,
+            "events": 1,
+            "censored": 0,
+            "survival": 0.65625,
+            "fraction": "21/32"
+          },
+          {
+            "time": 40,
+            "risk": 7,
+            "events": 1,
+            "censored": 0,
+            "survival": 0.5625,
+            "fraction": "9/16"
+          },
+          {
+            "time": 48,
+            "risk": 6,
+            "events": 0,
+            "censored": 1,
+            "survival": 0.5625,
+            "fraction": "9/16"
+          },
+          {
+            "time": 56,
+            "risk": 5,
+            "events": 1,
+            "censored": 0,
+            "survival": 0.45,
+            "fraction": "9/20"
+          },
+          {
+            "time": 64,
+            "risk": 4,
+            "events": 0,
+            "censored": 1,
+            "survival": 0.45,
+            "fraction": "9/20"
+          },
+          {
+            "time": 72,
+            "risk": 3,
+            "events": 1,
+            "censored": 0,
+            "survival": 0.3,
+            "fraction": "3/10"
+          },
+          {
+            "time": 80,
+            "risk": 2,
+            "events": 0,
+            "censored": 1,
+            "survival": 0.3,
+            "fraction": "3/10"
+          },
+          {
+            "time": 88,
+            "risk": 1,
+            "events": 0,
+            "censored": 1,
+            "survival": 0.3,
+            "fraction": "3/10"
+          }
+        ]
+      }
+    },
+    "assumptions": [
+      "illustrative independent, non-informative right censoring; not a real preservation trial",
+      "No confidence interval or group significance test computed; observational group differences do not identify a causal environment effect."
+    ]
+  },
+  "C17": {
+    "method": "UpSet-style exact intersection bars and membership matrix; common 22 SVG units per object",
+    "patterns": {
+      "0001": 2,
+      "0010": 5,
+      "0011": 4,
+      "0100": 6,
+      "0101": 3,
+      "0110": 3,
+      "0111": 2,
+      "1000": 9,
+      "1001": 5,
+      "1010": 4,
+      "1011": 1,
+      "1100": 8,
+      "1101": 2,
+      "1110": 7,
+      "1111": 3
+    },
+    "states": [
+      {
+        "minimum_tags": 1,
+        "objects": 64,
+        "patterns": 15
+      },
+      {
+        "minimum_tags": 2,
+        "objects": 42,
+        "patterns": 11
+      }
+    ]
+  },
+  "C19": {
+    "method": "Scalar absolute distance; exact decimal comparisons; diagonal excluded only from rate",
+    "states": [
+      {
+        "epsilon": 0.1,
+        "n": 64,
+        "off_diagonal_recurrent_cells": 422,
+        "denominator": 4032,
+        "rate": 0.10466269841269842,
+        "all_cells": 486
+      },
+      {
+        "epsilon": 0.25,
+        "n": 64,
+        "off_diagonal_recurrent_cells": 986,
+        "denominator": 4032,
+        "rate": 0.24454365079365079,
+        "all_cells": 1050
+      },
+      {
+        "epsilon": 0.45,
+        "n": 64,
+        "off_diagonal_recurrent_cells": 1744,
+        "denominator": 4032,
+        "rate": 0.43253968253968256,
+        "all_cells": 1808
+      }
+    ],
+    "sample_index_assumption": "Uniform sampling interval not supplied; axes show sample index, not physical time."
+  },
+  "C23": {
+    "method": "Deterministic vertical-only collision avoidance; exact x; no jitter in wait values",
+    "groups": [
+      {
+        "cohort": "Compact",
+        "n": 12,
+        "mean": 15,
+        "median": 15.0,
+        "min": 13,
+        "max": 17,
+        "sample_sd": 1.348399724926484,
+        "frequencies": {
+          "13": 2,
+          "14": 2,
+          "15": 4,
+          "16": 2,
+          "17": 2
+        }
+      },
+      {
+        "cohort": "Split",
+        "n": 12,
+        "mean": 15,
+        "median": 15.0,
+        "min": 0,
+        "max": 30,
+        "sample_sd": 15.666989036012806,
+        "frequencies": {
+          "0": 6,
+          "30": 6
+        }
+      },
+      {
+        "cohort": "Tail",
+        "n": 12,
+        "mean": 15,
+        "median": 8.0,
+        "min": 8,
+        "max": 92,
+        "sample_sd": 24.24871130596428,
+        "frequencies": {
+          "8": 11,
+          "92": 1
+        }
+      }
+    ],
+    "finding": "Compact values cluster around 15; Split has observations at 0 and 30; Tail has eleven 8-minute values and one 92-minute value. Complaint cause is not established."
+  },
+  "verification": {
+    "checks": [
+      {
+        "check": "C17 unique raw object IDs",
+        "status": "pass"
+      },
+      {
+        "check": "C17 declared universe has no 0000",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry curve ends at last observation",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry SVG descends only at all event times",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry censor multiplicity retained",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 100.0:110.0",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 180.0:110.0",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 180.0:132.5",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 260.0:132.5",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 340.0:132.5",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 340.0:157.25",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 420.0:157.25",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 500.0:157.25",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 500.0:185.09375",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 580.0:185.09375",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 660.0:185.09375",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 740.0:185.09375",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 740.0:224.075",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 820.0:224.075",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry survival coordinate 900.0:224.075",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry time 10 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry time 20 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry time 30 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry time 40 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry time 50 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry time 60 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry time 70 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry time 80 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry time 90 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Dry time 100 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid curve ends at last observation",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid SVG descends only at all event times",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid censor multiplicity retained",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 100.0:110.0",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 164.0:110.0",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 164.0:132.5",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 228.0:132.5",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 228.0:155.0",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 292.0:155.0",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 292.0:177.5",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 356.0:177.5",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 356.0:202.8125",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 420.0:202.8125",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 420.0:228.125",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 484.0:228.125",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 548.0:228.125",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 548.0:258.5",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 612.0:258.5",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 676.0:258.5",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 676.0:299.0",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 740.0:299.0",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid survival coordinate 804.0:299.0",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid time 8 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid time 16 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid time 24 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid time 32 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid time 40 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid time 48 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid time 56 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid time 64 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid time 72 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid time 80 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C15 Humid time 88 life table risk",
+        "status": "pass"
+      },
+      {
+        "check": "C17 state 1 conservation",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 1000 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 1100 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 1110 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 0100 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 0010 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 1001 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 0011 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 1010 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 0101 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 0110 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 1111 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 0001 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 0111 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 1101 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 1 pattern 1011 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 state 1 exact membership encoding",
+        "status": "pass"
+      },
+      {
+        "check": "C17 state 2 conservation",
+        "status": "pass"
+      },
+      {
+        "check": "C17 2 pattern 1100 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 2 pattern 1110 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 2 pattern 1001 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 2 pattern 0011 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 2 pattern 1010 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 2 pattern 0101 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 2 pattern 0110 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 2 pattern 1111 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 2 pattern 0111 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 2 pattern 1101 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 2 pattern 1011 SVG height and baseline",
+        "status": "pass"
+      },
+      {
+        "check": "C17 state 2 exact membership encoding",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.1 SVG cell coordinates",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.1 SVG full rule equivalence",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.1 symmetry and diagonal",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.1 threshold monotonicity",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.1 rate from unordered-pair cross-check",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.25 SVG cell coordinates",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.25 SVG full rule equivalence",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.25 symmetry and diagonal",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.25 threshold monotonicity",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.25 rate from unordered-pair cross-check",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.45 SVG cell coordinates",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.45 SVG full rule equivalence",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.45 symmetry and diagonal",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.45 threshold monotonicity",
+        "status": "pass"
+      },
+      {
+        "check": "C19 0.45 rate from unordered-pair cross-check",
+        "status": "pass"
+      },
+      {
+        "check": "C23 Compact every observation at exact x",
+        "status": "pass"
+      },
+      {
+        "check": "C23 Compact no dot collisions",
+        "status": "pass"
+      },
+      {
+        "check": "C23 Split every observation at exact x",
+        "status": "pass"
+      },
+      {
+        "check": "C23 Split no dot collisions",
+        "status": "pass"
+      },
+      {
+        "check": "C23 Tail every observation at exact x",
+        "status": "pass"
+      },
+      {
+        "check": "C23 Tail no dot collisions",
+        "status": "pass"
+      }
+    ],
+    "data_and_svg": "pass",
+    "render": "pass: Chromium desktop 1200x900; narrow 390x844; native SVG text bounds for all seven states",
+    "interaction": "pass: C17 filter/reset; C19 three thresholds; keyboard Enter reset; narrow C17 filter",
+    "reader_comprehension": "not_run",
+    "aesthetic_effectiveness": "not_tested",
+    "browser_evidence": "browser-results.json; desktop.png; narrow.png; C15/C17/C19/C23-desktop.png"
+  }
+}

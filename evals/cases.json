@@ -1,0 +1,769 @@
+[
+  {
+    "id": "C01",
+    "fixture": "evals/fixtures/revenue.json",
+    "request": "evals/requests/C01.md",
+    "title": "经营复盘",
+    "facts": {
+      "net_change": 300,
+      "closing": 1500,
+      "losses": 200
+    },
+    "must_preserve": [
+      "保留带符号贡献和起终点",
+      "起点+贡献=终点，单位 USD 千",
+      "不把贡献误当互斥构成"
+    ],
+    "acceptable_alternatives": [
+      "waterfall",
+      "diverging contributions + endpoint table"
+    ],
+    "reader_questions": [
+      "净变化是多少？",
+      "最大的正贡献和总损失分别是多少？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C02",
+    "fixture": "evals/fixtures/latency.json",
+    "request": "evals/requests/C02.md",
+    "title": "尾部诊断",
+    "facts": {
+      "before_p50": 200,
+      "after_p50": 150,
+      "before_p95": 480,
+      "after_p95": 900,
+      "before_over_threshold": 0.05,
+      "after_over_threshold": 0.2
+    },
+    "must_preserve": [
+      "分布或分位数保留尾部与阈值",
+      "n=20/版本，分位数按 nearest-rank",
+      "不是配对请求、不声称所有请求改善"
+    ],
+    "acceptable_alternatives": [
+      "ECDF + quantile labels",
+      "quantile dot plot + threshold rate"
+    ],
+    "reader_questions": [
+      "哪个版本的 p95 更高？",
+      "超 500ms 的样本比例如何变化？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C03",
+    "fixture": "evals/fixtures/paired.json",
+    "request": "evals/requests/C03.md",
+    "title": "配对变化",
+    "facts": {
+      "pairs": 12,
+      "faster": 11,
+      "slower_ids": [
+        "P07"
+      ],
+      "median_change": -6
+    },
+    "must_preserve": [
+      "同人配对与改善方向",
+      "保留变慢对象",
+      "无对照不说培训导致变化"
+    ],
+    "acceptable_alternatives": [
+      "paired slope",
+      "change dot plot with baseline lookup"
+    ],
+    "reader_questions": [
+      "多少人变快？",
+      "哪个对象变慢？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C04",
+    "fixture": "evals/fixtures/conversion.json",
+    "request": "evals/requests/C04.md",
+    "title": "分组转化",
+    "facts": {
+      "old_overall": 0.5,
+      "new_overall": 0.345,
+      "overall_change_pp": -15.5,
+      "old_organic": 0.8,
+      "new_organic": 0.9,
+      "old_paid": 0.2,
+      "new_paid": 0.24705882352941178
+    },
+    "must_preserve": [
+      "按分子分母重算总体",
+      "呈现构成变化与总体/组内反向",
+      "切换同步分子分母标题摘要，空状态与复位"
+    ],
+    "acceptable_alternatives": [
+      "pooled + stratified rate comparison",
+      "small multiples + filter"
+    ],
+    "reader_questions": [
+      "总体方向与组内方向一致吗？",
+      "新版付费来源的分母是多少？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C05",
+    "fixture": "evals/fixtures/sensor.json",
+    "request": "evals/requests/C05.md",
+    "title": "设备监控",
+    "facts": {
+      "observed": 13,
+      "missing": 2,
+      "exceeding_samples": 2,
+      "segments": 3,
+      "peak": 76
+    },
+    "must_preserve": [
+      "按实际时间间隔",
+      "null 和>45分钟间隙断开",
+      "样本超阈不等于持续时长"
+    ],
+    "acceptable_alternatives": [
+      "broken time series + threshold",
+      "observed point timeline"
+    ],
+    "reader_questions": [
+      "观测峰值是多少？",
+      "能否据此确定连续超温时长？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C06",
+    "fixture": "evals/fixtures/geography.json",
+    "request": "evals/requests/C06.md",
+    "title": "地域口径",
+    "facts": {
+      "largest_total": "North",
+      "highest_per_1000": "South",
+      "rates_per_1000": {
+        "North": 4,
+        "East": 8,
+        "South": 10,
+        "West": 2
+      }
+    },
+    "must_preserve": [
+      "总量与每千人分开单位",
+      "不把强度直接当总人力",
+      "地理不是必选地图"
+    ],
+    "acceptable_alternatives": [
+      "aligned dot plots",
+      "ranked tables with both metrics"
+    ],
+    "reader_questions": [
+      "哪里总量最大？",
+      "哪里每千人需求最高？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C07",
+    "fixture": "evals/fixtures/uncertainty.json",
+    "request": "evals/requests/C07.md",
+    "title": "实验区间",
+    "facts": {
+      "a_excludes_zero": true,
+      "b_contains_zero": true,
+      "c_contains_zero": true,
+      "widest_interval": "B"
+    },
+    "must_preserve": [
+      "区间类型和单位百分点",
+      "保留零参考与全部区间",
+      "输入区间未重新估计；含零不等于无效"
+    ],
+    "acceptable_alternatives": [
+      "forest plot",
+      "dot intervals + table"
+    ],
+    "reader_questions": [
+      "哪个区间最宽？",
+      "B 的区间含零是否证明无效？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C08",
+    "fixture": "evals/fixtures/ledger.json",
+    "request": "evals/requests/C08.md",
+    "title": "精确对账",
+    "facts": {
+      "total_cents": 421575,
+      "credit_cents": -12500
+    },
+    "must_preserve": [
+      "保留单号日期金额精度",
+      "贷项负号和净合计",
+      "表格是可接受的主要交付"
+    ],
+    "acceptable_alternatives": [
+      "table",
+      "table with tiny ancillary bars"
+    ],
+    "reader_questions": [
+      "净应付是多少？",
+      "贷项金额是多少？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C09",
+    "fixture": "evals/fixtures/latency.json",
+    "request": "evals/requests/C09.md",
+    "title": "同数据不同读者",
+    "facts": {
+      "before_p50": 200,
+      "after_p50": 150,
+      "before_p95": 480,
+      "after_p95": 900
+    },
+    "must_preserve": [
+      "同一延迟数据适配非专家",
+      "典型与尾部同时保留",
+      "小样本限制，不必强用ECDF"
+    ],
+    "acceptable_alternatives": [
+      "annotated quantile summary",
+      "two compact comparisons + caveat"
+    ],
+    "reader_questions": [
+      "典型请求和尾部是否同向变化？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C10",
+    "fixture": "evals/fixtures/channels.json",
+    "request": "evals/requests/C10.md",
+    "title": "不适合的指定图",
+    "facts": {
+      "selection_sum": 190,
+      "respondents": 100
+    },
+    "must_preserve": [
+      "说明多选不是互斥整体",
+      "不归一化为受访者构成",
+      "尊重目标并建议条形或点图"
+    ],
+    "acceptable_alternatives": [
+      "respondent percentage bars",
+      "count table"
+    ],
+    "reader_questions": [
+      "为什么这些百分比可以超过100%？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C11",
+    "fixture": "evals/fixtures/stages.json",
+    "request": "evals/requests/C11.md",
+    "title": "缺少转移记录",
+    "facts": {
+      "can_reconstruct_paths": false
+    },
+    "must_preserve": [
+      "不编造渠道或转移",
+      "事件不冒充独立人数或同一队列",
+      "提供现有总量与最小补数清单"
+    ],
+    "acceptable_alternatives": [
+      "stage totals table",
+      "request transition/cohort data"
+    ],
+    "reader_questions": [
+      "现有数据能识别来源到付费路径吗？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C12",
+    "fixture": "evals/fixtures/causality.json",
+    "request": "evals/requests/C12.md",
+    "title": "强前提不足证据",
+    "facts": {
+      "can_attribute_causally": false,
+      "before_mean": 230,
+      "after_mean": 267.5
+    },
+    "must_preserve": [
+      "区分前后描述与因果",
+      "不迎合证明要求",
+      "说明缺少对照、流量、季节等，仍可画描述图"
+    ],
+    "acceptable_alternatives": [
+      "descriptive time series with event marker",
+      "before/after descriptive table"
+    ],
+    "reader_questions": [
+      "现有数据能证明改版导致收入增长吗？"
+    ],
+    "hard_failures": [
+      "捏造数据、分母、对象关系或因果",
+      "图中关键数值不一致",
+      "主要交付不能支持用户任务"
+    ]
+  },
+  {
+    "id": "C13",
+    "fixture": "evals/fixtures/ternary.json",
+    "request": "evals/requests/C13.md",
+    "title": "闭合组成",
+    "facts": {
+      "n": 36,
+      "groups": {
+        "Estuary": 12,
+        "Dune": 12,
+        "Loess": 12
+      },
+      "composition_sum": 100,
+      "highest_sand_group": "Dune"
+    },
+    "must_preserve": [
+      "clay+silt+sand=100，非负",
+      "使用闭合组成坐标，不作三变量独立因果推断",
+      "不捏造土壤分类边界"
+    ],
+    "acceptable_alternatives": [
+      "ternary scatter",
+      "composition small multiples"
+    ],
+    "reader_questions": [
+      "哪个来源的砂组分最高？",
+      "三项为何必须共同读？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  },
+  {
+    "id": "C14",
+    "fixture": "evals/fixtures/wind.json",
+    "request": "evals/requests/C14.md",
+    "title": "方向频率",
+    "facts": {
+      "n": 240,
+      "largest_direction": "SE",
+      "se_share": 0.25,
+      "speed_counts": [
+        74,
+        101,
+        65
+      ]
+    },
+    "must_preserve": [
+      "总观测240，来风方向由北顺时针",
+      "速度档堆叠，面积与次数成比例",
+      "不把面积比例当半径比例"
+    ],
+    "acceptable_alternatives": [
+      "area-scaled wind rose",
+      "direction×speed heatmap"
+    ],
+    "reader_questions": [
+      "观测最多的来风方向是什么？",
+      "扇区面积与次数、半径是什么关系？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  },
+  {
+    "id": "C15",
+    "fixture": "evals/fixtures/survival.json",
+    "request": "evals/requests/C15.md",
+    "title": "右删失寿命",
+    "facts": {
+      "end_survival": {
+        "Dry": 0.5775,
+        "Humid": 0.3
+      },
+      "last_observation": {
+        "Dry": 100,
+        "Humid": 88
+      },
+      "median_cycles": {
+        "Dry": null,
+        "Humid": 56
+      },
+      "events": {
+        "Dry": 4,
+        "Humid": 7
+      }
+    },
+    "must_preserve": [
+      "事件与右删失分开",
+      "相同时间先处理事件，风险集包括当时删失者",
+      "不是实际寿命预测、未给置信区间不补造"
+    ],
+    "acceptable_alternatives": [
+      "Kaplan-Meier with risk table",
+      "event/censor timeline"
+    ],
+    "reader_questions": [
+      "Dry是否已达到中位寿命？",
+      "同刻事件与删失如何进入风险集？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  },
+  {
+    "id": "C16",
+    "fixture": "evals/fixtures/agreement.json",
+    "request": "evals/requests/C16.md",
+    "title": "方法一致性",
+    "facts": {
+      "bias_db": 2,
+      "n": 24,
+      "outside_tolerance": 6,
+      "tolerance_db": 3
+    },
+    "must_preserve": [
+      "差值B-A，横轴配对均值",
+      "LoA与均值CI、容许差异不是同一概念",
+      "说明mean±1.96s仅描述，假设未建立"
+    ],
+    "acceptable_alternatives": [
+      "Bland-Altman",
+      "paired difference plot"
+    ],
+    "reader_questions": [
+      "偏差是多少？",
+      "容许差异、LoA和均值CI相同吗？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  },
+  {
+    "id": "C17",
+    "fixture": "evals/fixtures/intersections.json",
+    "request": "evals/requests/C17.md",
+    "title": "精确集合交集",
+    "facts": {
+      "objects": 64,
+      "patterns": 15,
+      "multi_tag_objects": 42,
+      "multi_tag_patterns": 11,
+      "set_sizes": [
+        39,
+        34,
+        29,
+        22
+      ]
+    },
+    "must_preserve": [
+      "按精确成员模式，不混淆包含交集",
+      "对象去重，空模式不在定义总体",
+      "筛选后保留分母与范围"
+    ],
+    "acceptable_alternatives": [
+      "UpSet matrix",
+      "exact-pattern count table"
+    ],
+    "reader_questions": [
+      "至少两标签的对象有多少？",
+      "未点亮标签表示什么？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  },
+  {
+    "id": "C18",
+    "fixture": "evals/fixtures/repairs.json",
+    "request": "evals/requests/C18.md",
+    "title": "对象转移",
+    "facts": {
+      "n": 60,
+      "complete_paths": 9,
+      "outcomes": {
+        "Reuse": 34,
+        "Parts": 14,
+        "Recycle": 12
+      }
+    },
+    "must_preserve": [
+      "一对象一条完整路径",
+      "相邻边权与节点守恒",
+      "带宽比例对应对象数，不能推断因果"
+    ],
+    "acceptable_alternatives": [
+      "alluvial",
+      "transition matrices"
+    ],
+    "reader_questions": [
+      "最终再用多少设备？",
+      "路径宽度是否沿途守恒？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  },
+  {
+    "id": "C19",
+    "fixture": "evals/fixtures/recurrence.json",
+    "request": "evals/requests/C19.md",
+    "title": "阈值递归",
+    "facts": {
+      "n": 64,
+      "denominator": 4032,
+      "off_diagonal_counts": {
+        "0.1": 422,
+        "0.25": 986,
+        "0.45": 1744
+      }
+    },
+    "must_preserve": [
+      "按给定标量距离阈值",
+      "R矩阵对称，递归率排除对角线",
+      "不同epsilon统一数据尺度，不证明混沌"
+    ],
+    "acceptable_alternatives": [
+      "scalar recurrence matrix",
+      "time series + self-distance heatmap"
+    ],
+    "reader_questions": [
+      "递归率分母是否包含主对角线？",
+      "提高阈值会减少递归点吗？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  },
+  {
+    "id": "C20",
+    "fixture": "evals/fixtures/horizon.json",
+    "request": "evals/requests/C20.md",
+    "title": "压缩时序",
+    "facts": {
+      "stations": 8,
+      "days": 48,
+      "band_width": 2,
+      "bands": 3,
+      "out_of_range": 0
+    },
+    "must_preserve": [
+      "3带，每带2°C",
+      "正负颜色与镜像约定清楚",
+      "不静默裁剪超过6°C的值"
+    ],
+    "acceptable_alternatives": [
+      "mirrored horizon",
+      "signed small multiples"
+    ],
+    "reader_questions": [
+      "每带多少度？",
+      "负值折叠到哪里？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  },
+  {
+    "id": "C21",
+    "fixture": "evals/fixtures/phase.json",
+    "request": "evals/requests/C21.md",
+    "title": "滞回轨迹",
+    "facts": {
+      "samples": 97,
+      "cycle_closed": true,
+      "same_input_multiple_response": true
+    },
+    "must_preserve": [
+      "顺序连接，方向可辨",
+      "同输入多响应，不归并平均",
+      "归一化示意不识别真实物理机制"
+    ],
+    "acceptable_alternatives": [
+      "phase trajectory",
+      "branch-separated scatter"
+    ],
+    "reader_questions": [
+      "相同输入是否只有一个响应？",
+      "箭头编码什么？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  },
+  {
+    "id": "C22",
+    "fixture": "evals/fixtures/ridges.json",
+    "request": "evals/requests/C22.md",
+    "title": "带宽敏感分布",
+    "facts": {
+      "groups": 6,
+      "n_per_group": 24,
+      "bandwidths": [
+        2,
+        5,
+        10
+      ],
+      "density_unit": "1/NTU"
+    },
+    "must_preserve": [
+      "Gaussian KDE，带宽2/5/10 NTU",
+      "共同密度缩放与横轴",
+      "密度不是概率，平滑不改原始样本"
+    ],
+    "acceptable_alternatives": [
+      "ridgeline KDE",
+      "ECDF small multiples"
+    ],
+    "reader_questions": [
+      "增加带宽是否改变原始样本？",
+      "密度高度是否经过逐组归一化？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  },
+  {
+    "id": "C23",
+    "fixture": "evals/fixtures/swarm.json",
+    "request": "evals/requests/C23.md",
+    "title": "均值相同的不同分布",
+    "facts": {
+      "n": 36,
+      "means": [
+        15,
+        15,
+        15
+      ],
+      "medians": [
+        15,
+        15,
+        8
+      ],
+      "max_wait": 92
+    },
+    "must_preserve": [
+      "三组均值15，n均12",
+      "横轴精确值，纵向位移不编码量",
+      "Tail有92分钟观测，不能静默截断"
+    ],
+    "acceptable_alternatives": [
+      "beeswarm",
+      "stacked dot plots"
+    ],
+    "reader_questions": [
+      "三个均值相同能否认为分布一样？",
+      "最长等待是多少？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  },
+  {
+    "id": "C24",
+    "fixture": "evals/fixtures/spectrogram.json",
+    "request": "evals/requests/C24.md",
+    "title": "时频分辨率",
+    "facts": {
+      "sample_rate": 128,
+      "window": 64,
+      "hop": 16,
+      "frames": 13,
+      "bins": 33,
+      "fixed_hz": 38,
+      "chirp_hz": "8+24t",
+      "dB": "relative amplitude, not PSD"
+    },
+    "must_preserve": [
+      "采样率128Hz，窗64，hop16",
+      "对称Hann，幅度20log10，全局峰值参考",
+      "相对幅度不是PSD、不推断声源"
+    ],
+    "acceptable_alternatives": [
+      "STFT magnitude spectrogram",
+      "windowed spectra"
+    ],
+    "reader_questions": [
+      "固定分量频率是多少？",
+      "图中dB是否是功率谱密度？"
+    ],
+    "hard_failures": [
+      "伪造样本或统计含义",
+      "错误几何、分母、风险集或尺度",
+      "图像精致但不能回答问题"
+    ]
+  }
+]

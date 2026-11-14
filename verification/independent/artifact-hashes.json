@@ -1,0 +1,12 @@
+{
+  "hash_scheme": "SHA256 UTF-8 text, CRLF normalized to LF for cross-platform Git checkout",
+  "sha256": {
+    "C15-kaplan-meier.svg": "b2d9db5f3599a6ad1afe29c91a6aba2e8ce3c20ccf455ab6f7fe0ce22b90ed59",
+    "C17-exact-1.svg": "19a2e5f7bcbaf0c96e347edceab7ce77b8fd5642481f7ae0c505eb5b612a31fa",
+    "C17-exact-2.svg": "b514d8c8f1bbfd28ebb3c860c960547d1e0b78be6afb7391e9b46c7c87de3e41",
+    "C19-recurrence-0.1.svg": "d7a2514c280b86b0d11e6fabe36fee18b5019091b910e0ec2adb946987a783a9",
+    "C19-recurrence-0.25.svg": "8b56c9129b4396a6b94d002fdd2abb077557a0a5ee834787c38794e077a37e30",
+    "C19-recurrence-0.45.svg": "2d140052585290506d4e5e15b7c4087455c8c33354267902ecb8aa7aa0ab5bb5",
+    "C23-exact-x-swarm.svg": "799f1a6ff31e1337aa45f59096767979799613d73acb908fdaa953430ca263d0"
+  }
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="680" viewBox="0 0 620 680" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Median improves. Tail latency worsens.</title>
+<desc id="desc">Independent request samples / latency in ms. Synthetic demonstration data. C02.</desc>
+<rect width="620" height="680" fill="#fffdf8"/>
+<text x="38.00" y="46.00" font-size="29" fill="#18312f" text-anchor="start" font-weight="650" >Median improves. Tail latency</text>
+<text x="38.00" y="83.70" font-size="29" fill="#18312f" text-anchor="start" font-weight="650" >worsens.</text>
+<text x="38.00" y="133.40" font-size="20" fill="#576b68" text-anchor="start" font-weight="400" >Independent request samples / latency in ms</text>
+<line x1="38.00" y1="171.40" x2="582.00" y2="171.40" stroke="#d9e0d9" stroke-width="1" />
+<line x1="83.00" y1="495.00" x2="572.00" y2="495.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="71.00" y="501.00" font-size="21" fill="#576b68" text-anchor="end" font-weight="400" >0%</text>
+<line x1="83.00" y1="355.20" x2="572.00" y2="355.20" stroke="#d9e0d9" stroke-width="1" />
+<text x="71.00" y="361.20" font-size="21" fill="#576b68" text-anchor="end" font-weight="400" >50%</text>
+<line x1="83.00" y1="215.40" x2="572.00" y2="215.40" stroke="#d9e0d9" stroke-width="1" />
+<text x="71.00" y="221.40" font-size="21" fill="#576b68" text-anchor="end" font-weight="400" >100%</text>
+<text x="83.00" y="523.00" font-size="21" fill="#576b68" text-anchor="middle" font-weight="400" >0</text>
+<text x="246.00" y="523.00" font-size="21" fill="#576b68" text-anchor="middle" font-weight="400" >500</text>
+<text x="409.00" y="523.00" font-size="21" fill="#576b68" text-anchor="middle" font-weight="400" >1000</text>
+<text x="572.00" y="523.00" font-size="21" fill="#576b68" text-anchor="middle" font-weight="400" >1500</text>
+<text x="83.00" y="194.40" font-size="21" fill="#576b68" text-anchor="start" font-weight="400" >Share at or below latency</text>
+<path d="M 83.00 495.00 H 112.34 V 481.02 H 115.60 V 467.04 H 118.86 V 453.06 H 122.12 V 439.08 H 125.38 V 425.10 H 128.64 V 411.12 H 131.90 V 397.14 H 135.16 V 383.16 H 141.68 V 369.18 H 148.20 V 355.20 H 148.20 V 341.22 H 154.72 V 327.24 H 161.24 V 313.26 H 167.76 V 299.28 H 174.28 V 285.30 H 180.80 V 271.32 H 187.32 V 257.34 H 213.40 V 243.36 H 239.48 V 229.38 H 278.60 V 215.40 H 572.00" fill="none" stroke="#71838f" stroke-width="3" stroke-linejoin="round" data-mark="ecdf" data-series="before" stroke-dasharray="6 4"/>
+<path d="M 83.00 495.00 H 102.56 V 481.02 H 105.82 V 467.04 H 109.08 V 453.06 H 112.34 V 439.08 H 115.60 V 425.10 H 118.86 V 411.12 H 122.12 V 397.14 H 125.38 V 383.16 H 128.64 V 369.18 H 131.90 V 355.20 H 131.90 V 341.22 H 138.42 V 327.24 H 148.20 V 313.26 H 161.24 V 299.28 H 180.80 V 285.30 H 229.70 V 271.32 H 278.60 V 257.34 H 343.80 V 243.36 H 376.40 V 229.38 H 539.40 V 215.40 H 572.00" fill="none" stroke="#087f74" stroke-width="3" stroke-linejoin="round" data-mark="ecdf" data-series="after" />
+<line x1="246.00" y1="215.40" x2="246.00" y2="495.00" stroke="#b34f2e" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="254.00" y="482.00" font-size="21" fill="#b34f2e" text-anchor="start" font-weight="400" >500 ms</text>
+<line x1="362.00" y1="188.40" x2="387.00" y2="188.40" stroke="#71838f" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="396.00" y="194.40" font-size="21" fill="#71838f" text-anchor="start" font-weight="400" >Before</text>
+<line x1="477.00" y1="188.40" x2="502.00" y2="188.40" stroke="#087f74" stroke-width="3" />
+<text x="511.00" y="194.40" font-size="21" fill="#087f74" text-anchor="start" font-weight="400" >After</text>
+<text x="38.00" y="574.00" font-size="20" fill="#18312f" text-anchor="start" font-weight="600" >p50: 200 → 150 ms  /  p95: 480 → 900 ms</text>
+<text x="38.00" y="609.00" font-size="20" fill="#576b68" text-anchor="start" font-weight="400" >Synthetic, n=20 per version; nearest-rank quantiles.</text>
+<text x="38.00" y="635.00" font-size="20" fill="#576b68" text-anchor="start" font-weight="400" >Over 500 ms: 5% → 20%.</text>
+</svg>

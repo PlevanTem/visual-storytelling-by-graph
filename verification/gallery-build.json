@@ -1,0 +1,1781 @@
+{
+  "works": 20,
+  "states": 31,
+  "assets": [
+    {
+      "case": "C13",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c13-all.svg",
+      "meta": {
+        "case": "C13",
+        "state": "All",
+        "n": 36,
+        "vertices": [
+          [
+            500.0,
+            189.7
+          ],
+          [
+            271.7734385893409,
+            585
+          ],
+          [
+            728.2265614106591,
+            585
+          ]
+        ]
+      }
+    },
+    {
+      "case": "C13",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c13-all-mobile.svg",
+      "meta": {
+        "case": "C13",
+        "state": "All",
+        "n": 36,
+        "vertices": [
+          [
+            310.0,
+            245.28856829700266
+          ],
+          [
+            85.0,
+            635
+          ],
+          [
+            535.0,
+            635
+          ]
+        ]
+      }
+    },
+    {
+      "case": "C13",
+      "state": "Estuary",
+      "mobile": false,
+      "file": "docs/assets/c13-estuary.svg",
+      "meta": {
+        "case": "C13",
+        "state": "Estuary",
+        "n": 12,
+        "vertices": [
+          [
+            500.0,
+            189.7
+          ],
+          [
+            271.7734385893409,
+            585
+          ],
+          [
+            728.2265614106591,
+            585
+          ]
+        ]
+      }
+    },
+    {
+      "case": "C13",
+      "state": "Estuary",
+      "mobile": true,
+      "file": "docs/assets/c13-estuary-mobile.svg",
+      "meta": {
+        "case": "C13",
+        "state": "Estuary",
+        "n": 12,
+        "vertices": [
+          [
+            310.0,
+            245.28856829700266
+          ],
+          [
+            85.0,
+            635
+          ],
+          [
+            535.0,
+            635
+          ]
+        ]
+      }
+    },
+    {
+      "case": "C13",
+      "state": "Dune",
+      "mobile": false,
+      "file": "docs/assets/c13-dune.svg",
+      "meta": {
+        "case": "C13",
+        "state": "Dune",
+        "n": 12,
+        "vertices": [
+          [
+            500.0,
+            189.7
+          ],
+          [
+            271.7734385893409,
+            585
+          ],
+          [
+            728.2265614106591,
+            585
+          ]
+        ]
+      }
+    },
+    {
+      "case": "C13",
+      "state": "Dune",
+      "mobile": true,
+      "file": "docs/assets/c13-dune-mobile.svg",
+      "meta": {
+        "case": "C13",
+        "state": "Dune",
+        "n": 12,
+        "vertices": [
+          [
+            310.0,
+            245.28856829700266
+          ],
+          [
+            85.0,
+            635
+          ],
+          [
+            535.0,
+            635
+          ]
+        ]
+      }
+    },
+    {
+      "case": "C13",
+      "state": "Loess",
+      "mobile": false,
+      "file": "docs/assets/c13-loess.svg",
+      "meta": {
+        "case": "C13",
+        "state": "Loess",
+        "n": 12,
+        "vertices": [
+          [
+            500.0,
+            189.7
+          ],
+          [
+            271.7734385893409,
+            585
+          ],
+          [
+            728.2265614106591,
+            585
+          ]
+        ]
+      }
+    },
+    {
+      "case": "C13",
+      "state": "Loess",
+      "mobile": true,
+      "file": "docs/assets/c13-loess-mobile.svg",
+      "meta": {
+        "case": "C13",
+        "state": "Loess",
+        "n": 12,
+        "vertices": [
+          [
+            310.0,
+            245.28856829700266
+          ],
+          [
+            85.0,
+            635
+          ],
+          [
+            535.0,
+            635
+          ]
+        ]
+      }
+    },
+    {
+      "case": "C14",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c14-all.svg",
+      "meta": {
+        "case": "C14",
+        "n": 240,
+        "radius_scale_per_sqrt_count": 24.22551083052739
+      }
+    },
+    {
+      "case": "C14",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c14-all-mobile.svg",
+      "meta": {
+        "case": "C14",
+        "n": 240,
+        "radius_scale_per_sqrt_count": 26.465386199084016
+      }
+    },
+    {
+      "case": "C19",
+      "state": "0.1",
+      "mobile": false,
+      "file": "docs/assets/c19-0-1.svg",
+      "meta": {
+        "case": "C19",
+        "epsilon": 0.1,
+        "rate": 0.10466269841269842,
+        "matrix_size": 64,
+        "origin": [
+          282.35,
+          172.7
+        ],
+        "cell": 6.8015625
+      }
+    },
+    {
+      "case": "C19",
+      "state": "0.1",
+      "mobile": true,
+      "file": "docs/assets/c19-0-1-mobile.svg",
+      "meta": {
+        "case": "C19",
+        "epsilon": 0.1,
+        "rate": 0.10466269841269842,
+        "matrix_size": 64,
+        "origin": [
+          87.5,
+          172.7
+        ],
+        "cell": 6.953125
+      }
+    },
+    {
+      "case": "C19",
+      "state": "0.25",
+      "mobile": false,
+      "file": "docs/assets/c19-0-25.svg",
+      "meta": {
+        "case": "C19",
+        "epsilon": 0.25,
+        "rate": 0.24454365079365079,
+        "matrix_size": 64,
+        "origin": [
+          282.35,
+          172.7
+        ],
+        "cell": 6.8015625
+      }
+    },
+    {
+      "case": "C19",
+      "state": "0.25",
+      "mobile": true,
+      "file": "docs/assets/c19-0-25-mobile.svg",
+      "meta": {
+        "case": "C19",
+        "epsilon": 0.25,
+        "rate": 0.24454365079365079,
+        "matrix_size": 64,
+        "origin": [
+          87.5,
+          172.7
+        ],
+        "cell": 6.953125
+      }
+    },
+    {
+      "case": "C19",
+      "state": "0.45",
+      "mobile": false,
+      "file": "docs/assets/c19-0-45.svg",
+      "meta": {
+        "case": "C19",
+        "epsilon": 0.45,
+        "rate": 0.43253968253968256,
+        "matrix_size": 64,
+        "origin": [
+          282.35,
+          172.7
+        ],
+        "cell": 6.8015625
+      }
+    },
+    {
+      "case": "C19",
+      "state": "0.45",
+      "mobile": true,
+      "file": "docs/assets/c19-0-45-mobile.svg",
+      "meta": {
+        "case": "C19",
+        "epsilon": 0.45,
+        "rate": 0.43253968253968256,
+        "matrix_size": 64,
+        "origin": [
+          87.5,
+          172.7
+        ],
+        "cell": 6.953125
+      }
+    },
+    {
+      "case": "C18",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c18-all.svg",
+      "meta": {
+        "case": "C18",
+        "n": 60,
+        "scale": 5.605,
+        "flows": [
+          {
+            "path": [
+              "Audio",
+              "Failed",
+              "Parts"
+            ],
+            "count": 5,
+            "width": 28.025000000000002
+          },
+          {
+            "path": [
+              "Audio",
+              "Intermittent",
+              "Reuse"
+            ],
+            "count": 4,
+            "width": 22.42
+          },
+          {
+            "path": [
+              "Audio",
+              "Repairable",
+              "Reuse"
+            ],
+            "count": 12,
+            "width": 67.26
+          },
+          {
+            "path": [
+              "Mechanical",
+              "Failed",
+              "Recycle"
+            ],
+            "count": 6,
+            "width": 33.63
+          },
+          {
+            "path": [
+              "Mechanical",
+              "Intermittent",
+              "Parts"
+            ],
+            "count": 4,
+            "width": 22.42
+          },
+          {
+            "path": [
+              "Mechanical",
+              "Repairable",
+              "Reuse"
+            ],
+            "count": 10,
+            "width": 56.050000000000004
+          },
+          {
+            "path": [
+              "Optical",
+              "Failed",
+              "Recycle"
+            ],
+            "count": 6,
+            "width": 33.63
+          },
+          {
+            "path": [
+              "Optical",
+              "Intermittent",
+              "Parts"
+            ],
+            "count": 5,
+            "width": 28.025000000000002
+          },
+          {
+            "path": [
+              "Optical",
+              "Repairable",
+              "Reuse"
+            ],
+            "count": 8,
+            "width": 44.84
+          }
+        ]
+      }
+    },
+    {
+      "case": "C18",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c18-all-mobile.svg",
+      "meta": {
+        "case": "C18",
+        "n": 60,
+        "scale": 6.3100000000000005,
+        "flows": [
+          {
+            "path": [
+              "Audio",
+              "Failed",
+              "Parts"
+            ],
+            "count": 5,
+            "width": 31.550000000000004
+          },
+          {
+            "path": [
+              "Audio",
+              "Intermittent",
+              "Reuse"
+            ],
+            "count": 4,
+            "width": 25.240000000000002
+          },
+          {
+            "path": [
+              "Audio",
+              "Repairable",
+              "Reuse"
+            ],
+            "count": 12,
+            "width": 75.72
+          },
+          {
+            "path": [
+              "Mechanical",
+              "Failed",
+              "Recycle"
+            ],
+            "count": 6,
+            "width": 37.86
+          },
+          {
+            "path": [
+              "Mechanical",
+              "Intermittent",
+              "Parts"
+            ],
+            "count": 4,
+            "width": 25.240000000000002
+          },
+          {
+            "path": [
+              "Mechanical",
+              "Repairable",
+              "Reuse"
+            ],
+            "count": 10,
+            "width": 63.10000000000001
+          },
+          {
+            "path": [
+              "Optical",
+              "Failed",
+              "Recycle"
+            ],
+            "count": 6,
+            "width": 37.86
+          },
+          {
+            "path": [
+              "Optical",
+              "Intermittent",
+              "Parts"
+            ],
+            "count": 5,
+            "width": 31.550000000000004
+          },
+          {
+            "path": [
+              "Optical",
+              "Repairable",
+              "Reuse"
+            ],
+            "count": 8,
+            "width": 50.480000000000004
+          }
+        ]
+      }
+    },
+    {
+      "case": "C17",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c17-all.svg",
+      "meta": {
+        "case": "C17",
+        "state": "All",
+        "n": 64,
+        "patterns": 15,
+        "left": 165,
+        "right": 927,
+        "bar_bottom": 339.7,
+        "bar_scale": 15
+      }
+    },
+    {
+      "case": "C17",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c17-all-mobile.svg",
+      "meta": {
+        "case": "C17",
+        "state": "All",
+        "n": 64,
+        "patterns": 15,
+        "left": 118,
+        "right": 567,
+        "bar_bottom": 339.7,
+        "bar_scale": 15
+      }
+    },
+    {
+      "case": "C17",
+      "state": "Overlaps",
+      "mobile": false,
+      "file": "docs/assets/c17-overlaps.svg",
+      "meta": {
+        "case": "C17",
+        "state": "Overlaps",
+        "n": 42,
+        "patterns": 11,
+        "left": 165,
+        "right": 927,
+        "bar_bottom": 339.7,
+        "bar_scale": 15
+      }
+    },
+    {
+      "case": "C17",
+      "state": "Overlaps",
+      "mobile": true,
+      "file": "docs/assets/c17-overlaps-mobile.svg",
+      "meta": {
+        "case": "C17",
+        "state": "Overlaps",
+        "n": 42,
+        "patterns": 11,
+        "left": 118,
+        "right": 567,
+        "bar_bottom": 365.7,
+        "bar_scale": 15
+      }
+    },
+    {
+      "case": "C15",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c15-all.svg",
+      "meta": {
+        "case": "C15",
+        "risks": {
+          "Dry": [
+            12,
+            11,
+            9,
+            7,
+            5,
+            3
+          ],
+          "Humid": [
+            12,
+            10,
+            7,
+            4,
+            2,
+            0
+          ]
+        },
+        "end_survival": {
+          "Dry": 0.5775,
+          "Humid": 0.30000000000000004
+        },
+        "plot": [
+          106,
+          927,
+          189.7,
+          520
+        ]
+      }
+    },
+    {
+      "case": "C15",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c15-all-mobile.svg",
+      "meta": {
+        "case": "C15",
+        "risks": {
+          "Dry": [
+            12,
+            11,
+            9,
+            7,
+            5,
+            3
+          ],
+          "Humid": [
+            12,
+            10,
+            7,
+            4,
+            2,
+            0
+          ]
+        },
+        "end_survival": {
+          "Dry": 0.5775,
+          "Humid": 0.30000000000000004
+        },
+        "plot": [
+          86,
+          567,
+          227.4,
+          590
+        ]
+      }
+    },
+    {
+      "case": "C21",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c21-all.svg",
+      "meta": {
+        "case": "C21",
+        "rows": 97,
+        "plot": [
+          113,
+          922,
+          189.7,
+          565
+        ],
+        "domain": [
+          -1.15,
+          1.15
+        ]
+      }
+    },
+    {
+      "case": "C21",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c21-all-mobile.svg",
+      "meta": {
+        "case": "C21",
+        "rows": 97,
+        "plot": [
+          93,
+          562,
+          189.7,
+          615
+        ],
+        "domain": [
+          -1.15,
+          1.15
+        ]
+      }
+    },
+    {
+      "case": "C20",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c20-all.svg",
+      "meta": {
+        "case": "C20",
+        "band_width": 2,
+        "bands": 3,
+        "row_height": 53.1625,
+        "band_height": 38.808625,
+        "x_domain": [
+          1,
+          48
+        ]
+      }
+    },
+    {
+      "case": "C20",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c20-all-mobile.svg",
+      "meta": {
+        "case": "C20",
+        "band_width": 2,
+        "bands": 3,
+        "row_height": 61.912499999999994,
+        "band_height": 45.196124999999995,
+        "x_domain": [
+          1,
+          48
+        ]
+      }
+    },
+    {
+      "case": "C24",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c24-all.svg",
+      "meta": {
+        "case": "C24",
+        "frames": 13,
+        "bins": 33,
+        "reference_peak": 12.640864064634384,
+        "plot": [
+          103,
+          877,
+          179.7,
+          565
+        ]
+      }
+    },
+    {
+      "case": "C24",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c24-all-mobile.svg",
+      "meta": {
+        "case": "C24",
+        "frames": 13,
+        "bins": 33,
+        "reference_peak": 12.640864064634384,
+        "plot": [
+          83,
+          517,
+          205.7,
+          615
+        ]
+      }
+    },
+    {
+      "case": "C22",
+      "state": "2",
+      "mobile": false,
+      "file": "docs/assets/c22-2.svg",
+      "meta": {
+        "case": "C22",
+        "bandwidth": 2.0,
+        "density_scale": 650,
+        "row_step": 65.05,
+        "plot": [
+          146,
+          937,
+          204.7,
+          615
+        ]
+      }
+    },
+    {
+      "case": "C22",
+      "state": "2",
+      "mobile": true,
+      "file": "docs/assets/c22-2-mobile.svg",
+      "meta": {
+        "case": "C22",
+        "bandwidth": 2.0,
+        "density_scale": 700,
+        "row_step": 70.43333333333334,
+        "plot": [
+          126,
+          577,
+          242.4,
+          685
+        ]
+      }
+    },
+    {
+      "case": "C22",
+      "state": "5",
+      "mobile": false,
+      "file": "docs/assets/c22-5.svg",
+      "meta": {
+        "case": "C22",
+        "bandwidth": 5.0,
+        "density_scale": 650,
+        "row_step": 65.05,
+        "plot": [
+          146,
+          937,
+          204.7,
+          615
+        ]
+      }
+    },
+    {
+      "case": "C22",
+      "state": "5",
+      "mobile": true,
+      "file": "docs/assets/c22-5-mobile.svg",
+      "meta": {
+        "case": "C22",
+        "bandwidth": 5.0,
+        "density_scale": 700,
+        "row_step": 70.43333333333334,
+        "plot": [
+          126,
+          577,
+          242.4,
+          685
+        ]
+      }
+    },
+    {
+      "case": "C22",
+      "state": "10",
+      "mobile": false,
+      "file": "docs/assets/c22-10.svg",
+      "meta": {
+        "case": "C22",
+        "bandwidth": 10.0,
+        "density_scale": 650,
+        "row_step": 65.05,
+        "plot": [
+          146,
+          937,
+          204.7,
+          615
+        ]
+      }
+    },
+    {
+      "case": "C22",
+      "state": "10",
+      "mobile": true,
+      "file": "docs/assets/c22-10-mobile.svg",
+      "meta": {
+        "case": "C22",
+        "bandwidth": 10.0,
+        "density_scale": 700,
+        "row_step": 70.43333333333334,
+        "plot": [
+          126,
+          577,
+          242.4,
+          685
+        ]
+      }
+    },
+    {
+      "case": "C16",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c16-all.svg",
+      "meta": {
+        "case": "C16",
+        "bias": 2.0,
+        "sd": 2.0851441405707476,
+        "loa": [
+          -2.086882515518665,
+          6.086882515518665
+        ],
+        "domain_x": [
+          35,
+          105
+        ],
+        "domain_y": [
+          -5,
+          8
+        ],
+        "plot": [
+          113,
+          922,
+          194.7,
+          545
+        ]
+      }
+    },
+    {
+      "case": "C16",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c16-all-mobile.svg",
+      "meta": {
+        "case": "C16",
+        "bias": 2.0,
+        "sd": 2.0851441405707476,
+        "loa": [
+          -2.086882515518665,
+          6.086882515518665
+        ],
+        "domain_x": [
+          35,
+          105
+        ],
+        "domain_y": [
+          -5,
+          8
+        ],
+        "plot": [
+          93,
+          562,
+          232.4,
+          605
+        ]
+      }
+    },
+    {
+      "case": "C23",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c23-all.svg",
+      "meta": {
+        "case": "C23",
+        "plot_x": [
+          155,
+          930
+        ],
+        "domain_x": [
+          0,
+          100
+        ],
+        "placed": [
+          {
+            "index": 0,
+            "value": 13,
+            "x": 255.75,
+            "offset": 0,
+            "cohort": "Compact",
+            "y": 226.7
+          },
+          {
+            "index": 5,
+            "value": 13,
+            "x": 255.75,
+            "offset": 9.5,
+            "cohort": "Compact",
+            "y": 236.2
+          },
+          {
+            "index": 1,
+            "value": 14,
+            "x": 263.5,
+            "offset": -9.5,
+            "cohort": "Compact",
+            "y": 217.2
+          },
+          {
+            "index": 6,
+            "value": 14,
+            "x": 263.5,
+            "offset": 19.0,
+            "cohort": "Compact",
+            "y": 245.7
+          },
+          {
+            "index": 2,
+            "value": 15,
+            "x": 271.25,
+            "offset": 0,
+            "cohort": "Compact",
+            "y": 226.7
+          },
+          {
+            "index": 7,
+            "value": 15,
+            "x": 271.25,
+            "offset": 9.5,
+            "cohort": "Compact",
+            "y": 236.2
+          },
+          {
+            "index": 10,
+            "value": 15,
+            "x": 271.25,
+            "offset": -19.0,
+            "cohort": "Compact",
+            "y": 207.7
+          },
+          {
+            "index": 11,
+            "value": 15,
+            "x": 271.25,
+            "offset": 28.5,
+            "cohort": "Compact",
+            "y": 255.2
+          },
+          {
+            "index": 3,
+            "value": 16,
+            "x": 279.0,
+            "offset": -9.5,
+            "cohort": "Compact",
+            "y": 217.2
+          },
+          {
+            "index": 8,
+            "value": 16,
+            "x": 279.0,
+            "offset": 19.0,
+            "cohort": "Compact",
+            "y": 245.7
+          },
+          {
+            "index": 4,
+            "value": 17,
+            "x": 286.75,
+            "offset": 0,
+            "cohort": "Compact",
+            "y": 226.7
+          },
+          {
+            "index": 9,
+            "value": 17,
+            "x": 286.75,
+            "offset": 9.5,
+            "cohort": "Compact",
+            "y": 236.2
+          },
+          {
+            "index": 0,
+            "value": 0,
+            "x": 155.0,
+            "offset": 0,
+            "cohort": "Split",
+            "y": 388.35
+          },
+          {
+            "index": 1,
+            "value": 0,
+            "x": 155.0,
+            "offset": 9.5,
+            "cohort": "Split",
+            "y": 397.85
+          },
+          {
+            "index": 2,
+            "value": 0,
+            "x": 155.0,
+            "offset": -9.5,
+            "cohort": "Split",
+            "y": 378.85
+          },
+          {
+            "index": 3,
+            "value": 0,
+            "x": 155.0,
+            "offset": 19.0,
+            "cohort": "Split",
+            "y": 407.35
+          },
+          {
+            "index": 4,
+            "value": 0,
+            "x": 155.0,
+            "offset": -19.0,
+            "cohort": "Split",
+            "y": 369.35
+          },
+          {
+            "index": 5,
+            "value": 0,
+            "x": 155.0,
+            "offset": 28.5,
+            "cohort": "Split",
+            "y": 416.85
+          },
+          {
+            "index": 6,
+            "value": 30,
+            "x": 387.5,
+            "offset": 0,
+            "cohort": "Split",
+            "y": 388.35
+          },
+          {
+            "index": 7,
+            "value": 30,
+            "x": 387.5,
+            "offset": 9.5,
+            "cohort": "Split",
+            "y": 397.85
+          },
+          {
+            "index": 8,
+            "value": 30,
+            "x": 387.5,
+            "offset": -9.5,
+            "cohort": "Split",
+            "y": 378.85
+          },
+          {
+            "index": 9,
+            "value": 30,
+            "x": 387.5,
+            "offset": 19.0,
+            "cohort": "Split",
+            "y": 407.35
+          },
+          {
+            "index": 10,
+            "value": 30,
+            "x": 387.5,
+            "offset": -19.0,
+            "cohort": "Split",
+            "y": 369.35
+          },
+          {
+            "index": 11,
+            "value": 30,
+            "x": 387.5,
+            "offset": 28.5,
+            "cohort": "Split",
+            "y": 416.85
+          },
+          {
+            "index": 0,
+            "value": 8,
+            "x": 217.0,
+            "offset": 0,
+            "cohort": "Tail",
+            "y": 550
+          },
+          {
+            "index": 1,
+            "value": 8,
+            "x": 217.0,
+            "offset": 9.5,
+            "cohort": "Tail",
+            "y": 559.5
+          },
+          {
+            "index": 2,
+            "value": 8,
+            "x": 217.0,
+            "offset": -9.5,
+            "cohort": "Tail",
+            "y": 540.5
+          },
+          {
+            "index": 3,
+            "value": 8,
+            "x": 217.0,
+            "offset": 19.0,
+            "cohort": "Tail",
+            "y": 569.0
+          },
+          {
+            "index": 4,
+            "value": 8,
+            "x": 217.0,
+            "offset": -19.0,
+            "cohort": "Tail",
+            "y": 531.0
+          },
+          {
+            "index": 5,
+            "value": 8,
+            "x": 217.0,
+            "offset": 28.5,
+            "cohort": "Tail",
+            "y": 578.5
+          },
+          {
+            "index": 6,
+            "value": 8,
+            "x": 217.0,
+            "offset": -28.5,
+            "cohort": "Tail",
+            "y": 521.5
+          },
+          {
+            "index": 7,
+            "value": 8,
+            "x": 217.0,
+            "offset": 38.0,
+            "cohort": "Tail",
+            "y": 588.0
+          },
+          {
+            "index": 8,
+            "value": 8,
+            "x": 217.0,
+            "offset": -38.0,
+            "cohort": "Tail",
+            "y": 512.0
+          },
+          {
+            "index": 9,
+            "value": 8,
+            "x": 217.0,
+            "offset": 47.5,
+            "cohort": "Tail",
+            "y": 597.5
+          },
+          {
+            "index": 10,
+            "value": 8,
+            "x": 217.0,
+            "offset": -47.5,
+            "cohort": "Tail",
+            "y": 502.5
+          },
+          {
+            "index": 11,
+            "value": 92,
+            "x": 868.0,
+            "offset": 0,
+            "cohort": "Tail",
+            "y": 550
+          }
+        ]
+      }
+    },
+    {
+      "case": "C23",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c23-all-mobile.svg",
+      "meta": {
+        "case": "C23",
+        "plot_x": [
+          135,
+          570
+        ],
+        "domain_x": [
+          0,
+          100
+        ],
+        "placed": [
+          {
+            "index": 0,
+            "value": 13,
+            "x": 191.55,
+            "offset": 0,
+            "cohort": "Compact",
+            "y": 264.4
+          },
+          {
+            "index": 5,
+            "value": 13,
+            "x": 191.55,
+            "offset": 9.5,
+            "cohort": "Compact",
+            "y": 273.9
+          },
+          {
+            "index": 1,
+            "value": 14,
+            "x": 195.9,
+            "offset": -9.5,
+            "cohort": "Compact",
+            "y": 254.89999999999998
+          },
+          {
+            "index": 6,
+            "value": 14,
+            "x": 195.9,
+            "offset": 19.0,
+            "cohort": "Compact",
+            "y": 283.4
+          },
+          {
+            "index": 2,
+            "value": 15,
+            "x": 200.25,
+            "offset": -19.0,
+            "cohort": "Compact",
+            "y": 245.39999999999998
+          },
+          {
+            "index": 7,
+            "value": 15,
+            "x": 200.25,
+            "offset": 28.5,
+            "cohort": "Compact",
+            "y": 292.9
+          },
+          {
+            "index": 10,
+            "value": 15,
+            "x": 200.25,
+            "offset": -28.5,
+            "cohort": "Compact",
+            "y": 235.89999999999998
+          },
+          {
+            "index": 11,
+            "value": 15,
+            "x": 200.25,
+            "offset": 38.0,
+            "cohort": "Compact",
+            "y": 302.4
+          },
+          {
+            "index": 3,
+            "value": 16,
+            "x": 204.60000000000002,
+            "offset": 0,
+            "cohort": "Compact",
+            "y": 264.4
+          },
+          {
+            "index": 8,
+            "value": 16,
+            "x": 204.60000000000002,
+            "offset": 9.5,
+            "cohort": "Compact",
+            "y": 273.9
+          },
+          {
+            "index": 4,
+            "value": 17,
+            "x": 208.95,
+            "offset": -9.5,
+            "cohort": "Compact",
+            "y": 254.89999999999998
+          },
+          {
+            "index": 9,
+            "value": 17,
+            "x": 208.95,
+            "offset": 19.0,
+            "cohort": "Compact",
+            "y": 283.4
+          },
+          {
+            "index": 0,
+            "value": 0,
+            "x": 135.0,
+            "offset": 0,
+            "cohort": "Split",
+            "y": 437.2
+          },
+          {
+            "index": 1,
+            "value": 0,
+            "x": 135.0,
+            "offset": 9.5,
+            "cohort": "Split",
+            "y": 446.7
+          },
+          {
+            "index": 2,
+            "value": 0,
+            "x": 135.0,
+            "offset": -9.5,
+            "cohort": "Split",
+            "y": 427.7
+          },
+          {
+            "index": 3,
+            "value": 0,
+            "x": 135.0,
+            "offset": 19.0,
+            "cohort": "Split",
+            "y": 456.2
+          },
+          {
+            "index": 4,
+            "value": 0,
+            "x": 135.0,
+            "offset": -19.0,
+            "cohort": "Split",
+            "y": 418.2
+          },
+          {
+            "index": 5,
+            "value": 0,
+            "x": 135.0,
+            "offset": 28.5,
+            "cohort": "Split",
+            "y": 465.7
+          },
+          {
+            "index": 6,
+            "value": 30,
+            "x": 265.5,
+            "offset": 0,
+            "cohort": "Split",
+            "y": 437.2
+          },
+          {
+            "index": 7,
+            "value": 30,
+            "x": 265.5,
+            "offset": 9.5,
+            "cohort": "Split",
+            "y": 446.7
+          },
+          {
+            "index": 8,
+            "value": 30,
+            "x": 265.5,
+            "offset": -9.5,
+            "cohort": "Split",
+            "y": 427.7
+          },
+          {
+            "index": 9,
+            "value": 30,
+            "x": 265.5,
+            "offset": 19.0,
+            "cohort": "Split",
+            "y": 456.2
+          },
+          {
+            "index": 10,
+            "value": 30,
+            "x": 265.5,
+            "offset": -19.0,
+            "cohort": "Split",
+            "y": 418.2
+          },
+          {
+            "index": 11,
+            "value": 30,
+            "x": 265.5,
+            "offset": 28.5,
+            "cohort": "Split",
+            "y": 465.7
+          },
+          {
+            "index": 0,
+            "value": 8,
+            "x": 169.8,
+            "offset": 0,
+            "cohort": "Tail",
+            "y": 610
+          },
+          {
+            "index": 1,
+            "value": 8,
+            "x": 169.8,
+            "offset": 9.5,
+            "cohort": "Tail",
+            "y": 619.5
+          },
+          {
+            "index": 2,
+            "value": 8,
+            "x": 169.8,
+            "offset": -9.5,
+            "cohort": "Tail",
+            "y": 600.5
+          },
+          {
+            "index": 3,
+            "value": 8,
+            "x": 169.8,
+            "offset": 19.0,
+            "cohort": "Tail",
+            "y": 629.0
+          },
+          {
+            "index": 4,
+            "value": 8,
+            "x": 169.8,
+            "offset": -19.0,
+            "cohort": "Tail",
+            "y": 591.0
+          },
+          {
+            "index": 5,
+            "value": 8,
+            "x": 169.8,
+            "offset": 28.5,
+            "cohort": "Tail",
+            "y": 638.5
+          },
+          {
+            "index": 6,
+            "value": 8,
+            "x": 169.8,
+            "offset": -28.5,
+            "cohort": "Tail",
+            "y": 581.5
+          },
+          {
+            "index": 7,
+            "value": 8,
+            "x": 169.8,
+            "offset": 38.0,
+            "cohort": "Tail",
+            "y": 648.0
+          },
+          {
+            "index": 8,
+            "value": 8,
+            "x": 169.8,
+            "offset": -38.0,
+            "cohort": "Tail",
+            "y": 572.0
+          },
+          {
+            "index": 9,
+            "value": 8,
+            "x": 169.8,
+            "offset": 47.5,
+            "cohort": "Tail",
+            "y": 657.5
+          },
+          {
+            "index": 10,
+            "value": 8,
+            "x": 169.8,
+            "offset": -47.5,
+            "cohort": "Tail",
+            "y": 562.5
+          },
+          {
+            "index": 11,
+            "value": 92,
+            "x": 535.2,
+            "offset": 0,
+            "cohort": "Tail",
+            "y": 610
+          }
+        ]
+      }
+    },
+    {
+      "case": "C01",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c01-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C01",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c01-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C02",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c02-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C02",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c02-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C03",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c03-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C03",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c03-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C04",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c04-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C04",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c04-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C04",
+      "state": "Organic",
+      "mobile": false,
+      "file": "docs/assets/c04-organic.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Organic",
+        "available": true,
+        "rows": [
+          {
+            "version": "Old",
+            "segment": "Organic",
+            "success": 80,
+            "n": 100
+          },
+          {
+            "version": "New",
+            "segment": "Organic",
+            "success": 27,
+            "n": 30
+          }
+        ]
+      }
+    },
+    {
+      "case": "C04",
+      "state": "Organic",
+      "mobile": true,
+      "file": "docs/assets/c04-organic-mobile.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Organic",
+        "available": true,
+        "rows": [
+          {
+            "version": "Old",
+            "segment": "Organic",
+            "success": 80,
+            "n": 100
+          },
+          {
+            "version": "New",
+            "segment": "Organic",
+            "success": 27,
+            "n": 30
+          }
+        ]
+      }
+    },
+    {
+      "case": "C04",
+      "state": "Paid",
+      "mobile": false,
+      "file": "docs/assets/c04-paid.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Paid",
+        "available": true,
+        "rows": [
+          {
+            "version": "Old",
+            "segment": "Paid",
+            "success": 20,
+            "n": 100
+          },
+          {
+            "version": "New",
+            "segment": "Paid",
+            "success": 42,
+            "n": 170
+          }
+        ]
+      }
+    },
+    {
+      "case": "C04",
+      "state": "Paid",
+      "mobile": true,
+      "file": "docs/assets/c04-paid-mobile.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Paid",
+        "available": true,
+        "rows": [
+          {
+            "version": "Old",
+            "segment": "Paid",
+            "success": 20,
+            "n": 100
+          },
+          {
+            "version": "New",
+            "segment": "Paid",
+            "success": 42,
+            "n": 170
+          }
+        ]
+      }
+    },
+    {
+      "case": "C04",
+      "state": "Partner",
+      "mobile": false,
+      "file": "docs/assets/c04-partner.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Partner",
+        "available": false
+      }
+    },
+    {
+      "case": "C04",
+      "state": "Partner",
+      "mobile": true,
+      "file": "docs/assets/c04-partner-mobile.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Partner",
+        "available": false
+      }
+    },
+    {
+      "case": "C05",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c05-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C05",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c05-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C06",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c06-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C06",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c06-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C07",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c07-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C07",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c07-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C08",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c08-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C08",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c08-all-mobile.svg",
+      "meta": {}
+    }
+  ],
+  "limits": "Author renderers; synthetic data; no human-reader measurement."
+}

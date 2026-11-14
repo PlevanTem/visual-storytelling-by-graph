@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="750" viewBox="0 0 620 750" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif">
+<title id="title">Organic / conversion rate</title>
+<desc id="desc">Same source, explicit counts and denominators. Synthetic demonstration data. C04.</desc>
+<rect width="620" height="750" fill="#101719"/>
+<text x="38.00" y="46.00" font-size="29" fill="#e9e9df" text-anchor="start" font-weight="650" >Organic / conversion rate</text>
+<text x="38.00" y="95.70" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Same source, explicit counts and denominators</text>
+<line x1="38.00" y1="133.70" x2="582.00" y2="133.70" stroke="#2a393a" stroke-width="1" />
+<line x1="98.00" y1="194.70" x2="98.00" y2="573.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="98.00" y="600.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >0%</text>
+<line x1="216.50" y1="194.70" x2="216.50" y2="573.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="216.50" y="600.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >25%</text>
+<line x1="335.00" y1="194.70" x2="335.00" y2="573.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="335.00" y="600.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >50%</text>
+<line x1="453.50" y1="194.70" x2="453.50" y2="573.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="453.50" y="600.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >75%</text>
+<line x1="572.00" y1="194.70" x2="572.00" y2="573.00" stroke="#d9e0d9" stroke-width="1" />
+<text x="572.00" y="600.00" font-size="20" fill="#98a8a5" text-anchor="middle" font-weight="400" >100%</text>
+<text x="86.00" y="247.70" font-size="20" fill="#8fb8ce" text-anchor="end" font-weight="400" >Old</text>
+<rect x="98.00" y="219.70" width="379.20" height="38.00" fill="#8fb8ce" data-mark="filtered-rate" data-version="Old" data-value="0.8"/>
+<text x="477.20" y="207.70" font-size="22" fill="#8fb8ce" text-anchor="end" font-weight="400" >80.0% (80/100)</text>
+<text x="86.00" y="337.70" font-size="20" fill="#c3d8c7" text-anchor="end" font-weight="400" >New</text>
+<rect x="98.00" y="309.70" width="426.60" height="38.00" fill="#c3d8c7" data-mark="filtered-rate" data-version="New" data-value="0.9"/>
+<text x="524.60" y="297.70" font-size="22" fill="#c3d8c7" text-anchor="end" font-weight="400" >90.0% (27/30)</text>
+<text x="38.00" y="644.00" font-size="20" fill="#e9e9df" text-anchor="start" font-weight="600" >Rates use only the selected source.</text>
+<text x="38.00" y="679.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >Synthetic observational groups. All shows the pooled</text>
+<text x="38.00" y="705.00" font-size="20" fill="#98a8a5" text-anchor="start" font-weight="400" >and stratified comparison; no causal attribution.</text>
+<metadata>{&quot;case&quot;: &quot;C04&quot;, &quot;state&quot;: &quot;Organic&quot;, &quot;available&quot;: true, &quot;rows&quot;: [{&quot;version&quot;: &quot;Old&quot;, &quot;segment&quot;: &quot;Organic&quot;, &quot;success&quot;: 80, &quot;n&quot;: 100}, {&quot;version&quot;: &quot;New&quot;, &quot;segment&quot;: &quot;Organic&quot;, &quot;success&quot;: 27, &quot;n&quot;: 30}]}</metadata>
+</svg>

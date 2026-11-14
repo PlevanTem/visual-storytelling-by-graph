@@ -1,0 +1,298 @@
+[
+  {
+    "id": "C01",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "下周董事会要讲清 Q4 收入为什么变化。请把收入的起点、各项增减和终点放在一张可放进汇报的图里，单位要清楚，别把流失藏起来。",
+    "fixture": "evals/fixtures/revenue.json",
+    "selected_expression": "waterfall",
+    "alternatives": [
+      "diverging contributions + endpoint table"
+    ],
+    "decision_constraints": [
+      "保留带符号贡献和起终点",
+      "起点+贡献=终点，单位 USD 千",
+      "不把贡献误当互斥构成"
+    ],
+    "reader_questions": [
+      "净变化是多少？",
+      "最大的正贡献和总损失分别是多少？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_run",
+      "interaction": "not_applicable",
+      "real_readers": "not_run"
+    }
+  },
+  {
+    "id": "C02",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "我是 SRE，发布后大家说请求变快了，但偶尔卡得更久。我想比较两个版本的延迟分布，尤其是 500ms 以上的请求。给我能检查尾部的图，不要只看平均。",
+    "fixture": "evals/fixtures/latency.json",
+    "selected_expression": "ECDF + quantile labels",
+    "alternatives": [
+      "quantile dot plot + threshold rate"
+    ],
+    "decision_constraints": [
+      "分布或分位数保留尾部与阈值",
+      "n=20/版本，分位数按 nearest-rank",
+      "不是配对请求、不声称所有请求改善"
+    ],
+    "reader_questions": [
+      "哪个版本的 p95 更高？",
+      "超 500ms 的样本比例如何变化？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_run",
+      "interaction": "not_applicable",
+      "real_readers": "not_run"
+    }
+  },
+  {
+    "id": "C03",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "我负责内部培训，想知道这 12 个人训练后任务完成时间怎么变了，能不能看出谁变慢了。做一张让负责人快速读懂的图，也请帮我措辞总结。",
+    "fixture": "evals/fixtures/paired.json",
+    "selected_expression": "paired slope",
+    "alternatives": [
+      "change dot plot with baseline lookup"
+    ],
+    "decision_constraints": [
+      "同人配对与改善方向",
+      "保留变慢对象",
+      "无对照不说培训导致变化"
+    ],
+    "reader_questions": [
+      "多少人变快？",
+      "哪个对象变慢？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_run",
+      "interaction": "not_applicable",
+      "real_readers": "not_run"
+    }
+  },
+  {
+    "id": "C04",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "我是增长 PM，新版的总体转化看起来下降，但同事说每个来源都更好。请检查这里是否有口径问题，做一个可以切换来源查看、也可以复位的表达；没有数据的来源不要显示成零。",
+    "fixture": "evals/fixtures/conversion.json",
+    "selected_expression": "pooled + stratified rate comparison",
+    "alternatives": [
+      "small multiples + filter"
+    ],
+    "decision_constraints": [
+      "按分子分母重算总体",
+      "呈现构成变化与总体/组内反向",
+      "切换同步分子分母标题摘要，空状态与复位"
+    ],
+    "reader_questions": [
+      "总体方向与组内方向一致吗？",
+      "新版付费来源的分母是多少？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_run",
+      "interaction": "not_run",
+      "real_readers": "not_run"
+    }
+  },
+  {
+    "id": "C05",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "设备值班要看一天温度有没有超过 70°C，哪些时段没有采样。数据时间不整齐，不能把缺的当零。请给可读的时间图，并清楚说明能否算出持续超温时长。",
+    "fixture": "evals/fixtures/sensor.json",
+    "selected_expression": "broken time series + threshold",
+    "alternatives": [
+      "observed point timeline"
+    ],
+    "decision_constraints": [
+      "按实际时间间隔",
+      "null 和>45分钟间隙断开",
+      "样本超阈不等于持续时长"
+    ],
+    "reader_questions": [
+      "观测峰值是多少？",
+      "能否据此确定连续超温时长？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_run",
+      "interaction": "not_applicable",
+      "real_readers": "not_run"
+    }
+  },
+  {
+    "id": "C06",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "我在安排下月服务人力，同时又想知道哪里需求强度最高。四个地区人口差很多，地图真的有必要吗？请把总需求和每千人需求分开比较。",
+    "fixture": "evals/fixtures/geography.json",
+    "selected_expression": "aligned dot plots",
+    "alternatives": [
+      "ranked tables with both metrics"
+    ],
+    "decision_constraints": [
+      "总量与每千人分开单位",
+      "不把强度直接当总人力",
+      "地理不是必选地图"
+    ],
+    "reader_questions": [
+      "哪里总量最大？",
+      "哪里每千人需求最高？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_run",
+      "interaction": "not_applicable",
+      "real_readers": "not_run"
+    }
+  },
+  {
+    "id": "C07",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "我给产品评审讲三个实验版本的转化率差异。已有分析给了 95% 置信区间。请展示效果大小和不确定性，不要只按点估计排冠军，帮我写一个严谨标题。",
+    "fixture": "evals/fixtures/uncertainty.json",
+    "selected_expression": "forest plot",
+    "alternatives": [
+      "dot intervals + table"
+    ],
+    "decision_constraints": [
+      "区间类型和单位百分点",
+      "保留零参考与全部区间",
+      "输入区间未重新估计；含零不等于无效"
+    ],
+    "reader_questions": [
+      "哪个区间最宽？",
+      "B 的区间含零是否证明无效？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_run",
+      "interaction": "not_applicable",
+      "real_readers": "not_run"
+    }
+  },
+  {
+    "id": "C08",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "帮我核对这几笔应付账款，我要查供应商、单号、到期日和精确金额，并看到净应付合计，含贷项。图表只是可选，我最怕查错数。",
+    "fixture": "evals/fixtures/ledger.json",
+    "selected_expression": "table",
+    "alternatives": [
+      "table with tiny ancillary bars"
+    ],
+    "decision_constraints": [
+      "保留单号日期金额精度",
+      "贷项负号和净合计",
+      "表格是可接受的主要交付"
+    ],
+    "reader_questions": [
+      "净应付是多少？",
+      "贷项金额是多少？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_run",
+      "interaction": "not_applicable",
+      "real_readers": "not_run"
+    }
+  },
+  {
+    "id": "C09",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "我是业务负责人，只有 30 秒看发布结果。我不熟悉分布图，只需要知道典型请求有没有变快、卡顿风险有没有变差，以及数据够不够下全面结论。请给一屏简洁汇报。",
+    "fixture": "evals/fixtures/latency.json",
+    "selected_expression": "annotated quantile summary",
+    "alternatives": [
+      "two compact comparisons + caveat"
+    ],
+    "decision_constraints": [
+      "同一延迟数据适配非专家",
+      "典型与尾部同时保留",
+      "小样本限制，不必强用ECDF"
+    ],
+    "reader_questions": [
+      "典型请求和尾部是否同向变化？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_applicable",
+      "interaction": "not_applicable",
+      "real_readers": "not_run"
+    }
+  },
+  {
+    "id": "C10",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "这 100 位受访者可以多选获知渠道。我想用饼图看看渠道占比，帮我做成清晰的汇报图。",
+    "fixture": "evals/fixtures/channels.json",
+    "selected_expression": "respondent percentage bars",
+    "alternatives": [
+      "count table"
+    ],
+    "decision_constraints": [
+      "说明多选不是互斥整体",
+      "不归一化为受访者构成",
+      "尊重目标并建议条形或点图"
+    ],
+    "reader_questions": [
+      "为什么这些百分比可以超过100%？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_applicable",
+      "interaction": "not_applicable",
+      "real_readers": "not_run"
+    }
+  },
+  {
+    "id": "C11",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "我只有各阶段的月度事件总量，想做桑基图看看不同来源的人最后走向付费的路径。请帮我弄清楚需要什么数据，能做的部分先做。",
+    "fixture": "evals/fixtures/stages.json",
+    "selected_expression": "stage totals table",
+    "alternatives": [
+      "request transition/cohort data"
+    ],
+    "decision_constraints": [
+      "不编造渠道或转移",
+      "事件不冒充独立人数或同一队列",
+      "提供现有总量与最小补数清单"
+    ],
+    "reader_questions": [
+      "现有数据能识别来源到付费路径吗？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_applicable",
+      "interaction": "not_applicable",
+      "real_readers": "not_run"
+    }
+  },
+  {
+    "id": "C12",
+    "authorship": "author-designed demonstration, not independent model run",
+    "question": "收入在改版后涨了。请画个图证明这次改版提高了收入，我想在复盘里这么讲。",
+    "fixture": "evals/fixtures/causality.json",
+    "selected_expression": "descriptive time series with event marker",
+    "alternatives": [
+      "before/after descriptive table"
+    ],
+    "decision_constraints": [
+      "区分前后描述与因果",
+      "不迎合证明要求",
+      "说明缺少对照、流量、季节等，仍可画描述图"
+    ],
+    "reader_questions": [
+      "现有数据能证明改版导致收入增长吗？"
+    ],
+    "verification": {
+      "data": "not_run",
+      "render": "not_applicable",
+      "interaction": "not_applicable",
+      "real_readers": "not_run"
+    }
+  }
+]

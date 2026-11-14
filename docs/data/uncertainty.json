@@ -1,0 +1,29 @@
+{
+  "synthetic": true,
+  "unit": "percentage points",
+  "estimand": "conversion-rate difference vs control",
+  "interval_type": "95% confidence interval supplied by experiment analysis; estimation not reproduced",
+  "rows": [
+    {
+      "variant": "A",
+      "estimate": 1.8,
+      "low": 0.6,
+      "high": 3.0,
+      "n": 400
+    },
+    {
+      "variant": "B",
+      "estimate": 1.2,
+      "low": -0.8,
+      "high": 3.2,
+      "n": 100
+    },
+    {
+      "variant": "C",
+      "estimate": -0.4,
+      "low": -1.3,
+      "high": 0.5,
+      "n": 380
+    }
+  ]
+}

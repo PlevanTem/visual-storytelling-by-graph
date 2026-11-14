@@ -1,0 +1,976 @@
+[
+  {
+    "id": "C13",
+    "category": "matter",
+    "type": "Ternary composition",
+    "title": {
+      "en": "Three parts. One whole.",
+      "zh": "三部分，一个整体。"
+    },
+    "question": {
+      "en": "Compare closed sediment compositions across three environments.",
+      "zh": "我们在比较河口、沙丘和黄土的颗粒组成。三部分质量占比相加为100%，希望看到不同来源的混合模式，不能拿三根独立柱子讲完。请说明三元图怎么读，别编地质分类。"
+    },
+    "why": {
+      "en": "Closed barycentric coordinates preserve all three parts and their 100% constraint.",
+      "zh": "三元坐标保留三部分的闭合关系；分组切换只过滤点，不改变尺度。"
+    },
+    "boundary": {
+      "en": "No geological classifications or independent causal interpretation.",
+      "zh": "未推断土壤分类；闭合组成不能当成三个独立原因。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c13-all.svg",
+        "mobile": "assets/c13-all-mobile.svg",
+        "summary": {
+          "en": "All: 36 closed compositions. All coordinates use the same triangle.",
+          "zh": "All：36个闭合组成，坐标尺度不变。"
+        },
+        "available": true
+      },
+      {
+        "key": "Estuary",
+        "label": {
+          "en": "Estuary",
+          "zh": "Estuary"
+        },
+        "chart": "assets/c13-estuary.svg",
+        "mobile": "assets/c13-estuary-mobile.svg",
+        "summary": {
+          "en": "Estuary: 12 closed compositions. All coordinates use the same triangle.",
+          "zh": "Estuary：12个闭合组成，坐标尺度不变。"
+        },
+        "available": true
+      },
+      {
+        "key": "Dune",
+        "label": {
+          "en": "Dune",
+          "zh": "Dune"
+        },
+        "chart": "assets/c13-dune.svg",
+        "mobile": "assets/c13-dune-mobile.svg",
+        "summary": {
+          "en": "Dune: 12 closed compositions. All coordinates use the same triangle.",
+          "zh": "Dune：12个闭合组成，坐标尺度不变。"
+        },
+        "available": true
+      },
+      {
+        "key": "Loess",
+        "label": {
+          "en": "Loess",
+          "zh": "Loess"
+        },
+        "chart": "assets/c13-loess.svg",
+        "mobile": "assets/c13-loess-mobile.svg",
+        "summary": {
+          "en": "Loess: 12 closed compositions. All coordinates use the same triangle.",
+          "zh": "Loess：12个闭合组成，坐标尺度不变。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/ternary.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c13-preview.svg"
+  },
+  {
+    "id": "C14",
+    "category": "matter",
+    "type": "Area-scaled wind rose",
+    "title": {
+      "en": "The wind has an address.",
+      "zh": "风，有来处。"
+    },
+    "question": {
+      "en": "Where does wind arrive from, and where are the faster observations?",
+      "zh": "港口观察站有8个来风方向和三个速度档的观测次数。想看风从哪里来、强风集中在哪里。请做极坐标表达，交代角度约定、频率分母和面积编码。"
+    },
+    "why": {
+      "en": "Equal-angle sectors encode count by area; nested rings separate speed bins.",
+      "zh": "等角扇区以面积表示次数，环带区分速度档，半径按次数平方根映射。"
+    },
+    "boundary": {
+      "en": "Only non-calm observations; direction is FROM, clockwise from north.",
+      "zh": "只含非静风观测；方向为来向，由北顺时针；分母为240。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c14-all.svg",
+        "mobile": "assets/c14-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/wind.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c14-preview.svg"
+  },
+  {
+    "id": "C19",
+    "category": "time",
+    "type": "Scalar recurrence",
+    "title": {
+      "en": "A signal remembers.",
+      "zh": "信号的回声。"
+    },
+    "question": {
+      "en": "Inspect recurring scalar states while changing a distance threshold.",
+      "zh": "这个归一化信号似乎重复又有轻微漂移。请做时间×时间的递归图，能切换阈值，并说明递归率怎么算。不要据这张图宣称发现混沌。"
+    },
+    "why": {
+      "en": "Time-by-time proximity reveals repeated states; a fixed scale makes thresholds comparable.",
+      "zh": "时间×时间矩阵保留相近状态；阈值切换时数据尺度不变。"
+    },
+    "boundary": {
+      "en": "Embedding dimension 1. Threshold-dependent texture does not establish chaos.",
+      "zh": "嵌入维度为1；纹理依赖阈值，不证明混沌或真实机制。"
+    },
+    "states": [
+      {
+        "key": "0.1",
+        "label": {
+          "en": "epsilon 0.1",
+          "zh": "epsilon 0.1"
+        },
+        "chart": "assets/c19-0-1.svg",
+        "mobile": "assets/c19-0-1-mobile.svg",
+        "summary": {
+          "en": "epsilon=0.1; off-diagonal recurrence 10.47%; denominator 4032.",
+          "zh": "epsilon=0.1；非对角递归率10.47%；分母4032。"
+        },
+        "available": true
+      },
+      {
+        "key": "0.25",
+        "label": {
+          "en": "epsilon 0.25",
+          "zh": "epsilon 0.25"
+        },
+        "chart": "assets/c19-0-25.svg",
+        "mobile": "assets/c19-0-25-mobile.svg",
+        "summary": {
+          "en": "epsilon=0.25; off-diagonal recurrence 24.45%; denominator 4032.",
+          "zh": "epsilon=0.25；非对角递归率24.45%；分母4032。"
+        },
+        "available": true
+      },
+      {
+        "key": "0.45",
+        "label": {
+          "en": "epsilon 0.45",
+          "zh": "epsilon 0.45"
+        },
+        "chart": "assets/c19-0-45.svg",
+        "mobile": "assets/c19-0-45-mobile.svg",
+        "summary": {
+          "en": "epsilon=0.45; off-diagonal recurrence 43.25%; denominator 4032.",
+          "zh": "epsilon=0.45；非对角递归率43.25%；分母4032。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 1,
+    "data": "data/recurrence.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c19-preview.svg"
+  },
+  {
+    "id": "C18",
+    "category": "relations",
+    "type": "Object-level alluvial",
+    "title": {
+      "en": "Routes to a second life.",
+      "zh": "通往第二次生命。"
+    },
+    "question": {
+      "en": "Trace actual device paths through intake, diagnosis and outcome.",
+      "zh": "维修中心保存了每台设备从入站类型到诊断再到最终处理的记录。我想看哪些路径走向再用、拆件、回收。请用真实转移汇总，不丢设备，也不要让带宽与人数不一致。"
+    },
+    "why": {
+      "en": "Each ribbon follows a complete observed path; constant width encodes unique devices.",
+      "zh": "完整记录汇总为路径，带宽按对象数保持一致，节点和阶段守恒。"
+    },
+    "boundary": {
+      "en": "Complete records only; observed pathways do not identify causes.",
+      "zh": "仅展示完整记录；路径描述转移，不解释原因。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c18-all.svg",
+        "mobile": "assets/c18-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/repairs.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c18-preview.svg"
+  },
+  {
+    "id": "C17",
+    "category": "relations",
+    "type": "Exact-set intersections",
+    "title": {
+      "en": "Overlaps, accounted for.",
+      "zh": "交叠，自有边界。"
+    },
+    "question": {
+      "en": "Compare exact archive-tag intersections and isolate multi-tag objects.",
+      "zh": "我们的档案有文字、图像、声音和空间四种标签，物件可多选。我要比较精确交集的数量，也想只看至少两个标签的对象。不要画无法读数的四集合韦恩图。"
+    },
+    "why": {
+      "en": "Bars quantify exclusive membership patterns; the dot matrix shows included and excluded tags.",
+      "zh": "计数柱与成员矩阵配对，区分精确模式和包含式交集。"
+    },
+    "boundary": {
+      "en": "Universe contains at least one tag. Filtered object count changes explicitly.",
+      "zh": "总体仅含至少一个标签的对象；筛选后明确更新对象数。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All exact patterns",
+          "zh": "全部精确模式"
+        },
+        "chart": "assets/c17-all.svg",
+        "mobile": "assets/c17-all-mobile.svg",
+        "summary": {
+          "en": "64 unique objects / 15 exact membership patterns.",
+          "zh": "64个唯一对象 / 15个精确成员模式。"
+        },
+        "available": true
+      },
+      {
+        "key": "Overlaps",
+        "label": {
+          "en": "At least 2 tags",
+          "zh": "至少2个标签"
+        },
+        "chart": "assets/c17-overlaps.svg",
+        "mobile": "assets/c17-overlaps-mobile.svg",
+        "summary": {
+          "en": "42 unique objects / 11 exact membership patterns.",
+          "zh": "42个唯一对象 / 11个精确成员模式。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/intersections.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c17-preview.svg"
+  },
+  {
+    "id": "C15",
+    "category": "time",
+    "type": "Kaplan–Meier",
+    "title": {
+      "en": "Still readable.",
+      "zh": "仍然可读。"
+    },
+    "question": {
+      "en": "Compare time to unreadability while retaining right-censored specimens.",
+      "zh": "档案馆在做材料耐久试验。有些样本到结束仍可读，或提前退出。请比较两种环境下的可读寿命，保留删失与风险集，不能把未坏样本当成已坏。"
+    },
+    "why": {
+      "en": "Event-only steps, censor marks and risk counts keep incomplete follow-up visible.",
+      "zh": "只在事件时刻下降，删失记号与风险集保留不完整观察。"
+    },
+    "boundary": {
+      "en": "Independent, non-informative censoring assumed; no causal or long-term extrapolation.",
+      "zh": "假设独立、非信息性删失；未估计置信带，不作因果或远期外推。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c15-all.svg",
+        "mobile": "assets/c15-all-mobile.svg",
+        "summary": {
+          "en": "At last follow-up: Dry 57.75% at 100 cycles; Humid 30.00% at 88 cycles.",
+          "zh": "末次观察处：Dry在100周期为57.75%；Humid在88周期为30.00%。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/survival.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c15-preview.svg"
+  },
+  {
+    "id": "C21",
+    "category": "time",
+    "type": "Ordered phase trajectory",
+    "title": {
+      "en": "One input. Two histories.",
+      "zh": "同一输入，两种历史。"
+    },
+    "question": {
+      "en": "Show why the same input has different responses during a cycle.",
+      "zh": "同一个输入值在循环上行和下行时响应不同。请保留采样顺序和方向，不要画成一条普通函数拟合线，说明这只是示意数据。"
+    },
+    "why": {
+      "en": "Ordered coordinates and directional arrows retain the trajectory rather than averaging it away.",
+      "zh": "按采样顺序连接，并显示方向；同一输入的多个响应不被平均掉。"
+    },
+    "boundary": {
+      "en": "Normalized illustration, not a fitted law or evidence of a physical mechanism.",
+      "zh": "归一化示意，不是拟合物理定律，也不识别真实机制。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c21-all.svg",
+        "mobile": "assets/c21-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/phase.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c21-preview.svg"
+  },
+  {
+    "id": "C20",
+    "category": "time",
+    "type": "Mirrored horizon",
+    "title": {
+      "en": "Heat, folded.",
+      "zh": "折叠的温度。"
+    },
+    "question": {
+      "en": "Compare signed temperature anomalies across many stations in a compact space.",
+      "zh": "8个站点48天的温度距平，希望很小空间里比较正负变化的阶段。试试 Horizon，但一定讲清折叠了什么、每带多少度，不要只剩漂亮纹理。"
+    },
+    "why": {
+      "en": "Three common 2°C bands fold amplitude into height and colour while preserving sign.",
+      "zh": "以共同的2°C带宽折叠幅度，保留正负方向和变化时段。"
+    },
+    "boundary": {
+      "en": "Blue is negative, amber positive; use raw data for precise values.",
+      "zh": "蓝为负、琥珀为正；压缩增加读数成本，精确值需查数据。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c20-all.svg",
+        "mobile": "assets/c20-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/horizon.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c20-preview.svg"
+  },
+  {
+    "id": "C24",
+    "category": "time",
+    "type": "STFT magnitude",
+    "title": {
+      "en": "A tone in motion.",
+      "zh": "移动的频率。"
+    },
+    "question": {
+      "en": "Separate a rising synthetic tone from a fixed-frequency component.",
+      "zh": "这段合成信号频率随时间升高，还叠加一个固定频率。我想看一张能解释它们的时频图，写清窗口、步长和dB参考，不能当成声源识别。"
+    },
+    "why": {
+      "en": "A windowed transform exposes when frequencies occur, using one global amplitude reference.",
+      "zh": "窗口化变换把频率放回时间，使用共同的全局幅度参考。"
+    },
+    "boundary": {
+      "en": "Relative magnitude dB, not PSD; resolution depends on window and hop.",
+      "zh": "相对幅度dB而非PSD；窗口与步长决定时频分辨率，不识别声源。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c24-all.svg",
+        "mobile": "assets/c24-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/spectrogram.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c24-preview.svg"
+  },
+  {
+    "id": "C22",
+    "category": "matter",
+    "type": "Ridgeline KDE",
+    "title": {
+      "en": "The shape of the tide.",
+      "zh": "潮汐的形状。"
+    },
+    "question": {
+      "en": "Compare turbidity distributions and inspect sensitivity to smoothing bandwidth.",
+      "zh": "我们想比较六个潮汐阶段浊度分布。山脊图可以，但我想切换平滑程度，看形状是否只是带宽造成。所有组用同一个密度缩放，也保留样本量。"
+    },
+    "why": {
+      "en": "Shared horizontal and absolute-density scales support cross-group comparison.",
+      "zh": "共同横轴与绝对密度尺度支持比较；带宽参数显式可见。"
+    },
+    "boundary": {
+      "en": "Density is not point probability. Smoothing does not change the observations.",
+      "zh": "密度不是点概率；平滑不改变原始观测，也不能证明真实多峰。"
+    },
+    "states": [
+      {
+        "key": "2",
+        "label": {
+          "en": "h = 2 NTU",
+          "zh": "h = 2 NTU"
+        },
+        "chart": "assets/c22-2.svg",
+        "mobile": "assets/c22-2-mobile.svg",
+        "summary": {
+          "en": "Bandwidth 2 NTU. Six groups, 24 samples each; fixed absolute density scale.",
+          "zh": "带宽2 NTU；6组，每组24个观测；绝对密度缩放固定。"
+        },
+        "available": true
+      },
+      {
+        "key": "5",
+        "label": {
+          "en": "h = 5 NTU",
+          "zh": "h = 5 NTU"
+        },
+        "chart": "assets/c22-5.svg",
+        "mobile": "assets/c22-5-mobile.svg",
+        "summary": {
+          "en": "Bandwidth 5 NTU. Six groups, 24 samples each; fixed absolute density scale.",
+          "zh": "带宽5 NTU；6组，每组24个观测；绝对密度缩放固定。"
+        },
+        "available": true
+      },
+      {
+        "key": "10",
+        "label": {
+          "en": "h = 10 NTU",
+          "zh": "h = 10 NTU"
+        },
+        "chart": "assets/c22-10.svg",
+        "mobile": "assets/c22-10-mobile.svg",
+        "summary": {
+          "en": "Bandwidth 10 NTU. Six groups, 24 samples each; fixed absolute density scale.",
+          "zh": "带宽10 NTU；6组，每组24个观测；绝对密度缩放固定。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 1,
+    "data": "data/ridges.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c22-preview.svg"
+  },
+  {
+    "id": "C16",
+    "category": "evidence",
+    "type": "Bland–Altman",
+    "title": {
+      "en": "Agreement, examined.",
+      "zh": "一致性，需要另看。"
+    },
+    "question": {
+      "en": "Can highly correlated acoustic methods be treated as interchangeable?",
+      "zh": "两个声学测量方法在同一批样本上数值相关很高，能否替换？允许差异是±3dB。请看配对差值、偏差和一致性界限，不要用相关系数直接作结论。"
+    },
+    "why": {
+      "en": "Paired differences against paired means expose bias and spread separately from correlation.",
+      "zh": "以配对均值对照差值，区分相关、偏差、容许误差与一致性界限。"
+    },
+    "boundary": {
+      "en": "Descriptive mean ±1.96 sample SD; assumptions not established; tolerance is separate.",
+      "zh": "mean±1.96样本SD为描述性界限，假设未建立；±3dB容许误差单独给定。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c16-all.svg",
+        "mobile": "assets/c16-all-mobile.svg",
+        "summary": {
+          "en": "Descriptive bias +2.00 dB; LoA [-2.09, +6.09].",
+          "zh": "描述性偏差+2.00 dB；一致性界限[-2.09, +6.09]。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/agreement.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c16-preview.svg"
+  },
+  {
+    "id": "C23",
+    "category": "matter",
+    "type": "Exact-value beeswarm",
+    "title": {
+      "en": "Averages miss the crowd.",
+      "zh": "均值之外的人群。"
+    },
+    "question": {
+      "en": "Compare cohorts with identical means but different individual waiting times.",
+      "zh": "三个服务组的平均等待时间一样，用户抱怨却不同。请保留每个样本和重复值，看看均值隐藏了什么。点位不能为了漂亮改掉真实等待时间。"
+    },
+    "why": {
+      "en": "Every exact x value and duplicate stays visible; y displacement only resolves collisions.",
+      "zh": "保留每个精确横坐标与重复值，只沿纵向避碰。"
+    },
+    "boundary": {
+      "en": "Synthetic n=12 per cohort; no population inference from these small samples.",
+      "zh": "各组n=12的合成小样本，不据此推断总体。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c23-all.svg",
+        "mobile": "assets/c23-all-mobile.svg",
+        "summary": {
+          "en": "All three means are 15 minutes; medians 15 / 15 / 8; the longest wait is 92.",
+          "zh": "三组均值均15分钟；中位数15 / 15 / 8；最长等待92分钟。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/swarm.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/specialized-methods.md",
+    "preview": "assets/c23-preview.svg"
+  },
+  {
+    "id": "C01",
+    "category": "evidence",
+    "type": "Revenue bridge",
+    "title": {
+      "en": "Explain the change.",
+      "zh": "把变化讲清。"
+    },
+    "question": {
+      "en": "Explain opening revenue, signed contributions and closing revenue.",
+      "zh": "下周董事会要讲清 Q4 收入为什么变化。请把收入的起点、各项增减和终点放在一张可放进汇报的图里，单位要清楚，别把流失藏起来。"
+    },
+    "why": {
+      "en": "A waterfall preserves additivity, negative losses and the endpoint.",
+      "zh": "瀑布表达保留起点、带符号贡献与终点，避免把变动误作构成。"
+    },
+    "boundary": {
+      "en": "Accounting contributions, not a causal model of the business.",
+      "zh": "会计贡献分解不是经营因果模型；数据为合成。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c01-all.svg",
+        "mobile": "assets/c01-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/revenue.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/chart-families.md",
+    "preview": "assets/c01-preview.svg"
+  },
+  {
+    "id": "C02",
+    "category": "time",
+    "type": "Empirical CDF",
+    "title": {
+      "en": "Keep the tail.",
+      "zh": "别丢掉尾部。"
+    },
+    "question": {
+      "en": "Did a release improve typical latency while making long waits worse?",
+      "zh": "我是 SRE，发布后大家说请求变快了，但偶尔卡得更久。我想比较两个版本的延迟分布，尤其是 500ms 以上的请求。给我能检查尾部的图，不要只看平均。"
+    },
+    "why": {
+      "en": "An empirical step distribution preserves the crossing and tail; quantile labels support quick reading.",
+      "zh": "经验阶梯分布保留交叉与尾部，分位数摘要降低读数成本。"
+    },
+    "boundary": {
+      "en": "Independent n=20 samples per version; nearest-rank quantiles; not universal improvement.",
+      "zh": "每版本20个独立请求；nearest-rank分位数，不声称普遍改善。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c02-all.svg",
+        "mobile": "assets/c02-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/latency.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/chart-families.md",
+    "preview": "assets/c02-preview.svg"
+  },
+  {
+    "id": "C03",
+    "category": "evidence",
+    "type": "Paired change",
+    "title": {
+      "en": "Preserve the pairs.",
+      "zh": "保留每一对。"
+    },
+    "question": {
+      "en": "Find which participants became faster or slower after training.",
+      "zh": "我负责内部培训，想知道这 12 个人训练后任务完成时间怎么变了，能不能看出谁变慢了。做一张让负责人快速读懂的图，也请帮我措辞总结。"
+    },
+    "why": {
+      "en": "Individual matched lines preserve direction and the lone slower participant.",
+      "zh": "连接同一参与者的前后测，保留方向与唯一变慢者。"
+    },
+    "boundary": {
+      "en": "No control group; observed change is not proof of training causality.",
+      "zh": "无对照组；前后变化不证明培训因果效果。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c03-all.svg",
+        "mobile": "assets/c03-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/paired.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/chart-families.md",
+    "preview": "assets/c03-preview.svg"
+  },
+  {
+    "id": "C04",
+    "category": "relations",
+    "type": "Stratified rates",
+    "title": {
+      "en": "Check the denominator.",
+      "zh": "先看分母。"
+    },
+    "question": {
+      "en": "Why did pooled conversion fall while both source-level rates rose?",
+      "zh": "我是增长 PM，新版的总体转化看起来下降，但同事说每个来源都更好。请检查这里是否有口径问题，做一个可以切换来源查看、也可以复位的表达；没有数据的来源不要显示成零。"
+    },
+    "why": {
+      "en": "Pooled and stratified rates share an axis; counts and denominators remain explicit.",
+      "zh": "共同尺度并列总体与分组率；来源切换同步分子、分母与标题。"
+    },
+    "boundary": {
+      "en": "Observational composition effects, not causal version effects. Missing source data is not zero.",
+      "zh": "观察性构成差异不是版本因果效果；无数据来源不显示为零。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "Overview / Reset",
+          "zh": "概览 / 复位"
+        },
+        "chart": "assets/c04-all.svg",
+        "mobile": "assets/c04-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      },
+      {
+        "key": "Organic",
+        "label": {
+          "en": "Organic",
+          "zh": "Organic"
+        },
+        "chart": "assets/c04-organic.svg",
+        "mobile": "assets/c04-organic-mobile.svg",
+        "summary": {
+          "en": "Organic: Old 80/100=80.0%; New 27/30=90.0%.",
+          "zh": "Organic：Old 80/100=80.0%；New 27/30=90.0%。"
+        },
+        "available": true
+      },
+      {
+        "key": "Paid",
+        "label": {
+          "en": "Paid",
+          "zh": "Paid"
+        },
+        "chart": "assets/c04-paid.svg",
+        "mobile": "assets/c04-paid-mobile.svg",
+        "summary": {
+          "en": "Paid: Old 20/100=20.0%; New 42/170=24.7%.",
+          "zh": "Paid：Old 20/100=20.0%；New 42/170=24.7%。"
+        },
+        "available": true
+      },
+      {
+        "key": "Partner",
+        "label": {
+          "en": "Partner",
+          "zh": "Partner"
+        },
+        "chart": "assets/c04-partner.svg",
+        "mobile": "assets/c04-partner-mobile.svg",
+        "summary": {
+          "en": "Partner has no observations. A conversion rate cannot be computed.",
+          "zh": "Partner无观测，不能计算转化率；不是0%。"
+        },
+        "available": false
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/conversion.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/chart-families.md",
+    "preview": "assets/c04-preview.svg"
+  },
+  {
+    "id": "C05",
+    "category": "time",
+    "type": "Irregular time series",
+    "title": {
+      "en": "Show the gaps.",
+      "zh": "让缺测可见。"
+    },
+    "question": {
+      "en": "When did a sensor exceed its threshold, and where is sampling coverage absent?",
+      "zh": "设备值班要看一天温度有没有超过 70°C，哪些时段没有采样。数据时间不整齐，不能把缺的当零。请给可读的时间图，并清楚说明能否算出持续超温时长。"
+    },
+    "why": {
+      "en": "Actual timestamps and broken segments preserve irregular intervals and missing coverage.",
+      "zh": "按真实时间定位，并在缺测和长间隙处断开。"
+    },
+    "boundary": {
+      "en": "Exceeding-sample share is not continuous exceedance duration.",
+      "zh": "超阈样本比例不等于持续超阈时长。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c05-all.svg",
+        "mobile": "assets/c05-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/sensor.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/chart-families.md",
+    "preview": "assets/c05-preview.svg"
+  },
+  {
+    "id": "C06",
+    "category": "matter",
+    "type": "Aligned measures",
+    "title": {
+      "en": "Volume or intensity?",
+      "zh": "总量，还是强度？"
+    },
+    "question": {
+      "en": "Allocate capacity while comparing demand per resident across regions.",
+      "zh": "我在安排下月服务人力，同时又想知道哪里需求强度最高。四个地区人口差很多，地图真的有必要吗？请把总需求和每千人需求分开比较。"
+    },
+    "why": {
+      "en": "Separate aligned axes retain two different measures without an unnecessary map.",
+      "zh": "分开单位和尺度，共同地区顺序支持对照；地图并非必需。"
+    },
+    "boundary": {
+      "en": "Per-capita intensity cannot replace total demand in capacity planning.",
+      "zh": "人均强度不能替代总量用于容量规划。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c06-all.svg",
+        "mobile": "assets/c06-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/geography.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/chart-families.md",
+    "preview": "assets/c06-preview.svg"
+  },
+  {
+    "id": "C07",
+    "category": "evidence",
+    "type": "Point intervals",
+    "title": {
+      "en": "Keep uncertainty visible.",
+      "zh": "不确定性也要可见。"
+    },
+    "question": {
+      "en": "Compare experimental effect sizes with their supplied intervals.",
+      "zh": "我给产品评审讲三个实验版本的转化率差异。已有分析给了 95% 置信区间。请展示效果大小和不确定性，不要只按点估计排冠军，帮我写一个严谨标题。"
+    },
+    "why": {
+      "en": "Points and intervals preserve magnitude, width and the zero reference.",
+      "zh": "点和区间保留效应大小、宽度及零参考。"
+    },
+    "boundary": {
+      "en": "Supplied 95% CIs are not recomputed; containing zero does not prove no effect.",
+      "zh": "输入提供的95%CI未重新估计；含零不等于证明无效。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c07-all.svg",
+        "mobile": "assets/c07-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/uncertainty.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/chart-families.md",
+    "preview": "assets/c07-preview.svg"
+  },
+  {
+    "id": "C08",
+    "category": "evidence",
+    "type": "Exact-value table",
+    "title": {
+      "en": "Let a table do the work.",
+      "zh": "让表格完成任务。"
+    },
+    "question": {
+      "en": "Reconcile invoices, due dates, credits and the exact net payable.",
+      "zh": "帮我核对这几笔应付账款，我要查供应商、单号、到期日和精确金额，并看到净应付合计，含贷项。图表只是可选，我最怕查错数。"
+    },
+    "why": {
+      "en": "A table prioritizes lookup precision and traceability rather than unnecessary charting.",
+      "zh": "精确查值与对账优先；保留金额精度、贷项和净合计。"
+    },
+    "boundary": {
+      "en": "Synthetic records, integer cents; no financial conclusion beyond the supplied ledger.",
+      "zh": "合成记录，以整数分存储金额，不外推到真实财务结论。"
+    },
+    "states": [
+      {
+        "key": "All",
+        "label": {
+          "en": "All",
+          "zh": "All"
+        },
+        "chart": "assets/c08-all.svg",
+        "mobile": "assets/c08-all-mobile.svg",
+        "summary": {
+          "en": "Synthetic data. Read the work for the question, method and interpretation limits.",
+          "zh": "合成数据；打开作品解读查看问题、方法和解释边界。"
+        },
+        "available": true
+      }
+    ],
+    "defaultState": 0,
+    "data": "data/ledger.json",
+    "method": "https://github.com/PlevanTem/visual-storytelling-by-graph/blob/main/references/chart-families.md",
+    "preview": "assets/c08-preview.svg"
+  }
+]

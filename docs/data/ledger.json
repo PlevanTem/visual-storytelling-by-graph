@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "currency": "USD",
+  "amount_representation": "integer cents, negative means credit",
+  "rows": [
+    {
+      "vendor": "Atlas",
+      "invoice": "INV-101",
+      "due": "2026-11-20",
+      "amount_cents": 128450
+    },
+    {
+      "vendor": "Atlas",
+      "invoice": "INV-102",
+      "due": "2026-11-21",
+      "amount_cents": 75625
+    },
+    {
+      "vendor": "Northline",
+      "invoice": "INV-201",
+      "due": "2026-11-22",
+      "amount_cents": 230000
+    },
+    {
+      "vendor": "Cedar",
+      "invoice": "CR-301",
+      "due": "2026-11-20",
+      "amount_cents": -12500
+    }
+  ]
+}
