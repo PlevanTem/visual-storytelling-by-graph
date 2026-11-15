@@ -1,7 +1,13 @@
 {
   "status": "pass",
-  "url": "https://plevantem.github.io/visual-storytelling-by-graph/",
+  "url": "http://127.0.0.1:8037/",
   "checks": [
+    {
+      "check": "user_journey_task_filters_scenarios_permalink_request",
+      "status": "pass",
+      "tasks": 4,
+      "scenario_links": 4
+    },
     {
       "check": "desktop_gallery_and_all_states",
       "status": "pass",
@@ -10,6 +16,61 @@
         1000
       ],
       "states": [
+        {
+          "case": "C01",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C02",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C04",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C04",
+          "state": "Organic",
+          "status": "pass"
+        },
+        {
+          "case": "C04",
+          "state": "Paid",
+          "status": "pass"
+        },
+        {
+          "case": "C04",
+          "state": "Partner",
+          "status": "pass"
+        },
+        {
+          "case": "C03",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C06",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C07",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C05",
+          "state": "All",
+          "status": "pass"
+        },
+        {
+          "case": "C08",
+          "state": "All",
+          "status": "pass"
+        },
         {
           "case": "C13",
           "state": "All",
@@ -109,68 +170,13 @@
           "case": "C23",
           "state": "All",
           "status": "pass"
-        },
-        {
-          "case": "C01",
-          "state": "All",
-          "status": "pass"
-        },
-        {
-          "case": "C02",
-          "state": "All",
-          "status": "pass"
-        },
-        {
-          "case": "C03",
-          "state": "All",
-          "status": "pass"
-        },
-        {
-          "case": "C04",
-          "state": "All",
-          "status": "pass"
-        },
-        {
-          "case": "C04",
-          "state": "Organic",
-          "status": "pass"
-        },
-        {
-          "case": "C04",
-          "state": "Paid",
-          "status": "pass"
-        },
-        {
-          "case": "C04",
-          "state": "Partner",
-          "status": "pass"
-        },
-        {
-          "case": "C05",
-          "state": "All",
-          "status": "pass"
-        },
-        {
-          "case": "C06",
-          "state": "All",
-          "status": "pass"
-        },
-        {
-          "case": "C07",
-          "state": "All",
-          "status": "pass"
-        },
-        {
-          "case": "C08",
-          "state": "All",
-          "status": "pass"
         }
       ]
     },
     {
       "check": "keyboard_language_copy_export_download",
       "status": "pass",
-      "skill_download": "pass"
+      "skill_download": "not_run"
     },
     {
       "check": "mobile_all_works_bilingual",
@@ -570,10 +576,10 @@
   "browser": "145.0.7632.6",
   "hash_scheme": "SHA256 of UTF-8 text with CRLF normalized to LF; content is otherwise unchanged.",
   "inputs_sha256": {
-    "docs/index.html": "971ecf8a194ffdad00c663b65d0e0c670df3f2c4efc1b725db204ad40520a33a",
-    "docs/style.css": "d684a6c6ff03a49caf8b6b051120b46efe07fc6279fcbcf900a5ef5fca5bc792",
-    "docs/app.js": "5a46b424003b6f5bae58eb5feee34529681443ecf11269e074be0b36fc7fd9e5",
-    "docs/collection.js": "f7e0e503d49e65a2ad9e8fb789fdec7021be975b411b9ef6dd47ab0496480bf7",
+    "docs/index.html": "0ebc958e146907ee07aaa141f0b20eb279bd1e1bca164e05e98236977b9e53fc",
+    "docs/style.css": "fa4b0864c26e948ceba6d649406034cfbb79b735958799b4bb81ddb16bc28f70",
+    "docs/app.js": "c61435add3e281cf1e4e1dab6d59feb9ff7405e968fbab5d094de70221754425",
+    "docs/collection.js": "7196ed1be4e7c342119e121e1a2a252bb4dfc109f4d9a641cb64c9044daca91c",
     "docs/assets/hero.svg": "e83c662fc647752c760d5475d894762658223a730aada2ea6113977e08aceaff",
     "docs/assets/mark.svg": "487b5144e275f024a8dc1c74756e39ecbb94c97b945e15d3ce72e0d388d07625",
     "docs/assets/c01-all-mobile.svg": "3b831ad4e931d93246680d0bfc4286d99474a04a7e018a6581a57a27beb556a4",

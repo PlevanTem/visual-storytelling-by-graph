@@ -1,106 +1,104 @@
 # visual-storytelling-by-graph
 
-[English](README.en.md) · [沉浸式图表画廊](https://plevantem.github.io/visual-storytelling-by-graph/) · [Skill](SKILL.md) · [验证记录](verification/REPORT.md)
+[English](README.en.md) · [查看案例效果](https://plevantem.github.io/visual-storytelling-by-graph/) · [快速上手](#快速上手)
 
-**从用户想回答的问题，到恰当的图表、叙事和交互。** 一个可以直接指导 Agent 的本地 Skill，以及一座可复查的图表画廊。
+**把你的问题和数据交给 Agent，选择合适的图表，把值得关注的变化、差异和关系讲清楚。**
 
-![The shape of evidence — gallery preview](docs/assets/social-preview.png)
+适合需要快速分析、汇报和探索数据的人：产品经理、业务分析师、运营、研究人员，以及需要向他人解释数据的团队。你不必先知道图表名称，从“我想弄清什么”开始。
 
-20 件作品 · 12 种新增专门表达 · 31 个展示状态 · 24 个模拟用户请求。全部数据为合成数据；工程检查和独立执行不等于真实读者理解或审美效果得到验证。
+![画廊与案例预览](docs/assets/social-preview.png)
 
-## 安装
+## 哪些场景可以用
 
-在项目中执行（需要 Node.js 22.20+，安装器由 [skills CLI](https://github.com/vercel-labs/skills) 提供）：
+| 你正在做什么 | 可以怎样提问 | Skill 会重点考虑什么 |
+|---|---|---|
+| 经营汇报与复盘 | 收入为什么变了？主要增减来自哪里？ | 趋势、贡献、比较基准与阅读顺序 |
+| 产品与体验分析 | 新版真的更好吗？均值是否隐藏了差异？ | 分组、分布、尾部、样本量与分母 |
+| 实验与研究沟通 | 哪些差异值得关注？不确定性有多大？ | 配对关系、区间含义与结论强度 |
+| 监控与问题排查 | 异常发生在哪里？哪些时段没有数据？ | 时间间隔、阈值、缺测和细节查阅 |
+| 复杂数据探索 | 组成、路径、标签交集或信号该怎么表达？ | 数据前提、专门表达与必要交互 |
+
+常见任务可以用简单图表完成；有明确的数据结构和分析需要时，再采用专门表达。
+
+## 先看几个案例效果
+
+[打开交互画廊](https://plevantem.github.io/visual-storytelling-by-graph/)。点开作品可查看图表、参数、用户问题、选择理由、原始数据与解释边界。
+
+| 模拟问题 | 图中能看清什么 | 参考案例 |
+|---|---|---|
+| “请求是不是变快了？” | p50 从200降至150ms，p95却从480升至900ms；典型与尾部表现不同 | [延迟分布 · C02](https://plevantem.github.io/visual-storytelling-by-graph/#work-C02) |
+| “各来源都提高，为什么总体下降？” | 来源构成变化使总体转化率从50%降至34.5%，两个来源内部均提高 | [分组转化 · C04](https://plevantem.github.io/visual-storytelling-by-graph/#work-C04) |
+| “三个组平均等待都一样，体验也一样吗？” | 均值均为15分钟，但分布不同，最长等待达到92分钟 | [精确值蜂群 · C23](https://plevantem.github.io/visual-storytelling-by-graph/#work-C23) |
+| “训练后谁变快、谁变慢？” | 12名参与者中11人更快，P07变慢；保留了每个人的配对 | [配对变化 · C03](https://plevantem.github.io/visual-storytelling-by-graph/#work-C03) |
+| “哪些对象同时具有多个标签？” | 可以区分精确交集，并筛出64个对象中的42个多标签对象 | [集合交叠 · C17](https://plevantem.github.io/visual-storytelling-by-graph/#work-C17) |
+
+画廊共20件作品，包含常见表达和12个专门案例：组成、方向、删失寿命、一致性、集合、转移、递归、Horizon、循环轨迹、密度、蜂群和时频。**全部案例为合成模拟，用于展示表达方式，不代表你的数据会得到相同发现。**
+
+## 能力边界：是否适合你的数据
+
+| 能力 | 需要的前提 |
+|---|---|
+| 比较、趋势、构成、分布与关系表达 | 指标含义、单位、时间窗口和比较口径可以确认 |
+| 配对变化、区间和缺测表达 | 对象对应关系、区间类型或采样规则可获得 |
+| 组成、路径、交集、信号等专门表达 | 数据满足相应结构；例如路径需要真实转移，组成需要共同整体 |
+| 注释型图表、汇报表达、交互探索与导出 | 当前 Agent 能读取数据，并具备所需的绘图、运行或导出工具 |
+| 基于数据提出发现和候选解释 | 结论有证据支持；缺少分母、对照或其他关键数据时，应说明需要补充什么 |
+
+它会根据问题选择表达，而不是默认生成一套仪表盘。少量精确数值可能更适合表格；关联和前后变化也不能直接证明因果。对于关键业务决策，保留对口径和解释的复核。
+
+## 快速上手
+
+**1. 将 Skill 加入你正在使用的 Agent。**
 
 ```sh
 npx skills add PlevanTem/visual-storytelling-by-graph --skill visual-storytelling-by-graph
 ```
 
-安装器可让你选择 Agent；全局安装可加 `-g`。也可 [下载完整 ZIP](https://github.com/PlevanTem/visual-storytelling-by-graph/archive/refs/heads/main.zip)，解压后将包含 `SKILL.md` 的目录交给支持本地 Skill 的 Agent。仓库根目录就是 Skill 根目录。
+安装时选择你的 Agent。也可[下载完整包](https://github.com/PlevanTem/visual-storytelling-by-graph/archive/refs/heads/main.zip)，让支持本地 Skill 的 Agent 读取其中的 `SKILL.md`。[其他安装方式与依赖](guides/maintaining.md#安装方式)。
+
+**2. 提供问题、数据、读者和交付方式。**
 
 ```text
 使用 $visual-storytelling-by-graph。
-我是区域负责人，要判断哪里总需求最大、哪里人均需求最强。
-数据在 service-demand.csv。交付一页可打印报告。
-请核对单位和分母，说明选图理由，并明确哪些验证实际执行过。
+
+我想回答：[你要弄清的业务或研究问题]
+数据：[附上文件，或粘贴数据及字段含义]
+读者：[谁看、了解多少背景]
+交付：[一张图／一页汇报／可交互探索]
+
+请选择合适的表达，指出主要发现和重要限制。
+如果关键口径不明确，请先问；不需要我预先指定图表类型。
 ```
 
-核心指令不依赖特定图表库；实现使用 Agent 当前环境已有能力。简单任务快速完成，复杂任务按需查阅参考资料。表格、直接数值、补数据或暂不制图都可以是正确结果。
+**3. 根据第一版继续追问。**
 
-## 画廊
+- “把总体和不同用户群放在一起比较。”
+- “不要只给均值，看看分布、尾部和异常。”
+- “我要放进周会，用一张图突出最重要的发现。”
 
-[进入 GitHub Pages 画廊](https://plevantem.github.io/visual-storytelling-by-graph/)。静态 HTML / CSS / JS，无框架、CDN、远程字体或服务端依赖。
+通常应得到：适合当前问题的表达、可读的图表或表格、关键发现，以及影响解释的假设与限制；支持时，还可获得交互视图和可编辑或可导出的产物。
 
-- 夜间观测站式版面、非等宽作品编排、全屏展览和作品解读。
-- 中英文界面；类别筛选；方向键前后切换；Esc 退出；焦点恢复。
-- 三元分组、集合筛选、递归阈值、KDE 带宽和转化来源的状态切换。
-- 当前状态 SVG 导出和原始 JSON 数据下载；无 JavaScript 时可以直接查看独立 SVG。
-- 每件作品保留数据前提、选择理由、计算含义和解释边界。
+## 方法架构：怎样把选图做得更可靠
 
-| 新增表达 | 模拟场景 | 必须保留的信息 |
+**用户意图 → 数据语义 → 表达选择 → 叙事与交互 → 检查与修订**
+
+| 判断环节 | 它增加的设计判断 | 案例中如何体现 |
 |---|---|---|
-| 三元组成 | 河口、沙丘、黄土颗粒组成 | 非负、闭合到100%、重心坐标 |
-| 面积归一风玫瑰 | 港口方向与速度观测 | 来向约定、分母、面积而非半径正比 |
-| Kaplan–Meier | 档案材料右删失耐久 | 事件、删失、风险集、观察终点 |
-| Bland–Altman | 声学测量方法一致性 | 配对差值、偏差、LoA与容许差异的区别 |
-| UpSet 精确交集 | 多标签档案对象 | 精确模式、去重、包含与排除 |
-| 对象级 Alluvial | 设备维修路径 | 真实转移、人数守恒与恒定带宽 |
-| 标量递归图 | 重复与漂移信号 | 固定阈值、共同尺度、非对角分母 |
-| Mirrored Horizon | 多站点温度距平 | 符号、分带、折叠和范围 |
-| 循环相轨迹 | 有记忆的输入响应 | 顺序、方向、同输入多响应 |
-| 山脊 KDE | 潮汐浊度分布 | 同一密度尺度、带宽、样本量 |
-| 精确值蜂群 | 相同均值的等待分布 | 原值、重复值与尾部，不水平抖动 |
-| STFT 幅度谱 | 扫频与固定频率叠加 | 窗、步长、采样率、dB参考、非PSD |
+| 用户意图 | 谁要回答什么问题，结果用于解释、探索还是决策 | 同一份延迟数据，高管摘要与SRE诊断可以采用不同密度 |
+| 数据语义 | 每行是什么、分母是什么、能否相加、是否配对 | 分组转化保留分子分母；配对图只连接同一对象 |
+| 表达选择 | 比较少量候选，保留任务需要的分布、结构和不确定性 | 尾部问题保留分布；精确对账可以选择表格 |
+| 叙事与交互 | 先看什么、强调什么，哪些操作真正帮助回答问题 | 关键发现直接可见；筛选同步更新范围和摘要 |
+| 检查与修订 | 核对计算、图形编码、实际显示和关键操作 | 对数值、缺测、切换与导出分别检查 |
 
-另有收入桥、ECDF、配对变化、分组率、缺测时序、地域口径、点区间和精确对账等8件作品。小众形式是条件性选择，不是“高级”标签。
+这就是本 Skill 希望改善的地方：**把选图前后的判断写进工作流程，让 Agent 围绕问题组织表达。** 是否适合你的工作流，可以先用熟悉的数据和问题检验。
 
-## Skill 结构
+方法参考了 Munzner 的分层设计与验证、Brehmer 与 Munzner 的任务抽象、Segel 与 Heer 的叙事引导，以及 Yi 等人的交互意图分类。[方法来源与采用边界](references/sources.md)。
 
-```text
-SKILL.md                 核心流程与按需路由
-agents/openai.yaml       发现与调用元数据
-references/              意图、图表族、专门方法、叙事、交互、验证、来源
-evals/requests/          24个模拟真实请求
-evals/fixtures/          23份固定JSON数据
-evals/cases.json         独立评审约束与事实答案
-examples/                原有8个基础示例，可离线查看
-site/                    画廊页面源文件
-docs/                    生成后的GitHub Pages站点
-scripts/                 构建、审计和验证
-verification/            数值、浏览器、独立执行与发布证据
-```
+已有证据包括可复查案例、图形与交互检查，以及4个专门请求的独立 Agent 执行。**相对基线的效果提升、真实读者理解和审美偏好，尚未通过对照实验验证。** [查看证据与未执行项](verification/REPORT.md)。
 
-主要研究视角：Munzner 的分层设计与验证、Brehmer 与 Munzner 的任务抽象、Segel 与 Heer 的叙事控制、Yi 等的交互意图，以及 Lex 等的集合表达和专门方法。原始来源、实际采用内容与不能推出的结论见 [来源索引](references/sources.md)。
+## 更多阅读
 
-## 本地重建与验证
-
-核心构建和确定性验证只需要 Python 3.10+ 标准库：
-
-```sh
-python scripts/build_examples.py
-python scripts/build_gallery.py
-python scripts/validate_bundle.py
-python -m http.server 8037 --directory docs
-```
-
-打开 `http://localhost:8037/`。另一个终端可运行浏览器检查（需已有 Python Playwright 与 Chromium）：
-
-```sh
-python scripts/browser_qa.py --url http://127.0.0.1:8037/
-```
-
-浏览器脚本不自动安装依赖。验证记录绑定文件哈希，改动后需重跑受影响检查。网络下载另行核验；`--initial` 可跳过远端仓库 ZIP 下载。
-
-CSV审计：
-
-```sh
-python scripts/audit_data.py your-data.csv --output audit.json
-```
-
-审计不修改原文件，也不推断单位、分母、配对或因果。数值外观不代表业务度量。
-
-## 已验证与未验证
-
-以 [当前报告](verification/REPORT.md) 为准。确定性检查、真实 Chromium 操作、作者看图与独立 Agent 前测分别记录。真实读者理解、审美、基线 A/B、实体设备和跨浏览器效果仍需单独测试，不用“专业度分数”冒充实证结果。
-
-GitHub Pages 从 `main` 的 `/docs` 发布；CI只核对提交的产物与数据，不把旧截图当作新环境的浏览器测试。基础技能支持中文与英文请求；案例及图表并不构成真实行业建议。
+- [核心 Skill](SKILL.md)：Agent 实际遵循的判断流程。
+- [图表能力与切换条件](references/chart-families.md) · [专门方法的前提](references/specialized-methods.md)。
+- [研究与方法来源](references/sources.md)：任务抽象、分层验证、叙事控制和交互意图的依据。
+- [维护与本地复现](guides/maintaining.md)：修改仓库或画廊时再阅读，日常使用无需运行这些命令。

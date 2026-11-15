@@ -50,7 +50,35 @@ def main():
     ASSETS.mkdir(parents=True,exist_ok=True);(DOCS/'data').mkdir(exist_ok=True);(DOCS/'downloads').mkdir(exist_ok=True)
     cases={c['id']:c for c in json.loads((ROOT/'evals/cases.json').read_text(encoding='utf-8'))}
     works=[];audit=[];cards=[]
-    for number,item in enumerate(META,1):
+    everyday=['C01','C02','C04','C03','C06','C07','C05','C08']
+    ordered=[next(item for item in META if item[0]==cid) for cid in everyday]+[item for item in META if item[0] not in everyday]
+    tasks={
+        'change':['C01','C03','C05','C15','C20','C21','C24'],
+        'compare':['C03','C04','C06','C07','C13','C15','C16','C22','C23'],
+        'distribution':['C02','C14','C22','C23'],
+        'structure':['C13','C17','C18','C19','C21','C24']}
+    insights={
+        'C01':bilingual('Trace a $300k net change back to gains and losses.','把30万美元净变化追溯到各项增减。'),
+        'C02':bilingual('p50 improves; p95 rises from 480 to 900 ms.','p50改善，p95却从480升至900ms。'),
+        'C04':bilingual('Both sources improve while pooled conversion falls.','两个来源均提高，总体转化率却下降。'),
+        'C03':bilingual('11 of 12 finish faster; one becomes slower.','12人中11人更快，1人变慢。'),
+        'C06':bilingual('North leads in volume; South leads per resident.','North总量最高，South人均强度最高。'),
+        'C07':bilingual("A's interval stays above zero; B remains imprecise.",'A的区间在零以上，B仍有较大不确定性。'),
+        'C05':bilingual('High readings and missing coverage remain distinct.','超阈观测与缺测时段分别可见。'),
+        'C08':bilingual('$4,215.75 net payable, with the credit retained.','净应付4,215.75美元，保留贷项。'),
+        'C13':bilingual('Read mixtures across three parts that sum to 100%.','比较共同构成100%的三种组分。'),
+        'C14':bilingual('SE accounts for 25% of the observed non-calm winds.','SE占非静风观测的25%。'),
+        'C15':bilingual('Some specimens are still readable when follow-up ends.','保留观察结束时仍可读的样本。'),
+        'C16':bilingual('Bias is +2 dB; agreement needs more than correlation.','偏差为+2dB；一致性需要超越相关来看。'),
+        'C17':bilingual('The multi-tag filter reveals 42 of 64 objects.','筛出64个对象中的42个多标签对象。'),
+        'C18':bilingual('Follow 60 recorded devices; 34 end in reuse.','追踪60台设备，34台最终再用。'),
+        'C19':bilingual('Changing the threshold changes recurrence, not the signal.','阈值改变递归图，不改变原始信号。'),
+        'C20':bilingual('Compare 48 days of signed anomalies across 8 stations.','比较8站点、48天的正负距平。'),
+        'C21':bilingual('The same input has different responses across a cycle.','同一输入在循环中对应不同响应。'),
+        'C22':bilingual('Change smoothing while preserving every observation.','改变平滑程度，保留原始观测。'),
+        'C23':bilingual('Equal means of 15 minutes; the longest wait is 92.','均值同为15分钟，最长等待却达92分钟。'),
+        'C24':bilingual('Separate a rising tone from a fixed 38 Hz component.','区分扫频和固定38Hz分量。')}
+    for number,item in enumerate(ordered,1):
         cid,category,typ,title_en,title_zh,question_en,why_en,why_zh,boundary_en,boundary_zh=item
         case=cases[cid];keys={'C13':['All','Estuary','Dune','Loess'],'C17':['All','Overlaps'],'C19':['0.1','0.25','0.45'],'C22':['2','5','10'],'C04':['All','Organic','Paid','Partner']}.get(cid,['All'])
         default=1 if cid in ['C19','C22'] else 0
@@ -77,9 +105,9 @@ def main():
         fixture=ROOT/case['fixture'];shutil.copy2(fixture,DOCS/'data'/fixture.name)
         question=(ROOT/case['request']).read_text(encoding='utf-8').split('\n\n')[1]
         method='references/specialized-methods.md' if int(cid[1:])>=13 else 'references/chart-families.md'
-        work={'id':cid,'category':category,'type':typ,'title':bilingual(title_en,title_zh),'question':bilingual(question_en,question),'why':bilingual(why_en,why_zh),'boundary':bilingual(boundary_en,boundary_zh),'states':states,'defaultState':default,'data':'data/'+fixture.name,'method':REPO+'/blob/main/'+method,'preview':'assets/'+preview.name}
+        work={'id':cid,'category':category,'tasks':[name for name,ids in tasks.items() if cid in ids],'type':typ,'title':bilingual(title_en,title_zh),'insight':insights[cid],'question':bilingual(question_en,question),'why':bilingual(why_en,why_zh),'boundary':bilingual(boundary_en,boundary_zh),'states':states,'defaultState':default,'data':'data/'+fixture.name,'method':REPO+'/blob/main/'+method,'preview':'assets/'+preview.name}
         works.append(work)
-        cards.append(f'<article class="work" data-id="{cid}"><a class="work-open" href="{selected["chart"]}" data-open="{cid}" aria-label="Open {html.escape(title_en,quote=True)}"><div class="work-art"><img src="assets/{preview.name}" alt="{html.escape(typ,quote=True)}" loading="lazy" width="1000" height="500"></div><div class="work-meta"><span class="work-number">{number:02}</span><h3 class="work-title">{html.escape(title_en)}</h3><span class="work-type">{html.escape(typ)}</span></div></a></article>')
+        cards.append(f'<article class="work" id="work-{cid}" data-id="{cid}"><a class="work-open" href="{selected["chart"]}" data-open="{cid}" aria-label="Open {html.escape(title_en,quote=True)}"><div class="work-art"><img src="assets/{preview.name}" alt="{html.escape(typ,quote=True)}" loading="lazy" width="1000" height="500"></div><div class="work-meta"><span class="work-number">{number:02}</span><h3 class="work-title">{html.escape(title_en)}</h3><span class="work-type">{html.escape(typ)}</span></div><p class="work-insight">{html.escape(insights[cid]["en"])}</p></a></article>')
     # Hero keeps real composition coordinates but removes the opaque page rectangle.
     hero=ET.parse(ASSETS/'c13-all.svg').getroot();hero.set('viewBox','125 120 750 525');hero.set('width','1200');hero.set('height','840')
     first=hero.find('{http://www.w3.org/2000/svg}rect')

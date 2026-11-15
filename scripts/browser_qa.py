@@ -18,8 +18,20 @@ def main():
             response=page.goto(args.url);require(response.status==200,'homepage HTTP status')
             page.locator('.work-art img').evaluate_all("es=>es.forEach(e=>e.loading='eager')");page.wait_for_function('[...document.querySelectorAll(".work-art img")].every(i=>i.complete&&i.naturalWidth>0)')
             require(page.locator('.work').count()==20,'20 works');require(page.evaluate('document.documentElement.scrollWidth<=innerWidth'),'desktop overflow')
-            page.screenshot(path=str(OUT/'landing-desktop.png'));page.locator('.section-heading').scroll_into_view_if_needed();page.screenshot(path=str(OUT/'collection-desktop.png'))
-            page.locator('[data-filter="time"]').click();require(page.locator('.work:visible').count()==7,'time count');require(page.locator('#work-count').inner_text()=='7 / 20','filter count');page.locator('[data-filter="all"]').click()
+            page.screenshot(path=str(OUT/'landing-desktop.png'))
+            for section in ['use-cases','collection','skill','method']:
+                page.locator('#'+section).scroll_into_view_if_needed();page.screenshot(path=str(OUT/f'{section}-desktop.png'))
+            for task in ['change','compare','distribution','structure']:
+                page.locator(f'[data-filter="{task}"]').click();expected=[w['id'] for w in works if task in w['tasks']]
+                require(page.locator('.work:visible').evaluate_all('(es)=>es.map(e=>e.dataset.id)')==expected,'task routing '+task)
+                require(page.locator('#work-count').inner_text()==f'{len(expected)} / 20','filter count '+task)
+            page.locator('[data-filter="all"]').click()
+            for cid in ['C01','C02','C07','C18']:
+                opener=page.locator(f'.scenario-row[data-open="{cid}"]');opener.click();require(page.locator('#exhibit').get_attribute('data-case')==cid,'scenario opens '+cid);page.keyboard.press('Escape');require(opener.evaluate('(e)=>e===document.activeElement'),'scenario focus return')
+            page.goto(args.url+'#work-C02');page.wait_for_function('document.getElementById("exhibit").open');require(page.locator('#exhibit').get_attribute('data-case')=='C02','direct case URL');page.keyboard.press('Escape')
+            request=page.locator('#request-template').inner_text();require(len(request.splitlines())>=7 and '$visual-storytelling-by-graph' in request,'usable request template')
+            page.locator('#copy-request').click();page.wait_for_function('document.getElementById("request-status").textContent.trim().length>0')
+            report['checks'].append({'check':'user_journey_task_filters_scenarios_permalink_request','status':'pass','tasks':4,'scenario_links':4})
             states=[]
             for w in works:
                 opener=page.locator(f'.work[data-id="{w["id"]}"] .work-open');opener.click();require(page.locator('#exhibit').is_visible(),'dialog open')
@@ -52,6 +64,9 @@ def main():
             for w in works:
                 page.locator(f'.work[data-id="{w["id"]}"] .work-open').click();page.locator('#exhibit-image').evaluate('(i)=>i.decode()');require('-mobile.svg' in page.locator('#exhibit-image').evaluate('(i)=>i.currentSrc'),'mobile asset selected');page.screenshot(path=str(OUT/f'{w["id"]}-mobile.png'));require(page.locator('#exhibit').evaluate('(e)=>e.scrollWidth<=innerWidth'),'mobile dialog width');page.keyboard.press('Escape')
             page.locator('#language').click();page.evaluate('scrollTo(0,0)');page.screenshot(path=str(OUT/'landing-mobile-zh.png'));require(page.evaluate('document.documentElement.scrollWidth<=innerWidth'),'Chinese mobile width')
+            for section in ['use-cases','skill','method']:
+                page.locator('#'+section).scroll_into_view_if_needed();page.screenshot(path=str(OUT/f'{section}-mobile-zh.png'))
+            require('undefined' not in page.locator('body').inner_text(),'complete translation')
             report['checks'].append({'check':'mobile_all_works_bilingual','status':'pass','viewport':[390,844],'works':20})
             layouts=[]
             for file in sorted((ROOT/'docs/assets').glob('c*.svg')):
@@ -60,7 +75,7 @@ def main():
                 result=page.evaluate('''() => {const v=document.documentElement.viewBox.baseVal,ts=[...document.querySelectorAll('text')].map(t=>{const b=t.getBBox();return{text:t.textContent,x:b.x,y:b.y,w:b.width,h:b.height}}),outside=ts.filter(b=>b.x<-.5||b.y<-.5||b.x+b.w>v.width+.5||b.y+b.h>v.height+.5),overlaps=[];for(let i=0;i<ts.length;i++)for(let j=i+1;j<ts.length;j++){const a=ts[i],b=ts[j],x=Math.min(a.x+a.w,b.x+b.w)-Math.max(a.x,b.x),y=Math.min(a.y+a.h,b.y+b.h)-Math.max(a.y,b.y);if(x>2&&y>2)overlaps.push([a.text,b.text,x,y])}return{outside,overlaps,text_count:ts.length}}''')
                 layouts.append({'file':file.name,**result})
             report['checks'].append({'check':'full_svg_text_layout','status':'pass' if all(not r['outside'] and not r['overlaps'] for r in layouts) else 'fail','files':layouts})
-            nojs=browser.new_context(java_script_enabled=False,viewport={'width':1280,'height':900});np=nojs.new_page();np.goto(args.url);require(np.locator('.work-open[href$=".svg"]').count()==20,'no JS static links');require(not np.locator('.filter-bar').is_visible(),'nonfunctional filters hidden');nojs.close()
+            nojs=browser.new_context(java_script_enabled=False,viewport={'width':1280,'height':900});np=nojs.new_page();np.goto(args.url);require(np.locator('.work-open[href$=".svg"]').count()==20,'no JS static links');require(not np.locator('.filter-bar').is_visible(),'nonfunctional filters hidden');require(not np.locator('#copy-request').is_visible(),'nonfunctional copy hidden');nojs.close()
             require(not errors,'JavaScript errors: '+str(errors));require(not bad,'HTTP errors: '+str(bad))
             report['checks'].append({'check':'no_js_and_no_runtime_errors','status':'pass','page_errors':errors,'http_errors':bad})
             page.set_viewport_size({'width':1200,'height':630});page.goto(args.url);page.screenshot(path=str(ROOT/'docs/assets/social-preview.png'))

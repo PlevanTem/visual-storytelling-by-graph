@@ -3,6 +3,240 @@
   "states": 31,
   "assets": [
     {
+      "case": "C01",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c01-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C01",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c01-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C02",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c02-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C02",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c02-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C04",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c04-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C04",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c04-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C04",
+      "state": "Organic",
+      "mobile": false,
+      "file": "docs/assets/c04-organic.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Organic",
+        "available": true,
+        "rows": [
+          {
+            "version": "Old",
+            "segment": "Organic",
+            "success": 80,
+            "n": 100
+          },
+          {
+            "version": "New",
+            "segment": "Organic",
+            "success": 27,
+            "n": 30
+          }
+        ]
+      }
+    },
+    {
+      "case": "C04",
+      "state": "Organic",
+      "mobile": true,
+      "file": "docs/assets/c04-organic-mobile.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Organic",
+        "available": true,
+        "rows": [
+          {
+            "version": "Old",
+            "segment": "Organic",
+            "success": 80,
+            "n": 100
+          },
+          {
+            "version": "New",
+            "segment": "Organic",
+            "success": 27,
+            "n": 30
+          }
+        ]
+      }
+    },
+    {
+      "case": "C04",
+      "state": "Paid",
+      "mobile": false,
+      "file": "docs/assets/c04-paid.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Paid",
+        "available": true,
+        "rows": [
+          {
+            "version": "Old",
+            "segment": "Paid",
+            "success": 20,
+            "n": 100
+          },
+          {
+            "version": "New",
+            "segment": "Paid",
+            "success": 42,
+            "n": 170
+          }
+        ]
+      }
+    },
+    {
+      "case": "C04",
+      "state": "Paid",
+      "mobile": true,
+      "file": "docs/assets/c04-paid-mobile.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Paid",
+        "available": true,
+        "rows": [
+          {
+            "version": "Old",
+            "segment": "Paid",
+            "success": 20,
+            "n": 100
+          },
+          {
+            "version": "New",
+            "segment": "Paid",
+            "success": 42,
+            "n": 170
+          }
+        ]
+      }
+    },
+    {
+      "case": "C04",
+      "state": "Partner",
+      "mobile": false,
+      "file": "docs/assets/c04-partner.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Partner",
+        "available": false
+      }
+    },
+    {
+      "case": "C04",
+      "state": "Partner",
+      "mobile": true,
+      "file": "docs/assets/c04-partner-mobile.svg",
+      "meta": {
+        "case": "C04",
+        "state": "Partner",
+        "available": false
+      }
+    },
+    {
+      "case": "C03",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c03-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C03",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c03-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C06",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c06-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C06",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c06-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C07",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c07-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C07",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c07-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C05",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c05-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C05",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c05-all-mobile.svg",
+      "meta": {}
+    },
+    {
+      "case": "C08",
+      "state": "All",
+      "mobile": false,
+      "file": "docs/assets/c08-all.svg",
+      "meta": {}
+    },
+    {
+      "case": "C08",
+      "state": "All",
+      "mobile": true,
+      "file": "docs/assets/c08-all-mobile.svg",
+      "meta": {}
+    },
+    {
       "case": "C13",
       "state": "All",
       "mobile": false,
@@ -1541,240 +1775,6 @@
           }
         ]
       }
-    },
-    {
-      "case": "C01",
-      "state": "All",
-      "mobile": false,
-      "file": "docs/assets/c01-all.svg",
-      "meta": {}
-    },
-    {
-      "case": "C01",
-      "state": "All",
-      "mobile": true,
-      "file": "docs/assets/c01-all-mobile.svg",
-      "meta": {}
-    },
-    {
-      "case": "C02",
-      "state": "All",
-      "mobile": false,
-      "file": "docs/assets/c02-all.svg",
-      "meta": {}
-    },
-    {
-      "case": "C02",
-      "state": "All",
-      "mobile": true,
-      "file": "docs/assets/c02-all-mobile.svg",
-      "meta": {}
-    },
-    {
-      "case": "C03",
-      "state": "All",
-      "mobile": false,
-      "file": "docs/assets/c03-all.svg",
-      "meta": {}
-    },
-    {
-      "case": "C03",
-      "state": "All",
-      "mobile": true,
-      "file": "docs/assets/c03-all-mobile.svg",
-      "meta": {}
-    },
-    {
-      "case": "C04",
-      "state": "All",
-      "mobile": false,
-      "file": "docs/assets/c04-all.svg",
-      "meta": {}
-    },
-    {
-      "case": "C04",
-      "state": "All",
-      "mobile": true,
-      "file": "docs/assets/c04-all-mobile.svg",
-      "meta": {}
-    },
-    {
-      "case": "C04",
-      "state": "Organic",
-      "mobile": false,
-      "file": "docs/assets/c04-organic.svg",
-      "meta": {
-        "case": "C04",
-        "state": "Organic",
-        "available": true,
-        "rows": [
-          {
-            "version": "Old",
-            "segment": "Organic",
-            "success": 80,
-            "n": 100
-          },
-          {
-            "version": "New",
-            "segment": "Organic",
-            "success": 27,
-            "n": 30
-          }
-        ]
-      }
-    },
-    {
-      "case": "C04",
-      "state": "Organic",
-      "mobile": true,
-      "file": "docs/assets/c04-organic-mobile.svg",
-      "meta": {
-        "case": "C04",
-        "state": "Organic",
-        "available": true,
-        "rows": [
-          {
-            "version": "Old",
-            "segment": "Organic",
-            "success": 80,
-            "n": 100
-          },
-          {
-            "version": "New",
-            "segment": "Organic",
-            "success": 27,
-            "n": 30
-          }
-        ]
-      }
-    },
-    {
-      "case": "C04",
-      "state": "Paid",
-      "mobile": false,
-      "file": "docs/assets/c04-paid.svg",
-      "meta": {
-        "case": "C04",
-        "state": "Paid",
-        "available": true,
-        "rows": [
-          {
-            "version": "Old",
-            "segment": "Paid",
-            "success": 20,
-            "n": 100
-          },
-          {
-            "version": "New",
-            "segment": "Paid",
-            "success": 42,
-            "n": 170
-          }
-        ]
-      }
-    },
-    {
-      "case": "C04",
-      "state": "Paid",
-      "mobile": true,
-      "file": "docs/assets/c04-paid-mobile.svg",
-      "meta": {
-        "case": "C04",
-        "state": "Paid",
-        "available": true,
-        "rows": [
-          {
-            "version": "Old",
-            "segment": "Paid",
-            "success": 20,
-            "n": 100
-          },
-          {
-            "version": "New",
-            "segment": "Paid",
-            "success": 42,
-            "n": 170
-          }
-        ]
-      }
-    },
-    {
-      "case": "C04",
-      "state": "Partner",
-      "mobile": false,
-      "file": "docs/assets/c04-partner.svg",
-      "meta": {
-        "case": "C04",
-        "state": "Partner",
-        "available": false
-      }
-    },
-    {
-      "case": "C04",
-      "state": "Partner",
-      "mobile": true,
-      "file": "docs/assets/c04-partner-mobile.svg",
-      "meta": {
-        "case": "C04",
-        "state": "Partner",
-        "available": false
-      }
-    },
-    {
-      "case": "C05",
-      "state": "All",
-      "mobile": false,
-      "file": "docs/assets/c05-all.svg",
-      "meta": {}
-    },
-    {
-      "case": "C05",
-      "state": "All",
-      "mobile": true,
-      "file": "docs/assets/c05-all-mobile.svg",
-      "meta": {}
-    },
-    {
-      "case": "C06",
-      "state": "All",
-      "mobile": false,
-      "file": "docs/assets/c06-all.svg",
-      "meta": {}
-    },
-    {
-      "case": "C06",
-      "state": "All",
-      "mobile": true,
-      "file": "docs/assets/c06-all-mobile.svg",
-      "meta": {}
-    },
-    {
-      "case": "C07",
-      "state": "All",
-      "mobile": false,
-      "file": "docs/assets/c07-all.svg",
-      "meta": {}
-    },
-    {
-      "case": "C07",
-      "state": "All",
-      "mobile": true,
-      "file": "docs/assets/c07-all-mobile.svg",
-      "meta": {}
-    },
-    {
-      "case": "C08",
-      "state": "All",
-      "mobile": false,
-      "file": "docs/assets/c08-all.svg",
-      "meta": {}
-    },
-    {
-      "case": "C08",
-      "state": "All",
-      "mobile": true,
-      "file": "docs/assets/c08-all-mobile.svg",
-      "meta": {}
     }
   ],
   "limits": "Author renderers; synthetic data; no human-reader measurement."
