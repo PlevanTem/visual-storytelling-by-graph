@@ -1,31 +1,31 @@
 {
   "status": "pass",
-  "verified_at_utc": "2026-11-14T17:39:45.422507+00:00",
+  "verified_at_utc": "2026-11-15T13:28:47.377334+00:00",
   "url": "https://plevantem.github.io/visual-storytelling-by-graph/",
   "repository": "https://github.com/PlevanTem/visual-storytelling-by-graph",
-  "source_commit": "9e25b89e4c98b27170b7fca458eb5f11494c30e1",
+  "source_commit": "60d3cc23287d61be460ec7cbc4ee396d07f5abd1",
   "hash_scheme": "SHA256, UTF-8 text CRLF normalized to LF",
   "http_assets_checked": 109,
   "checks": [
     {
       "file": "docs/index.html",
       "status": 200,
-      "sha256": "971ecf8a194ffdad00c663b65d0e0c670df3f2c4efc1b725db204ad40520a33a"
+      "sha256": "0ebc958e146907ee07aaa141f0b20eb279bd1e1bca164e05e98236977b9e53fc"
     },
     {
       "file": "docs/style.css",
       "status": 200,
-      "sha256": "d684a6c6ff03a49caf8b6b051120b46efe07fc6279fcbcf900a5ef5fca5bc792"
+      "sha256": "fa4b0864c26e948ceba6d649406034cfbb79b735958799b4bb81ddb16bc28f70"
     },
     {
       "file": "docs/app.js",
       "status": 200,
-      "sha256": "5a46b424003b6f5bae58eb5feee34529681443ecf11269e074be0b36fc7fd9e5"
+      "sha256": "c61435add3e281cf1e4e1dab6d59feb9ff7405e968fbab5d094de70221754425"
     },
     {
       "file": "docs/collection.js",
       "status": 200,
-      "sha256": "f7e0e503d49e65a2ad9e8fb789fdec7021be975b411b9ef6dd47ab0496480bf7"
+      "sha256": "7196ed1be4e7c342119e121e1a2a252bb4dfc109f4d9a641cb64c9044daca91c"
     },
     {
       "file": "docs/assets/hero.svg",
@@ -550,7 +550,7 @@
     {
       "file": "docs/collection.json",
       "status": 200,
-      "sha256": "4a9a3ec2276c932c43bf103894403250a977b70a008300ad5b463506d625d75f"
+      "sha256": "3278c4e200ccc92eb95c5fbe242b89a034fc0dcdb76ad2459e787d0c736e70b7"
     }
   ],
   "scope": "Published HTML, scripts, full/preview SVGs, hero, source data and collection match locally verified inputs. Browser interaction evidence is recorded separately."

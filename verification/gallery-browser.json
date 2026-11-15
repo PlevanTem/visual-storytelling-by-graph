@@ -1,6 +1,6 @@
 {
   "status": "pass",
-  "url": "http://127.0.0.1:8037/",
+  "url": "https://plevantem.github.io/visual-storytelling-by-graph/",
   "checks": [
     {
       "check": "user_journey_task_filters_scenarios_permalink_request",
@@ -176,7 +176,7 @@
     {
       "check": "keyboard_language_copy_export_download",
       "status": "pass",
-      "skill_download": "not_run"
+      "skill_download": "pass"
     },
     {
       "check": "mobile_all_works_bilingual",

@@ -16,7 +16,7 @@
 | 页面交互 | 通过 | 分析目的筛选、场景入口、案例直达、需求模板复制、展览打开／关闭、焦点恢复、方向键、Escape、参数、作品解读、中英文与当前SVG导出 |
 | 独立Agent前测 | 完成4请求 | [独立报告](independent/REPORT.md)；C15/C17/C19/C23，7个SVG状态；114项数据／编码断言，11项浏览器检查 |
 | 快捷安装器 | 隔离项目安装、读取和发现通过 | [发现记录](installer-check.json) |
-| GitHub Pages | 上一版本已核验；当前改动待发布 | [发布与HTTP证据](deployment.json) |
+| GitHub Pages | 已发布且HTTP核对通过 | [发布与HTTP证据](deployment.json) |
 
 浏览器环境：Chromium 145.0.7632.6；Python 3.13.11。无需框架或CDN；浏览器QA需要已有Python Playwright与Chromium。
 
